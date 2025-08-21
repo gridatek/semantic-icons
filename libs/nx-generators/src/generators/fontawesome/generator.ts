@@ -66,6 +66,54 @@ export async function fontawesomeGenerator(
     croppedSolidIconsDestinationPath,
   );
 
+  //2-1
+  const fullBrandsIconsSourcePath =
+    'node_modules/@fortawesome/fontawesome-free/svgs-full/brands';
+  const fullBrandsIconsDestinationPath = path.join(
+    iconsDestinationPath,
+    'full',
+    'brands',
+    'src',
+  );
+
+  generateIconsComponents(
+    tree,
+    fullBrandsIconsSourcePath,
+    fullBrandsIconsDestinationPath,
+  );
+
+  //2-2
+  const fullRegularIconsSourcePath =
+    'node_modules/@fortawesome/fontawesome-free/svgs-full/regular';
+  const fullRegularIconsDestinationPath = path.join(
+    iconsDestinationPath,
+    'full',
+    'regular',
+    'src',
+  );
+
+  generateIconsComponents(
+    tree,
+    fullRegularIconsSourcePath,
+    fullRegularIconsDestinationPath,
+  );
+
+  //2-3
+  const fullSolidIconsSourcePath =
+    'node_modules/@fortawesome/fontawesome-free/svgs-full/solid';
+  const fullSolidIconsDestinationPath = path.join(
+    iconsDestinationPath,
+    'full',
+    'solid',
+    'src',
+  );
+
+  generateIconsComponents(
+    tree,
+    fullSolidIconsSourcePath,
+    fullSolidIconsDestinationPath,
+  );
+
   await formatFiles(tree);
 }
 
