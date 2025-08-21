@@ -10,6 +10,7 @@ on:
           - lucide-icons
           - lucide-lab-icons
           - simple-icons
+          - fontawesome
   # schedule:
   #   - cron: '0 4 * * *'
 
