@@ -1,0 +1,34 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[si-i-icon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. -->
+    <svg:path
+      fill="currentColor"
+      d="M192 96C174.3 96 160 110.3 160 128C160 145.7 174.3 160 192 160L288 160L288 480L192 480C174.3 480 160 494.3 160 512C160 529.7 174.3 544 192 544L448 544C465.7 544 480 529.7 480 512C480 494.3 465.7 480 448 480L352 480L352 160L448 160C465.7 160 480 145.7 480 128C480 110.3 465.7 96 448 96L192 96z"
+    />
+  `,
+  host: {
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiIIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly viewBox = input<string>('0 0 640 640');
+
+  readonly fill = input<string>('currentColor');
+}

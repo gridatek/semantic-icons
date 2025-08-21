@@ -1,0 +1,34 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[si-mobile-button-icon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. -->
+    <svg:path
+      fill="currentColor"
+      d="M208 64C172.7 64 144 92.7 144 128L144 512C144 547.3 172.7 576 208 576L432 576C467.3 576 496 547.3 496 512L496 128C496 92.7 467.3 64 432 64L208 64zM320 528C302.3 528 288 513.7 288 496C288 478.3 302.3 464 320 464C337.7 464 352 478.3 352 496C352 513.7 337.7 528 320 528z"
+    />
+  `,
+  host: {
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiMobileButtonIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly viewBox = input<string>('0 0 640 640');
+
+  readonly fill = input<string>('currentColor');
+}
