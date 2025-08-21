@@ -6,7 +6,7 @@
 
 | @semantic-icons/fontawesome | Angular   | @fortawesome/fontawesome-free |
 | --------------------------- | --------- | ----------------------------- |
-| 0.x.x                       | >= 17.1.0 | 6.7.2                         |
+| 0.x.x                       | >= 17.1.0 | 7.0.0                         |
 
 ## Usage
 
