@@ -4,7 +4,7 @@
   "private": false,
   "repository": {
     "type": "git",
-    "url": "https://github.com/khalilou88/semantic-icons",
+    "url": "https://github.com/gridatek/semantic-icons",
     "directory": "libs/nx-generators"
   },
   "type": "commonjs",
