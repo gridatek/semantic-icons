@@ -16,6 +16,7 @@ import {
   host: {
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
@@ -25,4 +26,6 @@ export class SiCircleIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly viewBox = input<string>('0 0 512 512');
+
+  readonly fill = input<string>('currentColor');
 }
