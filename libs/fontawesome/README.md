@@ -1,24 +1,34 @@
 # @semantic-icons/fontawesome
 
-`@semantic-icons/fontawesome` helps developers to use [Font Awesome Free icons](https://fontawesome.com/) inside [Angular](https://angular.dev) projects.
+`@semantic-icons/fontawesome` enables developers to seamlessly use [Font Awesome Free](https://fontawesome.com/) icons as Angular components in [Angular](https://angular.dev) applications.
 
-## Supported versions
+---
+
+## ✅ Supported Versions
 
 | @semantic-icons/fontawesome | Angular   | @fortawesome/fontawesome-free |
 | --------------------------- | --------- | ----------------------------- |
 | 0.x.x                       | >= 17.1.0 | 7.0.0                         |
 
-## Usage
+---
 
-First, install `@semantic-icons/fontawesome` from npm:
+## 🚀 Installation
+
+Install the package from npm:
 
 ```sh
 npm install @semantic-icons/fontawesome
 ```
 
-Now each icon can be imported individually as an Angular component:
+---
 
-```js
+## 📦 Usage
+
+Each icon is available as an Angular standalone component that follows Angular’s naming conventions.
+
+Example with a **solid cube icon**:
+
+```ts
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
 import { SiCubeIcon } from '@semantic-icons/fontawesome/full/solid';
@@ -37,15 +47,32 @@ import { SiCubeIcon } from '@semantic-icons/fontawesome/full/solid';
 export default class HomePage {}
 ```
 
-The icons can be imported from `@semantic-icons/fontawesome/full/brands`.
-The icons can be imported from `@semantic-icons/fontawesome/full/regular`.
-The icons can be imported from `@semantic-icons/fontawesome/full/solid`.
-The icons can be imported from `@semantic-icons/fontawesome/cropped/brands`.
-The icons can be imported from `@semantic-icons/fontawesome/cropped/regular`.
-The icons can be imported from `@semantic-icons/fontawesome/cropped/solid`.
+---
 
-Icons use the Angular naming convention and are always prefixed with the word `si` and suffixed with the word `icon`.
+## 🎨 Icon Imports
 
-## License
+Icons can be imported from different sets, depending on your needs:
 
-MIT © 2024-2025 Khalil LAGRIDA
+- **Full sets**
+  - `@semantic-icons/fontawesome/full/brands`
+  - `@semantic-icons/fontawesome/full/regular`
+  - `@semantic-icons/fontawesome/full/solid`
+
+- **Cropped sets**
+  - `@semantic-icons/fontawesome/cropped/brands`
+  - `@semantic-icons/fontawesome/cropped/regular`
+  - `@semantic-icons/fontawesome/cropped/solid`
+
+---
+
+## 📝 Naming Convention
+
+- All icons follow Angular component naming conventions.
+- They are always **prefixed** with `Si` and **suffixed** with `Icon`.
+  - Example: `SiCubeIcon`
+
+---
+
+## 📄 License
+
+MIT © 2024–2025 Khalil LAGRIDA
