@@ -10,9 +10,10 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+    <!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. -->
     <svg:path
-      d="M96 32C78.3 32 64 46.3 64 64l0 192-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0 32-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32l32 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 160 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l-160 0 0-32 112 0c79.5 0 144-64.5 144-144s-64.5-144-144-144L96 32zM240 256l-112 0 0-160 112 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z"
+      fill="currentColor"
+      d="M112 32C94.3 32 80 46.3 80 64l0 208-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 48-40 0c-13.3 0-24 10.7-24 24s10.7 24 24 24l40 0 0 32c0 17.7 14.3 32 32 32s32-14.3 32-32l0-32 152 0c13.3 0 24-10.7 24-24s-10.7-24-24-24l-152 0 0-48 112 0c79.5 0 144-64.5 144-144S335.5 32 256 32L112 32zM256 256l-112 0 0-160 112 0c44.2 0 80 35.8 80 80s-35.8 80-80 80z"
     />
   `,
   host: {
@@ -27,7 +28,7 @@ import {
 export class SiRubleSignIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
-  readonly viewBox = input<string>('0 0 384 512');
+  readonly viewBox = input<string>('0 0 448 512');
 
   readonly fill = input<string>('currentColor');
 }

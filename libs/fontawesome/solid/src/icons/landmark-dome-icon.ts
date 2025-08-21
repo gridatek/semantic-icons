@@ -10,9 +10,10 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+    <!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. -->
     <svg:path
-      d="M248 0l16 0c13.3 0 24 10.7 24 24l0 10.7C368.4 48.1 431.9 111.6 445.3 192l2.7 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L64 256c-17.7 0-32-14.3-32-32s14.3-32 32-32l2.7 0C80.1 111.6 143.6 48.1 224 34.7L224 24c0-13.3 10.7-24 24-24zM64 288l64 0 0 128 40 0 0-128 64 0 0 128 48 0 0-128 64 0 0 128 40 0 0-128 64 0 0 132.3c.6 .3 1.2 .7 1.8 1.1l48 32c11.7 7.8 17 22.4 12.9 35.9S494.1 512 480 512L32 512c-14.1 0-26.5-9.2-30.6-22.7s1.1-28.1 12.9-35.9l48-32c.6-.4 1.2-.7 1.8-1.1L64 288z"
+      fill="currentColor"
+      d="M256 0c-17.7 0-32 14.3-32 32 0 .9 0 1.8 .1 2.6-80.5 13.4-144 76.9-157.5 157.4L64 192c-17.7 0-32 14.3-32 32s14.3 32 32 32l0 160-51.2 38.4C4.7 460.4 0 469.9 0 480 0 497.7 14.3 512 32 512l448 0c17.7 0 32-14.3 32-32 0-10.1-4.7-19.6-12.8-25.6L448 416 448 256c17.7 0 32-14.3 32-32s-14.3-32-32-32l-2.7 0c-13.5-80.4-77-143.9-157.5-157.4 .1-.9 .1-1.7 .1-2.6 0-17.7-14.3-32-32-32zm80 256l64 0 0 160-64 0 0-160zM224 416l0-160 64 0 0 160-64 0zM112 256l64 0 0 160-64 0 0-160z"
     />
   `,
   host: {

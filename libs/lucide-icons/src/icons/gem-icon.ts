@@ -10,8 +10,10 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M6 3h12l4 6-10 13L2 9Z" />
-    <svg:path d="M11 3 8 9l4 13 4-13-3-6" />
+    <svg:path d="M10.5 3 8 9l4 13 4-13-2.5-6" />
+    <svg:path
+      d="M17 3a2 2 0 0 1 1.6.8l3 4a2 2 0 0 1 .013 2.382l-7.99 10.986a2 2 0 0 1-3.247 0l-7.99-10.986A2 2 0 0 1 2.4 7.8l2.998-3.997A2 2 0 0 1 7 3z"
+    />
     <svg:path d="M2 9h20" />
   `,
   host: {

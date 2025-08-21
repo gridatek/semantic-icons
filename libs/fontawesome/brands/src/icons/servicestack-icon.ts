@@ -10,9 +10,10 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc. -->
+    <!--! Font Awesome Free 7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. -->
     <svg:path
-      d="M88 216c81.7 10.2 273.7 102.3 304 232H0c99.5-8.1 184.5-137 88-232zm32-152c32.3 35.6 47.7 83.9 46.4 133.6C249.3 231.3 373.7 321.3 400 448h96C455.3 231.9 222.8 79.5 120 64z"
+      fill="currentColor"
+      d="M96 216c81.7 10.2 273.7 102.3 304 232L8 448c99.5-8.1 184.5-137 88-232zM128 64c32.3 35.6 47.7 83.9 46.4 133.6 82.9 33.7 207.3 123.7 233.6 250.4l96 0C463.3 231.9 230.8 79.5 128 64z"
     />
   `,
   host: {
@@ -27,7 +28,7 @@ import {
 export class SiServicestackIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
-  readonly viewBox = input<string>('0 0 496 512');
+  readonly viewBox = input<string>('0 0 512 512');
 
   readonly fill = input<string>('currentColor');
 }

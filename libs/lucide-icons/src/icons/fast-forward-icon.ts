@@ -10,8 +10,12 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:polygon points="13 19 22 12 13 5 13 19" />
-    <svg:polygon points="2 19 11 12 2 5 2 19" />
+    <svg:path
+      d="M12 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 12 18z"
+    />
+    <svg:path
+      d="M2 6a2 2 0 0 1 3.414-1.414l6 6a2 2 0 0 1 0 2.828l-6 6A2 2 0 0 1 2 18z"
+    />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',

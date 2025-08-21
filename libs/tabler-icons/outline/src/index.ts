@@ -717,6 +717,7 @@ export * from './icons/brand-doctrine-icon';
 export * from './icons/brand-dolby-digital-icon';
 export * from './icons/brand-douban-icon';
 export * from './icons/brand-dribbble-icon';
+export * from './icons/brand-dropbox-icon';
 export * from './icons/brand-drops-icon';
 export * from './icons/brand-drupal-icon';
 export * from './icons/brand-edge-icon';

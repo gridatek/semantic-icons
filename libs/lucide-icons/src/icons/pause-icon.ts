@@ -10,8 +10,8 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:rect x="14" y="4" width="4" height="16" rx="1" />
-    <svg:rect x="6" y="4" width="4" height="16" rx="1" />
+    <svg:rect x="14" y="3" width="5" height="18" rx="1" />
+    <svg:rect x="5" y="3" width="5" height="18" rx="1" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
