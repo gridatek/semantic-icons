@@ -12,6 +12,26 @@ import * as path from 'path';
 import { getSvgAttributes, getSvgTagContent } from '../../utils';
 import { LucideIconsGeneratorSchema } from './schema';
 
+function workarround(fileName: string, svgClassName: string): string {
+  if (fileName === 'arrow-down-0-1.svg') {
+    return 'SiArrowDown0Dash1Icon';
+  }
+
+  if (fileName === 'arrow-down-1-0.svg') {
+    return 'SiArrowDown1Dash0Icon';
+  }
+
+  if (fileName === 'arrow-up-0-1.svg') {
+    return 'SiArrowUp0Dash1Icon';
+  }
+
+  if (fileName === 'arrow-up-1-0.svg') {
+    return 'SiArrowUp1Dash0Icon';
+  }
+
+  return svgClassName;
+}
+
 export async function lucideIconsGenerator(
   tree: Tree,
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -56,7 +76,10 @@ function generateIconsComponents(
     const svgTagContent = getSvgTagContent(svgFileContent);
 
     const svgFileName = `${names(name).fileName}-icon`;
-    const svgClassName = `Si${names(name).className}Icon`;
+    let svgClassName = `Si${names(name).className}Icon`;
+
+    svgClassName = workarround(fileName, svgClassName);
+
     const svgSelector = `si-${names(name).fileName}-icon`;
 
     exports.push(`export * from './icons/${svgFileName}';`);
