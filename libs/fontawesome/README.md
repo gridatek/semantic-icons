@@ -21,7 +21,7 @@ Now each icon can be imported individually as an Angular component:
 ```js
 import { ChangeDetectionStrategy, Component, ViewEncapsulation } from '@angular/core';
 
-import { SiCubeIcon } from '@semantic-icons/fontawesome/solid';
+import { SiCubeIcon } from '@semantic-icons/fontawesome/full/solid';
 
 @Component({
   selector: 'app-home-page',
@@ -37,7 +37,12 @@ import { SiCubeIcon } from '@semantic-icons/fontawesome/solid';
 export default class HomePage {}
 ```
 
-The icons can be imported from `@semantic-icons/fontawesome`.
+The icons can be imported from `@semantic-icons/fontawesome/full/brands`.
+The icons can be imported from `@semantic-icons/fontawesome/full/regular`.
+The icons can be imported from `@semantic-icons/fontawesome/full/solid`.
+The icons can be imported from `@semantic-icons/fontawesome/cropped/brands`.
+The icons can be imported from `@semantic-icons/fontawesome/cropped/regular`.
+The icons can be imported from `@semantic-icons/fontawesome/cropped/solid`.
 
 Icons use the Angular naming convention and are always prefixed with the word `si` and suffixed with the word `icon`.
 
