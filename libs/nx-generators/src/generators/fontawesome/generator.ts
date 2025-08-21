@@ -18,49 +18,52 @@ export async function fontawesomeGenerator(
 ) {
   const iconsDestinationPath = 'libs/fontawesome';
 
-  //1
-  const brandsIconsSourcePath =
+  //1-1
+  const croppedBrandsIconsSourcePath =
     'node_modules/@fortawesome/fontawesome-free/svgs/brands';
-  const brandsIconsDestinationPath = path.join(
+  const croppedBrandsIconsDestinationPath = path.join(
     iconsDestinationPath,
+    'cropped',
     'brands',
     'src',
   );
 
   generateIconsComponents(
     tree,
-    brandsIconsSourcePath,
-    brandsIconsDestinationPath,
+    croppedBrandsIconsSourcePath,
+    croppedBrandsIconsDestinationPath,
   );
 
-  //2
-  const regularIconsSourcePath =
+  //1-2
+  const croppedRegularIconsSourcePath =
     'node_modules/@fortawesome/fontawesome-free/svgs/regular';
-  const regularIconsDestinationPath = path.join(
+  const croppedRegularIconsDestinationPath = path.join(
     iconsDestinationPath,
+    'cropped',
     'regular',
     'src',
   );
 
   generateIconsComponents(
     tree,
-    regularIconsSourcePath,
-    regularIconsDestinationPath,
+    croppedRegularIconsSourcePath,
+    croppedRegularIconsDestinationPath,
   );
 
-  //3
-  const solidIconsSourcePath =
+  //1-3
+  const croppedSolidIconsSourcePath =
     'node_modules/@fortawesome/fontawesome-free/svgs/solid';
-  const solidIconsDestinationPath = path.join(
+  const croppedSolidIconsDestinationPath = path.join(
     iconsDestinationPath,
+    'cropped',
     'solid',
     'src',
   );
 
   generateIconsComponents(
     tree,
-    solidIconsSourcePath,
-    solidIconsDestinationPath,
+    croppedSolidIconsSourcePath,
+    croppedSolidIconsDestinationPath,
   );
 
   await formatFiles(tree);
