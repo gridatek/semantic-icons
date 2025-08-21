@@ -99,11 +99,16 @@ function generateIconsComponents(
     const width = svgAttributes.width;
     const height = svgAttributes.height;
     const viewBox = svgAttributes.viewBox;
-    const fill = svgAttributes.fill;
+    let fill = svgAttributes.fill;
     const stroke = svgAttributes.stroke;
     const strokeWidth = svgAttributes.strokeWidth;
     const strokeLinecap = svgAttributes.strokeLinecap;
     const strokeLinejoin = svgAttributes.strokeLinejoin;
+
+    //Default values for attributes
+    if (!fill) {
+      fill = 'currentColor';
+    }
 
     const o = {
       svgTagContent,
