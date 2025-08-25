@@ -105,7 +105,7 @@
     "remixicon": "4.6.0",
     "simple-git": "^3.28.0",
     "simple-icons": "^15.11.0",
-    "tailwindcss": "^4.1.10",
+    "tailwindcss": "^4.1.12",
     "tmp": "^0.2.3",
     "ts-jest": "^29.4.1",
     "ts-node": "10.9.2",
