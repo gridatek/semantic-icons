@@ -23,8 +23,13 @@ function fileNameToComponentName(fileName: string): string {
     return fileNameMappings[fileName];
   }
 
-  // Fallback to simple capitalization
-  return fileName.charAt(0).toUpperCase() + fileName.slice(1);
+  // Clean filename by replacing special characters and convert to PascalCase
+  return fileName
+    .replace(/[^a-zA-Z0-9]/g, '_') // Replace special chars with underscore temporarily
+    .split('_') // Split on underscores
+    .filter((part) => part.length > 0) // Remove empty parts
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()) // PascalCase each part
+    .join(''); // Join them together
 }
 
 function fileNameToSelector(fileName: string): string {

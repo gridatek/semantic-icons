@@ -118,6 +118,9 @@ export const fileNameMappings: Record<string, string> = {
   cloudflare: 'Cloudflare',
   firebase: 'Firebase',
 
+  // Special cases with underscores or special characters
+  uniqlo_ja: 'UniqloJa',
+
   // Add more mappings as needed...
   // Tip: Use PascalCase for compound words, e.g., 'compoundword': 'CompoundWord'
 };
