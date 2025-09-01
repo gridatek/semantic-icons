@@ -15,12 +15,17 @@ import * as path from 'path';
 
 import { getSvgAttributes, getSvgTagContent } from '../../utils';
 import { SimpleIconsGeneratorSchema } from './schema';
-import {
-  addSpaces,
-  generatePerfectClassName,
-  generatePerfectSelector,
-  titleToComponentName,
-} from './title-to-component-name';
+
+function fileNameToComponentName(fileName: string): string {
+  return fileName
+    .split(/[-_]/)
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+    .join('');
+}
+
+function fileNameToSelector(fileName: string): string {
+  return `si-${fileName.replace(/[^a-z0-9]/gi, '-').toLowerCase()}-icon`;
+}
 
 interface SimpleIcon {
   title: string;
@@ -213,18 +218,20 @@ async function generateIconsComponents(
       }
 
       const decodedTitle = decode(title);
-      const angularComponentName = titleToComponentName(decodedTitle);
+      const fileBaseName = fileName.replace('.svg', '');
+      const angularComponentName = fileNameToComponentName(fileBaseName);
 
-      // Check for duplicates
+      // Check for actual duplicates (same filename)
       const componentKey = `${angularComponentName.toLowerCase()}`;
       if (processedIcons.has(componentKey)) {
         const originalIcon = processedIcons.get(componentKey)!;
         logger.warn(
-          `⚠️  Duplicate icon skipped: ${decodedTitle} (${fileName}) - original: ${originalIcon.title} (${originalIcon.fileName})`,
+          `⚠️  Duplicate file skipped: ${fileName} - original: ${originalIcon.fileName}`,
         );
         generateStats.skipped++;
         continue;
       }
+
       processedIcons.set(componentKey, { title: decodedTitle, fileName });
 
       const svgTagContent = getSvgTagContent(svgFileContent, true);
@@ -233,11 +240,8 @@ async function generateIconsComponents(
       }
 
       const svgFileName = `${names(angularComponentName).fileName}-icon`;
-      const svgClassName = generatePerfectClassName(angularComponentName);
-      const svgSelector = generatePerfectSelector(
-        angularComponentName,
-        decodedTitle,
-      );
+      const svgClassName = `Si${angularComponentName}Icon`;
+      const svgSelector = fileNameToSelector(fileBaseName);
 
       exports.push(`export * from './icons/${svgFileName}';`);
 
