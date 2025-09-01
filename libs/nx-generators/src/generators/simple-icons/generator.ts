@@ -185,7 +185,7 @@ async function generateIconsComponents(
   logger.info(`🎯 Processing ${generateStats.total} icon files...`);
 
   const exports: string[] = [];
-  const processedIcons = new Set<string>();
+  const processedIcons = new Map<string, { title: string; fileName: string }>();
 
   // Process icons with progress reporting
   for (let i = 0; i < iconFiles.length; i++) {
@@ -218,13 +218,14 @@ async function generateIconsComponents(
       // Check for duplicates
       const componentKey = `${angularComponentName.toLowerCase()}`;
       if (processedIcons.has(componentKey)) {
+        const originalIcon = processedIcons.get(componentKey)!;
         logger.warn(
-          `⚠️  Duplicate icon skipped: ${decodedTitle} (${fileName})`,
+          `⚠️  Duplicate icon skipped: ${decodedTitle} (${fileName}) - original: ${originalIcon.title} (${originalIcon.fileName})`,
         );
         generateStats.skipped++;
         continue;
       }
-      processedIcons.add(componentKey);
+      processedIcons.set(componentKey, { title: decodedTitle, fileName });
 
       const svgTagContent = getSvgTagContent(svgFileContent, true);
       if (!svgTagContent.trim()) {
