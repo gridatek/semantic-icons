@@ -102,7 +102,7 @@ export async function simpleIconsGenerator(
       });
     }
   } catch (error) {
-    logger.error('❌ Simple Icons generation failed:', error);
+    logger.error('❌ Simple Icons generation failed: ' + error);
     throw error;
   }
 }
