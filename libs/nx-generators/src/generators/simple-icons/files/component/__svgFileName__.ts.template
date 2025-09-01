@@ -10,10 +10,15 @@ import {
   standalone: true,
   imports: [],
   template: `
+    <svg:title><%= iconTitle %></svg:title>
     <%- svgTagContent %>
   `,
   host: {
     'role': 'img',
+    <% if(iconTitle) { -%>
+    '[attr.aria-label]': 'ariaLabel() || "<%= iconTitle %> icon"',
+    <% } -%>
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
   <% if(width) { -%>
     '[attr.width]': 'width()',
@@ -39,51 +44,57 @@ import {
   <% if(strokeLinejoin) { -%>
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
   <% } -%>
+    'data-slot': 'icon',
+    <% if(brandColor) { -%>
+    'data-brand-color': '<%= brandColor %>',
+    <% } -%>
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class <%= svgClassName %> {
-
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
+  // Accessibility inputs
+  readonly ariaLabel = input<string>();
+  readonly ariaHidden = input<boolean | string>(false);
+
   <% if(width) { -%>
-    readonly width = input<string | number>('<%= width %>');
+  readonly width = input<string | number>('<%= width %>');
   <% } -%>
 
   <% if(height) { -%>
-      readonly height = input<string | number>('<%= height %>');
+  readonly height = input<string | number>('<%= height %>');
   <% } -%>
 
   <% if(viewBox) { -%>
-    readonly viewBox = input<string>('<%= viewBox %>');
+  readonly viewBox = input<string>('<%= viewBox %>');
   <% } -%>
 
   <% if(fill) { -%>
-    readonly fill = input<string>('<%= fill %>');
+  readonly fill = input<string>('<%= fill %>');
   <% } -%>
 
   <% if(stroke) { -%>
-    readonly stroke = input<string>('<%= stroke %>');
+  readonly stroke = input<string>('<%= stroke %>');
   <% } -%>
 
   <% if(strokeWidth) { -%>
-    readonly strokeWidth = input<string | number>('<%= strokeWidth %>', {
-      alias: 'stroke-width',
-    });
+  readonly strokeWidth = input<string | number>('<%= strokeWidth %>', {
+    alias: 'stroke-width',
+  });
   <% } -%>
 
   <% if(strokeLinecap) { -%>
-    readonly strokeLinecap = input<string>('<%= strokeLinecap %>', {
-      alias: 'stroke-linecap',
-    });
+  readonly strokeLinecap = input<string>('<%= strokeLinecap %>', {
+    alias: 'stroke-linecap',
+  });
   <% } -%>
 
   <% if(strokeLinejoin) { -%>
-    readonly strokeLinejoin = input<string>('<%= strokeLinejoin %>', {
-      alias: 'stroke-linejoin',
-    });
+  readonly strokeLinejoin = input<string>('<%= strokeLinejoin %>', {
+    alias: 'stroke-linejoin',
+  });
   <% } -%>
-
 }

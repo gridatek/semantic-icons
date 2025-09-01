@@ -1,7 +1,18 @@
-export function getSvgTagContent(svgFileContent: string) {
+export function getSvgTagContent(
+  svgFileContent: string,
+  removeTitleTag = false,
+) {
   const regex = /<svg[^>]*>([\s\S]*)<\/svg>/;
   const matches = regex.exec(svgFileContent) ?? [];
   let svgTagContent = matches.length > 1 ? matches[1] : '';
+
+  // Remove title tag if requested (since we add our own)
+  if (removeTitleTag) {
+    svgTagContent = svgTagContent.replace(
+      /<title[^>]*>[\s\S]*?<\/title>/gi,
+      '',
+    );
+  }
 
   // Define the prefix
   const prefix = 'svg:';
