@@ -6,18 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uniqlo-ja-icon]',
+  selector: 'svg[si-youtubemusic-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:title>Uniqlo</svg:title>
+    <svg:title>YouTube Music</svg:title>
     <svg:path
-      d="M0 .01v23.98h24V.01ZM4.291 3.29h4.553l.006 5.803h1.511v1.511h-6.82V9.094h3.783v-4.29H4.291zm10.11 0h5.302v1.514H14.4zm-.762 5.807h6.816v1.511H13.64zM4.29 13.385l6.072.002-1.513 7.322H2.777l.305-1.516h4.553l.892-4.29H5.49l-.457 2.148H3.521Zm9.348 0h6.816v7.324H13.64zm1.517 1.517v4.291h3.787v-4.29z"
+      d="M12 0C5.376 0 0 5.376 0 12s5.376 12 12 12 12-5.376 12-12S18.624 0 12 0zm0 19.104c-3.924 0-7.104-3.18-7.104-7.104S8.076 4.896 12 4.896s7.104 3.18 7.104 7.104-3.18 7.104-7.104 7.104zm0-13.332c-3.432 0-6.228 2.796-6.228 6.228S8.568 18.228 12 18.228s6.228-2.796 6.228-6.228S15.432 5.772 12 5.772zM9.684 15.54V8.46L15.816 12l-6.132 3.54z"
     />
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "Uniqlo icon"',
+    '[attr.aria-label]': 'ariaLabel() || "YouTube Music icon"',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -29,7 +29,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiUniqlo_jaIcon {
+export class SiYouTubeMusicIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs

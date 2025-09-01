@@ -6,30 +6,30 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uniqlo-ja-icon]',
+  selector: 'svg[si-googlecontaineroptimizedos-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:title>Uniqlo</svg:title>
+    <svg:title>Google Container Optimized OS</svg:title>
     <svg:path
-      d="M0 .01v23.98h24V.01ZM4.291 3.29h4.553l.006 5.803h1.511v1.511h-6.82V9.094h3.783v-4.29H4.291zm10.11 0h5.302v1.514H14.4zm-.762 5.807h6.816v1.511H13.64zM4.29 13.385l6.072.002-1.513 7.322H2.777l.305-1.516h4.553l.892-4.29H5.49l-.457 2.148H3.521Zm9.348 0h6.816v7.324H13.64zm1.517 1.517v4.291h3.787v-4.29z"
+      d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm0 21.6a9.6 9.6 0 0 1-5.016-1.416L11.28 17.7v-5.4L6.612 9.6v5.424l3.3 1.908-4.152 2.4A9.6 9.6 0 0 1 7.296 3.6v4.8L12 11.136 16.68 8.4 12 5.724 8.688 7.632V2.964a9.6 9.6 0 0 1 12.372 5.64A9.72 9.72 0 0 1 21.672 12v.084L17.352 9.6l-4.68 2.712v5.412l4.68-2.7v-3.816l4.14 2.4A9.6 9.6 0 0 1 12 21.6z"
     />
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "Uniqlo icon"',
+    '[attr.aria-label]': 'ariaLabel() || "Google Container Optimized OS icon"',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#FF0000',
+    'data-brand-color': '#4285F4',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiUniqlo_jaIcon {
+export class SiGoogleContainerOptimizedOsIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
@@ -38,5 +38,5 @@ export class SiUniqlo_jaIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#FF0000');
+  readonly fill = input<string>('#4285F4');
 }

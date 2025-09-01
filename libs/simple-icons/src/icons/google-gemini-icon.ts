@@ -6,30 +6,30 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uniqlo-ja-icon]',
+  selector: 'svg[si-googlegemini-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:title>Uniqlo</svg:title>
+    <svg:title>Google Gemini</svg:title>
     <svg:path
-      d="M0 .01v23.98h24V.01ZM4.291 3.29h4.553l.006 5.803h1.511v1.511h-6.82V9.094h3.783v-4.29H4.291zm10.11 0h5.302v1.514H14.4zm-.762 5.807h6.816v1.511H13.64zM4.29 13.385l6.072.002-1.513 7.322H2.777l.305-1.516h4.553l.892-4.29H5.49l-.457 2.148H3.521Zm9.348 0h6.816v7.324H13.64zm1.517 1.517v4.291h3.787v-4.29z"
+      d="M11.04 19.32Q12 21.51 12 24q0-2.49.93-4.68.96-2.19 2.58-3.81t3.81-2.55Q21.51 12 24 12q-2.49 0-4.68-.93a12.3 12.3 0 0 1-3.81-2.58 12.3 12.3 0 0 1-2.58-3.81Q12 2.49 12 0q0 2.49-.96 4.68-.93 2.19-2.55 3.81a12.3 12.3 0 0 1-3.81 2.58Q2.49 12 0 12q2.49 0 4.68.96 2.19.93 3.81 2.55t2.55 3.81"
     />
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "Uniqlo icon"',
+    '[attr.aria-label]': 'ariaLabel() || "Google Gemini icon"',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#FF0000',
+    'data-brand-color': '#8E75B2',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiUniqlo_jaIcon {
+export class SiGoogleGeminiIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
@@ -38,5 +38,5 @@ export class SiUniqlo_jaIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#FF0000');
+  readonly fill = input<string>('#8E75B2');
 }

@@ -6,30 +6,30 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uniqlo-ja-icon]',
+  selector: 'svg[si-googlehome-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:title>Uniqlo</svg:title>
+    <svg:title>Google Home</svg:title>
     <svg:path
-      d="M0 .01v23.98h24V.01ZM4.291 3.29h4.553l.006 5.803h1.511v1.511h-6.82V9.094h3.783v-4.29H4.291zm10.11 0h5.302v1.514H14.4zm-.762 5.807h6.816v1.511H13.64zM4.29 13.385l6.072.002-1.513 7.322H2.777l.305-1.516h4.553l.892-4.29H5.49l-.457 2.148H3.521Zm9.348 0h6.816v7.324H13.64zm1.517 1.517v4.291h3.787v-4.29z"
+      d="M12 0a1.44 1.44 0 0 0-.947.399L.547 10.762a1.26 1.26 0 0 0-.342.808v11.138c0 .768.53 1.292 1.311 1.292h20.968c.78 0 1.311-.522 1.311-1.292V11.57a1.25 1.25 0 0 0-.34-.804L15.68 3.097h-.001L12.947.4A1.454 1.454 0 0 0 12 0Zm0 6.727 6.552 6.456v5.65H5.446v-5.65z"
     />
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "Uniqlo icon"',
+    '[attr.aria-label]': 'ariaLabel() || "Google Home icon"',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#FF0000',
+    'data-brand-color': '#4285F4',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiUniqlo_jaIcon {
+export class SiGoogleHomeIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
@@ -38,5 +38,5 @@ export class SiUniqlo_jaIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#FF0000');
+  readonly fill = input<string>('#4285F4');
 }

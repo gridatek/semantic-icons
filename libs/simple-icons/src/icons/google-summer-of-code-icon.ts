@@ -6,30 +6,30 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uniqlo-ja-icon]',
+  selector: 'svg[si-googlesummerofcode-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:title>Uniqlo</svg:title>
+    <svg:title>Google Summer of Code</svg:title>
     <svg:path
-      d="M0 .01v23.98h24V.01ZM4.291 3.29h4.553l.006 5.803h1.511v1.511h-6.82V9.094h3.783v-4.29H4.291zm10.11 0h5.302v1.514H14.4zm-.762 5.807h6.816v1.511H13.64zM4.29 13.385l6.072.002-1.513 7.322H2.777l.305-1.516h4.553l.892-4.29H5.49l-.457 2.148H3.521Zm9.348 0h6.816v7.324H13.64zm1.517 1.517v4.291h3.787v-4.29z"
+      d="m11.995 0-.954.954L9.24 2.758l-.755.725h-4.97v5.001L0 12.004l2.758 2.76.755.752v4.973h4.971L11.995 24l3.523-3.511h4.961v-4.973L24 12.005l-3.52-3.521v-5h-5.01zm0 5.068a6.928 6.928 0 0 1 6.94 6.918v.019a6.937 6.937 0 1 1-6.94-6.937Zm.436 3.457-1.709 6.339.94.253 1.709-6.339zm1.97 1.047-.715.649 1.431 1.594-1.431 1.593.725.649 2.013-2.242zm-4.8.01-2.014 2.242L9.6 14.075l.725-.648-1.431-1.594 1.431-1.603z"
     />
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "Uniqlo icon"',
+    '[attr.aria-label]': 'ariaLabel() || "Google Summer of Code icon"',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#FF0000',
+    'data-brand-color': '#F9AB00',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiUniqlo_jaIcon {
+export class SiGoogleSummerOfCodeIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
@@ -38,5 +38,5 @@ export class SiUniqlo_jaIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#FF0000');
+  readonly fill = input<string>('#F9AB00');
 }
