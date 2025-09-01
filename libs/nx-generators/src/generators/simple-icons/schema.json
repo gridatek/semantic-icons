@@ -1,8 +1,25 @@
 {
   "$schema": "https://json-schema.org/schema",
   "$id": "SimpleIcons",
-  "title": "",
+  "title": "Simple Icons Generator",
+  "description": "Generate Angular components for Simple Icons",
   "type": "object",
-  "properties": {},
+  "properties": {
+    "libPath": {
+      "type": "string",
+      "description": "Path to the icon library",
+      "default": "libs/simple-icons"
+    },
+    "sourcePath": {
+      "type": "string",
+      "description": "Path to the simple-icons SVG files",
+      "default": "node_modules/simple-icons/icons"
+    },
+    "strict": {
+      "type": "boolean",
+      "description": "Enable strict mode (fail on first error)",
+      "default": false
+    }
+  },
   "required": []
 }
