@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sql-alchemy-icon]',
+  selector: 'svg[si-sqlalchemy-icon]',
   standalone: true,
   imports: [],
   template: `
@@ -29,7 +29,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSQLAlchemyIcon {
+export class SiSqlalchemyIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs

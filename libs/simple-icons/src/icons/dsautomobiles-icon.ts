@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ds-automobiles-icon]',
+  selector: 'svg[si-dsautomobiles-icon]',
   standalone: true,
   imports: [],
   template: `
@@ -29,7 +29,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiDSAutomobilesIcon {
+export class SiDsautomobilesIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs

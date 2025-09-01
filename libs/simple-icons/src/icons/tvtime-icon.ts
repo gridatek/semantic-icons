@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tv-time-icon]',
+  selector: 'svg[si-tvtime-icon]',
   standalone: true,
   imports: [],
   template: `
@@ -27,7 +27,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTVTimeIcon {
+export class SiTvtimeIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
