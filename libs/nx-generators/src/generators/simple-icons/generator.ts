@@ -14,13 +14,17 @@ import { decode } from 'html-entities';
 import * as path from 'path';
 
 import { getSvgAttributes, getSvgTagContent } from '../../utils';
+import { fileNameMappings } from './filename-mappings';
 import { SimpleIconsGeneratorSchema } from './schema';
 
 function fileNameToComponentName(fileName: string): string {
-  return fileName
-    .split(/[-_]/)
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
-    .join('');
+  // Check if we have a direct mapping
+  if (fileNameMappings[fileName]) {
+    return fileNameMappings[fileName];
+  }
+
+  // Fallback to simple capitalization
+  return fileName.charAt(0).toUpperCase() + fileName.slice(1);
 }
 
 function fileNameToSelector(fileName: string): string {
