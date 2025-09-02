@@ -120,6 +120,9 @@ export const fileNameMappings: Record<string, string> = {
 
   // Special cases with underscores or special characters
   uniqlo_ja: 'UniqloJa',
+  rainyun: 'RainYun',
+  visualparadigm: 'VisualParadigm',
+  weread: 'WeRead',
 
   // Add more mappings as needed...
   // Tip: Use PascalCase for compound words, e.g., 'compoundword': 'CompoundWord'
