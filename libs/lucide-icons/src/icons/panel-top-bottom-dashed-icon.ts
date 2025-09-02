@@ -6,15 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wallpaper-icon]',
+  selector: 'svg[si-panel-top-bottom-dashed-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 17v4" />
-    <svg:path d="M8 21h8" />
-    <svg:path d="m9 17 6.1-6.1a2 2 0 0 1 2.81.01L22 15" />
-    <svg:circle cx="8" cy="9" r="2" />
-    <svg:rect x="2" y="3" width="20" height="14" rx="2" />
+    <svg:path d="M14 16h1" />
+    <svg:path d="M14 8h1" />
+    <svg:path d="M19 16h2" />
+    <svg:path d="M19 8h2" />
+    <svg:path d="M3 16h2" />
+    <svg:path d="M3 8h2" />
+    <svg:path d="M9 16h1" />
+    <svg:path d="M9 8h1" />
+    <svg:rect x="3" y="3" width="18" height="18" rx="2" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -32,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiWallpaperIcon {
+export class SiPanelTopBottomDashedIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

@@ -6,15 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wallpaper-icon]',
+  selector: 'svg[si-chromium-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 17v4" />
-    <svg:path d="M8 21h8" />
-    <svg:path d="m9 17 6.1-6.1a2 2 0 0 1 2.81.01L22 15" />
-    <svg:circle cx="8" cy="9" r="2" />
-    <svg:rect x="2" y="3" width="20" height="14" rx="2" />
+    <svg:path d="M10.88 21.94 15.46 14" />
+    <svg:path d="M21.17 8H12" />
+    <svg:path d="M3.95 6.06 8.54 14" />
+    <svg:circle cx="12" cy="12" r="10" />
+    <svg:circle cx="12" cy="12" r="4" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiWallpaperIcon {
+export class SiChromiumIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');
