@@ -30,7 +30,6 @@ export const fileNameMappings: Record<string, string> = {
 
   // Google services
   googledrive: 'GoogleDrive',
-  googlepay: 'GooglePay',
   googlemaps: 'GoogleMaps',
   googlecloud: 'GoogleCloud',
   googleauthenticator: 'GoogleAuthenticator',
@@ -98,7 +97,6 @@ export const fileNameMappings: Record<string, string> = {
   youtubemusic: 'YouTubeMusic',
   youtubeshorts: 'YouTubeShorts',
   youtubestudio: 'YouTubeStudio',
-  whatsapp: 'WhatsApp',
   instagram: 'Instagram',
   facebook: 'Facebook',
   facebookgaming: 'FacebookGaming',
@@ -109,20 +107,129 @@ export const fileNameMappings: Record<string, string> = {
   reddit: 'Reddit',
 
   // Other popular services
-  wordpress: 'WordPress',
-  shopify: 'Shopify',
-  paypal: 'PayPal',
   netflix: 'Netflix',
   spotify: 'Spotify',
   airbnb: 'Airbnb',
-  cloudflare: 'Cloudflare',
   firebase: 'Firebase',
+
+  // Tech compound words
+  appwrite: 'AppWrite',
+  appsmith: 'AppSmith',
+  appsignal: 'AppSignal',
+  appgallery: 'AppGallery',
+  codepen: 'CodePen',
+  codeclimate: 'CodeClimate',
+  codecov: 'CodeCov',
+  codesandbox: 'CodeSandbox',
+  codeberg: 'CodeBerg',
+  webassembly: 'WebAssembly',
+  webstorm: 'WebStorm',
+  devpost: 'DevPost',
+  deviant: 'DeviantArt',
+  devto: 'DevTo',
+  apifox: 'ApiFox',
+  apikey: 'ApiKey',
+
+  // Data and Cloud services
+  datadog: 'DataDog',
+  databricks: 'DataBricks',
+  datacamp: 'DataCamp',
+  datastax: 'DataStax',
+  cloudflare: 'Cloudflare',
+  cloudsmith: 'CloudSmith',
+  icloud: 'iCloud',
+  soundcloud: 'SoundCloud',
+  mixcloud: 'MixCloud',
+
+  // Authentication and Security
+  authzero: 'AuthZero',
+  auth0: 'Auth0',
+  okta: 'Okta',
+  onelogin: 'OneLogin',
+  twofa: 'TwoFA',
+
+  // Payment and Commerce
+  paypal: 'PayPal',
+  patreon: 'Patreon',
+  klarna: 'Klarna',
+  razorpay: 'RazorPay',
+  applepay: 'ApplePay',
+  googlepay: 'GooglePay',
+  amazonpay: 'AmazonPay',
+
+  // Streaming and Media
+  streamdeck: 'StreamDeck',
+  streamlabs: 'StreamLabs',
+  streamlit: 'StreamLit',
+  airplay: 'AirPlay',
+  chromecast: 'ChromeCast',
+  plex: 'Plex',
+  emby: 'Emby',
+  jellyfin: 'Jellyfin',
+
+  // Version Control and DevOps
+  bitbucket: 'BitBucket',
+  bitrise: 'BitRise',
+  gitlab: 'GitLab',
+  gitbook: 'GitBook',
+  gitea: 'Gitea',
+  giteaactions: 'GiteaActions',
+  jenkins: 'Jenkins',
+  teamcity: 'TeamCity',
+  circleci: 'CircleCI',
+  travisci: 'TravisCI',
+
+  // Blockchain and Crypto
+  coinbase: 'CoinBase',
+  blockchain: 'BlockChain',
+  ethereum: 'Ethereum',
+  bitcoin: 'BitCoin',
+  litecoin: 'LiteCoin',
+  dogecoin: 'DogeCoin',
+  metamask: 'MetaMask',
+  opensea: 'OpenSea',
+
+  // CMS and Website Builders
+  wordpress: 'WordPress',
+  drupal: 'Drupal',
+  joomla: 'Joomla',
+  webflow: 'WebFlow',
+  squarespace: 'Squarespace',
+  wix: 'Wix',
+  shopify: 'Shopify',
+  magento: 'Magento',
+
+  // Communication and Social
+  whatsapp: 'WhatsApp',
+  telegram: 'Telegram',
+  discord: 'Discord',
+  teamspeak: 'TeamSpeak',
+  skype: 'Skype',
+  zoom: 'Zoom',
+  slack: 'Slack',
+  mattermost: 'Mattermost',
+
+  // Design and Creative
+  figma: 'Figma',
+  sketch: 'Sketch',
+  framer: 'Framer',
+  invision: 'InVision',
+  zeplin: 'Zeplin',
+  canva: 'Canva',
+  behance: 'Behance',
+  dribbble: 'Dribbble',
 
   // Special cases with underscores or special characters
   uniqlo_ja: 'UniqloJa',
   rainyun: 'RainYun',
   visualparadigm: 'VisualParadigm',
   weread: 'WeRead',
+  deepmind: 'DeepMind',
+  freshrss: 'FreshRSS',
+  backstagecasting: 'BackstageCasting',
+  handshakeprotocol: 'HandshakeProtocol',
+  hiveblockchain: 'HiveBlockchain',
+  springcreators: 'SpringCreators',
 
   // Add more mappings as needed...
   // Tip: Use PascalCase for compound words, e.g., 'compoundword': 'CompoundWord'
