@@ -106,7 +106,7 @@
     "simple-git": "^3.28.0",
     "simple-icons": "^15.13.0",
     "tailwindcss": "^4.1.12",
-    "tmp": "^0.2.3",
+    "tmp": "^0.2.5",
     "ts-jest": "^29.4.1",
     "ts-node": "10.9.2",
     "tslib": "^2.8.1",
