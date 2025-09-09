@@ -5,6 +5,7 @@
   "prefix": "si",
   "projectType": "library",
   "tags": [],
+  "implicitDependencies": ["nx-generators"],
   "targets": {
     "build": {
       "executor": "@semantic-icons/nx-generators:copy-license",
@@ -14,21 +15,19 @@
       "executor": "@nx/angular:package",
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
-        "project": "libs/ionicons/ng-package.json"
+        "project": "libs/ionicons/ng-package.json",
+        "tsConfig": "libs/ionicons/tsconfig.lib.json"
       },
       "configurations": {
         "production": {
           "tsConfig": "libs/ionicons/tsconfig.lib.prod.json"
         },
-        "development": {
-          "tsConfig": "libs/ionicons/tsconfig.lib.json"
-        }
+        "development": {}
       },
       "defaultConfiguration": "production"
     },
     "lint": {
       "executor": "@nx/eslint:lint"
     }
-  },
-  "implicitDependencies": ["nx-generators"]
+  }
 }
