@@ -10,15 +10,14 @@
       "executor": "@nx/angular:package",
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
       "options": {
-        "project": "libs/lucide-lab-icons/ng-package.json"
+        "project": "libs/lucide-lab-icons/ng-package.json",
+        "tsConfig": "libs/lucide-lab-icons/tsconfig.lib.json"
       },
       "configurations": {
         "production": {
           "tsConfig": "libs/lucide-lab-icons/tsconfig.lib.prod.json"
         },
-        "development": {
-          "tsConfig": "libs/lucide-lab-icons/tsconfig.lib.json"
-        }
+        "development": {}
       },
       "defaultConfiguration": "production"
     },
