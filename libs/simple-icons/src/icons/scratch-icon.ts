@@ -23,7 +23,7 @@ import {
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#4D97FF',
+    'data-brand-color': '#855CD6',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
@@ -38,5 +38,5 @@ export class SiScratchIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#4D97FF');
+  readonly fill = input<string>('#855CD6');
 }

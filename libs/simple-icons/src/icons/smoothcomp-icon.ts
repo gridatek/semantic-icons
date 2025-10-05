@@ -1,0 +1,42 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[si-smoothcomp-icon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:title>Smoothcomp</svg:title>
+    <svg:path
+      d="M6.3415 0C2.845 0 0 2.8445 0 6.3415v11.3166C0 21.155 2.8449 24 6.3415 24h11.317C21.155 24 24 21.155 24 17.658V6.3416C24 2.845 21.155 0 17.6585 0Zm0 2.1493h11.317c2.3117 0 4.1922 1.8805 4.1922 4.1922v11.3166c0 2.3118-1.8805 4.1923-4.1922 4.1923H6.3415c-2.3117 0-4.1922-1.8802-4.1922-4.1923V6.3415c0-2.3117 1.8805-4.1922 4.1922-4.1922zM7.06 5.638c-.7632 0-1.3842.6211-1.3842 1.3843v10.0035c0 .7629.621 1.384 1.3842 1.384h10.0047c.7628 0 1.3835-.6208 1.3835-1.3836V7.022c0-.37-.1443-.7174-.4057-.9788a1.3745 1.3745 0 0 0-.9786-.405Zm.765 2.1493h8.474v8.4735H7.825Z"
+    />
+  `,
+  host: {
+    role: 'img',
+    '[attr.aria-label]': 'ariaLabel() || "Smoothcomp icon"',
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+    'data-slot': 'icon',
+    'data-brand-color': '#000000',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiSmoothcompIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  // Accessibility inputs
+  readonly ariaLabel = input<string>();
+  readonly ariaHidden = input<boolean | string>(false);
+
+  readonly viewBox = input<string>('0 0 24 24');
+
+  readonly fill = input<string>('#000000');
+}
