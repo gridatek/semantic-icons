@@ -6,12 +6,12 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-code-view-icon]',
+  selector: 'svg[si-goblet-broken-fill-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path
-      d="M16.95 8.46451L18.3642 7.05029L23.3139 12L18.3642 16.9498L16.95 15.5356L20.4855 12L16.95 8.46451ZM7.05048 8.46451L3.51495 12L7.05048 15.5356L5.63627 16.9498L0.686523 12L5.63627 7.05029L7.05048 8.46451Z"
+      d="M12.923 2L10.8354 5.61589L13.4335 7.11589L11.6835 10.147L13.4155 11.147L16.1655 6.38384L13.5674 4.88384L15.2324 2H17.8678L18.9904 9.85858C19.2924 11.9728 18.4686 13.7891 17.1098 15.0465C16.0049 16.0688 14.5415 16.7319 13.0005 16.9343V20H18.0005V22H6.00047V20H11.0005V16.9343C9.45948 16.7319 7.99601 16.0688 6.89117 15.0465C5.53231 13.7891 4.70849 11.9728 5.01052 9.85858L6.13317 2H12.923Z"
     />
   `,
   host: {
@@ -23,7 +23,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiCodeViewIcon {
+export class SiGobletBrokenFillIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly viewBox = input<string>('0 0 24 24');
