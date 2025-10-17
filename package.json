@@ -59,7 +59,7 @@
     "@nx/plugin": "21.6.4",
     "@nx/web": "21.6.4",
     "@nx/workspace": "21.6.4",
-    "@playwright/test": "^1.54.1",
+    "@playwright/test": "^1.56.1",
     "@prettier/plugin-xml": "^3.4.2",
     "@prettier/sync": "^0.6.1",
     "@schematics/angular": "20.0.3",
