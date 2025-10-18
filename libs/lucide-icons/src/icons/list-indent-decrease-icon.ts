@@ -6,19 +6,14 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sliders-icon]',
+  selector: 'svg[si-list-indent-decrease-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 8h4" />
-    <svg:path d="M12 21v-9" />
-    <svg:path d="M12 8V3" />
-    <svg:path d="M17 16h4" />
-    <svg:path d="M19 12V3" />
-    <svg:path d="M19 21v-5" />
-    <svg:path d="M3 14h4" />
-    <svg:path d="M5 10V3" />
-    <svg:path d="M5 21v-7" />
+    <svg:path d="M21 5H11" />
+    <svg:path d="M21 12H11" />
+    <svg:path d="M21 19H11" />
+    <svg:path d="m7 8-4 4 4 4" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -36,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSlidersIcon {
+export class SiListIndentDecreaseIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

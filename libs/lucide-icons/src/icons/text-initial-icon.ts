@@ -6,19 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sliders-icon]',
+  selector: 'svg[si-text-initial-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 8h4" />
-    <svg:path d="M12 21v-9" />
-    <svg:path d="M12 8V3" />
-    <svg:path d="M17 16h4" />
-    <svg:path d="M19 12V3" />
-    <svg:path d="M19 21v-5" />
-    <svg:path d="M3 14h4" />
-    <svg:path d="M5 10V3" />
-    <svg:path d="M5 21v-7" />
+    <svg:path d="M15 5h6" />
+    <svg:path d="M15 12h6" />
+    <svg:path d="M3 19h18" />
+    <svg:path d="m3 12 3.553-7.724a.5.5 0 0 1 .894 0L11 12" />
+    <svg:path d="M3.92 10h6.16" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -36,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSlidersIcon {
+export class SiTextInitialIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

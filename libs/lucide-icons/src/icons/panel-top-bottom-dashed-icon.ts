@@ -10,14 +10,14 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M14 16h1" />
-    <svg:path d="M14 8h1" />
-    <svg:path d="M19 16h2" />
-    <svg:path d="M19 8h2" />
-    <svg:path d="M3 16h2" />
-    <svg:path d="M3 8h2" />
-    <svg:path d="M9 16h1" />
-    <svg:path d="M9 8h1" />
+    <svg:path d="M14 15h1" />
+    <svg:path d="M14 9h1" />
+    <svg:path d="M19 15h2" />
+    <svg:path d="M19 9h2" />
+    <svg:path d="M3 15h2" />
+    <svg:path d="M3 9h2" />
+    <svg:path d="M9 15h1" />
+    <svg:path d="M9 9h1" />
     <svg:rect x="3" y="3" width="18" height="18" rx="2" />
   `,
   host: {

@@ -6,19 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sliders-icon]',
+  selector: 'svg[si-text-align-center-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 8h4" />
-    <svg:path d="M12 21v-9" />
-    <svg:path d="M12 8V3" />
-    <svg:path d="M17 16h4" />
-    <svg:path d="M19 12V3" />
-    <svg:path d="M19 21v-5" />
-    <svg:path d="M3 14h4" />
-    <svg:path d="M5 10V3" />
-    <svg:path d="M5 21v-7" />
+    <svg:path d="M21 5H3" />
+    <svg:path d="M17 12H7" />
+    <svg:path d="M19 19H5" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -36,7 +30,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSlidersIcon {
+export class SiTextAlignCenterIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

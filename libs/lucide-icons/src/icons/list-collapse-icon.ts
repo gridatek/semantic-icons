@@ -10,9 +10,9 @@ import {
   standalone: true,
   imports: [],
   template: `
+    <svg:path d="M10 5h11" />
     <svg:path d="M10 12h11" />
-    <svg:path d="M10 18h11" />
-    <svg:path d="M10 6h11" />
+    <svg:path d="M10 19h11" />
     <svg:path d="m3 10 3-3-3-3" />
     <svg:path d="m3 20 3-3-3-3" />
   `,

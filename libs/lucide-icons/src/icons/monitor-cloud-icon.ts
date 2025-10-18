@@ -6,19 +6,14 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sliders-icon]',
+  selector: 'svg[si-monitor-cloud-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 8h4" />
-    <svg:path d="M12 21v-9" />
-    <svg:path d="M12 8V3" />
-    <svg:path d="M17 16h4" />
-    <svg:path d="M19 12V3" />
-    <svg:path d="M19 21v-5" />
-    <svg:path d="M3 14h4" />
-    <svg:path d="M5 10V3" />
-    <svg:path d="M5 21v-7" />
+    <svg:path d="M11 13a3 3 0 1 1 2.83-4H14a2 2 0 0 1 0 4z" />
+    <svg:path d="M12 17v4" />
+    <svg:path d="M8 21h8" />
+    <svg:rect x="2" y="3" width="20" height="14" rx="2" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -36,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSlidersIcon {
+export class SiMonitorCloudIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');
