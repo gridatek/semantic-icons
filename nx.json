@@ -18,10 +18,12 @@
   "release": {
     "projects": ["libs/*"],
     "projectsRelationship": "independent",
-    "releaseTagPattern": "release/{projectName}/{version}",
     "version": {
       "preserveLocalDependencyProtocols": false,
       "manifestRootsToUpdate": ["{projectRoot}"]
+    },
+    "releaseTag": {
+      "pattern": "release/{projectName}/{version}"
     }
   },
   "targetDefaults": {
