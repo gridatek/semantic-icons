@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tz-flag-icon]',
+  selector: 'svg[si-tz-zanzibar-flag-icon]',
   standalone: true,
   imports: [],
   template: `
@@ -14,10 +14,13 @@ import {
       <svg:circle cx="256" cy="256" r="256" fill="#fff" />
     </svg:mask>
     <svg:g mask="url(#a)">
-      <svg:path fill="#ffda44" d="M399 0 0 399v45l68 68h45l399-399V68L444 0z" />
-      <svg:path fill="#333" d="M444 0 0 444v68h68L512 68V0z" />
-      <svg:path fill="#338af3" d="m113 512 399-399v399z" />
-      <svg:path fill="#6da544" d="M0 399V0h399z" />
+      <svg:path fill="#338af3" d="M512 0v170H0V0z" />
+      <svg:path fill="#ffda44" d="M200 0 0 132v38h56L256 38V0z" />
+      <svg:path
+        fill="#333"
+        d="M512 170v172H0V170zM222 0 0 148v22h34L256 22V0z"
+      />
+      <svg:path fill="#6da544" d="M512 342v170H0V342zM0 132V0h200z" />
     </svg:g>
   `,
   host: {
@@ -30,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTzFlagIcon {
+export class SiTzZanzibarFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('512');
