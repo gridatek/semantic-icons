@@ -10,10 +10,12 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z" />
-    <svg:path d="M14 2v4a2 2 0 0 0 2 2h4" />
-    <svg:circle cx="11.5" cy="14.5" r="2.5" />
-    <svg:path d="M13.3 16.3 15 18" />
+    <svg:path
+      d="M11.1 22H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.589 3.588A2.4 2.4 0 0 1 20 8v3.25"
+    />
+    <svg:path d="M14 2v5a1 1 0 0 0 1 1h5" />
+    <svg:path d="m21 22-2.88-2.88" />
+    <svg:circle cx="16" cy="17" r="3" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
