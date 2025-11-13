@@ -6,18 +6,20 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ruler-dimension-line-icon]',
+  selector: 'svg[si-chess-queen-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 15v-3" />
-    <svg:path d="M14 15v-3" />
-    <svg:path d="M18 15v-3" />
-    <svg:path d="M2 8V4" />
-    <svg:path d="M22 6H2" />
-    <svg:path d="M22 8V4" />
-    <svg:path d="M6 15v-3" />
-    <svg:rect x="2" y="12" width="20" height="8" rx="2" />
+    <svg:path
+      d="M4 20a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"
+    />
+    <svg:path d="m12.474 5.943 1.567 5.34a1 1 0 0 0 1.75.328l2.616-3.402" />
+    <svg:path d="m20 9-3 9" />
+    <svg:path d="m5.594 8.209 2.615 3.403a1 1 0 0 0 1.75-.329l1.567-5.34" />
+    <svg:path d="M7 18 4 9" />
+    <svg:circle cx="12" cy="4" r="2" />
+    <svg:circle cx="20" cy="7" r="2" />
+    <svg:circle cx="4" cy="7" r="2" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -35,7 +37,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiRulerDimensionLineIcon {
+export class SiChessQueenIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

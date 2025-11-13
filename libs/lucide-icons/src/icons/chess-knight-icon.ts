@@ -6,18 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ruler-dimension-line-icon]',
+  selector: 'svg[si-chess-knight-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 15v-3" />
-    <svg:path d="M14 15v-3" />
-    <svg:path d="M18 15v-3" />
-    <svg:path d="M2 8V4" />
-    <svg:path d="M22 6H2" />
-    <svg:path d="M22 8V4" />
-    <svg:path d="M6 15v-3" />
-    <svg:rect x="2" y="12" width="20" height="8" rx="2" />
+    <svg:path
+      d="M5 20a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v1a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1z"
+    />
+    <svg:path
+      d="M16.5 18c1-2 2.5-5 2.5-9a7 7 0 0 0-7-7H6.635a1 1 0 0 0-.768 1.64L7 5l-2.32 5.802a2 2 0 0 0 .95 2.526l2.87 1.456"
+    />
+    <svg:path d="m15 5 1.425-1.425" />
+    <svg:path d="m17 8 1.53-1.53" />
+    <svg:path d="M9.713 12.185 7 18" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -35,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiRulerDimensionLineIcon {
+export class SiChessKnightIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');
