@@ -6,16 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-git-2-icon]',
+  selector: 'svg[si-fingerprint-pattern-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M18 19a5 5 0 0 1-5-5v8" />
-    <svg:path
-      d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5"
-    />
-    <svg:circle cx="13" cy="12" r="2" />
-    <svg:circle cx="20" cy="19" r="2" />
+    <svg:path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4" />
+    <svg:path d="M14 13.12c0 2.38 0 6.38-1 8.88" />
+    <svg:path d="M17.29 21.02c.12-.6.43-2.3.5-3.02" />
+    <svg:path d="M2 12a10 10 0 0 1 18-6" />
+    <svg:path d="M2 16h.01" />
+    <svg:path d="M21.8 16c.2-2 .131-5.354 0-6" />
+    <svg:path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2" />
+    <svg:path d="M8.65 22c.21-.66.45-1.32.57-2" />
+    <svg:path d="M9 6.8a6 6 0 0 1 9 5.2v2" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -33,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFolderGit2Icon {
+export class SiFingerprintPatternIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

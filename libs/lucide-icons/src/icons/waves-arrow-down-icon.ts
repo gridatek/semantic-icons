@@ -6,16 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-git-2-icon]',
+  selector: 'svg[si-waves-arrow-down-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M18 19a5 5 0 0 1-5-5v8" />
+    <svg:path d="M12 10L12 2" />
+    <svg:path d="M16 6L12 10L8 6" />
     <svg:path
-      d="M9 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v5"
+      d="M2 15C2.6 15.5 3.2 16 4.5 16C7 16 7 14 9.5 14C12.1 14 11.9 16 14.5 16C17 16 17 14 19.5 14C20.8 14 21.4 14.5 22 15"
     />
-    <svg:circle cx="13" cy="12" r="2" />
-    <svg:circle cx="20" cy="19" r="2" />
+    <svg:path
+      d="M2 21C2.6 21.5 3.2 22 4.5 22C7 22 7 20 9.5 20C12.1 20 11.9 22 14.5 22C17 22 17 20 19.5 20C20.8 20 21.4 20.5 22 21"
+    />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -33,7 +35,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFolderGit2Icon {
+export class SiWavesArrowDownIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');
