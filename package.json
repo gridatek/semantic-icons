@@ -34,7 +34,7 @@
     "shiki": "^3.19.0",
     "tailwind": "^4.0.0",
     "tailwind-merge": "^3.4.0",
-    "zone.js": "0.15.1"
+    "zone.js": "0.16.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "20.0.3",
