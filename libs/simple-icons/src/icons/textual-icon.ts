@@ -1,0 +1,42 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[si-textual-icon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:title>Textual</svg:title>
+    <svg:path
+      d="M13.746 2.731H24l-1.722 3.873-3.143 1.768H17l-5.182 10.552-3.128 2.345H5.283l.747-11.216H1.67L0 6.296l2.511-1.884h8.246zM2.709 5.006l-1.45 1.088h8.952l.249-1.088zM.825 6.69l1.23 2.77h4.611l-.747 11.215h.941L10.074 6.69zm7.567 13.985 5.232-12.897h5.24l1.23-2.77H11.07L7.469 20.675zm14.02-17.35h-8.508l-1.935 1.087h8.505z"
+    />
+  `,
+  host: {
+    role: 'img',
+    '[attr.aria-label]': 'ariaLabel() || "Textual icon"',
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+    'data-slot': 'icon',
+    'data-brand-color': '#FFFFFF',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiTextualIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  // Accessibility inputs
+  readonly ariaLabel = input<string>();
+  readonly ariaHidden = input<boolean | string>(false);
+
+  readonly viewBox = input<string>('0 0 24 24');
+
+  readonly fill = input<string>('#FFFFFF');
+}
