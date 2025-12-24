@@ -6,15 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-minus-icon]',
+  selector: 'svg[si-volume-4-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M9 12h6" />
-    <svg:path
-      d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"
-    />
+    <svg:g transform="translate(1.5, 0)">
+      <svg:path
+        d="M8 15h-2a1 1 0 0 1 -1 -1v-4a1 1 0 0 1 1 -1h2l3.5 -4.5a.8 .8 0 0 1 1.5 .5v14a.8 .8 0 0 1 -1.5 .5l-3.5 -4.5"
+      />
+    </svg:g>
   `,
   host: {
     role: 'img',
@@ -32,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSquareMinusIcon {
+export class SiVolume4Icon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

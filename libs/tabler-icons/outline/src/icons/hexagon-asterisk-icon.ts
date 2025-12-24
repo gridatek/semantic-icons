@@ -6,15 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-minus-icon]',
+  selector: 'svg[si-hexagon-asterisk-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M9 12h6" />
     <svg:path
-      d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"
+      d="M19.875 6.27c.7 .398 1.13 1.143 1.125 1.948v7.284c0 .809 -.443 1.555 -1.158 1.948l-6.75 4.27a2.27 2.27 0 0 1 -2.184 0l-6.75 -4.27a2.23 2.23 0 0 1 -1.158 -1.948v-7.285c0 -.809 .443 -1.554 1.158 -1.947l6.75 -3.98a2.33 2.33 0 0 1 2.25 0l6.75 3.98z"
     />
+    <svg:path d="M12 8.5v7" />
+    <svg:path d="M9 10l6 4" />
+    <svg:path d="M9 14l6 -4" />
   `,
   host: {
     role: 'img',
@@ -32,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSquareMinusIcon {
+export class SiHexagonAsteriskIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

@@ -6,15 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-minus-icon]',
+  selector: 'svg[si-alphabet-polish-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M9 12h6" />
-    <svg:path
-      d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"
-    />
+    <svg:path d="M7 10h2a2 2 0 0 1 2 2v5h-3a2 2 0 1 1 0 -4h3" />
+    <svg:path d="M16 7v10" />
+    <svg:path d="M18 11l-4 2" />
+    <svg:path d="M10.5 17a1.5 1.5 0 0 0 0 3" />
   `,
   host: {
     role: 'img',
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSquareMinusIcon {
+export class SiAlphabetPolishIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

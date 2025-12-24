@@ -6,15 +6,12 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-minus-icon]',
+  selector: 'svg[si-option-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M9 12h6" />
-    <svg:path
-      d="M3 5a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-14z"
-    />
+    <svg:path d="M14 6h5m0 12h-5l-5 -12h-4" />
   `,
   host: {
     role: 'img',
@@ -32,7 +29,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSquareMinusIcon {
+export class SiOptionIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');
