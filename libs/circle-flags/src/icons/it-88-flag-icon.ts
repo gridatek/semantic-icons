@@ -10,18 +10,9 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:defs>
-      <svg:mask
-        id="a"
-        width="512"
-        height="512"
-        x="0"
-        y="0"
-        maskUnits="userSpaceOnUse"
-      >
-        <svg:circle cx="256" cy="256" r="256" fill="#fff" />
-      </svg:mask>
-    </svg:defs>
+    <svg:mask id="a">
+      <svg:circle cx="256" cy="256" r="256" fill="#fff" />
+    </svg:mask>
     <svg:g mask="url(#a)">
       <svg:path
         fill="#eee"
@@ -69,6 +60,7 @@ import {
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
+    '[attr.viewBox]': 'viewBox()',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
@@ -80,4 +72,6 @@ export class SiIt88FlagIcon {
   readonly width = input<string | number>('512');
 
   readonly height = input<string | number>('512');
+
+  readonly viewBox = input<string>('0 0 512 512');
 }

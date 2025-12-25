@@ -16,7 +16,7 @@ import {
     <svg:g mask="url(#a)">
       <svg:path fill="#eee" d="M0 256 256 28l256 228v256H0Z" />
       <svg:path
-        fill="#0052b4"
+        fill="#002266"
         d="m114 256 142 228 142-228-142 57ZM0 0h512v256H398L256 28 114 256H0Z"
       />
     </svg:g>

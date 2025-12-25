@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-it-52-flag-icon]',
+  selector: 'svg[si-ua-kpr-flag-icon]',
   standalone: true,
   imports: [],
   template: `
@@ -14,12 +14,12 @@ import {
       <svg:circle cx="256" cy="256" r="256" fill="#fff" />
     </svg:mask>
     <svg:g mask="url(#a)">
-      <svg:path fill="#eee" d="M0 0h512v512H0V0Z" />
-      <svg:path fill="#d80027" d="M0 392h512v48.3H0zM0 79.7h512V128H0z" />
       <svg:path
-        fill="#acabb1"
-        d="M352 264v-8l-24-24h-24.2L288 200a8 8 0 0 0 8-8h16v-24h-40a8 8 0 0 0-8-8v16a8 8 0 0 0-8 8v30.1a23.9 23.9 0 0 0-16-6.1h-64a16 16 0 0 0 16 16 16 16 0 0 0 16 16 8 8 0 0 0 8 8h32a8 8 0 0 1-8 8h-8a24 24 0 0 0-24 24 24 24 0 0 0-24-24 16 16 0 0 0-16 16v16a8 8 0 0 1-8 8h8a16 16 0 0 0 16-16 8 8 0 1 1 16 0 8 8 0 0 0 8 8h1.4a24 24 0 0 0 22.6 16v8a16 16 0 0 0 16 16l16 16v8h8v-8l-24-24v-8a16 16 0 0 0 16 16l16 16v8h8v-8l-24-24v-21.2c13.9-2.5 27.2-9 38-19.6l.6-.6L328 264l16 16v8h8v-8l-24-24h-16c0-2.2-.2-4.3-.6-6.4L328 240l16 16v8h8Z"
+        fill="#0052b4"
+        d="M128 0H0v128l160 224 224 160h128V384L352 160Z"
       />
+      <svg:path fill="#eee" d="M512 384 128 0h384Z" />
+      <svg:path fill="#ffda44" d="m0 128 384 384H0z" />
     </svg:g>
   `,
   host: {
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiIt52FlagIcon {
+export class SiUaKprFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('512');

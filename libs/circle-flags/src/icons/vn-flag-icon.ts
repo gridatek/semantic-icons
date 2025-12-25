@@ -14,11 +14,8 @@ import {
       <svg:circle cx="256" cy="256" r="256" fill="#fff" />
     </svg:mask>
     <svg:g mask="url(#a)">
-      <svg:path fill="#d80027" d="M0 0h512v512H0z" />
-      <svg:path
-        fill="#ffda44"
-        d="m256 133.6 27.6 85H373L300.7 271l27.6 85-72.3-52.5-72.3 52.6 27.6-85-72.3-52.6h89.4z"
-      />
+      <svg:path fill="#d80027" d="M0 0h512v512H0Z" />
+      <svg:path fill="#ffda44" d="m176 378 208-150H128l208 150-80-244Z" />
     </svg:g>
   `,
   host: {

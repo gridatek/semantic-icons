@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tibet-flag-icon]',
+  selector: 'svg[si-cn-xz-flag-icon]',
   standalone: true,
   imports: [],
   template: `
@@ -44,7 +44,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTibetFlagIcon {
+export class SiCnXzFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('512');
