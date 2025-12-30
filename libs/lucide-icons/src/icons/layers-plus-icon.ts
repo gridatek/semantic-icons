@@ -6,15 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flashlight-icon]',
+  selector: 'svg[si-layers-plus-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 13v1" />
     <svg:path
-      d="M17 2a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8A4 4 0 0 0 16 12v8a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V3a1 1 0 0 1 1-1z"
+      d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 .83.18 2 2 0 0 0 .83-.18l8.58-3.9a1 1 0 0 0 0-1.831z"
     />
-    <svg:path d="M6 6h12" />
+    <svg:path d="M16 17h6" />
+    <svg:path d="M19 14v6" />
+    <svg:path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 .825.178" />
+    <svg:path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l2.116-.962" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -32,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlashlightIcon {
+export class SiLayersPlusIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

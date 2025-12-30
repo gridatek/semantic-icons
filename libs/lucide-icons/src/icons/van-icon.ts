@@ -6,15 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flashlight-icon]',
+  selector: 'svg[si-van-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 13v1" />
     <svg:path
-      d="M17 2a1 1 0 0 1 1 1v4a3 3 0 0 1-.6 1.8l-.6.8A4 4 0 0 0 16 12v8a2 2 0 0 1-2 2H10a2 2 0 0 1-2-2v-8a4 4 0 0 0-.8-2.4l-.6-.8A3 3 0 0 1 6 7V3a1 1 0 0 1 1-1z"
+      d="M13 6v5a1 1 0 0 0 1 1h6.102a1 1 0 0 1 .712.298l.898.91a1 1 0 0 1 .288.702V17a1 1 0 0 1-1 1h-3"
     />
-    <svg:path d="M6 6h12" />
+    <svg:path
+      d="M5 18H3a1 1 0 0 1-1-1V8a2 2 0 0 1 2-2h12c1.1 0 2.1.8 2.4 1.8l1.176 4.2"
+    />
+    <svg:path d="M9 18h5" />
+    <svg:circle cx="16" cy="18" r="2" />
+    <svg:circle cx="7" cy="18" r="2" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -32,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlashlightIcon {
+export class SiVanIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');
