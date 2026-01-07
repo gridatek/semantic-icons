@@ -65,7 +65,7 @@
     "@schematics/angular": "20.0.3",
     "@swc-node/register": "~1.11.1",
     "@swc/cli": "^0.7.9",
-    "@swc/core": "~1.15.5",
+    "@swc/core": "~1.15.8",
     "@swc/helpers": "~0.5.15",
     "@tabler/icons": "^3.36.0",
     "@tailwindcss/typography": "^0.5.16",
