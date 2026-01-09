@@ -6,12 +6,12 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-focus-line-icon]',
+  selector: 'svg[si-issues-reopen-fill-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path
-      d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12 14.5 13.3807 13.3807 14.5 12 14.5 10.6193 14.5 9.5 13.3807 9.5 12 9.5 10.6193 10.6193 9.5 12 9.5ZM12 2C17.5228 2 22 6.47715 22 12 22 17.5228 17.5228 22 12 22 6.47715 22 2 17.5228 2 12 2 6.47715 6.47715 2 12 2ZM12 4C7.58172 4 4 7.58172 4 12 4 16.4183 7.58172 20 12 20 16.4183 20 20 16.4183 20 12 20 7.58172 16.4183 4 12 4Z"
+      d="M22 12C22 17.5228 17.5228 22 12 22C8.85557 22 6.05074 20.5479 4.21875 18.2812L2 20.5V14.5H8L5.64258 16.8574C7.10589 18.7696 9.40952 20 12 20C16.4183 20 20 16.4183 20 12H22ZM12 10C13.1046 10 14 10.8954 14 12C14 13.1046 13.1046 14 12 14C10.8954 14 10 13.1046 10 12C10 10.8954 10.8954 10 12 10ZM12 2C15.1444 2 17.9493 3.45212 19.7812 5.71875L22 3.5V9.5H16L18.3574 7.14258C16.8941 5.23038 14.5905 4 12 4C7.58172 4 4 7.58172 4 12H2C2 6.47715 6.47715 2 12 2Z"
     />
   `,
   host: {
@@ -23,7 +23,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFocusLineIcon {
+export class SiIssuesReopenFillIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly viewBox = input<string>('0 0 24 24');

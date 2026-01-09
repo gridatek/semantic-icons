@@ -6,12 +6,12 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-focus-line-icon]',
+  selector: 'svg[si-piano-grand-line-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path
-      d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12 14.5 13.3807 13.3807 14.5 12 14.5 10.6193 14.5 9.5 13.3807 9.5 12 9.5 10.6193 10.6193 9.5 12 9.5ZM12 2C17.5228 2 22 6.47715 22 12 22 17.5228 17.5228 22 12 22 6.47715 22 2 17.5228 2 12 2 6.47715 6.47715 2 12 2ZM12 4C7.58172 4 4 7.58172 4 12 4 16.4183 7.58172 20 12 20 16.4183 20 20 16.4183 20 12 20 7.58172 16.4183 4 12 4Z"
+      d="M9 2C11.4294 2 13.5695 3.23888 14.8232 5.11426C15.1696 5.63206 15.739 6.0129 16.3555 6.13867C19.5173 6.78336 22 9.6141 22 13V20C22 20.5523 21.5523 21 21 21H3C2.44772 21 2 20.5523 2 20V9C2 5.13401 5.13401 2 9 2ZM4 19H20V14H19V17H17V14H15V17H13V14H11V17H9V14H7V17H5V14H4V19ZM9 4C6.23858 4 4 6.23858 4 9V12H19.8945C19.4832 10.0556 17.9045 8.49592 15.9561 8.09863C14.8292 7.86885 13.8028 7.18685 13.1602 6.22559C12.2617 4.88171 10.7337 4 9 4Z"
     />
   `,
   host: {
@@ -23,7 +23,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFocusLineIcon {
+export class SiPianoGrandLineIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly viewBox = input<string>('0 0 24 24');

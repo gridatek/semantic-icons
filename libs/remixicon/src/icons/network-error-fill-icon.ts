@@ -6,12 +6,12 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-focus-line-icon]',
+  selector: 'svg[si-network-error-fill-icon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path
-      d="M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12 14.5 13.3807 13.3807 14.5 12 14.5 10.6193 14.5 9.5 13.3807 9.5 12 9.5 10.6193 10.6193 9.5 12 9.5ZM12 2C17.5228 2 22 6.47715 22 12 22 17.5228 17.5228 22 12 22 6.47715 22 2 17.5228 2 12 2 6.47715 6.47715 2 12 2ZM12 4C7.58172 4 4 7.58172 4 12 4 16.4183 7.58172 20 12 20 16.4183 20 20 16.4183 20 12 20 7.58172 16.4183 4 12 4Z"
+      d="M20.207 16.207L18.4141 18L20.207 19.793L18.793 21.207L17 19.4141L15.207 21.207L13.793 19.793L15.5859 18L13.793 16.207L15.207 14.793L17 16.5859L18.793 14.793L20.207 16.207ZM14 3C14.5523 3 15 3.44772 15 4V8C15 8.55228 14.5523 9 14 9H13V11H21V13H18V14.5H16V13H8V15H9C9.55228 15 10 15.4477 10 16V20C10 20.5523 9.55228 21 9 21H5C4.44772 21 4 20.5523 4 20V16L4.00488 15.8975C4.05621 15.3933 4.48232 15 5 15H6V13H3V11H11V9H10C9.44772 9 9 8.55228 9 8V4C9 3.44772 9.44772 3 10 3H14Z"
     />
   `,
   host: {
@@ -23,7 +23,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFocusLineIcon {
+export class SiNetworkErrorFillIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly viewBox = input<string>('0 0 24 24');
