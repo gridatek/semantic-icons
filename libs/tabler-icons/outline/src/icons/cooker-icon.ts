@@ -15,7 +15,7 @@ import {
     <svg:path d="M15 7h.01" />
     <svg:path d="M9 7h.01" />
     <svg:path
-      d="M5 3m0 2a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2z"
+      d="M5 5a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v14a2 2 0 0 1 -2 2h-10a2 2 0 0 1 -2 -2l0 -14"
     />
     <svg:path d="M9 15h6" />
     <svg:path d="M5 11h14" />

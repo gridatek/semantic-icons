@@ -14,7 +14,7 @@ import {
     <svg:path
       d="M11 18h-2a3 3 0 0 1 -3 -3v-6a3 3 0 0 1 3 -3h6a3 3 0 0 1 3 3v2"
     />
-    <svg:path d="M18 18m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <svg:path d="M15 18a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     <svg:path d="M20.2 20.2l1.8 1.8" />
     <svg:path d="M9 18v3h3" />
     <svg:path d="M9 6v-3h6v3" />

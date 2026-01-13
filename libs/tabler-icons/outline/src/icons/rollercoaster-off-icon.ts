@@ -18,7 +18,7 @@ import {
     <svg:path d="M8 21v-3" />
     <svg:path d="M12 21v-9" />
     <svg:path d="M16 9.5v2.5m0 4v5" />
-    <svg:path d="M15 3h5v3h-5z" />
+    <svg:path d="M15 3h5v3h-5l0 -3" />
     <svg:path
       d="M9.446 5.415l.554 -.415l2 2.5l-.285 .213m-2.268 1.702l-1.447 1.085l-1.8 -.5l-.2 -2l1.139 -.854"
     />

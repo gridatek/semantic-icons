@@ -13,7 +13,7 @@ import {
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path d="M13 4a1 1 0 1 0 2 0a1 1 0 0 0 -2 0" />
     <svg:path
-      d="M20.5 10a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z"
+      d="M20.5 10a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1"
       fill="currentColor"
     />
     <svg:path d="M2 16l5 1l.5 -2.5" />

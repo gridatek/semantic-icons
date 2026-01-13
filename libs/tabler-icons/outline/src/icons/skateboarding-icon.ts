@@ -16,12 +16,12 @@ import {
     <svg:path d="M14 19v-5l-2.5 -3l2.5 -4" />
     <svg:path d="M8 8l3 -1h4l1 3h3" />
     <svg:path
-      d="M17.5 21a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z"
+      d="M17.5 21a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1"
       fill="currentColor"
     />
     <svg:path d="M3 18c0 .552 .895 1 2 1h14c1.105 0 2 -.448 2 -1" />
     <svg:path
-      d="M6.5 21a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z"
+      d="M6.5 21a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1"
       fill="currentColor"
     />
   `,

@@ -11,8 +11,8 @@ import {
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:circle cx="12" cy="6" r="1" fill="currentColor" />
-    <svg:circle cx="12" cy="18" r="1" fill="currentColor" />
+    <svg:path d="M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
+    <svg:path d="M11 18a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
     <svg:path d="M5 12l14 0" />
   `,
   host: {

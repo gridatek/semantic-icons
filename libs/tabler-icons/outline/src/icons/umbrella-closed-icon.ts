@@ -11,7 +11,7 @@ import {
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M9 16l3 -13l3 13z" />
+    <svg:path d="M9 16l3 -13l3 13l-6 0" />
     <svg:path d="M12 16v3c0 2.667 4 2.667 4 0" />
   `,
   host: {

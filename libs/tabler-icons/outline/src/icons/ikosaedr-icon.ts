@@ -19,7 +19,7 @@ import {
     <svg:path d="M20.7 17h-17.4" />
     <svg:path d="M11.76 2.03l-4.26 6.97l-4.3 7.84" />
     <svg:path d="M12.24 2.03q 2.797 4.44 4.26 6.97t 4.3 7.84" />
-    <svg:path d="M12 17l-4.5 -8h9z" />
+    <svg:path d="M12 17l-4.5 -8h9l-4.5 8" />
     <svg:path d="M12 17v5" />
   `,
   host: {

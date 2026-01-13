@@ -12,7 +12,7 @@ import {
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path d="M13 11l6 -6" />
-    <svg:path d="M9 15m-5 0a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
+    <svg:path d="M4 15a5 5 0 1 0 10 0a5 5 0 1 0 -10 0" />
     <svg:path d="M19 9v-4h-4" />
     <svg:path d="M16.5 10.5l-3 -3" />
   `,

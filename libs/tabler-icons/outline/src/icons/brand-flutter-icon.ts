@@ -11,8 +11,8 @@ import {
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M7 14l-3 -3l8 -8h6z" />
-    <svg:path d="M14 21l-5 -5l5 -5h5l-5 5l5 5z" />
+    <svg:path d="M7 14l-3 -3l8 -8h6l-11 11" />
+    <svg:path d="M14 21l-5 -5l5 -5h5l-5 5l5 5l-5 0" />
   `,
   host: {
     role: 'img',

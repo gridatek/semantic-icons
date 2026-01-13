@@ -16,7 +16,7 @@ import {
     <svg:path d="M14 21v-4l-4 -3l1 -6" />
     <svg:path d="M6 12v-3l5 -1l3 3l3 1" />
     <svg:path
-      d="M19.5 20a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1z"
+      d="M19.5 20a.5 .5 0 1 0 0 -1a.5 .5 0 0 0 0 1"
       fill="currentColor"
     />
   `,

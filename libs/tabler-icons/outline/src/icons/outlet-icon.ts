@@ -12,10 +12,16 @@ import {
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path
-      d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"
+      d="M4 6a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2l0 -12"
     />
-    <svg:circle cx="9" cy="12" r=".5" fill="currentColor" />
-    <svg:circle cx="15" cy="12" r=".5" fill="currentColor" />
+    <svg:path
+      d="M8.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0"
+      fill="currentColor"
+    />
+    <svg:path
+      d="M14.5 12a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0"
+      fill="currentColor"
+    />
   `,
   host: {
     role: 'img',

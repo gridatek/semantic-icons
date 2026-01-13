@@ -621,7 +621,7 @@ export * from './icons/brand-adobe-after-effect-icon';
 export * from './icons/brand-adobe-illustrator-icon';
 export * from './icons/brand-adobe-indesign-icon';
 export * from './icons/brand-adobe-photoshop-icon';
-export * from './icons/brand-adobe-premier-icon';
+export * from './icons/brand-adobe-premiere-icon';
 export * from './icons/brand-adobe-xd-icon';
 export * from './icons/brand-adobe-icon';
 export * from './icons/brand-adonis-js-icon';

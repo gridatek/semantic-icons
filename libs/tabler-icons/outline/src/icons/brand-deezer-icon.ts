@@ -11,16 +11,16 @@ import {
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M3 16.5h2v.5h-2z" />
-    <svg:path d="M8 16.5h2.5v.5h-2.5z" />
-    <svg:path d="M16 17h-2.5v-.5h2.5z" />
-    <svg:path d="M21.5 17h-2.5v-.5h2.5z" />
-    <svg:path d="M21.5 13h-2.5v.5h2.5z" />
-    <svg:path d="M21.5 9.5h-2.5v.5h2.5z" />
-    <svg:path d="M21.5 6h-2.5v.5h2.5z" />
-    <svg:path d="M16 13h-2.5v.5h2.5z" />
-    <svg:path d="M8 13.5h2.5v-.5h-2.5z" />
-    <svg:path d="M8 9.5h2.5v.5h-2.5z" />
+    <svg:path d="M3 16.5h2v.5h-2l0 -.5" />
+    <svg:path d="M8 16.5h2.5v.5h-2.5l0 -.5" />
+    <svg:path d="M16 17h-2.5v-.5h2.5l0 .5" />
+    <svg:path d="M21.5 17h-2.5v-.5h2.5l0 .5" />
+    <svg:path d="M21.5 13h-2.5v.5h2.5l0 -.5" />
+    <svg:path d="M21.5 9.5h-2.5v.5h2.5l0 -.5" />
+    <svg:path d="M21.5 6h-2.5v.5h2.5l0 -.5" />
+    <svg:path d="M16 13h-2.5v.5h2.5l0 -.5" />
+    <svg:path d="M8 13.5h2.5v-.5h-2.5l0 .5" />
+    <svg:path d="M8 9.5h2.5v.5h-2.5l0 -.5" />
   `,
   host: {
     role: 'img',

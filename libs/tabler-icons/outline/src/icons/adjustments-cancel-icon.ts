@@ -20,7 +20,7 @@ import {
     <svg:path d="M16 7a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
     <svg:path d="M18 4v1" />
     <svg:path d="M18 9v3" />
-    <svg:path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <svg:path d="M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     <svg:path d="M17 21l4 -4" />
   `,
   host: {

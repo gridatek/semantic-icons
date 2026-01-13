@@ -16,7 +16,7 @@ import {
     />
     <svg:path d="M9 18v3h3" />
     <svg:path d="M9 6v-3h6v3" />
-    <svg:path d="M19 19m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+    <svg:path d="M16 19a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
     <svg:path d="M17 21l4 -4" />
   `,
   host: {

@@ -11,10 +11,10 @@ import {
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M7 16.5l-5 -3l5 -3l5 3v5.5l-5 3z" />
+    <svg:path d="M7 16.5l-5 -3l5 -3l5 3v5.5l-5 3l0 -5.5" />
     <svg:path d="M2 13.5v5.5l5 3" />
     <svg:path d="M7 16.545l5 -3.03" />
-    <svg:path d="M17 16.5l-5 -3l5 -3l5 3v5.5l-5 3z" />
+    <svg:path d="M17 16.5l-5 -3l5 -3l5 3v5.5l-5 3l0 -5.5" />
     <svg:path d="M12 19l5 3" />
     <svg:path d="M17 16.5l5 -3" />
     <svg:path d="M12 13.5v-5.5l-5 -3l5 -3l5 3v5.5" />

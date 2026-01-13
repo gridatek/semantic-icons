@@ -13,7 +13,7 @@ import {
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path d="M2 12l10 7.422l10 -7.422" />
     <svg:path d="M7 9l5 4l5 -4" />
-    <svg:path d="M11 6l1 .8l1 -.8l-1 -.8z" />
+    <svg:path d="M11 6l1 .8l1 -.8l-1 -.8l-1 .8" />
   `,
   host: {
     role: 'img',

@@ -16,7 +16,7 @@ import {
     <svg:path d="M6 4v5" />
     <svg:path d="M6 15v5" />
     <svg:path d="M10 4v5" />
-    <svg:path d="M11 9h-6v6h6z" />
+    <svg:path d="M11 9h-6v6h6l0 -6" />
     <svg:path d="M10 15v5" />
     <svg:path d="M8 12h-.01" />
   `,

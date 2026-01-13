@@ -13,11 +13,11 @@ import {
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path d="M10 15h-6a1 1 0 0 1 -1 -1v-8a1 1 0 0 1 1 -1h6" />
     <svg:path
-      d="M13 4m0 1a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1z"
+      d="M13 5a1 1 0 0 1 1 -1h6a1 1 0 0 1 1 1v14a1 1 0 0 1 -1 1h-6a1 1 0 0 1 -1 -1l0 -14"
     />
     <svg:path d="M7 19l3 0" />
     <svg:path d="M17 8l0 .01" />
-    <svg:path d="M17 16m-1 0a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <svg:path d="M16 16a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
     <svg:path d="M9 15l0 4" />
   `,
   host: {

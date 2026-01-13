@@ -12,8 +12,11 @@ import {
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path d="M9 14l6 -6" />
-    <svg:circle cx="9.5" cy="8.5" r=".5" fill="currentColor" />
-    <svg:circle cx="14.5" cy="13.5" r=".5" fill="currentColor" />
+    <svg:path d="M9 8.5a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0" fill="currentColor" />
+    <svg:path
+      d="M14 13.5a.5 .5 0 1 0 1 0a.5 .5 0 1 0 -1 0"
+      fill="currentColor"
+    />
     <svg:path
       d="M5 21v-16a2 2 0 0 1 2 -2h10a2 2 0 0 1 2 2v16l-3 -2l-2 2l-2 -2l-2 2l-2 -2l-3 2"
     />

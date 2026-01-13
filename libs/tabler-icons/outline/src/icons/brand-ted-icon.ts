@@ -15,7 +15,7 @@ import {
     <svg:path d="M4 8v8" />
     <svg:path d="M13 8h-4v8h4" />
     <svg:path d="M9 12h2.5" />
-    <svg:path d="M16 8v8h2a3 3 0 0 0 3 -3v-2a3 3 0 0 0 -3 -3h-2z" />
+    <svg:path d="M16 8v8h2a3 3 0 0 0 3 -3v-2a3 3 0 0 0 -3 -3h-2" />
   `,
   host: {
     role: 'img',
