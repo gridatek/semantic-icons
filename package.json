@@ -66,7 +66,7 @@
     "@swc-node/register": "~1.11.1",
     "@swc/cli": "^0.7.9",
     "@swc/core": "~1.15.8",
-    "@swc/helpers": "~0.5.15",
+    "@swc/helpers": "~0.5.18",
     "@tabler/icons": "^3.36.1",
     "@tailwindcss/typography": "^0.5.16",
     "@trivago/prettier-plugin-sort-imports": "^6.0.0",
