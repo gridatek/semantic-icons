@@ -15,7 +15,7 @@ import {
     </svg:mask>
     <svg:g mask="url(#a)">
       <svg:path fill="#eee" d="m0 256 258.2-43.3L512 256v256H0z" />
-      <svg:path fill="#d80027" d="M0 0h512v256H0z" />
+      <svg:path fill="#a2001d" d="M0 0h512v256H0z" />
     </svg:g>
   `,
   host: {
