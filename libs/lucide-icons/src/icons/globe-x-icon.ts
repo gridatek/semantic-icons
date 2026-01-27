@@ -6,15 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-monitor-off-icon]',
+  selector: 'svg[si-globe-x-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 17v4" />
-    <svg:path d="M17 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 1.184-1.826" />
-    <svg:path d="m2 2 20 20" />
-    <svg:path d="M8 21h8" />
-    <svg:path d="M8.656 3H20a2 2 0 0 1 2 2v10a2 2 0 0 1-.293 1.042" />
+    <svg:path d="m16 3 5 5" />
+    <svg:path
+      d="M2 12h20A10 10 0 1 1 12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 4-10"
+    />
+    <svg:path d="m21 3-5 5" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiMonitorOffIcon {
+export class SiGlobeXIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

@@ -6,15 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-monitor-off-icon]',
+  selector: 'svg[si-printer-x-icon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 17v4" />
-    <svg:path d="M17 17H4a2 2 0 0 1-2-2V5a2 2 0 0 1 1.184-1.826" />
-    <svg:path d="m2 2 20 20" />
-    <svg:path d="M8 21h8" />
-    <svg:path d="M8.656 3H20a2 2 0 0 1 2 2v10a2 2 0 0 1-.293 1.042" />
+    <svg:path d="M12.531 22H7a1 1 0 0 1-1-1v-6a1 1 0 0 1 1-1h6.377" />
+    <svg:path d="m16.5 16.5 5 5" />
+    <svg:path d="m16.5 21.5 5-5" />
+    <svg:path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v1.5" />
+    <svg:path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiMonitorOffIcon {
+export class SiPrinterXIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly width = input<string | number>('24');

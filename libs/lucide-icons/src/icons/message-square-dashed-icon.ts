@@ -10,21 +10,16 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 19h.01" />
-    <svg:path d="M12 3h.01" />
-    <svg:path d="M16 19h.01" />
-    <svg:path d="M16 3h.01" />
-    <svg:path d="M2 13h.01" />
-    <svg:path
-      d="M2 17v4.286a.71.71 0 0 0 1.212.502l2.202-2.202A2 2 0 0 1 6.828 19H8"
-    />
-    <svg:path d="M2 5a2 2 0 0 1 2-2" />
-    <svg:path d="M2 9h.01" />
-    <svg:path d="M20 3a2 2 0 0 1 2 2" />
-    <svg:path d="M22 13h.01" />
-    <svg:path d="M22 17a2 2 0 0 1-2 2" />
-    <svg:path d="M22 9h.01" />
-    <svg:path d="M8 3h.01" />
+    <svg:path d="M14 3h2" />
+    <svg:path d="M16 19h-2" />
+    <svg:path d="M2 12v-2" />
+    <svg:path d="M2 16v5.286a.71.71 0 0 0 1.212.502l1.149-1.149" />
+    <svg:path d="M20 19a2 2 0 0 0 2-2v-1" />
+    <svg:path d="M22 10v2" />
+    <svg:path d="M22 6V5a2 2 0 0 0-2-2" />
+    <svg:path d="M4 3a2 2 0 0 0-2 2v1" />
+    <svg:path d="M8 19h2" />
+    <svg:path d="M8 3h2" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
