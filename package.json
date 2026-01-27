@@ -69,7 +69,7 @@
     "@swc/helpers": "~0.5.18",
     "@tabler/icons": "^3.36.1",
     "@tailwindcss/typography": "^0.5.16",
-    "@trivago/prettier-plugin-sort-imports": "^6.0.0",
+    "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@types/jest": "^29.5.14",
     "@types/node": "^25.0.3",
     "@types/tmp": "^0.2.6",
