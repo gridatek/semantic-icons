@@ -76,7 +76,7 @@ import { SafeHtmlPipe } from './safe-html.pipe';
         <div sc-sheet>
           <div class="max-h-screen overflow-y-auto">
             <button sc-sheet-close>
-              <svg class="size-4" si-x-icon></svg>
+              <svg class="size-4" siXIcon></svg>
               <span class="sr-only">Close</span>
             </button>
 

@@ -28,7 +28,7 @@ import { SiFrFlagIcon } from '@semantic-icons/circle-flags';
   standalone: true,
   imports: [SiFrFlagIcon],
   template: `
-    <svg class="size-36" si-fr-flag-icon></svg>
+    <svg class="size-36" siFrFlagIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

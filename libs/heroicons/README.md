@@ -28,7 +28,7 @@ import { SiBeakerIcon } from '@semantic-icons/heroicons/24/solid';
   standalone: true,
   imports: [SiBeakerIcon],
   template: `
-    <svg class="size-6 text-blue-500" si-beaker-icon></svg>
+    <svg class="size-6 text-blue-500" siBeakerIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

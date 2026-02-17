@@ -28,7 +28,7 @@ import { SiTrophy1Icon } from '@semantic-icons/lineicons';
   standalone: true,
   imports: [SiTrophy1Icon],
   template: `
-    <svg class="size-6" si-trophy-1-icon></svg>
+    <svg class="size-6" siTrophy1Icon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,
