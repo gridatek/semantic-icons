@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dharmachakra-icon]',
+  selector: 'svg[siDharmachakraIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-erpnext-icon]',
+  selector: 'svg[siErpnextIcon]',
   standalone: true,
   imports: [],
   template: `

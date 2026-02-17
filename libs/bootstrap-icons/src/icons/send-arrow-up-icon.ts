@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-send-arrow-up-icon]',
+  selector: 'svg[siSendArrowUpIcon]',
   standalone: true,
   imports: [],
   template: `

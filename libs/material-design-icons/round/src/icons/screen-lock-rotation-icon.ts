@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-screen-lock-rotation-icon]',
+  selector: 'svg[siScreenLockRotationIcon]',
   standalone: true,
   imports: [],
   template: `

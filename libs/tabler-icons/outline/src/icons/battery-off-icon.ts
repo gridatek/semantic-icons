@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-battery-off-icon]',
+  selector: 'svg[siBatteryOffIcon]',
   standalone: true,
   imports: [],
   template: `

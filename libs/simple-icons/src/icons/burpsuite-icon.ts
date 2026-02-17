@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-burpsuite-icon]',
+  selector: 'svg[siBurpsuiteIcon]',
   standalone: true,
   imports: [],
   template: `

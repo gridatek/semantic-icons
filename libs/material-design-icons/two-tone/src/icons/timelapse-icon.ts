@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-timelapse-icon]',
+  selector: 'svg[siTimelapseIcon]',
   standalone: true,
   imports: [],
   template: `

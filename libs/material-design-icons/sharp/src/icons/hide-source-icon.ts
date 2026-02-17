@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hide-source-icon]',
+  selector: 'svg[siHideSourceIcon]',
   standalone: true,
   imports: [],
   template: `

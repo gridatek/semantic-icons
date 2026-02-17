@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logstash-icon]',
+  selector: 'svg[siLogstashIcon]',
   standalone: true,
   imports: [],
   template: `

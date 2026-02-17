@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bounce-left-icon]',
+  selector: 'svg[siBounceLeftIcon]',
   standalone: true,
   imports: [],
   template: `

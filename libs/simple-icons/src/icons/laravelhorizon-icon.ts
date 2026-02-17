@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-laravelhorizon-icon]',
+  selector: 'svg[siLaravelhorizonIcon]',
   standalone: true,
   imports: [],
   template: `

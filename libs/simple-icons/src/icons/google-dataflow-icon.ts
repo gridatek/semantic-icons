@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googledataflow-icon]',
+  selector: 'svg[siGoogleDataflowIcon]',
   standalone: true,
   imports: [],
   template: `

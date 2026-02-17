@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-finger-print-outline-icon]',
+  selector: 'svg[siFingerPrintOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

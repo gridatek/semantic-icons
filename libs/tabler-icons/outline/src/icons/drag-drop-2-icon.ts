@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-drag-drop-2-icon]',
+  selector: 'svg[siDragDrop2Icon]',
   standalone: true,
   imports: [],
   template: `

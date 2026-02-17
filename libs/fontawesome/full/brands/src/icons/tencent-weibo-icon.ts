@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tencent-weibo-icon]',
+  selector: 'svg[siTencentWeiboIcon]',
   standalone: true,
   imports: [],
   template: `

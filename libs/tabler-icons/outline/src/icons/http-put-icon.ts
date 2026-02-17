@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-put-icon]',
+  selector: 'svg[siHttpPutIcon]',
   standalone: true,
   imports: [],
   template: `

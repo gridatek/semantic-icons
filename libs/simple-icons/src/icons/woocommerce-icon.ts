@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-woocommerce-icon]',
+  selector: 'svg[siWoocommerceIcon]',
   standalone: true,
   imports: [],
   template: `

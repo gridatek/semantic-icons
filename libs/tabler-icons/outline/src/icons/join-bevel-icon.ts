@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-join-bevel-icon]',
+  selector: 'svg[siJoinBevelIcon]',
   standalone: true,
   imports: [],
   template: `

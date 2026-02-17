@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pci-card-sound-icon]',
+  selector: 'svg[siPciCardSoundIcon]',
   standalone: true,
   imports: [],
   template: `

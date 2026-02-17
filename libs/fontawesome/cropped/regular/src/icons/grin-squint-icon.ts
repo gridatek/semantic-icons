@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-grin-squint-icon]',
+  selector: 'svg[siGrinSquintIcon]',
   standalone: true,
   imports: [],
   template: `

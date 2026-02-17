@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-quantconnect-icon]',
+  selector: 'svg[siQuantconnectIcon]',
   standalone: true,
   imports: [],
   template: `

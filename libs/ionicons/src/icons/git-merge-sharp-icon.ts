@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-git-merge-sharp-icon]',
+  selector: 'svg[siGitMergeSharpIcon]',
   standalone: true,
   imports: [],
   template: `

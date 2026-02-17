@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-tray-full-outline-icon]',
+  selector: 'svg[siFileTrayFullOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-no-derivatives-icon]',
+  selector: 'svg[siNoDerivativesIcon]',
   standalone: true,
   imports: [],
   template: `

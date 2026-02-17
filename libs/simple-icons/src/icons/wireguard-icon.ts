@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wireguard-icon]',
+  selector: 'svg[siWireguardIcon]',
   standalone: true,
   imports: [],
   template: `

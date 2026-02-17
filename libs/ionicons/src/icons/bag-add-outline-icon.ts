@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bag-add-outline-icon]',
+  selector: 'svg[siBagAddOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

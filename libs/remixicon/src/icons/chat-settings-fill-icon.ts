@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chat-settings-fill-icon]',
+  selector: 'svg[siChatSettingsFillIcon]',
   standalone: true,
   imports: [],
   template: `

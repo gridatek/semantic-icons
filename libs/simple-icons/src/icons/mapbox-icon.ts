@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mapbox-icon]',
+  selector: 'svg[siMapboxIcon]',
   standalone: true,
   imports: [],
   template: `

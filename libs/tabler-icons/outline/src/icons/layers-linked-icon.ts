@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layers-linked-icon]',
+  selector: 'svg[siLayersLinkedIcon]',
   standalone: true,
   imports: [],
   template: `

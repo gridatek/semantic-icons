@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-openmediavault-icon]',
+  selector: 'svg[siOpenmediavaultIcon]',
   standalone: true,
   imports: [],
   template: `

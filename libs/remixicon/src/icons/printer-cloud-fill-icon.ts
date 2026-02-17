@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-printer-cloud-fill-icon]',
+  selector: 'svg[siPrinterCloudFillIcon]',
   standalone: true,
   imports: [],
   template: `

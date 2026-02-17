@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-nuxt-icon]',
+  selector: 'svg[siBrandNuxtIcon]',
   standalone: true,
   imports: [],
   template: `

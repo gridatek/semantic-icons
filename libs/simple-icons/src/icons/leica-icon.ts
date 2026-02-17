@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-leica-icon]',
+  selector: 'svg[siLeicaIcon]',
   standalone: true,
   imports: [],
   template: `

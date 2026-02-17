@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-math-equal-greater-icon]',
+  selector: 'svg[siMathEqualGreaterIcon]',
   standalone: true,
   imports: [],
   template: `

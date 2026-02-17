@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fit-screen-icon]',
+  selector: 'svg[siFitScreenIcon]',
   standalone: true,
   imports: [],
   template: `

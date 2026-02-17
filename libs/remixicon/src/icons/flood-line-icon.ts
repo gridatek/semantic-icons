@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flood-line-icon]',
+  selector: 'svg[siFloodLineIcon]',
   standalone: true,
   imports: [],
   template: `

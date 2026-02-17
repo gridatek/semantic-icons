@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-maxplanckgesellschaft-icon]',
+  selector: 'svg[siMaxplanckgesellschaftIcon]',
   standalone: true,
   imports: [],
   template: `

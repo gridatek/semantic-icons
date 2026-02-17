@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gstreamer-icon]',
+  selector: 'svg[siGstreamerIcon]',
   standalone: true,
   imports: [],
   template: `

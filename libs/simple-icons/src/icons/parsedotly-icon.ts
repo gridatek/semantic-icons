@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-parsedotly-icon]',
+  selector: 'svg[siParsedotlyIcon]',
   standalone: true,
   imports: [],
   template: `

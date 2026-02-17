@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googleadsense-icon]',
+  selector: 'svg[siGoogleAdSenseIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bezier-icon]',
+  selector: 'svg[siBezierIcon]',
   standalone: true,
   imports: [],
   template: `

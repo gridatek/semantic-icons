@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-stack-overflow-line-icon]',
+  selector: 'svg[siStackOverflowLineIcon]',
   standalone: true,
   imports: [],
   template: `

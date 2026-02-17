@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-clock-icon]',
+  selector: 'svg[siFolderClockIcon]',
   standalone: true,
   imports: [],
   template: `

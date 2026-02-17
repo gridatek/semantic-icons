@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-insert-page-break-icon]',
+  selector: 'svg[siInsertPageBreakIcon]',
   standalone: true,
   imports: [],
   template: `

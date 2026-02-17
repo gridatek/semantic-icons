@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-send-and-archive-icon]',
+  selector: 'svg[siSendAndArchiveIcon]',
   standalone: true,
   imports: [],
   template: `

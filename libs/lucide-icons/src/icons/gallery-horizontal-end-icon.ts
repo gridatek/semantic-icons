@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gallery-horizontal-end-icon]',
+  selector: 'svg[siGalleryHorizontalEndIcon]',
   standalone: true,
   imports: [],
   template: `

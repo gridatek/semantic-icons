@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-libreofficebase-icon]',
+  selector: 'svg[siLibreofficebaseIcon]',
   standalone: true,
   imports: [],
   template: `

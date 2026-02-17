@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-launchpad-icon]',
+  selector: 'svg[siLaunchpadIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-delete-bin-2-line-icon]',
+  selector: 'svg[siDeleteBin2LineIcon]',
   standalone: true,
   imports: [],
   template: `

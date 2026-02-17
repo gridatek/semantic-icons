@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-closed-caption-off-icon]',
+  selector: 'svg[siClosedCaptionOffIcon]',
   standalone: true,
   imports: [],
   template: `

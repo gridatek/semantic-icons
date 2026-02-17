@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-paritysubstrate-icon]',
+  selector: 'svg[siParitysubstrateIcon]',
   standalone: true,
   imports: [],
   template: `

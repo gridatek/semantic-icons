@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-add-location-alt-icon]',
+  selector: 'svg[siAddLocationAltIcon]',
   standalone: true,
   imports: [],
   template: `

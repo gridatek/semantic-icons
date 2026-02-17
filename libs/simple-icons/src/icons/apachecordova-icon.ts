@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachecordova-icon]',
+  selector: 'svg[siApachecordovaIcon]',
   standalone: true,
   imports: [],
   template: `

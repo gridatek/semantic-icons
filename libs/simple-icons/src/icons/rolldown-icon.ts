@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rolldown-icon]',
+  selector: 'svg[siRolldownIcon]',
   standalone: true,
   imports: [],
   template: `

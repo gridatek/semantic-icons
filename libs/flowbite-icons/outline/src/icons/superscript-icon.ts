@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-superscript-icon]',
+  selector: 'svg[siSuperscriptIcon]',
   standalone: true,
   imports: [],
   template: `

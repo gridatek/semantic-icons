@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wyze-icon]',
+  selector: 'svg[siWyzeIcon]',
   standalone: true,
   imports: [],
   template: `

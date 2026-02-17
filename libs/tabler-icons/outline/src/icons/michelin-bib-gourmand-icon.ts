@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-michelin-bib-gourmand-icon]',
+  selector: 'svg[siMichelinBibGourmandIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-shutter-speed-icon]',
+  selector: 'svg[siShutterSpeedIcon]',
   standalone: true,
   imports: [],
   template: `

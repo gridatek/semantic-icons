@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachedruid-icon]',
+  selector: 'svg[siApachedruidIcon]',
   standalone: true,
   imports: [],
   template: `

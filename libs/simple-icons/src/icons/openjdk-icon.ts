@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-openjdk-icon]',
+  selector: 'svg[siOpenjdkIcon]',
   standalone: true,
   imports: [],
   template: `

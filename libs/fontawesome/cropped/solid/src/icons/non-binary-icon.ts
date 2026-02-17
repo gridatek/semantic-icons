@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-non-binary-icon]',
+  selector: 'svg[siNonBinaryIcon]',
   standalone: true,
   imports: [],
   template: `

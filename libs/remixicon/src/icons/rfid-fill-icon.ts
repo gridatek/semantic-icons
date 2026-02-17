@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rfid-fill-icon]',
+  selector: 'svg[siRfidFillIcon]',
   standalone: true,
   imports: [],
   template: `

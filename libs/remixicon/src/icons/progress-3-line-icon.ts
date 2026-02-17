@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-progress-3-line-icon]',
+  selector: 'svg[siProgress3LineIcon]',
   standalone: true,
   imports: [],
   template: `

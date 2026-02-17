@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-volume-off-vibrate-fill-icon]',
+  selector: 'svg[siVolumeOffVibrateFillIcon]',
   standalone: true,
   imports: [],
   template: `

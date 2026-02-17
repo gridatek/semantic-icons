@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-shredder-icon]',
+  selector: 'svg[siShredderIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tachograph-digital-icon]',
+  selector: 'svg[siTachographDigitalIcon]',
   standalone: true,
   imports: [],
   template: `

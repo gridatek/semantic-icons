@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wipro-icon]',
+  selector: 'svg[siWiproIcon]',
   standalone: true,
   imports: [],
   template: `

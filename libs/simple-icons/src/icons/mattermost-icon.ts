@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mattermost-icon]',
+  selector: 'svg[siMattermostIcon]',
   standalone: true,
   imports: [],
   template: `

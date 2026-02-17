@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-exclamation-circle-fill-icon]',
+  selector: 'svg[siExclamationCircleFillIcon]',
   standalone: true,
   imports: [],
   template: `

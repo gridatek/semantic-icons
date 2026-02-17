@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sort-by-alpha-icon]',
+  selector: 'svg[siSortByAlphaIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-adobe-after-effect-icon]',
+  selector: 'svg[siBrandAdobeAfterEffectIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachecouchdb-icon]',
+  selector: 'svg[siApachecouchdbIcon]',
   standalone: true,
   imports: [],
   template: `

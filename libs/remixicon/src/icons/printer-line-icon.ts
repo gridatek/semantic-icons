@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-printer-line-icon]',
+  selector: 'svg[siPrinterLineIcon]',
   standalone: true,
   imports: [],
   template: `

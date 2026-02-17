@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-eclipseadoptium-icon]',
+  selector: 'svg[siEclipseadoptiumIcon]',
   standalone: true,
   imports: [],
   template: `

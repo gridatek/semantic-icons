@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-opennebula-icon]',
+  selector: 'svg[siOpennebulaIcon]',
   standalone: true,
   imports: [],
   template: `

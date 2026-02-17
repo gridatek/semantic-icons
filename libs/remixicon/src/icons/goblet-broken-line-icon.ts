@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-goblet-broken-line-icon]',
+  selector: 'svg[siGobletBrokenLineIcon]',
   standalone: true,
   imports: [],
   template: `

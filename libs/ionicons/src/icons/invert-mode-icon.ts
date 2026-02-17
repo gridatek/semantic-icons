@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-invert-mode-icon]',
+  selector: 'svg[siInvertModeIcon]',
   standalone: true,
   imports: [],
   template: `

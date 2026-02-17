@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hibernate-icon]',
+  selector: 'svg[siHibernateIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rubyonrails-icon]',
+  selector: 'svg[siRubyonrailsIcon]',
   standalone: true,
   imports: [],
   template: `

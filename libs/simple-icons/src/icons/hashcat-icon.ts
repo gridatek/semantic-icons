@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hashcat-icon]',
+  selector: 'svg[siHashcatIcon]',
   standalone: true,
   imports: [],
   template: `

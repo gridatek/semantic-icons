@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-instructure-icon]',
+  selector: 'svg[siInstructureIcon]',
   standalone: true,
   imports: [],
   template: `

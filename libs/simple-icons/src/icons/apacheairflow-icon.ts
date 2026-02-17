@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apacheairflow-icon]',
+  selector: 'svg[siApacheairflowIcon]',
   standalone: true,
   imports: [],
   template: `

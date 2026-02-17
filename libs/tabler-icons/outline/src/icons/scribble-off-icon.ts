@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-scribble-off-icon]',
+  selector: 'svg[siScribbleOffIcon]',
   standalone: true,
   imports: [],
   template: `

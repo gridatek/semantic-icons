@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-refresh-line-icon]',
+  selector: 'svg[siRefreshLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-window-restore-icon]',
+  selector: 'svg[siWindowRestoreIcon]',
   standalone: true,
   imports: [],
   template: `

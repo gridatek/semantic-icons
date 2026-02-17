@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gpp-bad-icon]',
+  selector: 'svg[siGppBadIcon]',
   standalone: true,
   imports: [],
   template: `

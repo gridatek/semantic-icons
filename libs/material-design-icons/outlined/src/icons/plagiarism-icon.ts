@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-plagiarism-icon]',
+  selector: 'svg[siPlagiarismIcon]',
   standalone: true,
   imports: [],
   template: `

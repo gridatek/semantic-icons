@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-viewfinder-icon]',
+  selector: 'svg[siViewfinderIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-windy-line-icon]',
+  selector: 'svg[siWindyLineIcon]',
   standalone: true,
   imports: [],
   template: `

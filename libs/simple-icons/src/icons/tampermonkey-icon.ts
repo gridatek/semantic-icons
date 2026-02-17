@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tampermonkey-icon]',
+  selector: 'svg[siTampermonkeyIcon]',
   standalone: true,
   imports: [],
   template: `

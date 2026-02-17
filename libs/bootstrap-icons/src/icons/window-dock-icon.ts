@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-window-dock-icon]',
+  selector: 'svg[siWindowDockIcon]',
   standalone: true,
   imports: [],
   template: `

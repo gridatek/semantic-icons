@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-receipt-cutoff-icon]',
+  selector: 'svg[siReceiptCutoffIcon]',
   standalone: true,
   imports: [],
   template: `

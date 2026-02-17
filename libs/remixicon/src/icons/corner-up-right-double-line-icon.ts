@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-corner-up-right-double-line-icon]',
+  selector: 'svg[siCornerUpRightDoubleLineIcon]',
   standalone: true,
   imports: [],
   template: `

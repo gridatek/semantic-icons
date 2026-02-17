@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thymeleaf-icon]',
+  selector: 'svg[siThymeleafIcon]',
   standalone: true,
   imports: [],
   template: `

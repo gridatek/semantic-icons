@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vibrate-off-icon]',
+  selector: 'svg[siVibrateOffIcon]',
   standalone: true,
   imports: [],
   template: `

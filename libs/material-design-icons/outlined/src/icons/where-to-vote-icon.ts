@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-where-to-vote-icon]',
+  selector: 'svg[siWhereToVoteIcon]',
   standalone: true,
   imports: [],
   template: `

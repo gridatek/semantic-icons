@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rectangle-ellipsis-icon]',
+  selector: 'svg[siRectangleEllipsisIcon]',
   standalone: true,
   imports: [],
   template: `

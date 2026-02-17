@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-highlight-off-icon]',
+  selector: 'svg[siHighlightOffIcon]',
   standalone: true,
   imports: [],
   template: `

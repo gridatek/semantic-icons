@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-panel-top-close-icon]',
+  selector: 'svg[siPanelTopCloseIcon]',
   standalone: true,
   imports: [],
   template: `

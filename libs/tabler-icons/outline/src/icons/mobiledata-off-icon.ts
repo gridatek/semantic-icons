@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mobiledata-off-icon]',
+  selector: 'svg[siMobiledataOffIcon]',
   standalone: true,
   imports: [],
   template: `

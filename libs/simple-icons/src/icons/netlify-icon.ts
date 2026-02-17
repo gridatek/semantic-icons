@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-netlify-icon]',
+  selector: 'svg[siNetlifyIcon]',
   standalone: true,
   imports: [],
   template: `

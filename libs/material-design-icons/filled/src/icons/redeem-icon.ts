@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-redeem-icon]',
+  selector: 'svg[siRedeemIcon]',
   standalone: true,
   imports: [],
   template: `

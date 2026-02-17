@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-budibase-icon]',
+  selector: 'svg[siBudibaseIcon]',
   standalone: true,
   imports: [],
   template: `

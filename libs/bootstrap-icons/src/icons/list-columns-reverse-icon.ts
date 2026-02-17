@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-list-columns-reverse-icon]',
+  selector: 'svg[siListColumnsReverseIcon]',
   standalone: true,
   imports: [],
   template: `

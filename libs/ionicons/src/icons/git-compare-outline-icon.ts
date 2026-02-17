@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-git-compare-outline-icon]',
+  selector: 'svg[siGitCompareOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

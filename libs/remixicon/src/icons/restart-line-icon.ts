@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-restart-line-icon]',
+  selector: 'svg[siRestartLineIcon]',
   standalone: true,
   imports: [],
   template: `

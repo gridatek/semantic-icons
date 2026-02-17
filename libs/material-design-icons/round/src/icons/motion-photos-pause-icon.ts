@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-motion-photos-pause-icon]',
+  selector: 'svg[siMotionPhotosPauseIcon]',
   standalone: true,
   imports: [],
   template: `

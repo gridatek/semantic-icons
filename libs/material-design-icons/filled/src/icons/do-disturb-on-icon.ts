@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-do-disturb-on-icon]',
+  selector: 'svg[siDoDisturbOnIcon]',
   standalone: true,
   imports: [],
   template: `

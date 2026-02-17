@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-springsecurity-icon]',
+  selector: 'svg[siSpringsecurityIcon]',
   standalone: true,
   imports: [],
   template: `

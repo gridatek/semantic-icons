@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pyramid-icon]',
+  selector: 'svg[siPyramidIcon]',
   standalone: true,
   imports: [],
   template: `

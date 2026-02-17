@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-moisture-icon]',
+  selector: 'svg[siMoistureIcon]',
   standalone: true,
   imports: [],
   template: `

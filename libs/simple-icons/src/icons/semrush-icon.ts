@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-semrush-icon]',
+  selector: 'svg[siSemrushIcon]',
   standalone: true,
   imports: [],
   template: `

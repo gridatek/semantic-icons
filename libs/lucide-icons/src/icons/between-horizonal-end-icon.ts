@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-between-horizonal-end-icon]',
+  selector: 'svg[siBetweenHorizonalEndIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-network-cell-icon]',
+  selector: 'svg[siNetworkCellIcon]',
   standalone: true,
   imports: [],
   template: `

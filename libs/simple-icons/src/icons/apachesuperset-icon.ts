@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachesuperset-icon]',
+  selector: 'svg[siApachesupersetIcon]',
   standalone: true,
   imports: [],
   template: `

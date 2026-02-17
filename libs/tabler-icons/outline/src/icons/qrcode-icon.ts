@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-qrcode-icon]',
+  selector: 'svg[siQrcodeIcon]',
   standalone: true,
   imports: [],
   template: `

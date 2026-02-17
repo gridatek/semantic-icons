@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logout-circle-fill-icon]',
+  selector: 'svg[siLogoutCircleFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-futurelearn-icon]',
+  selector: 'svg[siFuturelearnIcon]',
   standalone: true,
   imports: [],
   template: `

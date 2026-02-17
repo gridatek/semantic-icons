@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nft-line-icon]',
+  selector: 'svg[siNftLineIcon]',
   standalone: true,
   imports: [],
   template: `

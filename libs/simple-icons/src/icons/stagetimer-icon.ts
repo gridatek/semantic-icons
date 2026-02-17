@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-stagetimer-icon]',
+  selector: 'svg[siStagetimerIcon]',
   standalone: true,
   imports: [],
   template: `

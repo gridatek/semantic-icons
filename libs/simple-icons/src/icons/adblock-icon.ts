@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-adblock-icon]',
+  selector: 'svg[siAdblockIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pc-display-horizontal-icon]',
+  selector: 'svg[siPcDisplayHorizontalIcon]',
   standalone: true,
   imports: [],
   template: `

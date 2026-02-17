@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apacherocketmq-icon]',
+  selector: 'svg[siApacherocketmqIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-furaffinity-icon]',
+  selector: 'svg[siFuraffinityIcon]',
   standalone: true,
   imports: [],
   template: `

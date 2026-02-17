@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-empathize-off-icon]',
+  selector: 'svg[siEmpathizeOffIcon]',
   standalone: true,
   imports: [],
   template: `

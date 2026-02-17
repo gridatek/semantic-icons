@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-refine-icon]',
+  selector: 'svg[siRefineIcon]',
   standalone: true,
   imports: [],
   template: `

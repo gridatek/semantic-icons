@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pulse-line-icon]',
+  selector: 'svg[siPulseLineIcon]',
   standalone: true,
   imports: [],
   template: `

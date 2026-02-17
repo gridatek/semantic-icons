@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flash-auto-icon]',
+  selector: 'svg[siFlashAutoIcon]',
   standalone: true,
   imports: [],
   template: `

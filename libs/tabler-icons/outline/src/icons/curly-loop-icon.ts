@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-curly-loop-icon]',
+  selector: 'svg[siCurlyLoopIcon]',
   standalone: true,
   imports: [],
   template: `

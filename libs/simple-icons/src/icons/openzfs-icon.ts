@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-openzfs-icon]',
+  selector: 'svg[siOpenzfsIcon]',
   standalone: true,
   imports: [],
   template: `

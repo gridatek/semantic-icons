@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-user-unfollow-line-icon]',
+  selector: 'svg[siUserUnfollowLineIcon]',
   standalone: true,
   imports: [],
   template: `

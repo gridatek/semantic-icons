@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cart-plus-alt-icon]',
+  selector: 'svg[siCartPlusAltIcon]',
   standalone: true,
   imports: [],
   template: `

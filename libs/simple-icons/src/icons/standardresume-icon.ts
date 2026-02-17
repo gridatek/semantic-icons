@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-standardresume-icon]',
+  selector: 'svg[siStandardresumeIcon]',
   standalone: true,
   imports: [],
   template: `

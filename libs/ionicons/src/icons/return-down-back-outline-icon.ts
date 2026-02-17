@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-return-down-back-outline-icon]',
+  selector: 'svg[siReturnDownBackOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

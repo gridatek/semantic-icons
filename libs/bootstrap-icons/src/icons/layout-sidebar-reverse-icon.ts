@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-sidebar-reverse-icon]',
+  selector: 'svg[siLayoutSidebarReverseIcon]',
   standalone: true,
   imports: [],
   template: `

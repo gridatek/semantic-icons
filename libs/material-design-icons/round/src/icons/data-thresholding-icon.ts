@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-data-thresholding-icon]',
+  selector: 'svg[siDataThresholdingIcon]',
   standalone: true,
   imports: [],
   template: `

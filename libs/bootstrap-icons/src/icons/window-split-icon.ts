@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-window-split-icon]',
+  selector: 'svg[siWindowSplitIcon]',
   standalone: true,
   imports: [],
   template: `

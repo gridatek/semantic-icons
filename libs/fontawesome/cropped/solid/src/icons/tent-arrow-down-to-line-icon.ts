@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tent-arrow-down-to-line-icon]',
+  selector: 'svg[siTentArrowDownToLineIcon]',
   standalone: true,
   imports: [],
   template: `

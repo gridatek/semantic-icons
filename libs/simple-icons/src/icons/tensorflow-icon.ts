@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tensorflow-icon]',
+  selector: 'svg[siTensorflowIcon]',
   standalone: true,
   imports: [],
   template: `

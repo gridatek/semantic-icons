@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-libreofficeimpress-icon]',
+  selector: 'svg[siLibreofficeimpressIcon]',
   standalone: true,
   imports: [],
   template: `

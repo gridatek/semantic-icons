@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-aspect-ratio-icon]',
+  selector: 'svg[siAspectRatioIcon]',
   standalone: true,
   imports: [],
   template: `

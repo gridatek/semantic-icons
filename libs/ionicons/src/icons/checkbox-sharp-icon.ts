@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-checkbox-sharp-icon]',
+  selector: 'svg[siCheckboxSharpIcon]',
   standalone: true,
   imports: [],
   template: `

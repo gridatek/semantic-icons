@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apacheparquet-icon]',
+  selector: 'svg[siApacheparquetIcon]',
   standalone: true,
   imports: [],
   template: `

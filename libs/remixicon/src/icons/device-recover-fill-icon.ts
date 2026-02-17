@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-device-recover-fill-icon]',
+  selector: 'svg[siDeviceRecoverFillIcon]',
   standalone: true,
   imports: [],
   template: `

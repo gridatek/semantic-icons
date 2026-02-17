@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bleach-no-chlorine-icon]',
+  selector: 'svg[siBleachNoChlorineIcon]',
   standalone: true,
   imports: [],
   template: `

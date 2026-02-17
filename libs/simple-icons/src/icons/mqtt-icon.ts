@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mqtt-icon]',
+  selector: 'svg[siMqttIcon]',
   standalone: true,
   imports: [],
   template: `

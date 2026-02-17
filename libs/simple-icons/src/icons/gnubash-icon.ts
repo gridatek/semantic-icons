@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gnubash-icon]',
+  selector: 'svg[siGnubashIcon]',
   standalone: true,
   imports: [],
   template: `

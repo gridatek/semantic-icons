@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-settings-voice-icon]',
+  selector: 'svg[siSettingsVoiceIcon]',
   standalone: true,
   imports: [],
   template: `

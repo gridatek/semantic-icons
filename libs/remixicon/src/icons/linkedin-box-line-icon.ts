@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-linkedin-box-line-icon]',
+  selector: 'svg[siLinkedinBoxLineIcon]',
   standalone: true,
   imports: [],
   template: `

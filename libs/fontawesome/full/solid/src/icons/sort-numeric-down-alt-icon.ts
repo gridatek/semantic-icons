@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sort-numeric-down-alt-icon]',
+  selector: 'svg[siSortNumericDownAltIcon]',
   standalone: true,
   imports: [],
   template: `

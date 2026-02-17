@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-merge-or-split-icon]',
+  selector: 'svg[siMergeOrSplitIcon]',
   standalone: true,
   imports: [],
   template: `

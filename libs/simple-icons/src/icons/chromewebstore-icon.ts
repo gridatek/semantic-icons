@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chromewebstore-icon]',
+  selector: 'svg[siChromewebstoreIcon]',
   standalone: true,
   imports: [],
   template: `

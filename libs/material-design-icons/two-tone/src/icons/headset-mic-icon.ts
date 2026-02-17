@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-headset-mic-icon]',
+  selector: 'svg[siHeadsetMicIcon]',
   standalone: true,
   imports: [],
   template: `

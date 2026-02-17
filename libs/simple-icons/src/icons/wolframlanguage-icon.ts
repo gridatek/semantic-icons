@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wolframlanguage-icon]',
+  selector: 'svg[siWolframlanguageIcon]',
   standalone: true,
   imports: [],
   template: `

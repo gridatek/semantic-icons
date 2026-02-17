@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachekylin-icon]',
+  selector: 'svg[siApachekylinIcon]',
   standalone: true,
   imports: [],
   template: `

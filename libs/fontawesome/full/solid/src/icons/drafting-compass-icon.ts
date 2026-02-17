@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-drafting-compass-icon]',
+  selector: 'svg[siDraftingCompassIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-diagram-next-icon]',
+  selector: 'svg[siDiagramNextIcon]',
   standalone: true,
   imports: [],
   template: `

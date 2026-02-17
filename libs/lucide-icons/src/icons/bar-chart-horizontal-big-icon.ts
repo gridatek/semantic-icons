@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bar-chart-horizontal-big-icon]',
+  selector: 'svg[siBarChartHorizontalBigIcon]',
   standalone: true,
   imports: [],
   template: `

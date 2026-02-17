@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gradle-icon]',
+  selector: 'svg[siGradleIcon]',
   standalone: true,
   imports: [],
   template: `

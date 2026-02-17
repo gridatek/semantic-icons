@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-magnet-fill-icon]',
+  selector: 'svg[siMagnetFillIcon]',
   standalone: true,
   imports: [],
   template: `

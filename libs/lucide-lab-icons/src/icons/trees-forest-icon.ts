@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-trees-forest-icon]',
+  selector: 'svg[siTreesForestIcon]',
   standalone: true,
   imports: [],
   template: `

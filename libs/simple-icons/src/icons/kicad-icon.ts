@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kicad-icon]',
+  selector: 'svg[siKicadIcon]',
   standalone: true,
   imports: [],
   template: `

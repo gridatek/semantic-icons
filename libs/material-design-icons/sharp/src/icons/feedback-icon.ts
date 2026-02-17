@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-feedback-icon]',
+  selector: 'svg[siFeedbackIcon]',
   standalone: true,
   imports: [],
   template: `

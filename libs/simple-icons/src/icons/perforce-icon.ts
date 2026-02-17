@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perforce-icon]',
+  selector: 'svg[siPerforceIcon]',
   standalone: true,
   imports: [],
   template: `

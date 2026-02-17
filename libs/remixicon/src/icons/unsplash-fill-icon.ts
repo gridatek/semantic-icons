@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unsplash-fill-icon]',
+  selector: 'svg[siUnsplashFillIcon]',
   standalone: true,
   imports: [],
   template: `

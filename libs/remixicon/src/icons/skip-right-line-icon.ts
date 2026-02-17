@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-right-line-icon]',
+  selector: 'svg[siSkipRightLineIcon]',
   standalone: true,
   imports: [],
   template: `

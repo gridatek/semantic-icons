@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-copyleft-line-icon]',
+  selector: 'svg[siCopyleftLineIcon]',
   standalone: true,
   imports: [],
   template: `

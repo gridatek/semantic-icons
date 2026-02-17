@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-separator-vertical-icon]',
+  selector: 'svg[siSeparatorVerticalIcon]',
   standalone: true,
   imports: [],
   template: `

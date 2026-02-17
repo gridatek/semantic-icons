@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-browser-edge-icon]',
+  selector: 'svg[siBrowserEdgeIcon]',
   standalone: true,
   imports: [],
   template: `

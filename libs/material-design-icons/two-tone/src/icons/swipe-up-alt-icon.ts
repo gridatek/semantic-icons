@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-swipe-up-alt-icon]',
+  selector: 'svg[siSwipeUpAltIcon]',
   standalone: true,
   imports: [],
   template: `

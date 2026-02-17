@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-local-post-office-icon]',
+  selector: 'svg[siLocalPostOfficeIcon]',
   standalone: true,
   imports: [],
   template: `

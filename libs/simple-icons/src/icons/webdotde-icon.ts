@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webdotde-icon]',
+  selector: 'svg[siWebdotdeIcon]',
   standalone: true,
   imports: [],
   template: `

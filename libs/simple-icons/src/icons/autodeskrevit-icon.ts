@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-autodeskrevit-icon]',
+  selector: 'svg[siAutodeskrevitIcon]',
   standalone: true,
   imports: [],
   template: `

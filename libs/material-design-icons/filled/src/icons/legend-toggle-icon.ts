@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-legend-toggle-icon]',
+  selector: 'svg[siLegendToggleIcon]',
   standalone: true,
   imports: [],
   template: `

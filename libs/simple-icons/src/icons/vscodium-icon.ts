@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vscodium-icon]',
+  selector: 'svg[siVscodiumIcon]',
   standalone: true,
   imports: [],
   template: `

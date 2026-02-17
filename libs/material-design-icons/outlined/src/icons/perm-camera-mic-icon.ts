@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perm-camera-mic-icon]',
+  selector: 'svg[siPermCameraMicIcon]',
   standalone: true,
   imports: [],
   template: `

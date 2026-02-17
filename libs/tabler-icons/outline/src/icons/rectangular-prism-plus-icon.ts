@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rectangular-prism-plus-icon]',
+  selector: 'svg[siRectangularPrismPlusIcon]',
   standalone: true,
   imports: [],
   template: `

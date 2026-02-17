@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-homebrew-icon]',
+  selector: 'svg[siHomebrewIcon]',
   standalone: true,
   imports: [],
   template: `

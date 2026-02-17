@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-archive-box-icon]',
+  selector: 'svg[siArchiveBoxIcon]',
   standalone: true,
   imports: [],
   template: `

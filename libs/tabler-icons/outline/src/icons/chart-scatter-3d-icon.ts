@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chart-scatter-3d-icon]',
+  selector: 'svg[siChartScatter3dIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bootstrap-reboot-icon]',
+  selector: 'svg[siBootstrapRebootIcon]',
   standalone: true,
   imports: [],
   template: `

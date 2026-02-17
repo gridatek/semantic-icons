@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hubspot-icon]',
+  selector: 'svg[siHubspotIcon]',
   standalone: true,
   imports: [],
   template: `

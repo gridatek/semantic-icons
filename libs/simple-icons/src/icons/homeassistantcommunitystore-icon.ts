@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-homeassistantcommunitystore-icon]',
+  selector: 'svg[siHomeassistantcommunitystoreIcon]',
   standalone: true,
   imports: [],
   template: `

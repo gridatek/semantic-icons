@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-device-airtag-icon]',
+  selector: 'svg[siDeviceAirtagIcon]',
   standalone: true,
   imports: [],
   template: `

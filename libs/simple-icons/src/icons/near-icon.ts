@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-near-icon]',
+  selector: 'svg[siNearIcon]',
   standalone: true,
   imports: [],
   template: `

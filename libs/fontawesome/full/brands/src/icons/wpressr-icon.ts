@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wpressr-icon]',
+  selector: 'svg[siWpressrIcon]',
   standalone: true,
   imports: [],
   template: `

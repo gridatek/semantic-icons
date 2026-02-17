@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-garmin-icon]',
+  selector: 'svg[siGarminIcon]',
   standalone: true,
   imports: [],
   template: `

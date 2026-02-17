@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logo-discord-icon]',
+  selector: 'svg[siLogoDiscordIcon]',
   standalone: true,
   imports: [],
   template: `

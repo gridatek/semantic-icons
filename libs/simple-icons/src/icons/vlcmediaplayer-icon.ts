@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vlcmediaplayer-icon]',
+  selector: 'svg[siVlcmediaplayerIcon]',
   standalone: true,
   imports: [],
   template: `

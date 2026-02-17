@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-network-locked-icon]',
+  selector: 'svg[siNetworkLockedIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-barbell-outline-icon]',
+  selector: 'svg[siBarbellOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

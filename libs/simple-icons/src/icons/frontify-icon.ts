@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-frontify-icon]',
+  selector: 'svg[siFrontifyIcon]',
   standalone: true,
   imports: [],
   template: `

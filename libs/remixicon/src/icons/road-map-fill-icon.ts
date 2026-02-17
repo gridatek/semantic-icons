@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-road-map-fill-icon]',
+  selector: 'svg[siRoadMapFillIcon]',
   standalone: true,
   imports: [],
   template: `

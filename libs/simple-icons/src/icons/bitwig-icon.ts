@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bitwig-icon]',
+  selector: 'svg[siBitwigIcon]',
   standalone: true,
   imports: [],
   template: `

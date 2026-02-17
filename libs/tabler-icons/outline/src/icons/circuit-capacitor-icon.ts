@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-circuit-capacitor-icon]',
+  selector: 'svg[siCircuitCapacitorIcon]',
   standalone: true,
   imports: [],
   template: `

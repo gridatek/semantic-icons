@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sd-card-mini-line-icon]',
+  selector: 'svg[siSdCardMiniLineIcon]',
   standalone: true,
   imports: [],
   template: `

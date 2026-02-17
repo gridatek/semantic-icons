@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-columns-off-icon]',
+  selector: 'svg[siColumnsOffIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-greatlearning-icon]',
+  selector: 'svg[siGreatlearningIcon]',
   standalone: true,
   imports: [],
   template: `

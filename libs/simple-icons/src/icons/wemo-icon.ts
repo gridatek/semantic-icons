@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wemo-icon]',
+  selector: 'svg[siWemoIcon]',
   standalone: true,
   imports: [],
   template: `

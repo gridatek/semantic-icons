@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-airplayaudio-icon]',
+  selector: 'svg[siAirplayaudioIcon]',
   standalone: true,
   imports: [],
   template: `

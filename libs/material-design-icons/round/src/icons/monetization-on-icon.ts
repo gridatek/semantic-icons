@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-monetization-on-icon]',
+  selector: 'svg[siMonetizationOnIcon]',
   standalone: true,
   imports: [],
   template: `

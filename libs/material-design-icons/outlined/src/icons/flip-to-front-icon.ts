@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flip-to-front-icon]',
+  selector: 'svg[siFlipToFrontIcon]',
   standalone: true,
   imports: [],
   template: `

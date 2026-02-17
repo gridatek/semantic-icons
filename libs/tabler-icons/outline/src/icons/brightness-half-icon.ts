@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brightness-half-icon]',
+  selector: 'svg[siBrightnessHalfIcon]',
   standalone: true,
   imports: [],
   template: `

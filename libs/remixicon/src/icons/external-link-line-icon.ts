@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-external-link-line-icon]',
+  selector: 'svg[siExternalLinkLineIcon]',
   standalone: true,
   imports: [],
   template: `

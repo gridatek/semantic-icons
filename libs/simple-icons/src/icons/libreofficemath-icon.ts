@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-libreofficemath-icon]',
+  selector: 'svg[siLibreofficemathIcon]',
   standalone: true,
   imports: [],
   template: `

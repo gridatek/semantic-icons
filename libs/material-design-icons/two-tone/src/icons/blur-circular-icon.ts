@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-blur-circular-icon]',
+  selector: 'svg[siBlurCircularIcon]',
   standalone: true,
   imports: [],
   template: `

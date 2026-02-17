@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-runkit-icon]',
+  selector: 'svg[siRunkitIcon]',
   standalone: true,
   imports: [],
   template: `

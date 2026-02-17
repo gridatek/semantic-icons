@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-player-track-prev-icon]',
+  selector: 'svg[siPlayerTrackPrevIcon]',
   standalone: true,
   imports: [],
   template: `

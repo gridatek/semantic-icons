@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-inertia-icon]',
+  selector: 'svg[siInertiaIcon]',
   standalone: true,
   imports: [],
   template: `

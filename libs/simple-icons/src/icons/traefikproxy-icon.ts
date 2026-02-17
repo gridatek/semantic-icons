@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-traefikproxy-icon]',
+  selector: 'svg[siTraefikproxyIcon]',
   standalone: true,
   imports: [],
   template: `

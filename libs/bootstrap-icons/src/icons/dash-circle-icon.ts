@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dash-circle-icon]',
+  selector: 'svg[siDashCircleIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-relation-one-to-many-icon]',
+  selector: 'svg[siRelationOneToManyIcon]',
   standalone: true,
   imports: [],
   template: `

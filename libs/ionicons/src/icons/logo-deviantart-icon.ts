@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logo-deviantart-icon]',
+  selector: 'svg[siLogoDeviantartIcon]',
   standalone: true,
   imports: [],
   template: `

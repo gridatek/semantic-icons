@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nest-cam-wired-stand-icon]',
+  selector: 'svg[siNestCamWiredStandIcon]',
   standalone: true,
   imports: [],
   template: `

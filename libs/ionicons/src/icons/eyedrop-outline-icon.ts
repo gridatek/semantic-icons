@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-eyedrop-outline-icon]',
+  selector: 'svg[siEyedropOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

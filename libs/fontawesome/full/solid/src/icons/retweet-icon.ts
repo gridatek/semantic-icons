@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-retweet-icon]',
+  selector: 'svg[siRetweetIcon]',
   standalone: true,
   imports: [],
   template: `

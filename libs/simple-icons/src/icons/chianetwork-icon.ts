@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chianetwork-icon]',
+  selector: 'svg[siChianetworkIcon]',
   standalone: true,
   imports: [],
   template: `

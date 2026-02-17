@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-numba-icon]',
+  selector: 'svg[siNumbaIcon]',
   standalone: true,
   imports: [],
   template: `

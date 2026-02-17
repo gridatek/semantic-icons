@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-deepnote-icon]',
+  selector: 'svg[siDeepnoteIcon]',
   standalone: true,
   imports: [],
   template: `

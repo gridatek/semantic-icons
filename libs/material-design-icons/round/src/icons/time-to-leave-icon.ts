@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-time-to-leave-icon]',
+  selector: 'svg[siTimeToLeaveIcon]',
   standalone: true,
   imports: [],
   template: `

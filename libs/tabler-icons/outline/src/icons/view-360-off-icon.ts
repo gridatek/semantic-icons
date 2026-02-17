@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-view-360-off-icon]',
+  selector: 'svg[siView360OffIcon]',
   standalone: true,
   imports: [],
   template: `

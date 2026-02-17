@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-forward-end-mini-fill-icon]',
+  selector: 'svg[siForwardEndMiniFillIcon]',
   standalone: true,
   imports: [],
   template: `

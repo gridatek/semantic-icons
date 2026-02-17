@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-deepseek-line-icon]',
+  selector: 'svg[siDeepseekLineIcon]',
   standalone: true,
   imports: [],
   template: `

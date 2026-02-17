@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-palmtree-icon]',
+  selector: 'svg[siPalmtreeIcon]',
   standalone: true,
   imports: [],
   template: `

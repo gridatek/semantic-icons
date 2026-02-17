@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-overline-icon]',
+  selector: 'svg[siOverlineIcon]',
   standalone: true,
   imports: [],
   template: `

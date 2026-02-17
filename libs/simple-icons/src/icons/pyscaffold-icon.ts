@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pyscaffold-icon]',
+  selector: 'svg[siPyscaffoldIcon]',
   standalone: true,
   imports: [],
   template: `

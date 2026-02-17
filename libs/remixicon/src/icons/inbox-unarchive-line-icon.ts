@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-inbox-unarchive-line-icon]',
+  selector: 'svg[siInboxUnarchiveLineIcon]',
   standalone: true,
   imports: [],
   template: `

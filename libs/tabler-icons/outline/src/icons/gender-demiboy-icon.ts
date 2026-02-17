@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gender-demiboy-icon]',
+  selector: 'svg[siGenderDemiboyIcon]',
   standalone: true,
   imports: [],
   template: `

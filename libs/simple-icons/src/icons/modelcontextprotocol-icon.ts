@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-modelcontextprotocol-icon]',
+  selector: 'svg[siModelcontextprotocolIcon]',
   standalone: true,
   imports: [],
   template: `

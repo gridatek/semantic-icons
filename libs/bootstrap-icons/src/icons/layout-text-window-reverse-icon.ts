@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-text-window-reverse-icon]',
+  selector: 'svg[siLayoutTextWindowReverseIcon]',
   standalone: true,
   imports: [],
   template: `

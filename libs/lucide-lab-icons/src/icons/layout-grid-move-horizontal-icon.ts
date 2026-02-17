@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-grid-move-horizontal-icon]',
+  selector: 'svg[siLayoutGridMoveHorizontalIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-esotericsoftware-icon]',
+  selector: 'svg[siEsotericsoftwareIcon]',
   standalone: true,
   imports: [],
   template: `

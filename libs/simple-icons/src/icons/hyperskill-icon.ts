@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hyperskill-icon]',
+  selector: 'svg[siHyperskillIcon]',
   standalone: true,
   imports: [],
   template: `

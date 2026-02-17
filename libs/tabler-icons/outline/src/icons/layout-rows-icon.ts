@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-rows-icon]',
+  selector: 'svg[siLayoutRowsIcon]',
   standalone: true,
   imports: [],
   template: `

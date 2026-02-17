@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-collapse-vertical-line-icon]',
+  selector: 'svg[siCollapseVerticalLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-semanticui-icon]',
+  selector: 'svg[siSemanticuiIcon]',
   standalone: true,
   imports: [],
   template: `

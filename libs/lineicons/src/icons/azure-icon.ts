@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-azure-icon]',
+  selector: 'svg[siAzureIcon]',
   standalone: true,
   imports: [],
   template: `

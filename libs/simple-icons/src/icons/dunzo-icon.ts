@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dunzo-icon]',
+  selector: 'svg[siDunzoIcon]',
   standalone: true,
   imports: [],
   template: `

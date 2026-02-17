@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-align-box-center-stretch-icon]',
+  selector: 'svg[siAlignBoxCenterStretchIcon]',
   standalone: true,
   imports: [],
   template: `

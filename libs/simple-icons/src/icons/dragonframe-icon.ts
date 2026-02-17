@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dragonframe-icon]',
+  selector: 'svg[siDragonframeIcon]',
   standalone: true,
   imports: [],
   template: `

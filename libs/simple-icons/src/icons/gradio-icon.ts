@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gradio-icon]',
+  selector: 'svg[siGradioIcon]',
   standalone: true,
   imports: [],
   template: `

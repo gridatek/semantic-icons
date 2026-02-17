@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-autohotkey-icon]',
+  selector: 'svg[siAutohotkeyIcon]',
   standalone: true,
   imports: [],
   template: `

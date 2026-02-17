@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-weblate-icon]',
+  selector: 'svg[siWeblateIcon]',
   standalone: true,
   imports: [],
   template: `

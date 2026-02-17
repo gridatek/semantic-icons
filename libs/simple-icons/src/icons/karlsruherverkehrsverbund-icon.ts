@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-karlsruherverkehrsverbund-icon]',
+  selector: 'svg[siKarlsruherverkehrsverbundIcon]',
   standalone: true,
   imports: [],
   template: `

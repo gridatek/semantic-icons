@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reactiveresume-icon]',
+  selector: 'svg[siReactiveresumeIcon]',
   standalone: true,
   imports: [],
   template: `

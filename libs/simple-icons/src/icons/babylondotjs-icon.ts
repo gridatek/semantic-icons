@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-babylondotjs-icon]',
+  selector: 'svg[siBabylondotjsIcon]',
   standalone: true,
   imports: [],
   template: `

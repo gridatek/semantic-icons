@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webhook-off-icon]',
+  selector: 'svg[siWebhookOffIcon]',
   standalone: true,
   imports: [],
   template: `

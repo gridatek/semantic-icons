@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-audio-waveform-icon]',
+  selector: 'svg[siAudioWaveformIcon]',
   standalone: true,
   imports: [],
   template: `

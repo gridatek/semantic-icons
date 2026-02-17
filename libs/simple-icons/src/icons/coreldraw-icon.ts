@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-coreldraw-icon]',
+  selector: 'svg[siCoreldrawIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-close-line-icon]',
+  selector: 'svg[siFolderCloseLineIcon]',
   standalone: true,
   imports: [],
   template: `

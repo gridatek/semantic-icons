@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ease-out-control-point-icon]',
+  selector: 'svg[siEaseOutControlPointIcon]',
   standalone: true,
   imports: [],
   template: `

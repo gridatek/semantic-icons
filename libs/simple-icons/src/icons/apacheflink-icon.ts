@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apacheflink-icon]',
+  selector: 'svg[siApacheflinkIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-panel-left-right-dashed-icon]',
+  selector: 'svg[siPanelLeftRightDashedIcon]',
   standalone: true,
   imports: [],
   template: `

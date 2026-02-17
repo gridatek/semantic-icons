@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-remix-run-line-icon]',
+  selector: 'svg[siRemixRunLineIcon]',
   standalone: true,
   imports: [],
   template: `

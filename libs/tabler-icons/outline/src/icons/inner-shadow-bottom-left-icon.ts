@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-inner-shadow-bottom-left-icon]',
+  selector: 'svg[siInnerShadowBottomLeftIcon]',
   standalone: true,
   imports: [],
   template: `

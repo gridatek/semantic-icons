@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-curseforge-icon]',
+  selector: 'svg[siCurseforgeIcon]',
   standalone: true,
   imports: [],
   template: `

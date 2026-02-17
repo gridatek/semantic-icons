@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-scroll-icon]',
+  selector: 'svg[siScrollIcon]',
   standalone: true,
   imports: [],
   template: `

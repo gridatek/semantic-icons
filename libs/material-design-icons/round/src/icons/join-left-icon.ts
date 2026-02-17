@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-join-left-icon]',
+  selector: 'svg[siJoinLeftIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-youtube-kids-icon]',
+  selector: 'svg[siYoutubeKidsIcon]',
   standalone: true,
   imports: [],
   template: `

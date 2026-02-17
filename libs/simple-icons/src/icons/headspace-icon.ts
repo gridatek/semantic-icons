@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-headspace-icon]',
+  selector: 'svg[siHeadspaceIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reactquery-icon]',
+  selector: 'svg[siReactqueryIcon]',
   standalone: true,
   imports: [],
   template: `

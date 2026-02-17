@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gradleplaypublisher-icon]',
+  selector: 'svg[siGradleplaypublisherIcon]',
   standalone: true,
   imports: [],
   template: `

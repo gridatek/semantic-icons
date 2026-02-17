@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-send-to-back-icon]',
+  selector: 'svg[siSendToBackIcon]',
   standalone: true,
   imports: [],
   template: `

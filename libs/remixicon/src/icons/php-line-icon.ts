@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-php-line-icon]',
+  selector: 'svg[siPhpLineIcon]',
   standalone: true,
   imports: [],
   template: `

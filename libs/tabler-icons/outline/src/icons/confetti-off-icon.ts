@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-confetti-off-icon]',
+  selector: 'svg[siConfettiOffIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-guilded-icon]',
+  selector: 'svg[siGuildedIcon]',
   standalone: true,
   imports: [],
   template: `

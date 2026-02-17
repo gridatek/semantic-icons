@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-prefect-icon]',
+  selector: 'svg[siPrefectIcon]',
   standalone: true,
   imports: [],
   template: `

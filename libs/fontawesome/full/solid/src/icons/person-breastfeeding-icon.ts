@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-person-breastfeeding-icon]',
+  selector: 'svg[siPersonBreastfeedingIcon]',
   standalone: true,
   imports: [],
   template: `

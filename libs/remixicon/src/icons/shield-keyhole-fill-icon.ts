@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-shield-keyhole-fill-icon]',
+  selector: 'svg[siShieldKeyholeFillIcon]',
   standalone: true,
   imports: [],
   template: `

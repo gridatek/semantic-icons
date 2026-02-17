@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-tray-stacked-sharp-icon]',
+  selector: 'svg[siFileTrayStackedSharpIcon]',
   standalone: true,
   imports: [],
   template: `

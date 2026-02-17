@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mobxstatetree-icon]',
+  selector: 'svg[siMobxstatetreeIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-grid-goldenratio-icon]',
+  selector: 'svg[siGridGoldenratioIcon]',
   standalone: true,
   imports: [],
   template: `

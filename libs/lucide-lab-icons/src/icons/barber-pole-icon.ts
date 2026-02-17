@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-barber-pole-icon]',
+  selector: 'svg[siBarberPoleIcon]',
   standalone: true,
   imports: [],
   template: `

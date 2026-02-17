@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-magento-icon]',
+  selector: 'svg[siMagentoIcon]',
   standalone: true,
   imports: [],
   template: `

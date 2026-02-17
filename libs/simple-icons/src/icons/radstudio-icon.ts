@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-radstudio-icon]',
+  selector: 'svg[siRadstudioIcon]',
   standalone: true,
   imports: [],
   template: `

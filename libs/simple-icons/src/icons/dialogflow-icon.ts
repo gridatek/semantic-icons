@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dialogflow-icon]',
+  selector: 'svg[siDialogflowIcon]',
   standalone: true,
   imports: [],
   template: `

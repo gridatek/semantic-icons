@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wpforms-icon]',
+  selector: 'svg[siWpformsIcon]',
   standalone: true,
   imports: [],
   template: `

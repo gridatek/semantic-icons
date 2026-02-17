@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-travesti-fill-icon]',
+  selector: 'svg[siTravestiFillIcon]',
   standalone: true,
   imports: [],
   template: `

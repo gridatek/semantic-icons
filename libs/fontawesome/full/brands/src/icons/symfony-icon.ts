@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-symfony-icon]',
+  selector: 'svg[siSymfonyIcon]',
   standalone: true,
   imports: [],
   template: `

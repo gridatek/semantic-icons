@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-waze-icon]',
+  selector: 'svg[siBrandWazeIcon]',
   standalone: true,
   imports: [],
   template: `

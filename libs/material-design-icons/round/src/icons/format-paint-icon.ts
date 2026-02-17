@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-format-paint-icon]',
+  selector: 'svg[siFormatPaintIcon]',
   standalone: true,
   imports: [],
   template: `

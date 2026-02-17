@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-disqus-fill-icon]',
+  selector: 'svg[siDisqusFillIcon]',
   standalone: true,
   imports: [],
   template: `

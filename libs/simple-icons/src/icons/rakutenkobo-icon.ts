@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rakutenkobo-icon]',
+  selector: 'svg[siRakutenkoboIcon]',
   standalone: true,
   imports: [],
   template: `

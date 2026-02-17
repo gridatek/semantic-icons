@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-stack-overflow-fill-icon]',
+  selector: 'svg[siStackOverflowFillIcon]',
   standalone: true,
   imports: [],
   template: `

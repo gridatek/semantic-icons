@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sidebar-fold-line-icon]',
+  selector: 'svg[siSidebarFoldLineIcon]',
   standalone: true,
   imports: [],
   template: `

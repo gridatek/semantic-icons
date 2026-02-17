@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-miro-icon]',
+  selector: 'svg[siMiroIcon]',
   standalone: true,
   imports: [],
   template: `

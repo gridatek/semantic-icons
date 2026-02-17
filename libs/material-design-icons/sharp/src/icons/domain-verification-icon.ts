@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-domain-verification-icon]',
+  selector: 'svg[siDomainVerificationIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uninstall-line-icon]',
+  selector: 'svg[siUninstallLineIcon]',
   standalone: true,
   imports: [],
   template: `

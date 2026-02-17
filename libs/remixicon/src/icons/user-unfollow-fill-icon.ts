@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-user-unfollow-fill-icon]',
+  selector: 'svg[siUserUnfollowFillIcon]',
   standalone: true,
   imports: [],
   template: `

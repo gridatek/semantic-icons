@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mist-off-icon]',
+  selector: 'svg[siMistOffIcon]',
   standalone: true,
   imports: [],
   template: `

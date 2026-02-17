@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-openhab-icon]',
+  selector: 'svg[siOpenhabIcon]',
   standalone: true,
   imports: [],
   template: `

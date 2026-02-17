@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-filetype-mp3-icon]',
+  selector: 'svg[siFiletypeMp3Icon]',
   standalone: true,
   imports: [],
   template: `

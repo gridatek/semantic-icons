@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gatsby-icon]',
+  selector: 'svg[siGatsbyIcon]',
   standalone: true,
   imports: [],
   template: `

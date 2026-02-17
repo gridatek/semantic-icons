@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-messages-off-icon]',
+  selector: 'svg[siMessagesOffIcon]',
   standalone: true,
   imports: [],
   template: `

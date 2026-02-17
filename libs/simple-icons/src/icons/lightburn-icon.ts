@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lightburn-icon]',
+  selector: 'svg[siLightburnIcon]',
   standalone: true,
   imports: [],
   template: `

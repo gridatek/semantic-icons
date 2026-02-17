@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-stardock-icon]',
+  selector: 'svg[siStardockIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-indeterminate-check-box-icon]',
+  selector: 'svg[siIndeterminateCheckBoxIcon]',
   standalone: true,
   imports: [],
   template: `

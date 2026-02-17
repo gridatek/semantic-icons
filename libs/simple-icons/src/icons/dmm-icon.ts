@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dmm-icon]',
+  selector: 'svg[siDmmIcon]',
   standalone: true,
   imports: [],
   template: `

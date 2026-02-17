@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fullscreen-exit-line-icon]',
+  selector: 'svg[siFullscreenExitLineIcon]',
   standalone: true,
   imports: [],
   template: `

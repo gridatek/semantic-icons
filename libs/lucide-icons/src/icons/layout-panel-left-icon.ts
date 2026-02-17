@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-panel-left-icon]',
+  selector: 'svg[siLayoutPanelLeftIcon]',
   standalone: true,
   imports: [],
   template: `

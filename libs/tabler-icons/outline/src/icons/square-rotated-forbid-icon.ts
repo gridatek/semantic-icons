@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-rotated-forbid-icon]',
+  selector: 'svg[siSquareRotatedForbidIcon]',
   standalone: true,
   imports: [],
   template: `

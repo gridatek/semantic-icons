@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-delete-back-fill-icon]',
+  selector: 'svg[siDeleteBackFillIcon]',
   standalone: true,
   imports: [],
   template: `

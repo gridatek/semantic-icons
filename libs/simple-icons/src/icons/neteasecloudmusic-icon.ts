@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-neteasecloudmusic-icon]',
+  selector: 'svg[siNeteasecloudmusicIcon]',
   standalone: true,
   imports: [],
   template: `

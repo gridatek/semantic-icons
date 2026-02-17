@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lastpass-icon]',
+  selector: 'svg[siLastpassIcon]',
   standalone: true,
   imports: [],
   template: `

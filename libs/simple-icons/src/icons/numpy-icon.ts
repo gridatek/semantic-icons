@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-numpy-icon]',
+  selector: 'svg[siNumpyIcon]',
   standalone: true,
   imports: [],
   template: `

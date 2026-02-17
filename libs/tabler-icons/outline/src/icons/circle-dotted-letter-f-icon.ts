@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-circle-dotted-letter-f-icon]',
+  selector: 'svg[siCircleDottedLetterFIcon]',
   standalone: true,
   imports: [],
   template: `

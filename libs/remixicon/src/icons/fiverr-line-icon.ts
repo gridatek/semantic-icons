@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fiverr-line-icon]',
+  selector: 'svg[siFiverrLineIcon]',
   standalone: true,
   imports: [],
   template: `

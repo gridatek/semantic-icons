@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-erlang-icon]',
+  selector: 'svg[siErlangIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-derspiegel-icon]',
+  selector: 'svg[siDerspiegelIcon]',
   standalone: true,
   imports: [],
   template: `

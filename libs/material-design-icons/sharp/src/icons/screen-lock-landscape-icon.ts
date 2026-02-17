@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-screen-lock-landscape-icon]',
+  selector: 'svg[siScreenLockLandscapeIcon]',
   standalone: true,
   imports: [],
   template: `

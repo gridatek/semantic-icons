@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-up-line-icon]',
+  selector: 'svg[siSkipUpLineIcon]',
   standalone: true,
   imports: [],
   template: `

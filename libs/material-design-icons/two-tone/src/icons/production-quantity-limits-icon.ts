@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-production-quantity-limits-icon]',
+  selector: 'svg[siProductionQuantityLimitsIcon]',
   standalone: true,
   imports: [],
   template: `

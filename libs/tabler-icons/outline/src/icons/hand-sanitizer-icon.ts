@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hand-sanitizer-icon]',
+  selector: 'svg[siHandSanitizerIcon]',
   standalone: true,
   imports: [],
   template: `

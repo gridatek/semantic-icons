@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-haze-moon-icon]',
+  selector: 'svg[siHazeMoonIcon]',
   standalone: true,
   imports: [],
   template: `

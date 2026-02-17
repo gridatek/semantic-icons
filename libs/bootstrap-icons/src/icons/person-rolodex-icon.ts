@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-person-rolodex-icon]',
+  selector: 'svg[siPersonRolodexIcon]',
   standalone: true,
   imports: [],
   template: `

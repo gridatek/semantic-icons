@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-polaroid-2-line-icon]',
+  selector: 'svg[siPolaroid2LineIcon]',
   standalone: true,
   imports: [],
   template: `

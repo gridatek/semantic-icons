@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-moon-cloudy-line-icon]',
+  selector: 'svg[siMoonCloudyLineIcon]',
   standalone: true,
   imports: [],
   template: `

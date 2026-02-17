@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-xampp-icon]',
+  selector: 'svg[siXamppIcon]',
   standalone: true,
   imports: [],
   template: `

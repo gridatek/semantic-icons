@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-refresh-off-icon]',
+  selector: 'svg[siRefreshOffIcon]',
   standalone: true,
   imports: [],
   template: `

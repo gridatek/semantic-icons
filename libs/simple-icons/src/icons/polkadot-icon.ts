@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-polkadot-icon]',
+  selector: 'svg[siPolkadotIcon]',
   standalone: true,
   imports: [],
   template: `

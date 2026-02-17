@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googledisplayandvideo360-icon]',
+  selector: 'svg[siGoogledisplayandvideo360Icon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wash-dryclean-icon]',
+  selector: 'svg[siWashDrycleanIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kahoot-icon]',
+  selector: 'svg[siKahootIcon]',
   standalone: true,
   imports: [],
   template: `

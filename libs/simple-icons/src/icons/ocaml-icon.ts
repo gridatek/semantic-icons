@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ocaml-icon]',
+  selector: 'svg[siOcamlIcon]',
   standalone: true,
   imports: [],
   template: `

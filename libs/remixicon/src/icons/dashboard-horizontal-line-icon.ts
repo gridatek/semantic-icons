@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dashboard-horizontal-line-icon]',
+  selector: 'svg[siDashboardHorizontalLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gamepad-2-icon]',
+  selector: 'svg[siGamepad2Icon]',
   standalone: true,
   imports: [],
   template: `

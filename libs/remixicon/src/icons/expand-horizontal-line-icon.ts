@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-expand-horizontal-line-icon]',
+  selector: 'svg[siExpandHorizontalLineIcon]',
   standalone: true,
   imports: [],
   template: `

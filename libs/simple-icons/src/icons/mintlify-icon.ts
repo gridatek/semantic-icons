@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mintlify-icon]',
+  selector: 'svg[siMintlifyIcon]',
   standalone: true,
   imports: [],
   template: `

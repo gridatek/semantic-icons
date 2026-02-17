@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-route-square-icon]',
+  selector: 'svg[siRouteSquareIcon]',
   standalone: true,
   imports: [],
   template: `

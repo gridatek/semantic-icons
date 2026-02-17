@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-castbox-icon]',
+  selector: 'svg[siCastboxIcon]',
   standalone: true,
   imports: [],
   template: `

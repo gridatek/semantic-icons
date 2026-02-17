@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-plangrid-icon]',
+  selector: 'svg[siPlangridIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-character-recognition-line-icon]',
+  selector: 'svg[siCharacterRecognitionLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-photopea-icon]',
+  selector: 'svg[siPhotopeaIcon]',
   standalone: true,
   imports: [],
   template: `

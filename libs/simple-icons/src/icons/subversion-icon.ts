@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-subversion-icon]',
+  selector: 'svg[siSubversionIcon]',
   standalone: true,
   imports: [],
   template: `

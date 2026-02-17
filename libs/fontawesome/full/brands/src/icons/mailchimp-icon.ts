@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mailchimp-icon]',
+  selector: 'svg[siMailchimpIcon]',
   standalone: true,
   imports: [],
   template: `

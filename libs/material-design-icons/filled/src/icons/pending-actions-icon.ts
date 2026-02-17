@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pending-actions-icon]',
+  selector: 'svg[siPendingActionsIcon]',
   standalone: true,
   imports: [],
   template: `

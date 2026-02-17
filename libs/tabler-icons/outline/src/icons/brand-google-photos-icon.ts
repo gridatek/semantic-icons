@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-google-photos-icon]',
+  selector: 'svg[siBrandGooglePhotosIcon]',
   standalone: true,
   imports: [],
   template: `

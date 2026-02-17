@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gradienter-fill-icon]',
+  selector: 'svg[siGradienterFillIcon]',
   standalone: true,
   imports: [],
   template: `

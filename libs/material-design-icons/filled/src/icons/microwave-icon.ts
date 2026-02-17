@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-microwave-icon]',
+  selector: 'svg[siMicrowaveIcon]',
   standalone: true,
   imports: [],
   template: `

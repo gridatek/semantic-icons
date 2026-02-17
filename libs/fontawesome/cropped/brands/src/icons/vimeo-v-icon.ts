@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vimeo-v-icon]',
+  selector: 'svg[siVimeoVIcon]',
   standalone: true,
   imports: [],
   template: `

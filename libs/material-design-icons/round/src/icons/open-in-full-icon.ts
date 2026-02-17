@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-open-in-full-icon]',
+  selector: 'svg[siOpenInFullIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-multisim-icon]',
+  selector: 'svg[siMultisimIcon]',
   standalone: true,
   imports: [],
   template: `

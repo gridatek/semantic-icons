@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mini-program-line-icon]',
+  selector: 'svg[siMiniProgramLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-neo4j-icon]',
+  selector: 'svg[siNeo4jIcon]',
   standalone: true,
   imports: [],
   template: `

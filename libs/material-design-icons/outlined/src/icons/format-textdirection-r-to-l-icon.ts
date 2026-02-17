@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-format-textdirection-r-to-l-icon]',
+  selector: 'svg[siFormatTextdirectionRToLIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-planet-line-icon]',
+  selector: 'svg[siPlanetLineIcon]',
   standalone: true,
   imports: [],
   template: `

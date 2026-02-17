@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-braces-off-icon]',
+  selector: 'svg[siBracesOffIcon]',
   standalone: true,
   imports: [],
   template: `

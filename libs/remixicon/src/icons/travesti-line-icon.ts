@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-travesti-line-icon]',
+  selector: 'svg[siTravestiLineIcon]',
   standalone: true,
   imports: [],
   template: `

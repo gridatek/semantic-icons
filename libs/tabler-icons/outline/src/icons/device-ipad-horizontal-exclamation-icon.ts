@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-device-ipad-horizontal-exclamation-icon]',
+  selector: 'svg[siDeviceIpadHorizontalExclamationIcon]',
   standalone: true,
   imports: [],
   template: `

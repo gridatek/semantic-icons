@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-resharper-icon]',
+  selector: 'svg[siResharperIcon]',
   standalone: true,
   imports: [],
   template: `

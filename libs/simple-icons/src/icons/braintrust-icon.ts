@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-braintrust-icon]',
+  selector: 'svg[siBraintrustIcon]',
   standalone: true,
   imports: [],
   template: `

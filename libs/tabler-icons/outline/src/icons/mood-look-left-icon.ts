@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mood-look-left-icon]',
+  selector: 'svg[siMoodLookLeftIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-debridlink-icon]',
+  selector: 'svg[siDebridlinkIcon]',
   standalone: true,
   imports: [],
   template: `

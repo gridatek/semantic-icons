@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-eclipsemosquitto-icon]',
+  selector: 'svg[siEclipsemosquittoIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apps-outage-icon]',
+  selector: 'svg[siAppsOutageIcon]',
   standalone: true,
   imports: [],
   template: `

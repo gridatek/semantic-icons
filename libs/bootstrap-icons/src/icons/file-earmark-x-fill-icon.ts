@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-earmark-x-fill-icon]',
+  selector: 'svg[siFileEarmarkXFillIcon]',
   standalone: true,
   imports: [],
   template: `

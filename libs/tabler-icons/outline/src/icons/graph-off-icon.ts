@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-graph-off-icon]',
+  selector: 'svg[siGraphOffIcon]',
   standalone: true,
   imports: [],
   template: `

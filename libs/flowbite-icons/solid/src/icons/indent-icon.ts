@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-indent-icon]',
+  selector: 'svg[siIndentIcon]',
   standalone: true,
   imports: [],
   template: `

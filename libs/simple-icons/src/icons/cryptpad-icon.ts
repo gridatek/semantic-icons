@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cryptpad-icon]',
+  selector: 'svg[siCryptpadIcon]',
   standalone: true,
   imports: [],
   template: `

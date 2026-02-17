@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vuedotjs-icon]',
+  selector: 'svg[siVuedotjsIcon]',
   standalone: true,
   imports: [],
   template: `

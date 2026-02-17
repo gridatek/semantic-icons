@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-order-play-line-icon]',
+  selector: 'svg[siOrderPlayLineIcon]',
   standalone: true,
   imports: [],
   template: `

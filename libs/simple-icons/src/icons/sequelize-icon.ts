@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sequelize-icon]',
+  selector: 'svg[siSequelizeIcon]',
   standalone: true,
   imports: [],
   template: `

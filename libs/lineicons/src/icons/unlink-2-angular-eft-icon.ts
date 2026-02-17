@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unlink-2-angular-eft-icon]',
+  selector: 'svg[siUnlink2AngularEftIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webdriverio-icon]',
+  selector: 'svg[siWebdriverioIcon]',
   standalone: true,
   imports: [],
   template: `

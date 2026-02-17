@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pixelfed-icon]',
+  selector: 'svg[siPixelfedIcon]',
   standalone: true,
   imports: [],
   template: `

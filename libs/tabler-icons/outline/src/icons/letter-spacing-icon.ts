@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-letter-spacing-icon]',
+  selector: 'svg[siLetterSpacingIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-git-network-sharp-icon]',
+  selector: 'svg[siGitNetworkSharpIcon]',
   standalone: true,
   imports: [],
   template: `

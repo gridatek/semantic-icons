@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-network-ping-icon]',
+  selector: 'svg[siNetworkPingIcon]',
   standalone: true,
   imports: [],
   template: `

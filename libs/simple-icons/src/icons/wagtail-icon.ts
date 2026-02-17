@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wagtail-icon]',
+  selector: 'svg[siWagtailIcon]',
   standalone: true,
   imports: [],
   template: `

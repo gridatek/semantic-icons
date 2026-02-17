@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-return-icon]',
+  selector: 'svg[siKeyboardReturnIcon]',
   standalone: true,
   imports: [],
   template: `

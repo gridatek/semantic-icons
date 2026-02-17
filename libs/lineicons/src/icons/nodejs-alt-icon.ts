@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nodejs-alt-icon]',
+  selector: 'svg[siNodejsAltIcon]',
   standalone: true,
   imports: [],
   template: `

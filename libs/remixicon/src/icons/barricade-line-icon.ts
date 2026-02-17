@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-barricade-line-icon]',
+  selector: 'svg[siBarricadeLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-mysql-icon]',
+  selector: 'svg[siBrandMysqlIcon]',
   standalone: true,
   imports: [],
   template: `

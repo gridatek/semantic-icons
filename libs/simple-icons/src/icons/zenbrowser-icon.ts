@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-zenbrowser-icon]',
+  selector: 'svg[siZenbrowserIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mode-of-travel-icon]',
+  selector: 'svg[siModeOfTravelIcon]',
   standalone: true,
   imports: [],
   template: `

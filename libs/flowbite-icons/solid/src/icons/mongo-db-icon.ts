@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mongo-db-icon]',
+  selector: 'svg[siMongoDbIcon]',
   standalone: true,
   imports: [],
   template: `

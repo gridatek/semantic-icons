@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachedolphinscheduler-icon]',
+  selector: 'svg[siApachedolphinschedulerIcon]',
   standalone: true,
   imports: [],
   template: `

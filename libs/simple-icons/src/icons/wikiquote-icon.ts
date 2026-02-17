@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wikiquote-icon]',
+  selector: 'svg[siWikiquoteIcon]',
   standalone: true,
   imports: [],
   template: `

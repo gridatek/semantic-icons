@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hierarchy-icon]',
+  selector: 'svg[siHierarchyIcon]',
   standalone: true,
   imports: [],
   template: `

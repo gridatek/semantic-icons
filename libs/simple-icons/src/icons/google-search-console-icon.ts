@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlesearchconsole-icon]',
+  selector: 'svg[siGoogleSearchConsoleIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wellfound-icon]',
+  selector: 'svg[siWellfoundIcon]',
   standalone: true,
   imports: [],
   template: `

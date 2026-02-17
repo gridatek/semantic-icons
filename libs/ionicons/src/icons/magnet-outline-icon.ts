@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-magnet-outline-icon]',
+  selector: 'svg[siMagnetOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

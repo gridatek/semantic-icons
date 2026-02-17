@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-opacity-icon]',
+  selector: 'svg[siOpacityIcon]',
   standalone: true,
   imports: [],
   template: `

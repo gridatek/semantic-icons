@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gameloft-icon]',
+  selector: 'svg[siGameloftIcon]',
   standalone: true,
   imports: [],
   template: `

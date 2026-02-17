@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lasso-polygon-icon]',
+  selector: 'svg[siLassoPolygonIcon]',
   standalone: true,
   imports: [],
   template: `

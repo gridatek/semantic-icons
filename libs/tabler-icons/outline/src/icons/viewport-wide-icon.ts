@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-viewport-wide-icon]',
+  selector: 'svg[siViewportWideIcon]',
   standalone: true,
   imports: [],
   template: `

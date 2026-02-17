@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-plotly-icon]',
+  selector: 'svg[siPlotlyIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-envira-icon]',
+  selector: 'svg[siEnviraIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-neuter-icon]',
+  selector: 'svg[siNeuterIcon]',
   standalone: true,
   imports: [],
   template: `

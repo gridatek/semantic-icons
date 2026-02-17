@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-haskell-icon]',
+  selector: 'svg[siHaskellIcon]',
   standalone: true,
   imports: [],
   template: `

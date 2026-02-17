@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-align-item-left-fill-icon]',
+  selector: 'svg[siAlignItemLeftFillIcon]',
   standalone: true,
   imports: [],
   template: `

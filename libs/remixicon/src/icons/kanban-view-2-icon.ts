@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kanban-view-2-icon]',
+  selector: 'svg[siKanbanView2Icon]',
   standalone: true,
   imports: [],
   template: `

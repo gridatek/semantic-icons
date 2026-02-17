@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-oculus-icon]',
+  selector: 'svg[siOculusIcon]',
   standalone: true,
   imports: [],
   template: `

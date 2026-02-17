@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-firefish-icon]',
+  selector: 'svg[siFirefishIcon]',
   standalone: true,
   imports: [],
   template: `

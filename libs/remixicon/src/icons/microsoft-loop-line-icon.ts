@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-microsoft-loop-line-icon]',
+  selector: 'svg[siMicrosoftLoopLineIcon]',
   standalone: true,
   imports: [],
   template: `

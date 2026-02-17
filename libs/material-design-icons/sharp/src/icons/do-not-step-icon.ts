@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-do-not-step-icon]',
+  selector: 'svg[siDoNotStepIcon]',
   standalone: true,
   imports: [],
   template: `

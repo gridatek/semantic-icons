@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-infinity-fill-icon]',
+  selector: 'svg[siInfinityFillIcon]',
   standalone: true,
   imports: [],
   template: `

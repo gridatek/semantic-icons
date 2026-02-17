@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-iteration-ccw-icon]',
+  selector: 'svg[siIterationCcwIcon]',
   standalone: true,
   imports: [],
   template: `

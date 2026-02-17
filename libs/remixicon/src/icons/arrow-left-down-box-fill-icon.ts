@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arrow-left-down-box-fill-icon]',
+  selector: 'svg[siArrowLeftDownBoxFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mikrotik-icon]',
+  selector: 'svg[siMikrotikIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-queue-play-next-icon]',
+  selector: 'svg[siQueuePlayNextIcon]',
   standalone: true,
   imports: [],
   template: `

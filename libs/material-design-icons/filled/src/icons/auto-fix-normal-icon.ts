@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-auto-fix-normal-icon]',
+  selector: 'svg[siAutoFixNormalIcon]',
   standalone: true,
   imports: [],
   template: `

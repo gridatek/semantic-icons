@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pivotaltracker-icon]',
+  selector: 'svg[siPivotaltrackerIcon]',
   standalone: true,
   imports: [],
   template: `

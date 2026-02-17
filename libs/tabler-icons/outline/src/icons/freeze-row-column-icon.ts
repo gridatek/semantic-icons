@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-freeze-row-column-icon]',
+  selector: 'svg[siFreezeRowColumnIcon]',
   standalone: true,
   imports: [],
   template: `

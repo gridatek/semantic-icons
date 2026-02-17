@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-linuxmint-icon]',
+  selector: 'svg[siLinuxmintIcon]',
   standalone: true,
   imports: [],
   template: `

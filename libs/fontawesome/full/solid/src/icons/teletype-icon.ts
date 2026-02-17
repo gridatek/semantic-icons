@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-teletype-icon]',
+  selector: 'svg[siTeletypeIcon]',
   standalone: true,
   imports: [],
   template: `

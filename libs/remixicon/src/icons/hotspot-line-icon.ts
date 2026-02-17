@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hotspot-line-icon]',
+  selector: 'svg[siHotspotLineIcon]',
   standalone: true,
   imports: [],
   template: `

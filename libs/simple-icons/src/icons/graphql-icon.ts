@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-graphql-icon]',
+  selector: 'svg[siGraphqlIcon]',
   standalone: true,
   imports: [],
   template: `

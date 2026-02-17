@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gradienter-line-icon]',
+  selector: 'svg[siGradienterLineIcon]',
   standalone: true,
   imports: [],
   template: `

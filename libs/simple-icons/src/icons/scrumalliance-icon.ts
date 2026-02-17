@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-scrumalliance-icon]',
+  selector: 'svg[siScrumallianceIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cast-connected-icon]',
+  selector: 'svg[siCastConnectedIcon]',
   standalone: true,
   imports: [],
   template: `

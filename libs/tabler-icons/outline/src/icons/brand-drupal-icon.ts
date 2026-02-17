@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-drupal-icon]',
+  selector: 'svg[siBrandDrupalIcon]',
   standalone: true,
   imports: [],
   template: `

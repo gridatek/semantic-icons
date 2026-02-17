@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mambaui-icon]',
+  selector: 'svg[siMambauiIcon]',
   standalone: true,
   imports: [],
   template: `

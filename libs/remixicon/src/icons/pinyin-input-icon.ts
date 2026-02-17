@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pinyin-input-icon]',
+  selector: 'svg[siPinyinInputIcon]',
   standalone: true,
   imports: [],
   template: `

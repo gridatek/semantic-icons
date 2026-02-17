@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arduino-icon]',
+  selector: 'svg[siArduinoIcon]',
   standalone: true,
   imports: [],
   template: `

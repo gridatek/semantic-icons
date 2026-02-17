@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hive-blockchain-icon]',
+  selector: 'svg[siHiveBlockchainIcon]',
   standalone: true,
   imports: [],
   template: `

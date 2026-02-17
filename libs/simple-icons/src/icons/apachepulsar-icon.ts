@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachepulsar-icon]',
+  selector: 'svg[siApachepulsarIcon]',
   standalone: true,
   imports: [],
   template: `

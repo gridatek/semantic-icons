@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-math-pi-divide-2-icon]',
+  selector: 'svg[siMathPiDivide2Icon]',
   standalone: true,
   imports: [],
   template: `

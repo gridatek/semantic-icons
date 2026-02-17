@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fritz-icon]',
+  selector: 'svg[siFritzIcon]',
   standalone: true,
   imports: [],
   template: `

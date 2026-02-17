@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-equalizer-line-icon]',
+  selector: 'svg[siEqualizerLineIcon]',
   standalone: true,
   imports: [],
   template: `

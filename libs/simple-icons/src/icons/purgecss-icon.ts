@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-purgecss-icon]',
+  selector: 'svg[siPurgecssIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hdr-on-select-icon]',
+  selector: 'svg[siHdrOnSelectIcon]',
   standalone: true,
   imports: [],
   template: `

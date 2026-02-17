@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-data-saver-off-icon]',
+  selector: 'svg[siDataSaverOffIcon]',
   standalone: true,
   imports: [],
   template: `

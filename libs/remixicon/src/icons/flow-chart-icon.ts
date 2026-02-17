@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flow-chart-icon]',
+  selector: 'svg[siFlowChartIcon]',
   standalone: true,
   imports: [],
   template: `

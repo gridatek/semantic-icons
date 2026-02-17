@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-spell-check-icon]',
+  selector: 'svg[siSpellCheckIcon]',
   standalone: true,
   imports: [],
   template: `

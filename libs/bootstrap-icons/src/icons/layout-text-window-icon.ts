@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-text-window-icon]',
+  selector: 'svg[siLayoutTextWindowIcon]',
   standalone: true,
   imports: [],
   template: `

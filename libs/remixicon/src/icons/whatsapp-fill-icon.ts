@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-whatsapp-fill-icon]',
+  selector: 'svg[siWhatsappFillIcon]',
   standalone: true,
   imports: [],
   template: `

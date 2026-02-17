@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tiddlywiki-icon]',
+  selector: 'svg[siTiddlywikiIcon]',
   standalone: true,
   imports: [],
   template: `

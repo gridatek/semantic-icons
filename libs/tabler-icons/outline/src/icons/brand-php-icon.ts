@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-php-icon]',
+  selector: 'svg[siBrandPhpIcon]',
   standalone: true,
   imports: [],
   template: `

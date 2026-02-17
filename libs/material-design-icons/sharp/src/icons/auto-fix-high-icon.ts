@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-auto-fix-high-icon]',
+  selector: 'svg[siAutoFixHighIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-alt-icon]',
+  selector: 'svg[siKeyboardAltIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gnusocial-icon]',
+  selector: 'svg[siGnusocialIcon]',
   standalone: true,
   imports: [],
   template: `

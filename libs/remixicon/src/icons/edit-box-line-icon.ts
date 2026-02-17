@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-edit-box-line-icon]',
+  selector: 'svg[siEditBoxLineIcon]',
   standalone: true,
   imports: [],
   template: `

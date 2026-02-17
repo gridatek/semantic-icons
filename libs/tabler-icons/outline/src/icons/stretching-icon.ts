@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-stretching-icon]',
+  selector: 'svg[siStretchingIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-warning-outline-icon]',
+  selector: 'svg[siWarningOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

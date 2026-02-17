@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-tripadvisor-icon]',
+  selector: 'svg[siBrandTripadvisorIcon]',
   standalone: true,
   imports: [],
   template: `

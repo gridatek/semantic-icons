@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-microstrategy-icon]',
+  selector: 'svg[siMicrostrategyIcon]',
   standalone: true,
   imports: [],
   template: `

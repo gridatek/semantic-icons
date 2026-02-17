@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-irregular-polyhedron-plus-icon]',
+  selector: 'svg[siIrregularPolyhedronPlusIcon]',
   standalone: true,
   imports: [],
   template: `

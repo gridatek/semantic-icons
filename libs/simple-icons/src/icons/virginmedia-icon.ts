@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-virginmedia-icon]',
+  selector: 'svg[siVirginmediaIcon]',
   standalone: true,
   imports: [],
   template: `

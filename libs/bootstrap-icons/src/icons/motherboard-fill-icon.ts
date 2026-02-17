@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-motherboard-fill-icon]',
+  selector: 'svg[siMotherboardFillIcon]',
   standalone: true,
   imports: [],
   template: `

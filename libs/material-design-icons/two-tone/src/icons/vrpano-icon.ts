@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vrpano-icon]',
+  selector: 'svg[siVrpanoIcon]',
   standalone: true,
   imports: [],
   template: `

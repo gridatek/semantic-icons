@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-shred-fill-icon]',
+  selector: 'svg[siFileShredFillIcon]',
   standalone: true,
   imports: [],
   template: `

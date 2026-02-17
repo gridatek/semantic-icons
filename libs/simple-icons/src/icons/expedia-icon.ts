@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-expedia-icon]',
+  selector: 'svg[siExpediaIcon]',
   standalone: true,
   imports: [],
   template: `

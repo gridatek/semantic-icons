@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-settings-ethernet-icon]',
+  selector: 'svg[siSettingsEthernetIcon]',
   standalone: true,
   imports: [],
   template: `

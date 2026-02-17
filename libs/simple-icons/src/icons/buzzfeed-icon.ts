@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-buzzfeed-icon]',
+  selector: 'svg[siBuzzfeedIcon]',
   standalone: true,
   imports: [],
   template: `

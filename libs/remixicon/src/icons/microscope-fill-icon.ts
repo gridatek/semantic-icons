@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-microscope-fill-icon]',
+  selector: 'svg[siMicroscopeFillIcon]',
   standalone: true,
   imports: [],
   template: `

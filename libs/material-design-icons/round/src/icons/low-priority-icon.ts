@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-low-priority-icon]',
+  selector: 'svg[siLowPriorityIcon]',
   standalone: true,
   imports: [],
   template: `

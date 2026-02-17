@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-forward-mini-line-icon]',
+  selector: 'svg[siSkipForwardMiniLineIcon]',
   standalone: true,
   imports: [],
   template: `

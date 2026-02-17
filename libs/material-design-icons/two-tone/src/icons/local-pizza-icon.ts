@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-local-pizza-icon]',
+  selector: 'svg[siLocalPizzaIcon]',
   standalone: true,
   imports: [],
   template: `

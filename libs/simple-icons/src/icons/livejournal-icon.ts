@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-livejournal-icon]',
+  selector: 'svg[siLivejournalIcon]',
   standalone: true,
   imports: [],
   template: `

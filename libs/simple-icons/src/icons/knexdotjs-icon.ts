@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-knexdotjs-icon]',
+  selector: 'svg[siKnexdotjsIcon]',
   standalone: true,
   imports: [],
   template: `

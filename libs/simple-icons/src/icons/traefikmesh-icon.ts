@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-traefikmesh-icon]',
+  selector: 'svg[siTraefikmeshIcon]',
   standalone: true,
   imports: [],
   template: `

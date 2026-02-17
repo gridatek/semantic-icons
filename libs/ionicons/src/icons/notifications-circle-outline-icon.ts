@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-notifications-circle-outline-icon]',
+  selector: 'svg[siNotificationsCircleOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

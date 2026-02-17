@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-redhatopenshift-icon]',
+  selector: 'svg[siRedhatopenshiftIcon]',
   standalone: true,
   imports: [],
   template: `

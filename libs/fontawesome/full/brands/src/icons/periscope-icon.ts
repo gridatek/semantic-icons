@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-periscope-icon]',
+  selector: 'svg[siPeriscopeIcon]',
   standalone: true,
   imports: [],
   template: `

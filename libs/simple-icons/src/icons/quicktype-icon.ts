@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-quicktype-icon]',
+  selector: 'svg[siQuicktypeIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apps-ai-fill-icon]',
+  selector: 'svg[siAppsAiFillIcon]',
   standalone: true,
   imports: [],
   template: `

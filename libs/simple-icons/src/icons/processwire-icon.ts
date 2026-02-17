@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-processwire-icon]',
+  selector: 'svg[siProcesswireIcon]',
   standalone: true,
   imports: [],
   template: `

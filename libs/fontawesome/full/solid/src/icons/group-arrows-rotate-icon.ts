@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-group-arrows-rotate-icon]',
+  selector: 'svg[siGroupArrowsRotateIcon]',
   standalone: true,
   imports: [],
   template: `

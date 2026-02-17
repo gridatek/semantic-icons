@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-off-icon]',
+  selector: 'svg[siKeyboardOffIcon]',
   standalone: true,
   imports: [],
   template: `

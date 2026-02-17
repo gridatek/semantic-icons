@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brave-reverse-icon]',
+  selector: 'svg[siBraveReverseIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-redwoodjs-icon]',
+  selector: 'svg[siRedwoodjsIcon]',
   standalone: true,
   imports: [],
   template: `

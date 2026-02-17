@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mcafee-icon]',
+  selector: 'svg[siMcafeeIcon]',
   standalone: true,
   imports: [],
   template: `

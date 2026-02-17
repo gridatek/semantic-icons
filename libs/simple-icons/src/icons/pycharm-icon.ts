@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pycharm-icon]',
+  selector: 'svg[siPycharmIcon]',
   standalone: true,
   imports: [],
   template: `

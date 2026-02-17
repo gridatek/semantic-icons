@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fiber-smart-record-icon]',
+  selector: 'svg[siFiberSmartRecordIcon]',
   standalone: true,
   imports: [],
   template: `

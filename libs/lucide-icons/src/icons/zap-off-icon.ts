@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-zap-off-icon]',
+  selector: 'svg[siZapOffIcon]',
   standalone: true,
   imports: [],
   template: `

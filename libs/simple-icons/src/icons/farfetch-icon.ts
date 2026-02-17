@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-farfetch-icon]',
+  selector: 'svg[siFarfetchIcon]',
   standalone: true,
   imports: [],
   template: `

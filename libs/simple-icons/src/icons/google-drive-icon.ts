@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googledrive-icon]',
+  selector: 'svg[siGoogleDriveIcon]',
   standalone: true,
   imports: [],
   template: `

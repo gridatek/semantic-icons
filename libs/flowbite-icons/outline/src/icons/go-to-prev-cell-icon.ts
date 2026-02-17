@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-go-to-prev-cell-icon]',
+  selector: 'svg[siGoToPrevCellIcon]',
   standalone: true,
   imports: [],
   template: `

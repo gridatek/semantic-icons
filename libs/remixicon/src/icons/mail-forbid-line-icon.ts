@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mail-forbid-line-icon]',
+  selector: 'svg[siMailForbidLineIcon]',
   standalone: true,
   imports: [],
   template: `

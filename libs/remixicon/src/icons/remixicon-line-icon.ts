@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-remixicon-line-icon]',
+  selector: 'svg[siRemixiconLineIcon]',
   standalone: true,
   imports: [],
   template: `

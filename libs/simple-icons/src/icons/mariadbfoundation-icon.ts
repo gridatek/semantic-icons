@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mariadbfoundation-icon]',
+  selector: 'svg[siMariadbfoundationIcon]',
   standalone: true,
   imports: [],
   template: `

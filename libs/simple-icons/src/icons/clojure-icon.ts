@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-clojure-icon]',
+  selector: 'svg[siClojureIcon]',
   standalone: true,
   imports: [],
   template: `

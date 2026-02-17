@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vpn-key-icon]',
+  selector: 'svg[siVpnKeyIcon]',
   standalone: true,
   imports: [],
   template: `

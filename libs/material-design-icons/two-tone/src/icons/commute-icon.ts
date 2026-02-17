@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-commute-icon]',
+  selector: 'svg[siCommuteIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-evernote-fill-icon]',
+  selector: 'svg[siEvernoteFillIcon]',
   standalone: true,
   imports: [],
   template: `

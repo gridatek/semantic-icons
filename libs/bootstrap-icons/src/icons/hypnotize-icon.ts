@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hypnotize-icon]',
+  selector: 'svg[siHypnotizeIcon]',
   standalone: true,
   imports: [],
   template: `

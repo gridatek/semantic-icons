@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cancel-schedule-send-icon]',
+  selector: 'svg[siCancelScheduleSendIcon]',
   standalone: true,
   imports: [],
   template: `

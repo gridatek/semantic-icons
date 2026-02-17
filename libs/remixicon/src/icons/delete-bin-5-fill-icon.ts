@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-delete-bin-5-fill-icon]',
+  selector: 'svg[siDeleteBin5FillIcon]',
   standalone: true,
   imports: [],
   template: `

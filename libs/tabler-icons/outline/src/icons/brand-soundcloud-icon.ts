@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-soundcloud-icon]',
+  selector: 'svg[siBrandSoundcloudIcon]',
   standalone: true,
   imports: [],
   template: `

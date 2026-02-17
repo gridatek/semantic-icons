@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-google-meet-icon]',
+  selector: 'svg[siGoogleMeetIcon]',
   standalone: true,
   imports: [],
   template: `

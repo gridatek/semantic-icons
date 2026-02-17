@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-right-2-fill-icon]',
+  selector: 'svg[siLayoutRight2FillIcon]',
   standalone: true,
   imports: [],
   template: `

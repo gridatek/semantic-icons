@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nextdns-icon]',
+  selector: 'svg[siNextdnsIcon]',
   standalone: true,
   imports: [],
   template: `

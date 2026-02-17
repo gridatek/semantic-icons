@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-color-filter-line-icon]',
+  selector: 'svg[siColorFilterLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-add-to-home-screen-icon]',
+  selector: 'svg[siAddToHomeScreenIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlenearby-icon]',
+  selector: 'svg[siGoogleNearbyIcon]',
   standalone: true,
   imports: [],
   template: `

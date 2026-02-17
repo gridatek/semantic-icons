@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-noise-aware-icon]',
+  selector: 'svg[siNoiseAwareIcon]',
   standalone: true,
   imports: [],
   template: `

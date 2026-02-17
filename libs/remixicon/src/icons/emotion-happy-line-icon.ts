@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-emotion-happy-line-icon]',
+  selector: 'svg[siEmotionHappyLineIcon]',
   standalone: true,
   imports: [],
   template: `

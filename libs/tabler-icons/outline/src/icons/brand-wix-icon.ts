@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-wix-icon]',
+  selector: 'svg[siBrandWixIcon]',
   standalone: true,
   imports: [],
   template: `

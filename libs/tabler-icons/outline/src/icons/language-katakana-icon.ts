@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-language-katakana-icon]',
+  selector: 'svg[siLanguageKatakanaIcon]',
   standalone: true,
   imports: [],
   template: `

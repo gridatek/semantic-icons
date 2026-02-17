@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-foundryvirtualtabletop-icon]',
+  selector: 'svg[siFoundryvirtualtabletopIcon]',
   standalone: true,
   imports: [],
   template: `

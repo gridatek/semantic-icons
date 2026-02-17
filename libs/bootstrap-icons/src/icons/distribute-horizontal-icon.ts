@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-distribute-horizontal-icon]',
+  selector: 'svg[siDistributeHorizontalIcon]',
   standalone: true,
   imports: [],
   template: `

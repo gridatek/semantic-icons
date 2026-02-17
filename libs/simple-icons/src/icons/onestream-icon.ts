@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-onestream-icon]',
+  selector: 'svg[siOnestreamIcon]',
   standalone: true,
   imports: [],
   template: `

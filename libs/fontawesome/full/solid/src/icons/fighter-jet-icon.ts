@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fighter-jet-icon]',
+  selector: 'svg[siFighterJetIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reset-tv-icon]',
+  selector: 'svg[siResetTvIcon]',
   standalone: true,
   imports: [],
   template: `

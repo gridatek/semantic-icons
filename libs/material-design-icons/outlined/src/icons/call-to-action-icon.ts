@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-call-to-action-icon]',
+  selector: 'svg[siCallToActionIcon]',
   standalone: true,
   imports: [],
   template: `

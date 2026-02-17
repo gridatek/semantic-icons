@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fullscreen-fill-icon]',
+  selector: 'svg[siFullscreenFillIcon]',
   standalone: true,
   imports: [],
   template: `

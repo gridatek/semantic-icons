@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-navigation-up-icon]',
+  selector: 'svg[siNavigationUpIcon]',
   standalone: true,
   imports: [],
   template: `

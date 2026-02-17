@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-adjustments-share-icon]',
+  selector: 'svg[siAdjustmentsShareIcon]',
   standalone: true,
   imports: [],
   template: `

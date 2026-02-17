@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-wechat-icon]',
+  selector: 'svg[siBrandWechatIcon]',
   standalone: true,
   imports: [],
   template: `

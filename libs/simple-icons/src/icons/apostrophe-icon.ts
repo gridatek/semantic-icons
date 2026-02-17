@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apostrophe-icon]',
+  selector: 'svg[siApostropheIcon]',
   standalone: true,
   imports: [],
   template: `

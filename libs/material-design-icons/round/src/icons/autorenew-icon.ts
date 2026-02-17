@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-autorenew-icon]',
+  selector: 'svg[siAutorenewIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reduce-capacity-icon]',
+  selector: 'svg[siReduceCapacityIcon]',
   standalone: true,
   imports: [],
   template: `

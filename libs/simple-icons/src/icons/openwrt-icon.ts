@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-openwrt-icon]',
+  selector: 'svg[siOpenwrtIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-starz-icon]',
+  selector: 'svg[siStarzIcon]',
   standalone: true,
   imports: [],
   template: `

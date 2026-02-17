@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-headset-sharp-icon]',
+  selector: 'svg[siHeadsetSharpIcon]',
   standalone: true,
   imports: [],
   template: `

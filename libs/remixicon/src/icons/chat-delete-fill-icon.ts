@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chat-delete-fill-icon]',
+  selector: 'svg[siChatDeleteFillIcon]',
   standalone: true,
   imports: [],
   template: `

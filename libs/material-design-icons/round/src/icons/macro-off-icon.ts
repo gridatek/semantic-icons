@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-macro-off-icon]',
+  selector: 'svg[siMacroOffIcon]',
   standalone: true,
   imports: [],
   template: `

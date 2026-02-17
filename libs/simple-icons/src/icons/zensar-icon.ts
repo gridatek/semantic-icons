@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-zensar-icon]',
+  selector: 'svg[siZensarIcon]',
   standalone: true,
   imports: [],
   template: `

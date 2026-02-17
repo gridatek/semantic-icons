@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pushpin-2-line-icon]',
+  selector: 'svg[siPushpin2LineIcon]',
   standalone: true,
   imports: [],
   template: `

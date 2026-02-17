@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-wrap-column-icon]',
+  selector: 'svg[siTextWrapColumnIcon]',
   standalone: true,
   imports: [],
   template: `

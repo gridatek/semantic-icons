@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-megaphone-fill-icon]',
+  selector: 'svg[siMegaphoneFillIcon]',
   standalone: true,
   imports: [],
   template: `

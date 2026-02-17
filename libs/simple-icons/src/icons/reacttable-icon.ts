@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reacttable-icon]',
+  selector: 'svg[siReacttableIcon]',
   standalone: true,
   imports: [],
   template: `

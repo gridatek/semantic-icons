@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bounding-box-circles-icon]',
+  selector: 'svg[siBoundingBoxCirclesIcon]',
   standalone: true,
   imports: [],
   template: `

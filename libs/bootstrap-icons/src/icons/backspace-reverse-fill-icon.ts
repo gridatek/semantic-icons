@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-backspace-reverse-fill-icon]',
+  selector: 'svg[siBackspaceReverseFillIcon]',
   standalone: true,
   imports: [],
   template: `

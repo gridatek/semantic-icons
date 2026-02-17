@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-power-outline-icon]',
+  selector: 'svg[siPowerOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

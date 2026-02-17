@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-do-not-disturb-on-total-silence-icon]',
+  selector: 'svg[siDoNotDisturbOnTotalSilenceIcon]',
   standalone: true,
   imports: [],
   template: `

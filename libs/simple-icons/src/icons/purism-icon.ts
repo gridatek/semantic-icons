@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-purism-icon]',
+  selector: 'svg[siPurismIcon]',
   standalone: true,
   imports: [],
   template: `

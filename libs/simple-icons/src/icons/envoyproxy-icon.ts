@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-envoyproxy-icon]',
+  selector: 'svg[siEnvoyproxyIcon]',
   standalone: true,
   imports: [],
   template: `

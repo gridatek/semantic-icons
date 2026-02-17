@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cryengine-icon]',
+  selector: 'svg[siCryengineIcon]',
   standalone: true,
   imports: [],
   template: `

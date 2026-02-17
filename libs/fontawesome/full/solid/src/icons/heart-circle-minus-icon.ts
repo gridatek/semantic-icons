@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-heart-circle-minus-icon]',
+  selector: 'svg[siHeartCircleMinusIcon]',
   standalone: true,
   imports: [],
   template: `

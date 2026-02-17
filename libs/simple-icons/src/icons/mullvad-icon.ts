@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mullvad-icon]',
+  selector: 'svg[siMullvadIcon]',
   standalone: true,
   imports: [],
   template: `

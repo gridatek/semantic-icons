@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-barcode-off-icon]',
+  selector: 'svg[siBarcodeOffIcon]',
   standalone: true,
   imports: [],
   template: `

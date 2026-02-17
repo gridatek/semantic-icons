@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-drupal-icon]',
+  selector: 'svg[siDrupalIcon]',
   standalone: true,
   imports: [],
   template: `

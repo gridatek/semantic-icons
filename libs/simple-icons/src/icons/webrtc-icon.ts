@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webrtc-icon]',
+  selector: 'svg[siWebrtcIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ravelry-icon]',
+  selector: 'svg[siRavelryIcon]',
   standalone: true,
   imports: [],
   template: `

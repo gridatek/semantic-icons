@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-add-location-icon]',
+  selector: 'svg[siAddLocationIcon]',
   standalone: true,
   imports: [],
   template: `

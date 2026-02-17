@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-alibaba-cloud-fill-icon]',
+  selector: 'svg[siAlibabaCloudFillIcon]',
   standalone: true,
   imports: [],
   template: `

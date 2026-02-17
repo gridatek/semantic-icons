@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logo-laravel-icon]',
+  selector: 'svg[siLogoLaravelIcon]',
   standalone: true,
   imports: [],
   template: `

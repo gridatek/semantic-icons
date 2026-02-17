@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-letterboxd-icon]',
+  selector: 'svg[siLetterboxdIcon]',
   standalone: true,
   imports: [],
   template: `

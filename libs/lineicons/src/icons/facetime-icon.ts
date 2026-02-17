@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-facetime-icon]',
+  selector: 'svg[siFacetimeIcon]',
   standalone: true,
   imports: [],
   template: `

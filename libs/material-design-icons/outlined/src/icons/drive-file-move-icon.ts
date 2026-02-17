@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-drive-file-move-icon]',
+  selector: 'svg[siDriveFileMoveIcon]',
   standalone: true,
   imports: [],
   template: `

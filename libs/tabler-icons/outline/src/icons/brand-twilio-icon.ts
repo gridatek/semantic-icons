@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-twilio-icon]',
+  selector: 'svg[siBrandTwilioIcon]',
   standalone: true,
   imports: [],
   template: `

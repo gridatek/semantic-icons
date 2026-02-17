@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-remote-control-fill-icon]',
+  selector: 'svg[siRemoteControlFillIcon]',
   standalone: true,
   imports: [],
   template: `

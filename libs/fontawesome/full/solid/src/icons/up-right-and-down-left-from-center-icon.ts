@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-up-right-and-down-left-from-center-icon]',
+  selector: 'svg[siUpRightAndDownLeftFromCenterIcon]',
   standalone: true,
   imports: [],
   template: `

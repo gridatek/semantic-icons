@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-behance-fill-icon]',
+  selector: 'svg[siBehanceFillIcon]',
   standalone: true,
   imports: [],
   template: `

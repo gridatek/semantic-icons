@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chrome-reader-mode-icon]',
+  selector: 'svg[siChromeReaderModeIcon]',
   standalone: true,
   imports: [],
   template: `

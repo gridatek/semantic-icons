@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-merge-type-icon]',
+  selector: 'svg[siMergeTypeIcon]',
   standalone: true,
   imports: [],
   template: `

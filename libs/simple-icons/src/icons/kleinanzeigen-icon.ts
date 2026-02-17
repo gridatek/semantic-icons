@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kleinanzeigen-icon]',
+  selector: 'svg[siKleinanzeigenIcon]',
   standalone: true,
   imports: [],
   template: `

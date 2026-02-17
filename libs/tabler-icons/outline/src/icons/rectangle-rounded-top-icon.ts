@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rectangle-rounded-top-icon]',
+  selector: 'svg[siRectangleRoundedTopIcon]',
   standalone: true,
   imports: [],
   template: `

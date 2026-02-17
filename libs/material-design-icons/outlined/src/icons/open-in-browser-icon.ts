@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-open-in-browser-icon]',
+  selector: 'svg[siOpenInBrowserIcon]',
   standalone: true,
   imports: [],
   template: `

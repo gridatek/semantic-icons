@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-ppt-fill-icon]',
+  selector: 'svg[siFilePptFillIcon]',
   standalone: true,
   imports: [],
   template: `

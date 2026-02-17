@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-equalizer-fill-icon]',
+  selector: 'svg[siEqualizerFillIcon]',
   standalone: true,
   imports: [],
   template: `

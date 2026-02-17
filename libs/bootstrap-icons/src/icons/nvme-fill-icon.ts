@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nvme-fill-icon]',
+  selector: 'svg[siNvmeFillIcon]',
   standalone: true,
   imports: [],
   template: `

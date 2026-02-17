@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flutter-dash-icon]',
+  selector: 'svg[siFlutterDashIcon]',
   standalone: true,
   imports: [],
   template: `

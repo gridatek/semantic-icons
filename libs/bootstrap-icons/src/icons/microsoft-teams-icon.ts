@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-microsoft-teams-icon]',
+  selector: 'svg[siMicrosoftTeamsIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rewind-btn-fill-icon]',
+  selector: 'svg[siRewindBtnFillIcon]',
   standalone: true,
   imports: [],
   template: `

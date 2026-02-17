@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-overleaf-icon]',
+  selector: 'svg[siOverleafIcon]',
   standalone: true,
   imports: [],
   template: `

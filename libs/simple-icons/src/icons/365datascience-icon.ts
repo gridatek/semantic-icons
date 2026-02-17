@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-365datascience-icon]',
+  selector: 'svg[si365datascienceIcon]',
   standalone: true,
   imports: [],
   template: `

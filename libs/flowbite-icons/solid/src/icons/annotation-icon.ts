@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-annotation-icon]',
+  selector: 'svg[siAnnotationIcon]',
   standalone: true,
   imports: [],
   template: `

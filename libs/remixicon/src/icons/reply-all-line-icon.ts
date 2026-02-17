@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reply-all-line-icon]',
+  selector: 'svg[siReplyAllLineIcon]',
   standalone: true,
   imports: [],
   template: `

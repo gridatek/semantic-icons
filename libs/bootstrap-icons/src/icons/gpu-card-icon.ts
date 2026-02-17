@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gpu-card-icon]',
+  selector: 'svg[siGpuCardIcon]',
   standalone: true,
   imports: [],
   template: `

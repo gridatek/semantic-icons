@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dataset-linked-icon]',
+  selector: 'svg[siDatasetLinkedIcon]',
   standalone: true,
   imports: [],
   template: `

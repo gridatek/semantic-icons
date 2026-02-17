@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-panel-bottom-inactive-icon]',
+  selector: 'svg[siPanelBottomInactiveIcon]',
   standalone: true,
   imports: [],
   template: `

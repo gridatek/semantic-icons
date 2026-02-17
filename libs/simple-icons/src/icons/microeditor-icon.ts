@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-microeditor-icon]',
+  selector: 'svg[siMicroeditorIcon]',
   standalone: true,
   imports: [],
   template: `

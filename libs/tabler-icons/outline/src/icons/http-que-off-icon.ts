@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-que-off-icon]',
+  selector: 'svg[siHttpQueOffIcon]',
   standalone: true,
   imports: [],
   template: `

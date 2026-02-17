@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-remote-control-line-icon]',
+  selector: 'svg[siRemoteControlLineIcon]',
   standalone: true,
   imports: [],
   template: `

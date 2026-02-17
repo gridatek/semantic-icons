@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-border-all-icon]',
+  selector: 'svg[siBorderAllIcon]',
   standalone: true,
   imports: [],
   template: `

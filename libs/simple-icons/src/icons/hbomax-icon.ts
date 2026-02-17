@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hbomax-icon]',
+  selector: 'svg[siHbomaxIcon]',
   standalone: true,
   imports: [],
   template: `

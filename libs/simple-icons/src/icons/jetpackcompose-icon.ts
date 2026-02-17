@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-jetpackcompose-icon]',
+  selector: 'svg[siJetpackcomposeIcon]',
   standalone: true,
   imports: [],
   template: `

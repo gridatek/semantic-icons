@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-threadless-icon]',
+  selector: 'svg[siThreadlessIcon]',
   standalone: true,
   imports: [],
   template: `

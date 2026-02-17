@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-phpmyadmin-icon]',
+  selector: 'svg[siPhpmyadminIcon]',
   standalone: true,
   imports: [],
   template: `

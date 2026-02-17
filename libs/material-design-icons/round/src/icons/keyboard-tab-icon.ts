@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-tab-icon]',
+  selector: 'svg[siKeyboardTabIcon]',
   standalone: true,
   imports: [],
   template: `

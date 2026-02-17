@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-replay-circle-filled-icon]',
+  selector: 'svg[siReplayCircleFilledIcon]',
   standalone: true,
   imports: [],
   template: `

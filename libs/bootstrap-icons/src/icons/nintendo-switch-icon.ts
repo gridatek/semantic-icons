@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nintendo-switch-icon]',
+  selector: 'svg[siNintendoSwitchIcon]',
   standalone: true,
   imports: [],
   template: `

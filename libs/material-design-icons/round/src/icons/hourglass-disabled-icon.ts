@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hourglass-disabled-icon]',
+  selector: 'svg[siHourglassDisabledIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logo-alipay-icon]',
+  selector: 'svg[siLogoAlipayIcon]',
   standalone: true,
   imports: [],
   template: `

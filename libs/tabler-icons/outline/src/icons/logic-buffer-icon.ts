@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-logic-buffer-icon]',
+  selector: 'svg[siLogicBufferIcon]',
   standalone: true,
   imports: [],
   template: `

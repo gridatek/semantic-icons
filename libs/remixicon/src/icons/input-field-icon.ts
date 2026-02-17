@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-input-field-icon]',
+  selector: 'svg[siInputFieldIcon]',
   standalone: true,
   imports: [],
   template: `

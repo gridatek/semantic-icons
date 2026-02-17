@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rollupdotjs-icon]',
+  selector: 'svg[siRollupdotjsIcon]',
   standalone: true,
   imports: [],
   template: `

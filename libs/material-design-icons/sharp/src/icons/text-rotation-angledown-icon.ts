@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-rotation-angledown-icon]',
+  selector: 'svg[siTextRotationAngledownIcon]',
   standalone: true,
   imports: [],
   template: `

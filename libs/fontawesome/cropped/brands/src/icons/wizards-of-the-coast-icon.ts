@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wizards-of-the-coast-icon]',
+  selector: 'svg[siWizardsOfTheCoastIcon]',
   standalone: true,
   imports: [],
   template: `

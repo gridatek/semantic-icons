@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-resend-icon]',
+  selector: 'svg[siResendIcon]',
   standalone: true,
   imports: [],
   template: `

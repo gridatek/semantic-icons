@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-no-adult-content-icon]',
+  selector: 'svg[siNoAdultContentIcon]',
   standalone: true,
   imports: [],
   template: `

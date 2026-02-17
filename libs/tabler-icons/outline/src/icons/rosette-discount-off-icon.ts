@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rosette-discount-off-icon]',
+  selector: 'svg[siRosetteDiscountOffIcon]',
   standalone: true,
   imports: [],
   template: `

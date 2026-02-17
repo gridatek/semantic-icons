@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-exclamation-mark-icon]',
+  selector: 'svg[siExclamationMarkIcon]',
   standalone: true,
   imports: [],
   template: `

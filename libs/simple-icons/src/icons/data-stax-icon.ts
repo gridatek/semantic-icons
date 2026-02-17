@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-datastax-icon]',
+  selector: 'svg[siDataStaxIcon]',
   standalone: true,
   imports: [],
   template: `

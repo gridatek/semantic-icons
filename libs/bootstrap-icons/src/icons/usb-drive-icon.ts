@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-usb-drive-icon]',
+  selector: 'svg[siUsbDriveIcon]',
   standalone: true,
   imports: [],
   template: `

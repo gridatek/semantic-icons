@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-synology-icon]',
+  selector: 'svg[siSynologyIcon]',
   standalone: true,
   imports: [],
   template: `

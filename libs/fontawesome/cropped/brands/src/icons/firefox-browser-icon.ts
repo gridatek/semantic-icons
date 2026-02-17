@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-firefox-browser-icon]',
+  selector: 'svg[siFirefoxBrowserIcon]',
   standalone: true,
   imports: [],
   template: `

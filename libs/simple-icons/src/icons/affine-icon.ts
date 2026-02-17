@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-affine-icon]',
+  selector: 'svg[siAffineIcon]',
   standalone: true,
   imports: [],
   template: `

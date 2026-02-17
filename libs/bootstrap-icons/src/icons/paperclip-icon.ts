@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-paperclip-icon]',
+  selector: 'svg[siPaperclipIcon]',
   standalone: true,
   imports: [],
   template: `

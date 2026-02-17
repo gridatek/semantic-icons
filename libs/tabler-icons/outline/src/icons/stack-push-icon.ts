@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-stack-push-icon]',
+  selector: 'svg[siStackPushIcon]',
   standalone: true,
   imports: [],
   template: `

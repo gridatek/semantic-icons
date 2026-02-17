@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-bottom-fill-icon]',
+  selector: 'svg[siLayoutBottomFillIcon]',
   standalone: true,
   imports: [],
   template: `

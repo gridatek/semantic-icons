@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-raylib-icon]',
+  selector: 'svg[siRaylibIcon]',
   standalone: true,
   imports: [],
   template: `

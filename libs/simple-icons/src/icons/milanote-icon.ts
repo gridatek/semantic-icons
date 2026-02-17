@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-milanote-icon]',
+  selector: 'svg[siMilanoteIcon]',
   standalone: true,
   imports: [],
   template: `

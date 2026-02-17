@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-minecraft-icon]',
+  selector: 'svg[siBrandMinecraftIcon]',
   standalone: true,
   imports: [],
   template: `

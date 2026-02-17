@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-comment-nodes-icon]',
+  selector: 'svg[siCommentNodesIcon]',
   standalone: true,
   imports: [],
   template: `

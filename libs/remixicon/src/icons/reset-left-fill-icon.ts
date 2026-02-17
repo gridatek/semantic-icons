@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reset-left-fill-icon]',
+  selector: 'svg[siResetLeftFillIcon]',
   standalone: true,
   imports: [],
   template: `

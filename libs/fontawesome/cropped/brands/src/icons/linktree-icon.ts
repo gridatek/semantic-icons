@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-linktree-icon]',
+  selector: 'svg[siLinktreeIcon]',
   standalone: true,
   imports: [],
   template: `

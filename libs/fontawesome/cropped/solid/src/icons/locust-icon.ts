@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-locust-icon]',
+  selector: 'svg[siLocustIcon]',
   standalone: true,
   imports: [],
   template: `

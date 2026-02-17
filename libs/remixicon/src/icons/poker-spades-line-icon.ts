@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-poker-spades-line-icon]',
+  selector: 'svg[siPokerSpadesLineIcon]',
   standalone: true,
   imports: [],
   template: `

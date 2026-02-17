@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mermaid-icon]',
+  selector: 'svg[siMermaidIcon]',
   standalone: true,
   imports: [],
   template: `

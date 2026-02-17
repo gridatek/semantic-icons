@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chart-treemap-icon]',
+  selector: 'svg[siChartTreemapIcon]',
   standalone: true,
   imports: [],
   template: `

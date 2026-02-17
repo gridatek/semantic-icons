@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-incognito-icon]',
+  selector: 'svg[siIncognitoIcon]',
   standalone: true,
   imports: [],
   template: `

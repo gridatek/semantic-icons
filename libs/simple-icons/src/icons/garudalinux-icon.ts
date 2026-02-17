@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-garudalinux-icon]',
+  selector: 'svg[siGarudalinuxIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-menu-unfold-3-fill-icon]',
+  selector: 'svg[siMenuUnfold3FillIcon]',
   standalone: true,
   imports: [],
   template: `

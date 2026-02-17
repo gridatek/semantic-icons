@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uptimekuma-icon]',
+  selector: 'svg[siUptimekumaIcon]',
   standalone: true,
   imports: [],
   template: `

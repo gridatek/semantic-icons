@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rss-right-icon]',
+  selector: 'svg[siRssRightIcon]',
   standalone: true,
   imports: [],
   template: `

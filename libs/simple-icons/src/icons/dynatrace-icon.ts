@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dynatrace-icon]',
+  selector: 'svg[siDynatraceIcon]',
   standalone: true,
   imports: [],
   template: `

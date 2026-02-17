@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-settings-system-daydream-icon]',
+  selector: 'svg[siSettingsSystemDaydreamIcon]',
   standalone: true,
   imports: [],
   template: `

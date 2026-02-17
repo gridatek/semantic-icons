@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cloud-refresh-clockwise-icon]',
+  selector: 'svg[siCloudRefreshClockwiseIcon]',
   standalone: true,
   imports: [],
   template: `

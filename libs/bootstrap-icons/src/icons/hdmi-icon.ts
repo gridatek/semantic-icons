@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hdmi-icon]',
+  selector: 'svg[siHdmiIcon]',
   standalone: true,
   imports: [],
   template: `

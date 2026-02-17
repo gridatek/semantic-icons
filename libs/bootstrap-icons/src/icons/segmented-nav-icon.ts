@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-segmented-nav-icon]',
+  selector: 'svg[siSegmentedNavIcon]',
   standalone: true,
   imports: [],
   template: `

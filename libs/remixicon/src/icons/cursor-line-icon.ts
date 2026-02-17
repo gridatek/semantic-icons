@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cursor-line-icon]',
+  selector: 'svg[siCursorLineIcon]',
   standalone: true,
   imports: [],
   template: `

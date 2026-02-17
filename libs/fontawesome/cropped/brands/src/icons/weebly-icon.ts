@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-weebly-icon]',
+  selector: 'svg[siWeeblyIcon]',
   standalone: true,
   imports: [],
   template: `

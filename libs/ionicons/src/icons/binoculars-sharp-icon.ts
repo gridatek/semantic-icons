@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-binoculars-sharp-icon]',
+  selector: 'svg[siBinocularsSharpIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-message-circle-cancel-icon]',
+  selector: 'svg[siMessageCircleCancelIcon]',
   standalone: true,
   imports: [],
   template: `

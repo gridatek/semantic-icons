@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-drumstick-bite-icon]',
+  selector: 'svg[siDrumstickBiteIcon]',
   standalone: true,
   imports: [],
   template: `

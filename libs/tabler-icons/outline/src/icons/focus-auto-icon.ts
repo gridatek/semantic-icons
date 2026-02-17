@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-focus-auto-icon]',
+  selector: 'svg[siFocusAutoIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ironing-steam-icon]',
+  selector: 'svg[siIroningSteamIcon]',
   standalone: true,
   imports: [],
   template: `

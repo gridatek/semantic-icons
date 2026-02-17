@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chat-smile-fill-icon]',
+  selector: 'svg[siChatSmileFillIcon]',
   standalone: true,
   imports: [],
   template: `

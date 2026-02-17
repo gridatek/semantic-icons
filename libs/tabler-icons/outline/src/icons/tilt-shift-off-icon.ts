@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tilt-shift-off-icon]',
+  selector: 'svg[siTiltShiftOffIcon]',
   standalone: true,
   imports: [],
   template: `

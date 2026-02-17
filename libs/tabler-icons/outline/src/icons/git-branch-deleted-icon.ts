@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-git-branch-deleted-icon]',
+  selector: 'svg[siGitBranchDeletedIcon]',
   standalone: true,
   imports: [],
   template: `

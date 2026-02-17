@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-speech-to-text-fill-icon]',
+  selector: 'svg[siSpeechToTextFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fedora-icon]',
+  selector: 'svg[siFedoraIcon]',
   standalone: true,
   imports: [],
   template: `

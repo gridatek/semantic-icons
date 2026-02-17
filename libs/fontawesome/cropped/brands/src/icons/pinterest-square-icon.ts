@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pinterest-square-icon]',
+  selector: 'svg[siPinterestSquareIcon]',
   standalone: true,
   imports: [],
   template: `

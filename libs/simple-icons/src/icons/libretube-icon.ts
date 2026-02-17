@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-libretube-icon]',
+  selector: 'svg[siLibretubeIcon]',
   standalone: true,
   imports: [],
   template: `

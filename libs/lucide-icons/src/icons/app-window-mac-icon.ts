@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-app-window-mac-icon]',
+  selector: 'svg[siAppWindowMacIcon]',
   standalone: true,
   imports: [],
   template: `

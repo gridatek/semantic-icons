@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lock-open-outline-icon]',
+  selector: 'svg[siLockOpenOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

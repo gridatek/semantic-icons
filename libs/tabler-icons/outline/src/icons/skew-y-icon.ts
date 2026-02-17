@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skew-y-icon]',
+  selector: 'svg[siSkewYIcon]',
   standalone: true,
   imports: [],
   template: `

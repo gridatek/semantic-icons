@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-scale-unbalanced-flip-icon]',
+  selector: 'svg[siScaleUnbalancedFlipIcon]',
   standalone: true,
   imports: [],
   template: `

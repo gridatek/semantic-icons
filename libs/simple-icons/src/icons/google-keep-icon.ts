@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlekeep-icon]',
+  selector: 'svg[siGoogleKeepIcon]',
   standalone: true,
   imports: [],
   template: `

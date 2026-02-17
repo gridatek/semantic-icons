@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rotate-90-degrees-ccw-icon]',
+  selector: 'svg[siRotate90DegreesCcwIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flickr-line-icon]',
+  selector: 'svg[siFlickrLineIcon]',
   standalone: true,
   imports: [],
   template: `

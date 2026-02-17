@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-map-pause-icon]',
+  selector: 'svg[siMapPauseIcon]',
   standalone: true,
   imports: [],
   template: `

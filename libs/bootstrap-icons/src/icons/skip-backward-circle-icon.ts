@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-backward-circle-icon]',
+  selector: 'svg[siSkipBackwardCircleIcon]',
   standalone: true,
   imports: [],
   template: `

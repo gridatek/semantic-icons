@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-calendar-clear-outline-icon]',
+  selector: 'svg[siCalendarClearOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

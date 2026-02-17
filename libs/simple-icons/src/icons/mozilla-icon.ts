@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mozilla-icon]',
+  selector: 'svg[siMozillaIcon]',
   standalone: true,
   imports: [],
   template: `

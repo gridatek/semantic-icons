@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-transition-bottom-icon]',
+  selector: 'svg[siTransitionBottomIcon]',
   standalone: true,
   imports: [],
   template: `

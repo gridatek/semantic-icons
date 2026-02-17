@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nicehash-icon]',
+  selector: 'svg[siNicehashIcon]',
   standalone: true,
   imports: [],
   template: `

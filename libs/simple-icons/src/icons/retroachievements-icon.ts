@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-retroachievements-icon]',
+  selector: 'svg[siRetroachievementsIcon]',
   standalone: true,
   imports: [],
   template: `

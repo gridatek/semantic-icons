@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-crop-free-icon]',
+  selector: 'svg[siCropFreeIcon]',
   standalone: true,
   imports: [],
   template: `

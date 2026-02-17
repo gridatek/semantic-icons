@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webex-icon]',
+  selector: 'svg[siWebexIcon]',
   standalone: true,
   imports: [],
   template: `

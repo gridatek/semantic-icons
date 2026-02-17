@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bluetooth-sharp-icon]',
+  selector: 'svg[siBluetoothSharpIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-grid-lines-offset-icon]',
+  selector: 'svg[siGridLinesOffsetIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-peseta-sign-icon]',
+  selector: 'svg[siPesetaSignIcon]',
   standalone: true,
   imports: [],
   template: `

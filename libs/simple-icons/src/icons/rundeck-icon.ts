@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rundeck-icon]',
+  selector: 'svg[siRundeckIcon]',
   standalone: true,
   imports: [],
   template: `

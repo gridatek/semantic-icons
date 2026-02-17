@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-calendar-alt-icon]',
+  selector: 'svg[siCalendarAltIcon]',
   standalone: true,
   imports: [],
   template: `

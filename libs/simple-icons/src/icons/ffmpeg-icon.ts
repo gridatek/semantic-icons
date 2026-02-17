@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ffmpeg-icon]',
+  selector: 'svg[siFfmpegIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-location-crosshairs-icon]',
+  selector: 'svg[siLocationCrosshairsIcon]',
   standalone: true,
   imports: [],
   template: `

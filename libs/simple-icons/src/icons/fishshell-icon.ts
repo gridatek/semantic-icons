@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fishshell-icon]',
+  selector: 'svg[siFishshellIcon]',
   standalone: true,
   imports: [],
   template: `

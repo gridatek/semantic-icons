@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kongregate-icon]',
+  selector: 'svg[siKongregateIcon]',
   standalone: true,
   imports: [],
   template: `

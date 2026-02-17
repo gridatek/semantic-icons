@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-last-page-icon]',
+  selector: 'svg[siLastPageIcon]',
   standalone: true,
   imports: [],
   template: `

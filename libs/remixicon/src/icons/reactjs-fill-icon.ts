@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reactjs-fill-icon]',
+  selector: 'svg[siReactjsFillIcon]',
   standalone: true,
   imports: [],
   template: `

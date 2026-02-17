@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-check-double-line-icon]',
+  selector: 'svg[siCheckDoubleLineIcon]',
   standalone: true,
   imports: [],
   template: `

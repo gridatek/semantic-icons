@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-face-retouching-natural-icon]',
+  selector: 'svg[siFaceRetouchingNaturalIcon]',
   standalone: true,
   imports: [],
   template: `

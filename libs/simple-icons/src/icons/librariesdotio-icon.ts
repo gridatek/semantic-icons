@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-librariesdotio-icon]',
+  selector: 'svg[siLibrariesdotioIcon]',
   standalone: true,
   imports: [],
   template: `

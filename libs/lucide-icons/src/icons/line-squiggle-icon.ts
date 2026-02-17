@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-line-squiggle-icon]',
+  selector: 'svg[siLineSquiggleIcon]',
   standalone: true,
   imports: [],
   template: `

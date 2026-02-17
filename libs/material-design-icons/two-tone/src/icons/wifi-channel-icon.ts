@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wifi-channel-icon]',
+  selector: 'svg[siWifiChannelIcon]',
   standalone: true,
   imports: [],
   template: `

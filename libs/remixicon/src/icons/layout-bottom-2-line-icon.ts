@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-bottom-2-line-icon]',
+  selector: 'svg[siLayoutBottom2LineIcon]',
   standalone: true,
   imports: [],
   template: `

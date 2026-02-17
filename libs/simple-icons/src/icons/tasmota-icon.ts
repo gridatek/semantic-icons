@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tasmota-icon]',
+  selector: 'svg[siTasmotaIcon]',
   standalone: true,
   imports: [],
   template: `

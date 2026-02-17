@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rotate-lock-fill-icon]',
+  selector: 'svg[siRotateLockFillIcon]',
   standalone: true,
   imports: [],
   template: `

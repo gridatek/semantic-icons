@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-player-eject-icon]',
+  selector: 'svg[siPlayerEjectIcon]',
   standalone: true,
   imports: [],
   template: `

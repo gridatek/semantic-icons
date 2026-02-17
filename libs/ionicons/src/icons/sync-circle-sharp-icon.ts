@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sync-circle-sharp-icon]',
+  selector: 'svg[siSyncCircleSharpIcon]',
   standalone: true,
   imports: [],
   template: `

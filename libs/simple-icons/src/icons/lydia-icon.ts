@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lydia-icon]',
+  selector: 'svg[siLydiaIcon]',
   standalone: true,
   imports: [],
   template: `

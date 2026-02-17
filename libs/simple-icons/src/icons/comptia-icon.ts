@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-comptia-icon]',
+  selector: 'svg[siComptiaIcon]',
   standalone: true,
   imports: [],
   template: `

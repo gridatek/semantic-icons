@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-page-separator-icon]',
+  selector: 'svg[siPageSeparatorIcon]',
   standalone: true,
   imports: [],
   template: `

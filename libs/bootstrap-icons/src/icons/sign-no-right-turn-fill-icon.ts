@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sign-no-right-turn-fill-icon]',
+  selector: 'svg[siSignNoRightTurnFillIcon]',
   standalone: true,
   imports: [],
   template: `

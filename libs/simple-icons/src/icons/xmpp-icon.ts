@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-xmpp-icon]',
+  selector: 'svg[siXmppIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-robinhood-icon]',
+  selector: 'svg[siRobinhoodIcon]',
   standalone: true,
   imports: [],
   template: `

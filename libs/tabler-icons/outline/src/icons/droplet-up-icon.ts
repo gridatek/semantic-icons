@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-droplet-up-icon]',
+  selector: 'svg[siDropletUpIcon]',
   standalone: true,
   imports: [],
   template: `

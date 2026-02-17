@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-device-recover-line-icon]',
+  selector: 'svg[siDeviceRecoverLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-misskey-icon]',
+  selector: 'svg[siMisskeyIcon]',
   standalone: true,
   imports: [],
   template: `

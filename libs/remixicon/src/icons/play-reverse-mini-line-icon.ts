@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-play-reverse-mini-line-icon]',
+  selector: 'svg[siPlayReverseMiniLineIcon]',
   standalone: true,
   imports: [],
   template: `

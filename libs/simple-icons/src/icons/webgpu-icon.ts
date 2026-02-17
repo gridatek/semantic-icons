@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webgpu-icon]',
+  selector: 'svg[siWebgpuIcon]',
   standalone: true,
   imports: [],
   template: `

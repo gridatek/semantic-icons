@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-loader-pinwheel-icon]',
+  selector: 'svg[siLoaderPinwheelIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fiber-dvr-icon]',
+  selector: 'svg[siFiberDvrIcon]',
   standalone: true,
   imports: [],
   template: `

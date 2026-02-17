@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-users-between-lines-icon]',
+  selector: 'svg[siUsersBetweenLinesIcon]',
   standalone: true,
   imports: [],
   template: `

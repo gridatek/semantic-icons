@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-clipboard-data-fill-icon]',
+  selector: 'svg[siClipboardDataFillIcon]',
   standalone: true,
   imports: [],
   template: `

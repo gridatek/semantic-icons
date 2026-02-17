@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-backward-fast-icon]',
+  selector: 'svg[siBackwardFastIcon]',
   standalone: true,
   imports: [],
   template: `

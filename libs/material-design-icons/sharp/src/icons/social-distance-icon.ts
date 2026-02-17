@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-social-distance-icon]',
+  selector: 'svg[siSocialDistanceIcon]',
   standalone: true,
   imports: [],
   template: `

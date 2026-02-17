@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-opentelemetry-icon]',
+  selector: 'svg[siOpentelemetryIcon]',
   standalone: true,
   imports: [],
   template: `

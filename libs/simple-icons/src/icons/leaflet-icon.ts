@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-leaflet-icon]',
+  selector: 'svg[siLeafletIcon]',
   standalone: true,
   imports: [],
   template: `

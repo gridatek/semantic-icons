@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-not-started-icon]',
+  selector: 'svg[siNotStartedIcon]',
   standalone: true,
   imports: [],
   template: `

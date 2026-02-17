@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-near-me-disabled-icon]',
+  selector: 'svg[siNearMeDisabledIcon]',
   standalone: true,
   imports: [],
   template: `

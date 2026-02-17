@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-grin-beam-icon]',
+  selector: 'svg[siGrinBeamIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-remove-format-icon]',
+  selector: 'svg[siRemoveFormatIcon]',
   standalone: true,
   imports: [],
   template: `

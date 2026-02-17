@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-augmented-reality-off-icon]',
+  selector: 'svg[siAugmentedRealityOffIcon]',
   standalone: true,
   imports: [],
   template: `

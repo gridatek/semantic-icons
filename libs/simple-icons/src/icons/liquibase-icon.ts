@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-liquibase-icon]',
+  selector: 'svg[siLiquibaseIcon]',
   standalone: true,
   imports: [],
   template: `

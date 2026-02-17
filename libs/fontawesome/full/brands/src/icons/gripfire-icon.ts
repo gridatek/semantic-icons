@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gripfire-icon]',
+  selector: 'svg[siGripfireIcon]',
   standalone: true,
   imports: [],
   template: `

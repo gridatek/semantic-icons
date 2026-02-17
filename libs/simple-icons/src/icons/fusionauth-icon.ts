@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fusionauth-icon]',
+  selector: 'svg[siFusionauthIcon]',
   standalone: true,
   imports: [],
   template: `

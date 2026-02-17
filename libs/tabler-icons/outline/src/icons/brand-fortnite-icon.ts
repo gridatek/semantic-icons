@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-fortnite-icon]',
+  selector: 'svg[siBrandFortniteIcon]',
   standalone: true,
   imports: [],
   template: `

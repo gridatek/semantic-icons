@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-slow-down-fill-icon]',
+  selector: 'svg[siSlowDownFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-volume-mute-line-icon]',
+  selector: 'svg[siVolumeMuteLineIcon]',
   standalone: true,
   imports: [],
   template: `

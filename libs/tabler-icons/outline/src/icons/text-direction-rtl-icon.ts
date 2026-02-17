@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-direction-rtl-icon]',
+  selector: 'svg[siTextDirectionRtlIcon]',
   standalone: true,
   imports: [],
   template: `

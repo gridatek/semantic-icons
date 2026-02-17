@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tourbox-icon]',
+  selector: 'svg[siTourboxIcon]',
   standalone: true,
   imports: [],
   template: `

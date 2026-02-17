@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nfc-directional-icon]',
+  selector: 'svg[siNfcDirectionalIcon]',
   standalone: true,
   imports: [],
   template: `

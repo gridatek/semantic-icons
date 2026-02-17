@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mediafire-icon]',
+  selector: 'svg[siMediafireIcon]',
   standalone: true,
   imports: [],
   template: `

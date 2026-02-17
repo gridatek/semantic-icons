@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gear-wide-connected-icon]',
+  selector: 'svg[siGearWideConnectedIcon]',
   standalone: true,
   imports: [],
   template: `

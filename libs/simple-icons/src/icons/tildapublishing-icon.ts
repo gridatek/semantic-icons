@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tildapublishing-icon]',
+  selector: 'svg[siTildapublishingIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lens-blur-icon]',
+  selector: 'svg[siLensBlurIcon]',
   standalone: true,
   imports: [],
   template: `

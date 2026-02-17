@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bars-staggered-icon]',
+  selector: 'svg[siBarsStaggeredIcon]',
   standalone: true,
   imports: [],
   template: `

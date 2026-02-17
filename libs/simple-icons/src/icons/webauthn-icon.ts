@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webauthn-icon]',
+  selector: 'svg[siWebauthnIcon]',
   standalone: true,
   imports: [],
   template: `

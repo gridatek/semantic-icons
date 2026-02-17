@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rv-hookup-icon]',
+  selector: 'svg[siRvHookupIcon]',
   standalone: true,
   imports: [],
   template: `

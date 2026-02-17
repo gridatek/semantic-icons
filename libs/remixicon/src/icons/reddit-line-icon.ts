@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reddit-line-icon]',
+  selector: 'svg[siRedditLineIcon]',
   standalone: true,
   imports: [],
   template: `

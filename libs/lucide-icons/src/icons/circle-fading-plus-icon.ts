@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-circle-fading-plus-icon]',
+  selector: 'svg[siCircleFadingPlusIcon]',
   standalone: true,
   imports: [],
   template: `

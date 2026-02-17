@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-clear-formatting-icon]',
+  selector: 'svg[siClearFormattingIcon]',
   standalone: true,
   imports: [],
   template: `

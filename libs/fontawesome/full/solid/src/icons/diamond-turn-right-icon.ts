@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-diamond-turn-right-icon]',
+  selector: 'svg[siDiamondTurnRightIcon]',
   standalone: true,
   imports: [],
   template: `

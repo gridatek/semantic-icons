@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-no-stroller-icon]',
+  selector: 'svg[siNoStrollerIcon]',
   standalone: true,
   imports: [],
   template: `

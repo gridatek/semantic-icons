@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-paradoxinteractive-icon]',
+  selector: 'svg[siParadoxinteractiveIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thermometer-sharp-icon]',
+  selector: 'svg[siThermometerSharpIcon]',
   standalone: true,
   imports: [],
   template: `

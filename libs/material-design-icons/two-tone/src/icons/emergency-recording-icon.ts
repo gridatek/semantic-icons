@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-emergency-recording-icon]',
+  selector: 'svg[siEmergencyRecordingIcon]',
   standalone: true,
   imports: [],
   template: `

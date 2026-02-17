@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-jekyll-icon]',
+  selector: 'svg[siJekyllIcon]',
   standalone: true,
   imports: [],
   template: `

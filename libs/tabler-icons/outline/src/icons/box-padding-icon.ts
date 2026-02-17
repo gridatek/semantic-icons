@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-box-padding-icon]',
+  selector: 'svg[siBoxPaddingIcon]',
   standalone: true,
   imports: [],
   template: `

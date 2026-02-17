@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-facebook-rounded-icon]',
+  selector: 'svg[siFacebookRoundedIcon]',
   standalone: true,
   imports: [],
   template: `

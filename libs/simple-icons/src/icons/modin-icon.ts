@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-modin-icon]',
+  selector: 'svg[siModinIcon]',
   standalone: true,
   imports: [],
   template: `

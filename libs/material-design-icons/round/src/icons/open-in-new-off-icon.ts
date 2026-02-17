@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-open-in-new-off-icon]',
+  selector: 'svg[siOpenInNewOffIcon]',
   standalone: true,
   imports: [],
   template: `

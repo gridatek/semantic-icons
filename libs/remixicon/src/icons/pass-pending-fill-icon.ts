@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pass-pending-fill-icon]',
+  selector: 'svg[siPassPendingFillIcon]',
   standalone: true,
   imports: [],
   template: `

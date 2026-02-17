@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perm-device-information-icon]',
+  selector: 'svg[siPermDeviceInformationIcon]',
   standalone: true,
   imports: [],
   template: `

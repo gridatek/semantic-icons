@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-umbraco-icon]',
+  selector: 'svg[siUmbracoIcon]',
   standalone: true,
   imports: [],
   template: `

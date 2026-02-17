@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hand-click-off-icon]',
+  selector: 'svg[siHandClickOffIcon]',
   standalone: true,
   imports: [],
   template: `

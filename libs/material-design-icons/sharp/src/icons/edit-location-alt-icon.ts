@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-edit-location-alt-icon]',
+  selector: 'svg[siEditLocationAltIcon]',
   standalone: true,
   imports: [],
   template: `

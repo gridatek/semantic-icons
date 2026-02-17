@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-box-margin-icon]',
+  selector: 'svg[siBoxMarginIcon]',
   standalone: true,
   imports: [],
   template: `

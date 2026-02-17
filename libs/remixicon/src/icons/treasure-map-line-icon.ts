@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-treasure-map-line-icon]',
+  selector: 'svg[siTreasureMapLineIcon]',
   standalone: true,
   imports: [],
   template: `

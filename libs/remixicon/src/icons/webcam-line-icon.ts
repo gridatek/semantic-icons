@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webcam-line-icon]',
+  selector: 'svg[siWebcamLineIcon]',
   standalone: true,
   imports: [],
   template: `

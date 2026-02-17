@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-freebsd-icon]',
+  selector: 'svg[siFreebsdIcon]',
   standalone: true,
   imports: [],
   template: `

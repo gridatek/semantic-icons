@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-dashed-mouse-pointer-icon]',
+  selector: 'svg[siSquareDashedMousePointerIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-warning-line-icon]',
+  selector: 'svg[siFolderWarningLineIcon]',
   standalone: true,
   imports: [],
   template: `

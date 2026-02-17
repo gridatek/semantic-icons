@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dailymotion-icon]',
+  selector: 'svg[siDailymotionIcon]',
   standalone: true,
   imports: [],
   template: `

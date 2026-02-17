@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachetomcat-icon]',
+  selector: 'svg[siApachetomcatIcon]',
   standalone: true,
   imports: [],
   template: `

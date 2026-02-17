@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-makerbot-icon]',
+  selector: 'svg[siMakerbotIcon]',
   standalone: true,
   imports: [],
   template: `

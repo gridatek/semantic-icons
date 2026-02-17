@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-align-box-top-left-icon]',
+  selector: 'svg[siAlignBoxTopLeftIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-draggable-icon]',
+  selector: 'svg[siDraggableIcon]',
   standalone: true,
   imports: [],
   template: `

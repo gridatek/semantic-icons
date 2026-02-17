@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlebigquery-icon]',
+  selector: 'svg[siGoogleBigQueryIcon]',
   standalone: true,
   imports: [],
   template: `

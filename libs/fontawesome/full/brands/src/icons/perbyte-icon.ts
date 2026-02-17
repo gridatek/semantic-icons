@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perbyte-icon]',
+  selector: 'svg[siPerbyteIcon]',
   standalone: true,
   imports: [],
   template: `

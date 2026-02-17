@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-adobe-indesign-icon]',
+  selector: 'svg[siBrandAdobeIndesignIcon]',
   standalone: true,
   imports: [],
   template: `

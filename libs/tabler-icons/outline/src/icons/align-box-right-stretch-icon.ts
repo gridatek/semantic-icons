@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-align-box-right-stretch-icon]',
+  selector: 'svg[siAlignBoxRightStretchIcon]',
   standalone: true,
   imports: [],
   template: `

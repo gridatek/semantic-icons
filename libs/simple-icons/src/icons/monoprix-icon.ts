@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-monoprix-icon]',
+  selector: 'svg[siMonoprixIcon]',
   standalone: true,
   imports: [],
   template: `

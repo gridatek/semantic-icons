@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachejmeter-icon]',
+  selector: 'svg[siApachejmeterIcon]',
   standalone: true,
   imports: [],
   template: `

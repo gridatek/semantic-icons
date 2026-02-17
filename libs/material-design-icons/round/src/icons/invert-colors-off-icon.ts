@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-invert-colors-off-icon]',
+  selector: 'svg[siInvertColorsOffIcon]',
   standalone: true,
   imports: [],
   template: `

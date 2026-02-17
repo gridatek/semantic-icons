@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-paragraph-icon]',
+  selector: 'svg[siTextParagraphIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cloud-offline-sharp-icon]',
+  selector: 'svg[siCloudOfflineSharpIcon]',
   standalone: true,
   imports: [],
   template: `

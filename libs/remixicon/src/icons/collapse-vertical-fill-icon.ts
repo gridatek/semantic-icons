@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-collapse-vertical-fill-icon]',
+  selector: 'svg[siCollapseVerticalFillIcon]',
   standalone: true,
   imports: [],
   template: `

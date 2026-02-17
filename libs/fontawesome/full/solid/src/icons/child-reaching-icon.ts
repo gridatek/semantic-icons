@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-child-reaching-icon]',
+  selector: 'svg[siChildReachingIcon]',
   standalone: true,
   imports: [],
   template: `

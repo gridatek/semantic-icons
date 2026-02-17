@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-metager-icon]',
+  selector: 'svg[siMetagerIcon]',
   standalone: true,
   imports: [],
   template: `

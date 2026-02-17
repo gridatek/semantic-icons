@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-find-replace-icon]',
+  selector: 'svg[siFindReplaceIcon]',
   standalone: true,
   imports: [],
   template: `

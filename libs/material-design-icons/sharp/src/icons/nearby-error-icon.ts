@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nearby-error-icon]',
+  selector: 'svg[siNearbyErrorIcon]',
   standalone: true,
   imports: [],
   template: `

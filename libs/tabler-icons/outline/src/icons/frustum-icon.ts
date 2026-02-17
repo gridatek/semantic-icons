@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-frustum-icon]',
+  selector: 'svg[siFrustumIcon]',
   standalone: true,
   imports: [],
   template: `

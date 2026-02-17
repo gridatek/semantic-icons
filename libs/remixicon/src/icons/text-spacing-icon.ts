@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-spacing-icon]',
+  selector: 'svg[siTextSpacingIcon]',
   standalone: true,
   imports: [],
   template: `

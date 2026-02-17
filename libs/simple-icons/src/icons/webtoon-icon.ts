@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webtoon-icon]',
+  selector: 'svg[siWebtoonIcon]',
   standalone: true,
   imports: [],
   template: `

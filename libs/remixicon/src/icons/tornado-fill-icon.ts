@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tornado-fill-icon]',
+  selector: 'svg[siTornadoFillIcon]',
   standalone: true,
   imports: [],
   template: `

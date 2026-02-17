@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flowbite-icon]',
+  selector: 'svg[siFlowbiteIcon]',
   standalone: true,
   imports: [],
   template: `

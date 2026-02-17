@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-curling-icon]',
+  selector: 'svg[siCurlingIcon]',
   standalone: true,
   imports: [],
   template: `

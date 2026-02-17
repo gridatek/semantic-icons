@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-bitbucket-icon]',
+  selector: 'svg[siBrandBitbucketIcon]',
   standalone: true,
   imports: [],
   template: `

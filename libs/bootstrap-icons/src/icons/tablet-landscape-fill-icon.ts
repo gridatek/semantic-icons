@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tablet-landscape-fill-icon]',
+  selector: 'svg[siTabletLandscapeFillIcon]',
   standalone: true,
   imports: [],
   template: `

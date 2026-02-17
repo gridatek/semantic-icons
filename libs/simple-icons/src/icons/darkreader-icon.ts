@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-darkreader-icon]',
+  selector: 'svg[siDarkreaderIcon]',
   standalone: true,
   imports: [],
   template: `

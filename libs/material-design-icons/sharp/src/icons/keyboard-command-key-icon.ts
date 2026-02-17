@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-command-key-icon]',
+  selector: 'svg[siKeyboardCommandKeyIcon]',
   standalone: true,
   imports: [],
   template: `

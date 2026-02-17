@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ferretdb-icon]',
+  selector: 'svg[siFerretdbIcon]',
   standalone: true,
   imports: [],
   template: `

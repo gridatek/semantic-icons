@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-influxdb-icon]',
+  selector: 'svg[siInfluxdbIcon]',
   standalone: true,
   imports: [],
   template: `

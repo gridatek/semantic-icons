@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dynamic-feed-icon]',
+  selector: 'svg[siDynamicFeedIcon]',
   standalone: true,
   imports: [],
   template: `

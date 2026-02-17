@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-subtract-line-icon]',
+  selector: 'svg[siSubtractLineIcon]',
   standalone: true,
   imports: [],
   template: `

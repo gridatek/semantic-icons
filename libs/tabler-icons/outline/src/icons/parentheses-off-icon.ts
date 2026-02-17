@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-parentheses-off-icon]',
+  selector: 'svg[siParenthesesOffIcon]',
   standalone: true,
   imports: [],
   template: `

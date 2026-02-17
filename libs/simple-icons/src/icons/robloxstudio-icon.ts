@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-robloxstudio-icon]',
+  selector: 'svg[siRobloxstudioIcon]',
   standalone: true,
   imports: [],
   template: `

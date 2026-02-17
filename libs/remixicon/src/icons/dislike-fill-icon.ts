@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dislike-fill-icon]',
+  selector: 'svg[siDislikeFillIcon]',
   standalone: true,
   imports: [],
   template: `

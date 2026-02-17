@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-redmine-icon]',
+  selector: 'svg[siRedmineIcon]',
   standalone: true,
   imports: [],
   template: `

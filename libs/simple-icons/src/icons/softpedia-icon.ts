@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-softpedia-icon]',
+  selector: 'svg[siSoftpediaIcon]',
   standalone: true,
   imports: [],
   template: `

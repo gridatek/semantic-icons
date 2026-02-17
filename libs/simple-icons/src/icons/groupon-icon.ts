@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-groupon-icon]',
+  selector: 'svg[siGrouponIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlemaps-icon]',
+  selector: 'svg[siGoogleMapsIcon]',
   standalone: true,
   imports: [],
   template: `

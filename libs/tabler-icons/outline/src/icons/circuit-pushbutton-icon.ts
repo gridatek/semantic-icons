@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-circuit-pushbutton-icon]',
+  selector: 'svg[siCircuitPushbuttonIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sublimetext-icon]',
+  selector: 'svg[siSublimetextIcon]',
   standalone: true,
   imports: [],
   template: `

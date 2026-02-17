@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-scroll-to-bottom-line-icon]',
+  selector: 'svg[siScrollToBottomLineIcon]',
   standalone: true,
   imports: [],
   template: `

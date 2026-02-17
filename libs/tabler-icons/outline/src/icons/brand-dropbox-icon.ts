@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-dropbox-icon]',
+  selector: 'svg[siBrandDropboxIcon]',
   standalone: true,
   imports: [],
   template: `

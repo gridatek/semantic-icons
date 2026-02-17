@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-menu-button-wide-fill-icon]',
+  selector: 'svg[siMenuButtonWideFillIcon]',
   standalone: true,
   imports: [],
   template: `

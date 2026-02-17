@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unfold-vertical-icon]',
+  selector: 'svg[siUnfoldVerticalIcon]',
   standalone: true,
   imports: [],
   template: `

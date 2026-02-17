@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dirty-lens-icon]',
+  selector: 'svg[siDirtyLensIcon]',
   standalone: true,
   imports: [],
   template: `

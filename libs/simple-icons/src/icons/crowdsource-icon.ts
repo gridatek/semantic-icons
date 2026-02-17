@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-crowdsource-icon]',
+  selector: 'svg[siCrowdsourceIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachecassandra-icon]',
+  selector: 'svg[siApachecassandraIcon]',
   standalone: true,
   imports: [],
   template: `

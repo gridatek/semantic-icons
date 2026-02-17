@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-privateinternetaccess-icon]',
+  selector: 'svg[siPrivateinternetaccessIcon]',
   standalone: true,
   imports: [],
   template: `

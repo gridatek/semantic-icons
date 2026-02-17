@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-delphi-icon]',
+  selector: 'svg[siDelphiIcon]',
   standalone: true,
   imports: [],
   template: `

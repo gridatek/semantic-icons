@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gutenberg-icon]',
+  selector: 'svg[siGutenbergIcon]',
   standalone: true,
   imports: [],
   template: `

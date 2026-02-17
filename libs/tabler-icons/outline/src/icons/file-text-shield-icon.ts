@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-text-shield-icon]',
+  selector: 'svg[siFileTextShieldIcon]',
   standalone: true,
   imports: [],
   template: `

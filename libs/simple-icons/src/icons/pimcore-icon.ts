@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pimcore-icon]',
+  selector: 'svg[siPimcoreIcon]',
   standalone: true,
   imports: [],
   template: `

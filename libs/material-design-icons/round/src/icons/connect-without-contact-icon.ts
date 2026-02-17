@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-connect-without-contact-icon]',
+  selector: 'svg[siConnectWithoutContactIcon]',
   standalone: true,
   imports: [],
   template: `

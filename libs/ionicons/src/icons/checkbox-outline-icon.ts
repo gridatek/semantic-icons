@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-checkbox-outline-icon]',
+  selector: 'svg[siCheckboxOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

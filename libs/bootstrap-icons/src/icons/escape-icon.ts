@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-escape-icon]',
+  selector: 'svg[siEscapeIcon]',
   standalone: true,
   imports: [],
   template: `

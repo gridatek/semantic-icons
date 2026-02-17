@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pass-valid-fill-icon]',
+  selector: 'svg[siPassValidFillIcon]',
   standalone: true,
   imports: [],
   template: `

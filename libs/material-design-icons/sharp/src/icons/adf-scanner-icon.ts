@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-adf-scanner-icon]',
+  selector: 'svg[siAdfScannerIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-how-to-reg-icon]',
+  selector: 'svg[siHowToRegIcon]',
   standalone: true,
   imports: [],
   template: `

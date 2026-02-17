@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-grammarly-icon]',
+  selector: 'svg[siGrammarlyIcon]',
   standalone: true,
   imports: [],
   template: `

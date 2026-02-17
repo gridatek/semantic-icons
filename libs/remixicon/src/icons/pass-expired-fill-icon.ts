@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pass-expired-fill-icon]',
+  selector: 'svg[siPassExpiredFillIcon]',
   standalone: true,
   imports: [],
   template: `

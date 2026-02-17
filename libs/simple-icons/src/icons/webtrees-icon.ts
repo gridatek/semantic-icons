@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webtrees-icon]',
+  selector: 'svg[siWebtreesIcon]',
   standalone: true,
   imports: [],
   template: `

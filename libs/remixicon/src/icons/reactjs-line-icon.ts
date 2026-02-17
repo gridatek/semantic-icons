@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reactjs-line-icon]',
+  selector: 'svg[siReactjsLineIcon]',
   standalone: true,
   imports: [],
   template: `

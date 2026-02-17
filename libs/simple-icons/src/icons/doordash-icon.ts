@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-doordash-icon]',
+  selector: 'svg[siDoordashIcon]',
   standalone: true,
   imports: [],
   template: `

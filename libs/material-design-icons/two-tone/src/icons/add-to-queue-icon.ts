@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-add-to-queue-icon]',
+  selector: 'svg[siAddToQueueIcon]',
   standalone: true,
   imports: [],
   template: `

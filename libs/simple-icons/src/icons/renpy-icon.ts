@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-renpy-icon]',
+  selector: 'svg[siRenpyIcon]',
   standalone: true,
   imports: [],
   template: `

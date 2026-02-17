@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-phosphoricons-icon]',
+  selector: 'svg[siPhosphoriconsIcon]',
   standalone: true,
   imports: [],
   template: `

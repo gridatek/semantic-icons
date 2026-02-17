@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gesture-icon]',
+  selector: 'svg[siGestureIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gradient-icon]',
+  selector: 'svg[siGradientIcon]',
   standalone: true,
   imports: [],
   template: `

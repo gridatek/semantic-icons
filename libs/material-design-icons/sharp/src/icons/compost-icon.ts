@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-compost-icon]',
+  selector: 'svg[siCompostIcon]',
   standalone: true,
   imports: [],
   template: `

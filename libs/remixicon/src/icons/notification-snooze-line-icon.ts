@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-notification-snooze-line-icon]',
+  selector: 'svg[siNotificationSnoozeLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-energy-savings-leaf-icon]',
+  selector: 'svg[siEnergySavingsLeafIcon]',
   standalone: true,
   imports: [],
   template: `

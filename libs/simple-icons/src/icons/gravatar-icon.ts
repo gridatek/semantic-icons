@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gravatar-icon]',
+  selector: 'svg[siGravatarIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-commonworkflowlanguage-icon]',
+  selector: 'svg[siCommonworkflowlanguageIcon]',
   standalone: true,
   imports: [],
   template: `

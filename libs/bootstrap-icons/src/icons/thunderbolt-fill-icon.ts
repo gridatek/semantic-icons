@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thunderbolt-fill-icon]',
+  selector: 'svg[siThunderboltFillIcon]',
   standalone: true,
   imports: [],
   template: `

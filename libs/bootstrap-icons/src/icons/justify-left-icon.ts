@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-justify-left-icon]',
+  selector: 'svg[siJustifyLeftIcon]',
   standalone: true,
   imports: [],
   template: `

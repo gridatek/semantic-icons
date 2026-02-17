@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-radiation-alt-icon]',
+  selector: 'svg[siRadiationAltIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-loop-right-ai-fill-icon]',
+  selector: 'svg[siLoopRightAiFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-picture-in-picture-exit-line-icon]',
+  selector: 'svg[siPictureInPictureExitLineIcon]',
   standalone: true,
   imports: [],
   template: `

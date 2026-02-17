@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-forward-btn-fill-icon]',
+  selector: 'svg[siSkipForwardBtnFillIcon]',
   standalone: true,
   imports: [],
   template: `

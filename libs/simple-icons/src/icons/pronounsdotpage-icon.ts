@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pronounsdotpage-icon]',
+  selector: 'svg[siPronounsdotpageIcon]',
   standalone: true,
   imports: [],
   template: `

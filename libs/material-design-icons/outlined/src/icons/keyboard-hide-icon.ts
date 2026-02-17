@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-hide-icon]',
+  selector: 'svg[siKeyboardHideIcon]',
   standalone: true,
   imports: [],
   template: `

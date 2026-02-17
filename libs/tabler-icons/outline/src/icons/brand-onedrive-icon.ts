@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-onedrive-icon]',
+  selector: 'svg[siBrandOnedriveIcon]',
   standalone: true,
   imports: [],
   template: `

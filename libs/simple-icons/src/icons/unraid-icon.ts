@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unraid-icon]',
+  selector: 'svg[siUnraidIcon]',
   standalone: true,
   imports: [],
   template: `

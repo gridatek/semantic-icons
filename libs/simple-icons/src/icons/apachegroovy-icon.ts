@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachegroovy-icon]',
+  selector: 'svg[siApachegroovyIcon]',
   standalone: true,
   imports: [],
   template: `

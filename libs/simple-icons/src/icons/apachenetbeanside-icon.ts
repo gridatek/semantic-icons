@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachenetbeanside-icon]',
+  selector: 'svg[siApachenetbeansideIcon]',
   standalone: true,
   imports: [],
   template: `

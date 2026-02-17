@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-curly-braces-icon]',
+  selector: 'svg[siCurlyBracesIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-table-cells-row-unlock-icon]',
+  selector: 'svg[siTableCellsRowUnlockIcon]',
   standalone: true,
   imports: [],
   template: `

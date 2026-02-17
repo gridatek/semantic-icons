@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-water-percent-fill-icon]',
+  selector: 'svg[siWaterPercentFillIcon]',
   standalone: true,
   imports: [],
   template: `

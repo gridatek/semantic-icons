@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-move-down-right-icon]',
+  selector: 'svg[siMoveDownRightIcon]',
   standalone: true,
   imports: [],
   template: `

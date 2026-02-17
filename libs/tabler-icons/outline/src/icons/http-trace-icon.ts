@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-trace-icon]',
+  selector: 'svg[siHttpTraceIcon]',
   standalone: true,
   imports: [],
   template: `

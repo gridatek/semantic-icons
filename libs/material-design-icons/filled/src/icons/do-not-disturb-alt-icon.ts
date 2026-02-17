@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-do-not-disturb-alt-icon]',
+  selector: 'svg[siDoNotDisturbAltIcon]',
   standalone: true,
   imports: [],
   template: `

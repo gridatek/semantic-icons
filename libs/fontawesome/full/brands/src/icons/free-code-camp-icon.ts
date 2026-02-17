@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-free-code-camp-icon]',
+  selector: 'svg[siFreeCodeCampIcon]',
   standalone: true,
   imports: [],
   template: `

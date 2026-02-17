@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-intellijidea-icon]',
+  selector: 'svg[siIntellijideaIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-calendar-close-line-icon]',
+  selector: 'svg[siCalendarCloseLineIcon]',
   standalone: true,
   imports: [],
   template: `

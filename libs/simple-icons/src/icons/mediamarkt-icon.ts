@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mediamarkt-icon]',
+  selector: 'svg[siMediamarktIcon]',
   standalone: true,
   imports: [],
   template: `

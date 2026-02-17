@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-local-bar-icon]',
+  selector: 'svg[siLocalBarIcon]',
   standalone: true,
   imports: [],
   template: `

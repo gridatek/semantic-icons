@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlecast-icon]',
+  selector: 'svg[siGooglecastIcon]',
   standalone: true,
   imports: [],
   template: `

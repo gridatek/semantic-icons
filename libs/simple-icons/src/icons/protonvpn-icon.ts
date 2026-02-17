@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-protonvpn-icon]',
+  selector: 'svg[siProtonvpnIcon]',
   standalone: true,
   imports: [],
   template: `

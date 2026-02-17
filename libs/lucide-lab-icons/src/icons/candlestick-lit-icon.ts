@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-candlestick-lit-icon]',
+  selector: 'svg[siCandlestickLitIcon]',
   standalone: true,
   imports: [],
   template: `

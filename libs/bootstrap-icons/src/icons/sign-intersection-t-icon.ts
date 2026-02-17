@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sign-intersection-t-icon]',
+  selector: 'svg[siSignIntersectionTIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mark-chat-unread-icon]',
+  selector: 'svg[siMarkChatUnreadIcon]',
   standalone: true,
   imports: [],
   template: `

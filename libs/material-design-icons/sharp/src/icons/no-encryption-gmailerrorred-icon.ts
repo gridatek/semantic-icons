@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-no-encryption-gmailerrorred-icon]',
+  selector: 'svg[siNoEncryptionGmailerrorredIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-aircall-icon]',
+  selector: 'svg[siAircallIcon]',
   standalone: true,
   imports: [],
   template: `

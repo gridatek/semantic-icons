@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bonfire-sharp-icon]',
+  selector: 'svg[siBonfireSharpIcon]',
   standalone: true,
   imports: [],
   template: `

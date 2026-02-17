@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-palfed-icon]',
+  selector: 'svg[siPalfedIcon]',
   standalone: true,
   imports: [],
   template: `

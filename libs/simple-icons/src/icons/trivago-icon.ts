@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-trivago-icon]',
+  selector: 'svg[siTrivagoIcon]',
   standalone: true,
   imports: [],
   template: `

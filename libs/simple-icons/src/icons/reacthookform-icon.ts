@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reacthookform-icon]',
+  selector: 'svg[siReacthookformIcon]',
   standalone: true,
   imports: [],
   template: `

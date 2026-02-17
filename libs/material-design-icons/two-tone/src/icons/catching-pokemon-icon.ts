@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-catching-pokemon-icon]',
+  selector: 'svg[siCatchingPokemonIcon]',
   standalone: true,
   imports: [],
   template: `

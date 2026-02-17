@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-feedly-icon]',
+  selector: 'svg[siFeedlyIcon]',
   standalone: true,
   imports: [],
   template: `

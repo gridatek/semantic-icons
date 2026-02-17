@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-zoom-in-icon]',
+  selector: 'svg[siZoomInIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-obsstudio-icon]',
+  selector: 'svg[siObsstudioIcon]',
   standalone: true,
   imports: [],
   template: `

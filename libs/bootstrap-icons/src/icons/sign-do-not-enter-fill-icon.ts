@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sign-do-not-enter-fill-icon]',
+  selector: 'svg[siSignDoNotEnterFillIcon]',
   standalone: true,
   imports: [],
   template: `

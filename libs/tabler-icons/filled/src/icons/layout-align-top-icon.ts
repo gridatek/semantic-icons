@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-align-top-icon]',
+  selector: 'svg[siLayoutAlignTopIcon]',
   standalone: true,
   imports: [],
   template: `

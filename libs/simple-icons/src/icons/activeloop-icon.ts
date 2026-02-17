@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-activeloop-icon]',
+  selector: 'svg[siActiveloopIcon]',
   standalone: true,
   imports: [],
   template: `

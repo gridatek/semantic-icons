@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-photobucket-icon]',
+  selector: 'svg[siPhotobucketIcon]',
   standalone: true,
   imports: [],
   template: `

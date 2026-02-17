@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webstorm-icon]',
+  selector: 'svg[siWebStormIcon]',
   standalone: true,
   imports: [],
   template: `

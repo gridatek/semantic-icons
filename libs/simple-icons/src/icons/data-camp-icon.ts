@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-datacamp-icon]',
+  selector: 'svg[siDataCampIcon]',
   standalone: true,
   imports: [],
   template: `

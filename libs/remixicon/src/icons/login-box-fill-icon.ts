@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-login-box-fill-icon]',
+  selector: 'svg[siLoginBoxFillIcon]',
   standalone: true,
   imports: [],
   template: `

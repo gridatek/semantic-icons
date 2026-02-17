@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-trello-line-icon]',
+  selector: 'svg[siTrelloLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layer-forward-icon]',
+  selector: 'svg[siLayerForwardIcon]',
   standalone: true,
   imports: [],
   template: `

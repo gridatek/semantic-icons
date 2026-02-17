@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-esri-icon]',
+  selector: 'svg[siEsriIcon]',
   standalone: true,
   imports: [],
   template: `

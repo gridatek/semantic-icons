@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gumtree-icon]',
+  selector: 'svg[siGumtreeIcon]',
   standalone: true,
   imports: [],
   template: `

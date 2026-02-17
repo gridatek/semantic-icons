@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wb-iridescent-icon]',
+  selector: 'svg[siWbIridescentIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-map-pin-off-icon]',
+  selector: 'svg[siMapPinOffIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-transfer-out-icon]',
+  selector: 'svg[siTransferOutIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thermostat-auto-icon]',
+  selector: 'svg[siThermostatAutoIcon]',
   standalone: true,
   imports: [],
   template: `

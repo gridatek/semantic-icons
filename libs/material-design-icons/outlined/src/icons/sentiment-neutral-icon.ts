@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sentiment-neutral-icon]',
+  selector: 'svg[siSentimentNeutralIcon]',
   standalone: true,
   imports: [],
   template: `

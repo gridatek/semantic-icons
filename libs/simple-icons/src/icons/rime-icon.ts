@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rime-icon]',
+  selector: 'svg[siRimeIcon]',
   standalone: true,
   imports: [],
   template: `

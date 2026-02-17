@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-scrollreveal-icon]',
+  selector: 'svg[siScrollrevealIcon]',
   standalone: true,
   imports: [],
   template: `

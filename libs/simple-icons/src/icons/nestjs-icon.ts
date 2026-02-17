@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nestjs-icon]',
+  selector: 'svg[siNestjsIcon]',
   standalone: true,
   imports: [],
   template: `

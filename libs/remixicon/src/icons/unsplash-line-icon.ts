@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unsplash-line-icon]',
+  selector: 'svg[siUnsplashLineIcon]',
   standalone: true,
   imports: [],
   template: `

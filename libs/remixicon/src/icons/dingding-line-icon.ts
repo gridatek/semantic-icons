@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dingding-line-icon]',
+  selector: 'svg[siDingdingLineIcon]',
   standalone: true,
   imports: [],
   template: `

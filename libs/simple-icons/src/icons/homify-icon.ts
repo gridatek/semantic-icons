@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-homify-icon]',
+  selector: 'svg[siHomifyIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-docsify-icon]',
+  selector: 'svg[siDocsifyIcon]',
   standalone: true,
   imports: [],
   template: `

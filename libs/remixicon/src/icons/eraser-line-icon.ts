@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-eraser-line-icon]',
+  selector: 'svg[siEraserLineIcon]',
   standalone: true,
   imports: [],
   template: `

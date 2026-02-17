@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dumpster-fire-icon]',
+  selector: 'svg[siDumpsterFireIcon]',
   standalone: true,
   imports: [],
   template: `

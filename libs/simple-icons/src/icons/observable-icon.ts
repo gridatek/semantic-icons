@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-observable-icon]',
+  selector: 'svg[siObservableIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hexagon-letter-p-icon]',
+  selector: 'svg[siHexagonLetterPIcon]',
   standalone: true,
   imports: [],
   template: `

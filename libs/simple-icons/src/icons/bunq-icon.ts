@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bunq-icon]',
+  selector: 'svg[siBunqIcon]',
   standalone: true,
   imports: [],
   template: `

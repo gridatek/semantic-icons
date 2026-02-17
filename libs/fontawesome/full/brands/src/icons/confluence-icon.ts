@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-confluence-icon]',
+  selector: 'svg[siConfluenceIcon]',
   standalone: true,
   imports: [],
   template: `

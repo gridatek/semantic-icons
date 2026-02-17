@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-row-insert-bottom-icon]',
+  selector: 'svg[siRowInsertBottomIcon]',
   standalone: true,
   imports: [],
   template: `

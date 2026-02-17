@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ansible-icon]',
+  selector: 'svg[siAnsibleIcon]',
   standalone: true,
   imports: [],
   template: `

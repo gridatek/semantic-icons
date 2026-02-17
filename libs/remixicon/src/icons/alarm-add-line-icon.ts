@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-alarm-add-line-icon]',
+  selector: 'svg[siAlarmAddLineIcon]',
   standalone: true,
   imports: [],
   template: `

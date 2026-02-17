@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-inkdrop-icon]',
+  selector: 'svg[siInkdropIcon]',
   standalone: true,
   imports: [],
   template: `

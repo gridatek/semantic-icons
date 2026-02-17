@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-no-transfer-icon]',
+  selector: 'svg[siNoTransferIcon]',
   standalone: true,
   imports: [],
   template: `

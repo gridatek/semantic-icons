@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-immersivetranslate-icon]',
+  selector: 'svg[siImmersivetranslateIcon]',
   standalone: true,
   imports: [],
   template: `

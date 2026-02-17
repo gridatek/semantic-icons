@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-backspace-outline-icon]',
+  selector: 'svg[siBackspaceOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

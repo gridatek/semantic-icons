@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cell-signal-off-icon]',
+  selector: 'svg[siCellSignalOffIcon]',
   standalone: true,
   imports: [],
   template: `

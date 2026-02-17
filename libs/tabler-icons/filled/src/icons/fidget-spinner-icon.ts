@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fidget-spinner-icon]',
+  selector: 'svg[siFidgetSpinnerIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-recycle-line-icon]',
+  selector: 'svg[siRecycleLineIcon]',
   standalone: true,
   imports: [],
   template: `

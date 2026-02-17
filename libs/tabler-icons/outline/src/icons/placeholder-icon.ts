@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-placeholder-icon]',
+  selector: 'svg[siPlaceholderIcon]',
   standalone: true,
   imports: [],
   template: `

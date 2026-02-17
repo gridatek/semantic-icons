@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-strava-icon]',
+  selector: 'svg[siStravaIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cratedb-icon]',
+  selector: 'svg[siCratedbIcon]',
   standalone: true,
   imports: [],
   template: `

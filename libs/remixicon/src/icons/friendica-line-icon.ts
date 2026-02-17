@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-friendica-line-icon]',
+  selector: 'svg[siFriendicaLineIcon]',
   standalone: true,
   imports: [],
   template: `

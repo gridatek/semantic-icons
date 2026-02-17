@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dashboard-customize-icon]',
+  selector: 'svg[siDashboardCustomizeIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-monzo-icon]',
+  selector: 'svg[siMonzoIcon]',
   standalone: true,
   imports: [],
   template: `

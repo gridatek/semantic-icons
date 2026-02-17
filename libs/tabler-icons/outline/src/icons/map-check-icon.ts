@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-map-check-icon]',
+  selector: 'svg[siMapCheckIcon]',
   standalone: true,
   imports: [],
   template: `

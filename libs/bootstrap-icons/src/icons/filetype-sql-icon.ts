@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-filetype-sql-icon]',
+  selector: 'svg[siFiletypeSqlIcon]',
   standalone: true,
   imports: [],
   template: `

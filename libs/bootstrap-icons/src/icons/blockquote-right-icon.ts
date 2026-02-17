@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-blockquote-right-icon]',
+  selector: 'svg[siBlockquoteRightIcon]',
   standalone: true,
   imports: [],
   template: `

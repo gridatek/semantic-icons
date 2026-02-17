@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-autodeskmaya-icon]',
+  selector: 'svg[siAutodeskmayaIcon]',
   standalone: true,
   imports: [],
   template: `

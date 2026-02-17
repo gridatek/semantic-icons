@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-godotengine-icon]',
+  selector: 'svg[siGodotengineIcon]',
   standalone: true,
   imports: [],
   template: `

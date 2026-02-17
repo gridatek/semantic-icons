@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-summarize-icon]',
+  selector: 'svg[siSummarizeIcon]',
   standalone: true,
   imports: [],
   template: `

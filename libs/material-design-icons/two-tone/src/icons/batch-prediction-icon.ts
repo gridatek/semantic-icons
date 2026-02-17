@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-batch-prediction-icon]',
+  selector: 'svg[siBatchPredictionIcon]',
   standalone: true,
   imports: [],
   template: `

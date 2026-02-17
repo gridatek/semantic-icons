@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-capslock-icon]',
+  selector: 'svg[siKeyboardCapslockIcon]',
   standalone: true,
   imports: [],
   template: `

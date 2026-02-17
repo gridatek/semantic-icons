@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-slash-commands-2-icon]',
+  selector: 'svg[siSlashCommands2Icon]',
   standalone: true,
   imports: [],
   template: `

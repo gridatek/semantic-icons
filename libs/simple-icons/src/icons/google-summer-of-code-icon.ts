@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlesummerofcode-icon]',
+  selector: 'svg[siGoogleSummerOfCodeIcon]',
   standalone: true,
   imports: [],
   template: `

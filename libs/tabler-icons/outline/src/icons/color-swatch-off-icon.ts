@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-color-swatch-off-icon]',
+  selector: 'svg[siColorSwatchOffIcon]',
   standalone: true,
   imports: [],
   template: `

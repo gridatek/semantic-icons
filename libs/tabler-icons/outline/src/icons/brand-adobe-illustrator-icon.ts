@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-adobe-illustrator-icon]',
+  selector: 'svg[siBrandAdobeIllustratorIcon]',
   standalone: true,
   imports: [],
   template: `

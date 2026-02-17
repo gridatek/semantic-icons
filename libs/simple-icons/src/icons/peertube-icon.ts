@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-peertube-icon]',
+  selector: 'svg[siPeertubeIcon]',
   standalone: true,
   imports: [],
   template: `

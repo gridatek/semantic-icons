@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hexagon-off-icon]',
+  selector: 'svg[siHexagonOffIcon]',
   standalone: true,
   imports: [],
   template: `

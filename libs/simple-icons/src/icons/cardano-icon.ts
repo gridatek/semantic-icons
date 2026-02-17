@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cardano-icon]',
+  selector: 'svg[siCardanoIcon]',
   standalone: true,
   imports: [],
   template: `

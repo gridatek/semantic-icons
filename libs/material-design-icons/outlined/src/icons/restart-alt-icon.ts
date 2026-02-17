@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-restart-alt-icon]',
+  selector: 'svg[siRestartAltIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-transcribe-icon]',
+  selector: 'svg[siTranscribeIcon]',
   standalone: true,
   imports: [],
   template: `

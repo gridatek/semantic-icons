@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chart-no-axes-column-increasing-icon]',
+  selector: 'svg[siChartNoAxesColumnIncreasingIcon]',
   standalone: true,
   imports: [],
   template: `

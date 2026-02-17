@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-search-ai-3-line-icon]',
+  selector: 'svg[siSearchAi3LineIcon]',
   standalone: true,
   imports: [],
   template: `

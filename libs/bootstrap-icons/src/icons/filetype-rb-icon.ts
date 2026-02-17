@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-filetype-rb-icon]',
+  selector: 'svg[siFiletypeRbIcon]',
   standalone: true,
   imports: [],
   template: `

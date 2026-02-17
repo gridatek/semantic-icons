@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tiktok-alt-icon]',
+  selector: 'svg[siTiktokAltIcon]',
   standalone: true,
   imports: [],
   template: `

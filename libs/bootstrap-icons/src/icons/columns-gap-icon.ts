@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-columns-gap-icon]',
+  selector: 'svg[siColumnsGapIcon]',
   standalone: true,
   imports: [],
   template: `

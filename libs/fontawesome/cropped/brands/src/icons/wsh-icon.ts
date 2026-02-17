@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wsh-icon]',
+  selector: 'svg[siWshIcon]',
   standalone: true,
   imports: [],
   template: `

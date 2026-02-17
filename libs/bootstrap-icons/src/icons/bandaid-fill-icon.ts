@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bandaid-fill-icon]',
+  selector: 'svg[siBandaidFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-square-toggle-horizontal-icon]',
+  selector: 'svg[siSquareToggleHorizontalIcon]',
   standalone: true,
   imports: [],
   template: `

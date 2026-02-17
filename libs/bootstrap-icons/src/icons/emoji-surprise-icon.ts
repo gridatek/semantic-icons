@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-emoji-surprise-icon]',
+  selector: 'svg[siEmojiSurpriseIcon]',
   standalone: true,
   imports: [],
   template: `

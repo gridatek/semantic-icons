@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-bottombar-inactive-icon]',
+  selector: 'svg[siLayoutBottombarInactiveIcon]',
   standalone: true,
   imports: [],
   template: `

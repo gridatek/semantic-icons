@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-format-line-spacing-icon]',
+  selector: 'svg[siFormatLineSpacingIcon]',
   standalone: true,
   imports: [],
   template: `

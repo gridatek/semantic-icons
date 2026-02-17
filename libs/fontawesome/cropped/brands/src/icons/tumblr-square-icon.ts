@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-tumblr-square-icon]',
+  selector: 'svg[siTumblrSquareIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-laurel-wreath-3-icon]',
+  selector: 'svg[siLaurelWreath3Icon]',
   standalone: true,
   imports: [],
   template: `

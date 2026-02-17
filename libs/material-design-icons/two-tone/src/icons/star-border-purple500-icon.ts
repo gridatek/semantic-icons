@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-star-border-purple500-icon]',
+  selector: 'svg[siStarBorderPurple500Icon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nobaralinux-icon]',
+  selector: 'svg[siNobaralinuxIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-view-comfy-icon]',
+  selector: 'svg[siViewComfyIcon]',
   standalone: true,
   imports: [],
   template: `

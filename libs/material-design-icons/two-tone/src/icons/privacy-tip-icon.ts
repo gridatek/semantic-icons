@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-privacy-tip-icon]',
+  selector: 'svg[siPrivacyTipIcon]',
   standalone: true,
   imports: [],
   template: `

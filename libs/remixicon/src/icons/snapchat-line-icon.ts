@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-snapchat-line-icon]',
+  selector: 'svg[siSnapchatLineIcon]',
   standalone: true,
   imports: [],
   template: `

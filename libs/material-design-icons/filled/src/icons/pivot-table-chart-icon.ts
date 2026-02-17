@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pivot-table-chart-icon]',
+  selector: 'svg[siPivotTableChartIcon]',
   standalone: true,
   imports: [],
   template: `

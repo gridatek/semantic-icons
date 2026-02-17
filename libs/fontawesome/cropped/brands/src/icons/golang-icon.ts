@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-golang-icon]',
+  selector: 'svg[siGolangIcon]',
   standalone: true,
   imports: [],
   template: `

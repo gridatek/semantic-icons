@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gnuprivacyguard-icon]',
+  selector: 'svg[siGnuprivacyguardIcon]',
   standalone: true,
   imports: [],
   template: `

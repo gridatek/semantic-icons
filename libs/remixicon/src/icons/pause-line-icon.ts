@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pause-line-icon]',
+  selector: 'svg[siPauseLineIcon]',
   standalone: true,
   imports: [],
   template: `

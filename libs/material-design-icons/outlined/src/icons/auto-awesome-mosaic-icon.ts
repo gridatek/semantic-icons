@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-auto-awesome-mosaic-icon]',
+  selector: 'svg[siAutoAwesomeMosaicIcon]',
   standalone: true,
   imports: [],
   template: `

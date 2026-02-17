@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-anilist-icon]',
+  selector: 'svg[siAnilistIcon]',
   standalone: true,
   imports: [],
   template: `

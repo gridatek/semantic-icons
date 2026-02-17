@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-heavy-showers-line-icon]',
+  selector: 'svg[siHeavyShowersLineIcon]',
   standalone: true,
   imports: [],
   template: `

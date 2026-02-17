@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mastodon-fill-icon]',
+  selector: 'svg[siMastodonFillIcon]',
   standalone: true,
   imports: [],
   template: `

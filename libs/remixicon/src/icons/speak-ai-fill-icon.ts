@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-speak-ai-fill-icon]',
+  selector: 'svg[siSpeakAiFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mouse-pointer-ban-icon]',
+  selector: 'svg[siMousePointerBanIcon]',
   standalone: true,
   imports: [],
   template: `

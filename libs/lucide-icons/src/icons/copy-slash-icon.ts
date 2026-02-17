@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-copy-slash-icon]',
+  selector: 'svg[siCopySlashIcon]',
   standalone: true,
   imports: [],
   template: `

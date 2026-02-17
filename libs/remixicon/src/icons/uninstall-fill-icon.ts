@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uninstall-fill-icon]',
+  selector: 'svg[siUninstallFillIcon]',
   standalone: true,
   imports: [],
   template: `

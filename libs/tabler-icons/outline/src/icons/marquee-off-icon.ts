@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-marquee-off-icon]',
+  selector: 'svg[siMarqueeOffIcon]',
   standalone: true,
   imports: [],
   template: `

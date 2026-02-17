@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-semanticuireact-icon]',
+  selector: 'svg[siSemanticuireactIcon]',
   standalone: true,
   imports: [],
   template: `

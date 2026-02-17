@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-rotation-none-icon]',
+  selector: 'svg[siTextRotationNoneIcon]',
   standalone: true,
   imports: [],
   template: `

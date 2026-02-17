@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-postgresql-icon]',
+  selector: 'svg[siPostgreSQLIcon]',
   standalone: true,
   imports: [],
   template: `

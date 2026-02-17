@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-adobe-photoshop-icon]',
+  selector: 'svg[siBrandAdobePhotoshopIcon]',
   standalone: true,
   imports: [],
   template: `

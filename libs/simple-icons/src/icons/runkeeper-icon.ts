@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-runkeeper-icon]',
+  selector: 'svg[siRunkeeperIcon]',
   standalone: true,
   imports: [],
   template: `

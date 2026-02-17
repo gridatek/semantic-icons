@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pantone-line-icon]',
+  selector: 'svg[siPantoneLineIcon]',
   standalone: true,
   imports: [],
   template: `

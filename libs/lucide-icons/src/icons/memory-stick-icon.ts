@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-memory-stick-icon]',
+  selector: 'svg[siMemoryStickIcon]',
   standalone: true,
   imports: [],
   template: `

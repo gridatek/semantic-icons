@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-level-down-alt-icon]',
+  selector: 'svg[siLevelDownAltIcon]',
   standalone: true,
   imports: [],
   template: `

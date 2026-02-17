@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-radio-button-off-outline-icon]',
+  selector: 'svg[siRadioButtonOffOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

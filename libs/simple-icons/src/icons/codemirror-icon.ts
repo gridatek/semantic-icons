@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-codemirror-icon]',
+  selector: 'svg[siCodemirrorIcon]',
   standalone: true,
   imports: [],
   template: `

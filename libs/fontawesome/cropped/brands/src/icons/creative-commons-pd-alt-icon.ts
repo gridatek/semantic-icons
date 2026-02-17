@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-creative-commons-pd-alt-icon]',
+  selector: 'svg[siCreativeCommonsPdAltIcon]',
   standalone: true,
   imports: [],
   template: `

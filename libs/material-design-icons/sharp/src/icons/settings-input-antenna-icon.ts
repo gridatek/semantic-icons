@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-settings-input-antenna-icon]',
+  selector: 'svg[siSettingsInputAntennaIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-turned-in-not-icon]',
+  selector: 'svg[siTurnedInNotIcon]',
   standalone: true,
   imports: [],
   template: `

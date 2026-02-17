@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-code-pull-request-icon]',
+  selector: 'svg[siCodePullRequestIcon]',
   standalone: true,
   imports: [],
   template: `

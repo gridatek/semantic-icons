@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wubi-input-icon]',
+  selector: 'svg[siWubiInputIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-strikethrough-2-icon]',
+  selector: 'svg[siStrikethrough2Icon]',
   standalone: true,
   imports: [],
   template: `

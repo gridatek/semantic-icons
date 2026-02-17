@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-patch-icon]',
+  selector: 'svg[siHttpPatchIcon]',
   standalone: true,
   imports: [],
   template: `

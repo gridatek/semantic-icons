@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arrow-right-rhombus-icon]',
+  selector: 'svg[siArrowRightRhombusIcon]',
   standalone: true,
   imports: [],
   template: `

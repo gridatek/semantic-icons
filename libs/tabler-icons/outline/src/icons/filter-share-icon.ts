@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-filter-share-icon]',
+  selector: 'svg[siFilterShareIcon]',
   standalone: true,
   imports: [],
   template: `

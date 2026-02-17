@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-polywork-icon]',
+  selector: 'svg[siPolyworkIcon]',
   standalone: true,
   imports: [],
   template: `

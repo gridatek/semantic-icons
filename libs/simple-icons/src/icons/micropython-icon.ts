@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-micropython-icon]',
+  selector: 'svg[siMicropythonIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bread-off-icon]',
+  selector: 'svg[siBreadOffIcon]',
   standalone: true,
   imports: [],
   template: `

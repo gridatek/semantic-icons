@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dgraph-icon]',
+  selector: 'svg[siDgraphIcon]',
   standalone: true,
   imports: [],
   template: `

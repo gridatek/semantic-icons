@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-accessible-forward-icon]',
+  selector: 'svg[siAccessibleForwardIcon]',
   standalone: true,
   imports: [],
   template: `

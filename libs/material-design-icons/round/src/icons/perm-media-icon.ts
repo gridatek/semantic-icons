@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perm-media-icon]',
+  selector: 'svg[siPermMediaIcon]',
   standalone: true,
   imports: [],
   template: `

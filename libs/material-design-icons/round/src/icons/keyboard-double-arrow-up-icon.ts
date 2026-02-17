@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-double-arrow-up-icon]',
+  selector: 'svg[siKeyboardDoubleArrowUpIcon]',
   standalone: true,
   imports: [],
   template: `

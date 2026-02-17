@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-infracost-icon]',
+  selector: 'svg[siInfracostIcon]',
   standalone: true,
   imports: [],
   template: `

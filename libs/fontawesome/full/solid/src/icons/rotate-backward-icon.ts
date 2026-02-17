@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rotate-backward-icon]',
+  selector: 'svg[siRotateBackwardIcon]',
   standalone: true,
   imports: [],
   template: `

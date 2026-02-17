@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gitee-line-icon]',
+  selector: 'svg[siGiteeLineIcon]',
   standalone: true,
   imports: [],
   template: `

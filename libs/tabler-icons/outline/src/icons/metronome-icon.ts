@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-metronome-icon]',
+  selector: 'svg[siMetronomeIcon]',
   standalone: true,
   imports: [],
   template: `

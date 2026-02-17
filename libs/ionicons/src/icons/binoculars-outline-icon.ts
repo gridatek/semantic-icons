@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-binoculars-outline-icon]',
+  selector: 'svg[siBinocularsOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

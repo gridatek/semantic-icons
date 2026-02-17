@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-maximize-off-icon]',
+  selector: 'svg[siMaximizeOffIcon]',
   standalone: true,
   imports: [],
   template: `

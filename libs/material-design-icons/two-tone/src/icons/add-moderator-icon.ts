@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-add-moderator-icon]',
+  selector: 'svg[siAddModeratorIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pan-tool-alt-icon]',
+  selector: 'svg[siPanToolAltIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pytorch-icon]',
+  selector: 'svg[siPytorchIcon]',
   standalone: true,
   imports: [],
   template: `

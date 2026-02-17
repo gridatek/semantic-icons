@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-git-pr-draft-fill-icon]',
+  selector: 'svg[siGitPrDraftFillIcon]',
   standalone: true,
   imports: [],
   template: `

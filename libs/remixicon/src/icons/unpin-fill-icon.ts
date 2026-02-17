@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unpin-fill-icon]',
+  selector: 'svg[siUnpinFillIcon]',
   standalone: true,
   imports: [],
   template: `

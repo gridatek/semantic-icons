@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-person-add-alt-icon]',
+  selector: 'svg[siPersonAddAltIcon]',
   standalone: true,
   imports: [],
   template: `

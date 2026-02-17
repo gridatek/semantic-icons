@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-database-fill-exclamation-icon]',
+  selector: 'svg[siDatabaseFillExclamationIcon]',
   standalone: true,
   imports: [],
   template: `

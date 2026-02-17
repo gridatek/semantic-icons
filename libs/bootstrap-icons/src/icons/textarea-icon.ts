@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-textarea-icon]',
+  selector: 'svg[siTextareaIcon]',
   standalone: true,
   imports: [],
   template: `

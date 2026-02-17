@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-airline-seat-recline-normal-icon]',
+  selector: 'svg[siAirlineSeatReclineNormalIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-screencastify-icon]',
+  selector: 'svg[siScreencastifyIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gnuicecat-icon]',
+  selector: 'svg[siGnuicecatIcon]',
   standalone: true,
   imports: [],
   template: `

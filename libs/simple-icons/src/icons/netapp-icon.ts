@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-netapp-icon]',
+  selector: 'svg[siNetappIcon]',
   standalone: true,
   imports: [],
   template: `

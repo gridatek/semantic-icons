@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-conventionalcommits-icon]',
+  selector: 'svg[siConventionalcommitsIcon]',
   standalone: true,
   imports: [],
   template: `

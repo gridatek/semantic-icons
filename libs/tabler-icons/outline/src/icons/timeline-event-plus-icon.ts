@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-timeline-event-plus-icon]',
+  selector: 'svg[siTimelineEventPlusIcon]',
   standalone: true,
   imports: [],
   template: `

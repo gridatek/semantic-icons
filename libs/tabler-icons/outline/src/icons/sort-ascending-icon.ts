@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sort-ascending-icon]',
+  selector: 'svg[siSortAscendingIcon]',
   standalone: true,
   imports: [],
   template: `

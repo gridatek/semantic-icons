@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pause-large-fill-icon]',
+  selector: 'svg[siPauseLargeFillIcon]',
   standalone: true,
   imports: [],
   template: `

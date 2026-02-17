@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-database-gear-icon]',
+  selector: 'svg[siDatabaseGearIcon]',
   standalone: true,
   imports: [],
   template: `

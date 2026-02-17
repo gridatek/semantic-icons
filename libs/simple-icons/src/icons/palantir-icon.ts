@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-palantir-icon]',
+  selector: 'svg[siPalantirIcon]',
   standalone: true,
   imports: [],
   template: `

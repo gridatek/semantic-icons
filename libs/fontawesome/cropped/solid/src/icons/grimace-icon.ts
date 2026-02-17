@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-grimace-icon]',
+  selector: 'svg[siGrimaceIcon]',
   standalone: true,
   imports: [],
   template: `

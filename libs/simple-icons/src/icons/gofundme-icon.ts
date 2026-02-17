@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gofundme-icon]',
+  selector: 'svg[siGofundmeIcon]',
   standalone: true,
   imports: [],
   template: `

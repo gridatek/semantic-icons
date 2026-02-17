@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kodak-icon]',
+  selector: 'svg[siKodakIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-itch-io-icon]',
+  selector: 'svg[siItchIoIcon]',
   standalone: true,
   imports: [],
   template: `

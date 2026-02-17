@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-excel-icon]',
+  selector: 'svg[siFileExcelIcon]',
   standalone: true,
   imports: [],
   template: `

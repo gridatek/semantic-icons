@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-system-update-alt-icon]',
+  selector: 'svg[siSystemUpdateAltIcon]',
   standalone: true,
   imports: [],
   template: `

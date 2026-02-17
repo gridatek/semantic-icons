@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-venetian-mask-icon]',
+  selector: 'svg[siVenetianMaskIcon]',
   standalone: true,
   imports: [],
   template: `

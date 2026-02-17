@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-visibility-off-icon]',
+  selector: 'svg[siVisibilityOffIcon]',
   standalone: true,
   imports: [],
   template: `

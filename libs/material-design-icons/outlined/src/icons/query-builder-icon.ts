@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-query-builder-icon]',
+  selector: 'svg[siQueryBuilderIcon]',
   standalone: true,
   imports: [],
   template: `

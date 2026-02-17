@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-terraform-icon]',
+  selector: 'svg[siTerraformIcon]',
   standalone: true,
   imports: [],
   template: `

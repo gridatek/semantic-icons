@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-artboard-off-icon]',
+  selector: 'svg[siArtboardOffIcon]',
   standalone: true,
   imports: [],
   template: `

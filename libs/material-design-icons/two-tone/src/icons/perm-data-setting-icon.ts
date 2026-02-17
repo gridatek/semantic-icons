@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perm-data-setting-icon]',
+  selector: 'svg[siPermDataSettingIcon]',
   standalone: true,
   imports: [],
   template: `

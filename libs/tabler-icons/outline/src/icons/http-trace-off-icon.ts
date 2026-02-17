@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-trace-off-icon]',
+  selector: 'svg[siHttpTraceOffIcon]',
   standalone: true,
   imports: [],
   template: `

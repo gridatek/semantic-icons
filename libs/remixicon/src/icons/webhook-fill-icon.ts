@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webhook-fill-icon]',
+  selector: 'svg[siWebhookFillIcon]',
   standalone: true,
   imports: [],
   template: `

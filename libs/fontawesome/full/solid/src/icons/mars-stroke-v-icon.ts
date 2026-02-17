@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mars-stroke-v-icon]',
+  selector: 'svg[siMarsStrokeVIcon]',
   standalone: true,
   imports: [],
   template: `

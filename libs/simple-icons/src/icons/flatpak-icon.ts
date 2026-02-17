@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flatpak-icon]',
+  selector: 'svg[siFlatpakIcon]',
   standalone: true,
   imports: [],
   template: `

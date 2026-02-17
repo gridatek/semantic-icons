@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-sidebar-inset-icon]',
+  selector: 'svg[siLayoutSidebarInsetIcon]',
   standalone: true,
   imports: [],
   template: `

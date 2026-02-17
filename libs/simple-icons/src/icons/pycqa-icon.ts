@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pycqa-icon]',
+  selector: 'svg[siPycqaIcon]',
   standalone: true,
   imports: [],
   template: `

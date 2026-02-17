@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-hdd-network-fill-icon]',
+  selector: 'svg[siHddNetworkFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachemaven-icon]',
+  selector: 'svg[siApachemavenIcon]',
   standalone: true,
   imports: [],
   template: `

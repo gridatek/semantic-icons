@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-obtainium-icon]',
+  selector: 'svg[siObtainiumIcon]',
   standalone: true,
   imports: [],
   template: `

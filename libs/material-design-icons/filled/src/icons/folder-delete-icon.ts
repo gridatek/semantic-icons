@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-delete-icon]',
+  selector: 'svg[siFolderDeleteIcon]',
   standalone: true,
   imports: [],
   template: `

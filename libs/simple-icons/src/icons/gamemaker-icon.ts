@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gamemaker-icon]',
+  selector: 'svg[siGamemakerIcon]',
   standalone: true,
   imports: [],
   template: `

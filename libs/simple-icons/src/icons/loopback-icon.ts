@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-loopback-icon]',
+  selector: 'svg[siLoopbackIcon]',
   standalone: true,
   imports: [],
   template: `

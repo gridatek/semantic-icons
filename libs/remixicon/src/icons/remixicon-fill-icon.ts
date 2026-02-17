@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-remixicon-fill-icon]',
+  selector: 'svg[siRemixiconFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bonfire-outline-icon]',
+  selector: 'svg[siBonfireOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

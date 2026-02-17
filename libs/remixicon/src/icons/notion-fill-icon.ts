@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-notion-fill-icon]',
+  selector: 'svg[siNotionFillIcon]',
   standalone: true,
   imports: [],
   template: `

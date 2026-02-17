@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-checklist-rtl-icon]',
+  selector: 'svg[siChecklistRtlIcon]',
   standalone: true,
   imports: [],
   template: `

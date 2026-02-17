@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachekafka-icon]',
+  selector: 'svg[siApachekafkaIcon]',
   standalone: true,
   imports: [],
   template: `

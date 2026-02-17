@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keyboard-backspace-icon]',
+  selector: 'svg[siKeyboardBackspaceIcon]',
   standalone: true,
   imports: [],
   template: `

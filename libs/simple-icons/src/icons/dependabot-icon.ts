@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dependabot-icon]',
+  selector: 'svg[siDependabotIcon]',
   standalone: true,
   imports: [],
   template: `

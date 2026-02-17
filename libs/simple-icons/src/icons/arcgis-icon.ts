@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arcgis-icon]',
+  selector: 'svg[siArcgisIcon]',
   standalone: true,
   imports: [],
   template: `

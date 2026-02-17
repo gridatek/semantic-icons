@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-keycloak-icon]',
+  selector: 'svg[siKeycloakIcon]',
   standalone: true,
   imports: [],
   template: `

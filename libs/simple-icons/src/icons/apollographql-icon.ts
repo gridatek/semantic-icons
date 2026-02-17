@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apollographql-icon]',
+  selector: 'svg[siApollographqlIcon]',
   standalone: true,
   imports: [],
   template: `

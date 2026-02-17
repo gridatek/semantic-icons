@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-upstash-icon]',
+  selector: 'svg[siUpstashIcon]',
   standalone: true,
   imports: [],
   template: `

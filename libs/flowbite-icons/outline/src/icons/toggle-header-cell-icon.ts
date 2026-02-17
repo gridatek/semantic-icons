@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-toggle-header-cell-icon]',
+  selector: 'svg[siToggleHeaderCellIcon]',
   standalone: true,
   imports: [],
   template: `

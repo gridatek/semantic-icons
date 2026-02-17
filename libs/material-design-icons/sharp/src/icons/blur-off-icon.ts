@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-blur-off-icon]',
+  selector: 'svg[siBlurOffIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-kaggle-icon]',
+  selector: 'svg[siKaggleIcon]',
   standalone: true,
   imports: [],
   template: `

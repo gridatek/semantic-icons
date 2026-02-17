@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-zomato-icon]',
+  selector: 'svg[siZomatoIcon]',
   standalone: true,
   imports: [],
   template: `

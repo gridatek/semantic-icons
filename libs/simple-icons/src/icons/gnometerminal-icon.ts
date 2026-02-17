@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gnometerminal-icon]',
+  selector: 'svg[siGnometerminalIcon]',
   standalone: true,
   imports: [],
   template: `

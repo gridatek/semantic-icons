@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-subtitles-off-icon]',
+  selector: 'svg[siSubtitlesOffIcon]',
   standalone: true,
   imports: [],
   template: `

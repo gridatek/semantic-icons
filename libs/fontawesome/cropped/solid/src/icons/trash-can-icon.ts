@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-trash-can-icon]',
+  selector: 'svg[siTrashCanIcon]',
   standalone: true,
   imports: [],
   template: `

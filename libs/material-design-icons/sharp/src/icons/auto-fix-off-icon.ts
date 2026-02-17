@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-auto-fix-off-icon]',
+  selector: 'svg[siAutoFixOffIcon]',
   standalone: true,
   imports: [],
   template: `

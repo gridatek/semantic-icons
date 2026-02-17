@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nationalgrid-icon]',
+  selector: 'svg[siNationalgridIcon]',
   standalone: true,
   imports: [],
   template: `

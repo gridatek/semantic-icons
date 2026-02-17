@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bisecthosting-icon]',
+  selector: 'svg[siBisecthostingIcon]',
   standalone: true,
   imports: [],
   template: `

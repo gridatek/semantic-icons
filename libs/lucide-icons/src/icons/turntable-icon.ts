@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-turntable-icon]',
+  selector: 'svg[siTurntableIcon]',
   standalone: true,
   imports: [],
   template: `

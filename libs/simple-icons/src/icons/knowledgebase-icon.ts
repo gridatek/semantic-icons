@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-knowledgebase-icon]',
+  selector: 'svg[siKnowledgebaseIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-automatic-gearbox-icon]',
+  selector: 'svg[siAutomaticGearboxIcon]',
   standalone: true,
   imports: [],
   template: `

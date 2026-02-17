@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-trending-up-outline-icon]',
+  selector: 'svg[siTrendingUpOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

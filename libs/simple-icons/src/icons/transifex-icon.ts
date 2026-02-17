@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-transifex-icon]',
+  selector: 'svg[siTransifexIcon]',
   standalone: true,
   imports: [],
   template: `

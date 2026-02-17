@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-map-marker-5-icon]',
+  selector: 'svg[siMapMarker5Icon]',
   standalone: true,
   imports: [],
   template: `

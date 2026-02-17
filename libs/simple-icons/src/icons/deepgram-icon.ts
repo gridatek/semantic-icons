@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-deepgram-icon]',
+  selector: 'svg[siDeepgramIcon]',
   standalone: true,
   imports: [],
   template: `

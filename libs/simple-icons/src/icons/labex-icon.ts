@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-labex-icon]',
+  selector: 'svg[siLabexIcon]',
   standalone: true,
   imports: [],
   template: `

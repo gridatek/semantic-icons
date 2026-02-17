@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-clapperboard-line-icon]',
+  selector: 'svg[siClapperboardLineIcon]',
   standalone: true,
   imports: [],
   template: `

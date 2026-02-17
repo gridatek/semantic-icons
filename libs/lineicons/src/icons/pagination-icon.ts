@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pagination-icon]',
+  selector: 'svg[siPaginationIcon]',
   standalone: true,
   imports: [],
   template: `

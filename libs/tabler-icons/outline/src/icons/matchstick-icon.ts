@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-matchstick-icon]',
+  selector: 'svg[siMatchstickIcon]',
   standalone: true,
   imports: [],
   template: `

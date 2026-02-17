@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-not-equal-icon]',
+  selector: 'svg[siNotEqualIcon]',
   standalone: true,
   imports: [],
   template: `

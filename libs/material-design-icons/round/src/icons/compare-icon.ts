@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-compare-icon]',
+  selector: 'svg[siCompareIcon]',
   standalone: true,
   imports: [],
   template: `

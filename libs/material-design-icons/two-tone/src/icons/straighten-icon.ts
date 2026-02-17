@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-straighten-icon]',
+  selector: 'svg[siStraightenIcon]',
   standalone: true,
   imports: [],
   template: `

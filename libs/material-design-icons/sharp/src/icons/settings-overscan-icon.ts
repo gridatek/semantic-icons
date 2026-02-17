@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-settings-overscan-icon]',
+  selector: 'svg[siSettingsOverscanIcon]',
   standalone: true,
   imports: [],
   template: `

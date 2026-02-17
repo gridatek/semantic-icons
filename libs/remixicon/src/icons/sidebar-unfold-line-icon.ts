@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sidebar-unfold-line-icon]',
+  selector: 'svg[siSidebarUnfoldLineIcon]',
   standalone: true,
   imports: [],
   template: `

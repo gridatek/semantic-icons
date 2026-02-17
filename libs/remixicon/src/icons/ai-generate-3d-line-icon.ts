@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ai-generate-3d-line-icon]',
+  selector: 'svg[siAiGenerate3dLineIcon]',
   standalone: true,
   imports: [],
   template: `

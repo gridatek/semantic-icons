@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-jellyfin-icon]',
+  selector: 'svg[siJellyfinIcon]',
   standalone: true,
   imports: [],
   template: `

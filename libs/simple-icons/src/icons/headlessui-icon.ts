@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-headlessui-icon]',
+  selector: 'svg[siHeadlessuiIcon]',
   standalone: true,
   imports: [],
   template: `

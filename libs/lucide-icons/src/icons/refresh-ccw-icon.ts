@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-refresh-ccw-icon]',
+  selector: 'svg[siRefreshCcwIcon]',
   standalone: true,
   imports: [],
   template: `

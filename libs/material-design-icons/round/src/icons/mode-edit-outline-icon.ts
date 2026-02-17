@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mode-edit-outline-icon]',
+  selector: 'svg[siModeEditOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mushroom-off-icon]',
+  selector: 'svg[siMushroomOffIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arangodb-icon]',
+  selector: 'svg[siArangodbIcon]',
   standalone: true,
   imports: [],
   template: `

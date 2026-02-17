@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-turbosquid-icon]',
+  selector: 'svg[siTurbosquidIcon]',
   standalone: true,
   imports: [],
   template: `

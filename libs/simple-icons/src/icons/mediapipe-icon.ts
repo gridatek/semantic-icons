@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mediapipe-icon]',
+  selector: 'svg[siMediapipeIcon]',
   standalone: true,
   imports: [],
   template: `

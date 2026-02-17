@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-text-orientation-icon]',
+  selector: 'svg[siTextOrientationIcon]',
   standalone: true,
   imports: [],
   template: `

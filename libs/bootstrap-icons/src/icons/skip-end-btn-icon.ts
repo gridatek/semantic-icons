@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-end-btn-icon]',
+  selector: 'svg[siSkipEndBtnIcon]',
   standalone: true,
   imports: [],
   template: `

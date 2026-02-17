@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-whmcs-icon]',
+  selector: 'svg[siWhmcsIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bitdefender-icon]',
+  selector: 'svg[siBitdefenderIcon]',
   standalone: true,
   imports: [],
   template: `

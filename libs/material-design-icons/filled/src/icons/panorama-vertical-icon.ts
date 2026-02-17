@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-panorama-vertical-icon]',
+  selector: 'svg[siPanoramaVerticalIcon]',
   standalone: true,
   imports: [],
   template: `

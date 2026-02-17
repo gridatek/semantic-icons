@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wikimediafoundation-icon]',
+  selector: 'svg[siWikimediafoundationIcon]',
   standalone: true,
   imports: [],
   template: `

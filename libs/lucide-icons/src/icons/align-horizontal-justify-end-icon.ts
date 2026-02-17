@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-align-horizontal-justify-end-icon]',
+  selector: 'svg[siAlignHorizontalJustifyEndIcon]',
   standalone: true,
   imports: [],
   template: `

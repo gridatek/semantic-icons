@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-store-alt-slash-icon]',
+  selector: 'svg[siStoreAltSlashIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fork-left-icon]',
+  selector: 'svg[siForkLeftIcon]',
   standalone: true,
   imports: [],
   template: `

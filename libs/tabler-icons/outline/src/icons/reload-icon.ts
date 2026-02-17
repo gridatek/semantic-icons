@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reload-icon]',
+  selector: 'svg[siReloadIcon]',
   standalone: true,
   imports: [],
   template: `

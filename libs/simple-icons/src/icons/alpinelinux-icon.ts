@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-alpinelinux-icon]',
+  selector: 'svg[siAlpinelinuxIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-quantcast-icon]',
+  selector: 'svg[siQuantcastIcon]',
   standalone: true,
   imports: [],
   template: `

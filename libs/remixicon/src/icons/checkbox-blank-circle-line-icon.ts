@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-checkbox-blank-circle-line-icon]',
+  selector: 'svg[siCheckboxBlankCircleLineIcon]',
   standalone: true,
   imports: [],
   template: `

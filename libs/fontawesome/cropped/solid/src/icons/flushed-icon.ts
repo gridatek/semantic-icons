@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flushed-icon]',
+  selector: 'svg[siFlushedIcon]',
   standalone: true,
   imports: [],
   template: `

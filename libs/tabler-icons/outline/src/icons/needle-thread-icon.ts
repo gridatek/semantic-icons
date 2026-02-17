@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-needle-thread-icon]',
+  selector: 'svg[siNeedleThreadIcon]',
   standalone: true,
   imports: [],
   template: `

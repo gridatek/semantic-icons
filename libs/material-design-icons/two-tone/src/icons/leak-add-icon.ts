@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-leak-add-icon]',
+  selector: 'svg[siLeakAddIcon]',
   standalone: true,
   imports: [],
   template: `

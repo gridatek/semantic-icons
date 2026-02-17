@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-backstage-casting-icon]',
+  selector: 'svg[siBackstageCastingIcon]',
   standalone: true,
   imports: [],
   template: `

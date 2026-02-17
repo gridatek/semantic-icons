@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bath-off-icon]',
+  selector: 'svg[siBathOffIcon]',
   standalone: true,
   imports: [],
   template: `

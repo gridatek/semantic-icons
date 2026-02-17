@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-d-and-d-beyond-icon]',
+  selector: 'svg[siDAndDBeyondIcon]',
   standalone: true,
   imports: [],
   template: `

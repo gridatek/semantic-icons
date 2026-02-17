@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-plesk-icon]',
+  selector: 'svg[siPleskIcon]',
   standalone: true,
   imports: [],
   template: `

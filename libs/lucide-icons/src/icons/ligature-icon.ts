@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ligature-icon]',
+  selector: 'svg[siLigatureIcon]',
   standalone: true,
   imports: [],
   template: `

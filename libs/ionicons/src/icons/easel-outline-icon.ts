@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-easel-outline-icon]',
+  selector: 'svg[siEaselOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

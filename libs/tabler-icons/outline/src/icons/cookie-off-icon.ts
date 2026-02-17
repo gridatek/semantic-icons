@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cookie-off-icon]',
+  selector: 'svg[siCookieOffIcon]',
   standalone: true,
   imports: [],
   template: `

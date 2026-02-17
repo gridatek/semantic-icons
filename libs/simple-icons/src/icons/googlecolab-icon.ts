@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlecolab-icon]',
+  selector: 'svg[siGooglecolabIcon]',
   standalone: true,
   imports: [],
   template: `

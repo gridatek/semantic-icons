@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-play-reverse-fill-icon]',
+  selector: 'svg[siPlayReverseFillIcon]',
   standalone: true,
   imports: [],
   template: `

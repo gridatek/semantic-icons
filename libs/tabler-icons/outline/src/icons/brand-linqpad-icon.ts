@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-linqpad-icon]',
+  selector: 'svg[siBrandLinqpadIcon]',
   standalone: true,
   imports: [],
   template: `

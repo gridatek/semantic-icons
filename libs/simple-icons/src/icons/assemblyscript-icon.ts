@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-assemblyscript-icon]',
+  selector: 'svg[siAssemblyscriptIcon]',
   standalone: true,
   imports: [],
   template: `

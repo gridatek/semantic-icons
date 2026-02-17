@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thunderstore-icon]',
+  selector: 'svg[siThunderstoreIcon]',
   standalone: true,
   imports: [],
   template: `

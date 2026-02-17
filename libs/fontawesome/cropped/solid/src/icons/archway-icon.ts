@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-archway-icon]',
+  selector: 'svg[siArchwayIcon]',
   standalone: true,
   imports: [],
   template: `

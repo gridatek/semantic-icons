@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fmd-good-icon]',
+  selector: 'svg[siFmdGoodIcon]',
   standalone: true,
   imports: [],
   template: `

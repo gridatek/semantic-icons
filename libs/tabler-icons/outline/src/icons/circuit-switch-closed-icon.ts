@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-circuit-switch-closed-icon]',
+  selector: 'svg[siCircuitSwitchClosedIcon]',
   standalone: true,
   imports: [],
   template: `

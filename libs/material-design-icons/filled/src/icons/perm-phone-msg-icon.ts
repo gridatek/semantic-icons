@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perm-phone-msg-icon]',
+  selector: 'svg[siPermPhoneMsgIcon]',
   standalone: true,
   imports: [],
   template: `

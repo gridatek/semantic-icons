@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-geo-alt-fill-icon]',
+  selector: 'svg[siGeoAltFillIcon]',
   standalone: true,
   imports: [],
   template: `

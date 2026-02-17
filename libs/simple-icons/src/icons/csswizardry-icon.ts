@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-csswizardry-icon]',
+  selector: 'svg[siCsswizardryIcon]',
   standalone: true,
   imports: [],
   template: `

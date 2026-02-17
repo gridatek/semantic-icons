@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-telephone-inbound-fill-icon]',
+  selector: 'svg[siTelephoneInboundFillIcon]',
   standalone: true,
   imports: [],
   template: `

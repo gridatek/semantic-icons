@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-shovel-pitchforks-icon]',
+  selector: 'svg[siShovelPitchforksIcon]',
   standalone: true,
   imports: [],
   template: `

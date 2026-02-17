@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-artifacthub-icon]',
+  selector: 'svg[siArtifacthubIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-log-in-outline-icon]',
+  selector: 'svg[siLogInOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-braille-icon]',
+  selector: 'svg[siBrailleIcon]',
   standalone: true,
   imports: [],
   template: `

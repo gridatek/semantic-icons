@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-contrast-drop-fill-icon]',
+  selector: 'svg[siContrastDropFillIcon]',
   standalone: true,
   imports: [],
   template: `

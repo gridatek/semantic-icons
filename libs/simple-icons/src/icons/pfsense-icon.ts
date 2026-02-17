@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pfsense-icon]',
+  selector: 'svg[siPfsenseIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wordpress-fill-icon]',
+  selector: 'svg[siWordpressFillIcon]',
   standalone: true,
   imports: [],
   template: `

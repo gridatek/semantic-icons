@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-contract-left-right-fill-icon]',
+  selector: 'svg[siContractLeftRightFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-file-pie-chart-icon]',
+  selector: 'svg[siFilePieChartIcon]',
   standalone: true,
   imports: [],
   template: `

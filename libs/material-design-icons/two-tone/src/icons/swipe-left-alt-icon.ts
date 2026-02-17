@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-swipe-left-alt-icon]',
+  selector: 'svg[siSwipeLeftAltIcon]',
   standalone: true,
   imports: [],
   template: `

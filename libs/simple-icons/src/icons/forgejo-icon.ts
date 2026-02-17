@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-forgejo-icon]',
+  selector: 'svg[siForgejoIcon]',
   standalone: true,
   imports: [],
   template: `

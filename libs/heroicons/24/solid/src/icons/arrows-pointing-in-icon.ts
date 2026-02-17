@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arrows-pointing-in-icon]',
+  selector: 'svg[siArrowsPointingInIcon]',
   standalone: true,
   imports: [],
   template: `

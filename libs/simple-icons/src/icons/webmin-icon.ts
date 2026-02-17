@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-webmin-icon]',
+  selector: 'svg[siWebminIcon]',
   standalone: true,
   imports: [],
   template: `

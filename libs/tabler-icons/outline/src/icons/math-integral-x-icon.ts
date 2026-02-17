@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-math-integral-x-icon]',
+  selector: 'svg[siMathIntegralXIcon]',
   standalone: true,
   imports: [],
   template: `

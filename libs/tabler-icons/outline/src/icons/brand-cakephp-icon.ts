@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-cakephp-icon]',
+  selector: 'svg[siBrandCakephpIcon]',
   standalone: true,
   imports: [],
   template: `

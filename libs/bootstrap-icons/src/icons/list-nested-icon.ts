@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-list-nested-icon]',
+  selector: 'svg[siListNestedIcon]',
   standalone: true,
   imports: [],
   template: `

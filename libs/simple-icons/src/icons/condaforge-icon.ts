@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-condaforge-icon]',
+  selector: 'svg[siCondaforgeIcon]',
   standalone: true,
   imports: [],
   template: `

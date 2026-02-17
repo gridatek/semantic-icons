@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-unrealengine-icon]',
+  selector: 'svg[siUnrealengineIcon]',
   standalone: true,
   imports: [],
   template: `

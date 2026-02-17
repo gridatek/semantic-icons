@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-vuejs-fill-icon]',
+  selector: 'svg[siVuejsFillIcon]',
   standalone: true,
   imports: [],
   template: `

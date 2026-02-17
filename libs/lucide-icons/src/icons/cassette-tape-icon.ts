@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cassette-tape-icon]',
+  selector: 'svg[siCassetteTapeIcon]',
   standalone: true,
   imports: [],
   template: `

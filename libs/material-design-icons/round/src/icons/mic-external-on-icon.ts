@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mic-external-on-icon]',
+  selector: 'svg[siMicExternalOnIcon]',
   standalone: true,
   imports: [],
   template: `

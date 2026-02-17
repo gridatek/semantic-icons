@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dual-screen-icon]',
+  selector: 'svg[siDualScreenIcon]',
   standalone: true,
   imports: [],
   template: `

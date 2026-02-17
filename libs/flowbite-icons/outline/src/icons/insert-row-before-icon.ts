@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-insert-row-before-icon]',
+  selector: 'svg[siInsertRowBeforeIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thunderbird-icon]',
+  selector: 'svg[siThunderbirdIcon]',
   standalone: true,
   imports: [],
   template: `

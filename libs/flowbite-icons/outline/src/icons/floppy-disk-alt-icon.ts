@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-floppy-disk-alt-icon]',
+  selector: 'svg[siFloppyDiskAltIcon]',
   standalone: true,
   imports: [],
   template: `

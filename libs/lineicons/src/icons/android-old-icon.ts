@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-android-old-icon]',
+  selector: 'svg[siAndroidOldIcon]',
   standalone: true,
   imports: [],
   template: `

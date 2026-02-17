@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-chevron-double-right-icon]',
+  selector: 'svg[siChevronDoubleRightIcon]',
   standalone: true,
   imports: [],
   template: `

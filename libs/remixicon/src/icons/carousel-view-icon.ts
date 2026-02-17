@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-carousel-view-icon]',
+  selector: 'svg[siCarouselViewIcon]',
   standalone: true,
   imports: [],
   template: `

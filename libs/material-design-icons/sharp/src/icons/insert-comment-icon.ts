@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-insert-comment-icon]',
+  selector: 'svg[siInsertCommentIcon]',
   standalone: true,
   imports: [],
   template: `

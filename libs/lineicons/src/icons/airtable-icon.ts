@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-airtable-icon]',
+  selector: 'svg[siAirtableIcon]',
   standalone: true,
   imports: [],
   template: `

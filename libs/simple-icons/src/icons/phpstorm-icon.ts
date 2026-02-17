@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-phpstorm-icon]',
+  selector: 'svg[siPhpstormIcon]',
   standalone: true,
   imports: [],
   template: `

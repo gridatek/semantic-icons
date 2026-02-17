@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-camera-retro-icon]',
+  selector: 'svg[siCameraRetroIcon]',
   standalone: true,
   imports: [],
   template: `

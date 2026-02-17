@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-blazor-icon]',
+  selector: 'svg[siBlazorIcon]',
   standalone: true,
   imports: [],
   template: `

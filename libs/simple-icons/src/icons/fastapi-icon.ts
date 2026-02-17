@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fastapi-icon]',
+  selector: 'svg[siFastapiIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-transform-point-top-left-icon]',
+  selector: 'svg[siTransformPointTopLeftIcon]',
   standalone: true,
   imports: [],
   template: `

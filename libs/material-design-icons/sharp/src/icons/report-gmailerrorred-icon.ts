@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-report-gmailerrorred-icon]',
+  selector: 'svg[siReportGmailerrorredIcon]',
   standalone: true,
   imports: [],
   template: `

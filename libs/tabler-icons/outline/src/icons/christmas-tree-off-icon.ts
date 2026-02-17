@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-christmas-tree-off-icon]',
+  selector: 'svg[siChristmasTreeOffIcon]',
   standalone: true,
   imports: [],
   template: `

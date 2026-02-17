@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brightness-off-icon]',
+  selector: 'svg[siBrightnessOffIcon]',
   standalone: true,
   imports: [],
   template: `

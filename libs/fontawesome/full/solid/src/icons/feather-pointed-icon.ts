@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-feather-pointed-icon]',
+  selector: 'svg[siFeatherPointedIcon]',
   standalone: true,
   imports: [],
   template: `

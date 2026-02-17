@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-sidebar-left-expand-icon]',
+  selector: 'svg[siLayoutSidebarLeftExpandIcon]',
   standalone: true,
   imports: [],
   template: `

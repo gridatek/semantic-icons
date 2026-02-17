@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-emoji-neutral-fill-icon]',
+  selector: 'svg[siEmojiNeutralFillIcon]',
   standalone: true,
   imports: [],
   template: `

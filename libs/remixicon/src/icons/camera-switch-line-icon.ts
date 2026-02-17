@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-camera-switch-line-icon]',
+  selector: 'svg[siCameraSwitchLineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mode-standby-icon]',
+  selector: 'svg[siModeStandbyIcon]',
   standalone: true,
   imports: [],
   template: `

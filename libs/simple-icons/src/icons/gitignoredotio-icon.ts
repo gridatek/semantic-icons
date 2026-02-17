@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gitignoredotio-icon]',
+  selector: 'svg[siGitignoredotioIcon]',
   standalone: true,
   imports: [],
   template: `

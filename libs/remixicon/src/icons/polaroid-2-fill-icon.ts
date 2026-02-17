@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-polaroid-2-fill-icon]',
+  selector: 'svg[siPolaroid2FillIcon]',
   standalone: true,
   imports: [],
   template: `

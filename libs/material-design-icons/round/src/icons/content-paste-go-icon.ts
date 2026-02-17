@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-content-paste-go-icon]',
+  selector: 'svg[siContentPasteGoIcon]',
   standalone: true,
   imports: [],
   template: `

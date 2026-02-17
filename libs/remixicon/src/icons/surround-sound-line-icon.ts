@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-surround-sound-line-icon]',
+  selector: 'svg[siSurroundSoundLineIcon]',
   standalone: true,
   imports: [],
   template: `

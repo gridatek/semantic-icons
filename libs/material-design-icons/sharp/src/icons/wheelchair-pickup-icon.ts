@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wheelchair-pickup-icon]',
+  selector: 'svg[siWheelchairPickupIcon]',
   standalone: true,
   imports: [],
   template: `

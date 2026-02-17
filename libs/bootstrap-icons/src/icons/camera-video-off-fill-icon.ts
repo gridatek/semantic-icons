@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-camera-video-off-fill-icon]',
+  selector: 'svg[siCameraVideoOffFillIcon]',
   standalone: true,
   imports: [],
   template: `

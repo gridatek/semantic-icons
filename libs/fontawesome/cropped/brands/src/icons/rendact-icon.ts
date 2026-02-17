@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rendact-icon]',
+  selector: 'svg[siRendactIcon]',
   standalone: true,
   imports: [],
   template: `

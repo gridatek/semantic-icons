@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-arrow-bar-to-down-dashed-icon]',
+  selector: 'svg[siArrowBarToDownDashedIcon]',
   standalone: true,
   imports: [],
   template: `

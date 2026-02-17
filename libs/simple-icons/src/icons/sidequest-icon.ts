@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-sidequest-icon]',
+  selector: 'svg[siSidequestIcon]',
   standalone: true,
   imports: [],
   template: `

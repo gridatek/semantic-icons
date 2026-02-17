@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-whole-word-icon]',
+  selector: 'svg[siWholeWordIcon]',
   standalone: true,
   imports: [],
   template: `

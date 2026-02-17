@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-progress-down-icon]',
+  selector: 'svg[siProgressDownIcon]',
   standalone: true,
   imports: [],
   template: `

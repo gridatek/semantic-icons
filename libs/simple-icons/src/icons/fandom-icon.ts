@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fandom-icon]',
+  selector: 'svg[siFandomIcon]',
   standalone: true,
   imports: [],
   template: `

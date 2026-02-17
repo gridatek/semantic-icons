@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wine-glass-alt-icon]',
+  selector: 'svg[siWineGlassAltIcon]',
   standalone: true,
   imports: [],
   template: `

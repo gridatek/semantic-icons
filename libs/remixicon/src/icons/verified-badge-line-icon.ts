@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-verified-badge-line-icon]',
+  selector: 'svg[siVerifiedBadgeLineIcon]',
   standalone: true,
   imports: [],
   template: `

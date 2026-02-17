@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-switch-access-shortcut-add-icon]',
+  selector: 'svg[siSwitchAccessShortcutAddIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fluentbit-icon]',
+  selector: 'svg[siFluentbitIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lazyvim-icon]',
+  selector: 'svg[siLazyvimIcon]',
   standalone: true,
   imports: [],
   template: `

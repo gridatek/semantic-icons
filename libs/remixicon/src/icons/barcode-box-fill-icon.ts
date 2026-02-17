@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-barcode-box-fill-icon]',
+  selector: 'svg[siBarcodeBoxFillIcon]',
   standalone: true,
   imports: [],
   template: `

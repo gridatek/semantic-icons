@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-patch-off-icon]',
+  selector: 'svg[siHttpPatchOffIcon]',
   standalone: true,
   imports: [],
   template: `

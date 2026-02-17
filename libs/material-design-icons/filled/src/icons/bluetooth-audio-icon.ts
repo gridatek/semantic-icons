@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bluetooth-audio-icon]',
+  selector: 'svg[siBluetoothAudioIcon]',
   standalone: true,
   imports: [],
   template: `

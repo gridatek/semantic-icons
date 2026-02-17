@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-apachehadoop-icon]',
+  selector: 'svg[siApachehadoopIcon]',
   standalone: true,
   imports: [],
   template: `

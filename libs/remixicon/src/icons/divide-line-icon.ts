@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-divide-line-icon]',
+  selector: 'svg[siDivideLineIcon]',
   standalone: true,
   imports: [],
   template: `

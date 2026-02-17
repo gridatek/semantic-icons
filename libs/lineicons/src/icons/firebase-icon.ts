@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-firebase-icon]',
+  selector: 'svg[siFirebaseIcon]',
   standalone: true,
   imports: [],
   template: `

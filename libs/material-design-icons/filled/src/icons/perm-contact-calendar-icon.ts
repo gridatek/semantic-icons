@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perm-contact-calendar-icon]',
+  selector: 'svg[siPermContactCalendarIcon]',
   standalone: true,
   imports: [],
   template: `

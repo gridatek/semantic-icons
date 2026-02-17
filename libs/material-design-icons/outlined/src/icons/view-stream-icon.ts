@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-view-stream-icon]',
+  selector: 'svg[siViewStreamIcon]',
   standalone: true,
   imports: [],
   template: `

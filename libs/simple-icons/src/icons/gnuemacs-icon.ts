@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gnuemacs-icon]',
+  selector: 'svg[siGnuemacsIcon]',
   standalone: true,
   imports: [],
   template: `

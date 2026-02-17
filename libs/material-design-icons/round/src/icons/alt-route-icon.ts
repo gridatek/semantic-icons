@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-alt-route-icon]',
+  selector: 'svg[siAltRouteIcon]',
   standalone: true,
   imports: [],
   template: `

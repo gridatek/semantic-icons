@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-attach-sharp-icon]',
+  selector: 'svg[siAttachSharpIcon]',
   standalone: true,
   imports: [],
   template: `

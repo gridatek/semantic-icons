@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-comma-icon]',
+  selector: 'svg[siCommaIcon]',
   standalone: true,
   imports: [],
   template: `

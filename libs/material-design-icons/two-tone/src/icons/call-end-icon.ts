@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-call-end-icon]',
+  selector: 'svg[siCallEndIcon]',
   standalone: true,
   imports: [],
   template: `

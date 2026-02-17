@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-exit-outline-icon]',
+  selector: 'svg[siExitOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

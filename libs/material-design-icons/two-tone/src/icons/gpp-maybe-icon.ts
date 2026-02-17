@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-gpp-maybe-icon]',
+  selector: 'svg[siGppMaybeIcon]',
   standalone: true,
   imports: [],
   template: `

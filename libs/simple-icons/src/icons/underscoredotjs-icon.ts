@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-underscoredotjs-icon]',
+  selector: 'svg[siUnderscoredotjsIcon]',
   standalone: true,
   imports: [],
   template: `

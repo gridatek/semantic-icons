@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-case-sensitive-icon]',
+  selector: 'svg[siCaseSensitiveIcon]',
   standalone: true,
   imports: [],
   template: `

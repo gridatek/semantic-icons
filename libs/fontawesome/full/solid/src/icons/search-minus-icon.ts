@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-search-minus-icon]',
+  selector: 'svg[siSearchMinusIcon]',
   standalone: true,
   imports: [],
   template: `

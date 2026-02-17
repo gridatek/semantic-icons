@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-googlepubsub-icon]',
+  selector: 'svg[siGooglePubSubIcon]',
   standalone: true,
   imports: [],
   template: `

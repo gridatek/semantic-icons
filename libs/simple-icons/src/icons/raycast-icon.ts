@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-raycast-icon]',
+  selector: 'svg[siRaycastIcon]',
   standalone: true,
   imports: [],
   template: `

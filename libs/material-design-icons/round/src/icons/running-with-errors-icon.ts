@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-running-with-errors-icon]',
+  selector: 'svg[siRunningWithErrorsIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-twinmotion-icon]',
+  selector: 'svg[siTwinmotionIcon]',
   standalone: true,
   imports: [],
   template: `

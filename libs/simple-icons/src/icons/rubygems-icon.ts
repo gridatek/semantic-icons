@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-rubygems-icon]',
+  selector: 'svg[siRubygemsIcon]',
   standalone: true,
   imports: [],
   template: `

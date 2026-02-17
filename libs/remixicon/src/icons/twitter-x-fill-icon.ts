@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-twitter-x-fill-icon]',
+  selector: 'svg[siTwitterXFillIcon]',
   standalone: true,
   imports: [],
   template: `

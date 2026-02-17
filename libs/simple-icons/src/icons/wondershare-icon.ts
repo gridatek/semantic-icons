@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-wondershare-icon]',
+  selector: 'svg[siWondershareIcon]',
   standalone: true,
   imports: [],
   template: `

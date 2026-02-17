@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-bandcamp-icon]',
+  selector: 'svg[siBrandBandcampIcon]',
   standalone: true,
   imports: [],
   template: `

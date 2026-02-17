@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-shareplay-icon]',
+  selector: 'svg[siShareplayIcon]',
   standalone: true,
   imports: [],
   template: `

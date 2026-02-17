@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-textarea-resize-icon]',
+  selector: 'svg[siTextareaResizeIcon]',
   standalone: true,
   imports: [],
   template: `

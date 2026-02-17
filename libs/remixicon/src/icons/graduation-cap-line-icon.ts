@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-graduation-cap-line-icon]',
+  selector: 'svg[siGraduationCapLineIcon]',
   standalone: true,
   imports: [],
   template: `

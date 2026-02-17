@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-excalidraw-icon]',
+  selector: 'svg[siExcalidrawIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mail-question-mark-icon]',
+  selector: 'svg[siMailQuestionMarkIcon]',
   standalone: true,
   imports: [],
   template: `

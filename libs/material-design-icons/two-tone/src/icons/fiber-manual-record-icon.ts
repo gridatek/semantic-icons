@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-fiber-manual-record-icon]',
+  selector: 'svg[siFiberManualRecordIcon]',
   standalone: true,
   imports: [],
   template: `

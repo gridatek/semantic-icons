@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-focus-3-line-icon]',
+  selector: 'svg[siFocus3LineIcon]',
   standalone: true,
   imports: [],
   template: `

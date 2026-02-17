@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perplexity-line-icon]',
+  selector: 'svg[siPerplexityLineIcon]',
   standalone: true,
   imports: [],
   template: `

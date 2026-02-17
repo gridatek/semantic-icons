@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-reorder-three-sharp-icon]',
+  selector: 'svg[siReorderThreeSharpIcon]',
   standalone: true,
   imports: [],
   template: `

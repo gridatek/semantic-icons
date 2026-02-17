@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-global-off-fill-icon]',
+  selector: 'svg[siGlobalOffFillIcon]',
   standalone: true,
   imports: [],
   template: `

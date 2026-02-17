@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-mail-unread-sharp-icon]',
+  selector: 'svg[siMailUnreadSharpIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-open-dot-icon]',
+  selector: 'svg[siFolderOpenDotIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dark-mode-icon]',
+  selector: 'svg[siDarkModeIcon]',
   standalone: true,
   imports: [],
   template: `

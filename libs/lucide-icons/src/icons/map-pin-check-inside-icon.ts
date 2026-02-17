@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-map-pin-check-inside-icon]',
+  selector: 'svg[siMapPinCheckInsideIcon]',
   standalone: true,
   imports: [],
   template: `

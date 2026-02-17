@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nushell-icon]',
+  selector: 'svg[siNushellIcon]',
   standalone: true,
   imports: [],
   template: `

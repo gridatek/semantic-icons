@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pydantic-icon]',
+  selector: 'svg[siPydanticIcon]',
   standalone: true,
   imports: [],
   template: `

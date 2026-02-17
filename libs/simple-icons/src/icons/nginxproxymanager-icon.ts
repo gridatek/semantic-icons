@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-nginxproxymanager-icon]',
+  selector: 'svg[siNginxproxymanagerIcon]',
   standalone: true,
   imports: [],
   template: `

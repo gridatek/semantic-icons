@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-no-backpack-icon]',
+  selector: 'svg[siNoBackpackIcon]',
   standalone: true,
   imports: [],
   template: `

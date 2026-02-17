@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-powershell-icon]',
+  selector: 'svg[siBrandPowershellIcon]',
   standalone: true,
   imports: [],
   template: `

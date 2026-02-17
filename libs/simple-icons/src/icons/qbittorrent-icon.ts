@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-qbittorrent-icon]',
+  selector: 'svg[siQbittorrentIcon]',
   standalone: true,
   imports: [],
   template: `

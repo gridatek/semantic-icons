@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-navbar-expand-icon]',
+  selector: 'svg[siLayoutNavbarExpandIcon]',
   standalone: true,
   imports: [],
   template: `

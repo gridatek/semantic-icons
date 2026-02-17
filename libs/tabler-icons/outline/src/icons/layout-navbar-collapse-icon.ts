@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-navbar-collapse-icon]',
+  selector: 'svg[siLayoutNavbarCollapseIcon]',
   standalone: true,
   imports: [],
   template: `

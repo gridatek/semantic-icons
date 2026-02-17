@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-critical-role-icon]',
+  selector: 'svg[siCriticalRoleIcon]',
   standalone: true,
   imports: [],
   template: `

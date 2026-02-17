@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ungroup-icon]',
+  selector: 'svg[siUngroupIcon]',
   standalone: true,
   imports: [],
   template: `

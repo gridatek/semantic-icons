@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-puzzle-2-line-icon]',
+  selector: 'svg[siPuzzle2LineIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-document-lock-sharp-icon]',
+  selector: 'svg[siDocumentLockSharpIcon]',
   standalone: true,
   imports: [],
   template: `

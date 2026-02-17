@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-campaignmonitor-icon]',
+  selector: 'svg[siCampaignmonitorIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-playlist-add-circle-icon]',
+  selector: 'svg[siPlaylistAddCircleIcon]',
   standalone: true,
   imports: [],
   template: `

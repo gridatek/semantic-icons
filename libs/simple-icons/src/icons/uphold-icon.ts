@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-uphold-icon]',
+  selector: 'svg[siUpholdIcon]',
   standalone: true,
   imports: [],
   template: `

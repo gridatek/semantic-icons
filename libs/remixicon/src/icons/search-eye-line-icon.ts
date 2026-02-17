@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-search-eye-line-icon]',
+  selector: 'svg[siSearchEyeLineIcon]',
   standalone: true,
   imports: [],
   template: `

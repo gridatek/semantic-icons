@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-content-paste-search-icon]',
+  selector: 'svg[siContentPasteSearchIcon]',
   standalone: true,
   imports: [],
   template: `

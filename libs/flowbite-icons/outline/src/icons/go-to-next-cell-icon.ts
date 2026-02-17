@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-go-to-next-cell-icon]',
+  selector: 'svg[siGoToNextCellIcon]',
   standalone: true,
   imports: [],
   template: `

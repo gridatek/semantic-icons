@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-teradata-icon]',
+  selector: 'svg[siTeradataIcon]',
   standalone: true,
   imports: [],
   template: `

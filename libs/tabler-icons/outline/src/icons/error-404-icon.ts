@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-error-404-icon]',
+  selector: 'svg[siError404Icon]',
   standalone: true,
   imports: [],
   template: `

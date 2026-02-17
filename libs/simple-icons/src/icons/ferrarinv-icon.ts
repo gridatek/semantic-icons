@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-ferrarinv-icon]',
+  selector: 'svg[siFerrarinvIcon]',
   standalone: true,
   imports: [],
   template: `

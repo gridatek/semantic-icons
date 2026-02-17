@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-datagrip-icon]',
+  selector: 'svg[siDatagripIcon]',
   standalone: true,
   imports: [],
   template: `

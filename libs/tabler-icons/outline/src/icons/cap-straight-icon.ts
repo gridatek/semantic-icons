@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cap-straight-icon]',
+  selector: 'svg[siCapStraightIcon]',
   standalone: true,
   imports: [],
   template: `

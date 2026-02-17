@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-caret-right-square-fill-icon]',
+  selector: 'svg[siCaretRightSquareFillIcon]',
   standalone: true,
   imports: [],
   template: `

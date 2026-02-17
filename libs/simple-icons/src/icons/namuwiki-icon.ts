@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-namuwiki-icon]',
+  selector: 'svg[siNamuwikiIcon]',
   standalone: true,
   imports: [],
   template: `

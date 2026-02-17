@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layout-collage-icon]',
+  selector: 'svg[siLayoutCollageIcon]',
   standalone: true,
   imports: [],
   template: `

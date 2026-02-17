@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-webflow-icon]',
+  selector: 'svg[siBrandWebflowIcon]',
   standalone: true,
   imports: [],
   template: `

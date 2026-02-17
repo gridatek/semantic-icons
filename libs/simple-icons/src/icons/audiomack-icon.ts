@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-audiomack-icon]',
+  selector: 'svg[siAudiomackIcon]',
   standalone: true,
   imports: [],
   template: `

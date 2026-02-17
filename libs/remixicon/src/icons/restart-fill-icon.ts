@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-restart-fill-icon]',
+  selector: 'svg[siRestartFillIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-thermometer-snow-icon]',
+  selector: 'svg[siThermometerSnowIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-folder-forbid-line-icon]',
+  selector: 'svg[siFolderForbidLineIcon]',
   standalone: true,
   imports: [],
   template: `

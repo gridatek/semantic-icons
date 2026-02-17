@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-formik-icon]',
+  selector: 'svg[siFormikIcon]',
   standalone: true,
   imports: [],
   template: `

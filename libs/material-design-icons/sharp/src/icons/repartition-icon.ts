@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-repartition-icon]',
+  selector: 'svg[siRepartitionIcon]',
   standalone: true,
   imports: [],
   template: `

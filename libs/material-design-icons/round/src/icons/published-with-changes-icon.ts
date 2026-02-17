@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-published-with-changes-icon]',
+  selector: 'svg[siPublishedWithChangesIcon]',
   standalone: true,
   imports: [],
   template: `

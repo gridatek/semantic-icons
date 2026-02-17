@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-panorama-wide-angle-icon]',
+  selector: 'svg[siPanoramaWideAngleIcon]',
   standalone: true,
   imports: [],
   template: `

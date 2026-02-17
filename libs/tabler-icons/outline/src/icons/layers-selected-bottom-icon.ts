@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-layers-selected-bottom-icon]',
+  selector: 'svg[siLayersSelectedBottomIcon]',
   standalone: true,
   imports: [],
   template: `

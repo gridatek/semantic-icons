@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-basecamp-icon]',
+  selector: 'svg[siBasecampIcon]',
   standalone: true,
   imports: [],
   template: `

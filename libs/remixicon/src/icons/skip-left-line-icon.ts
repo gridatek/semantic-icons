@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-skip-left-line-icon]',
+  selector: 'svg[siSkipLeftLineIcon]',
   standalone: true,
   imports: [],
   template: `

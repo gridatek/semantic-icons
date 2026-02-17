@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-http-delete-off-icon]',
+  selector: 'svg[siHttpDeleteOffIcon]',
   standalone: true,
   imports: [],
   template: `

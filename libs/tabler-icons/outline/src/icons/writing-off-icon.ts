@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-writing-off-icon]',
+  selector: 'svg[siWritingOffIcon]',
   standalone: true,
   imports: [],
   template: `

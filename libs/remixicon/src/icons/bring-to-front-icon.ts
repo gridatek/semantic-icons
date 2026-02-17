@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bring-to-front-icon]',
+  selector: 'svg[siBringToFrontIcon]',
   standalone: true,
   imports: [],
   template: `

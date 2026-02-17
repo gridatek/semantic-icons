@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-find-in-page-icon]',
+  selector: 'svg[siFindInPageIcon]',
   standalone: true,
   imports: [],
   template: `

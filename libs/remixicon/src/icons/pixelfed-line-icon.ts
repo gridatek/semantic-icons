@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-pixelfed-line-icon]',
+  selector: 'svg[siPixelfedLineIcon]',
   standalone: true,
   imports: [],
   template: `

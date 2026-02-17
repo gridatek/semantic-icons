@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-platformio-icon]',
+  selector: 'svg[siPlatformioIcon]',
   standalone: true,
   imports: [],
   template: `

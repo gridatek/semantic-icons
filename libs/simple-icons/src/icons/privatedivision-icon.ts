@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-privatedivision-icon]',
+  selector: 'svg[siPrivatedivisionIcon]',
   standalone: true,
   imports: [],
   template: `

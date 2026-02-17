@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-paint-bucket-icon]',
+  selector: 'svg[siPaintBucketIcon]',
   standalone: true,
   imports: [],
   template: `

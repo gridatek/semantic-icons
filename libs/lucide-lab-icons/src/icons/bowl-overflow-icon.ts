@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-bowl-overflow-icon]',
+  selector: 'svg[siBowlOverflowIcon]',
   standalone: true,
   imports: [],
   template: `

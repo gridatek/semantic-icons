@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-xfce-icon]',
+  selector: 'svg[siXfceIcon]',
   standalone: true,
   imports: [],
   template: `

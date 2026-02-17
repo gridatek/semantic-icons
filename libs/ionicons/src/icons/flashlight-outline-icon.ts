@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-flashlight-outline-icon]',
+  selector: 'svg[siFlashlightOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

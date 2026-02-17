@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-autoprefixer-icon]',
+  selector: 'svg[siAutoprefixerIcon]',
   standalone: true,
   imports: [],
   template: `

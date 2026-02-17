@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-torbrowser-icon]',
+  selector: 'svg[siTorbrowserIcon]',
   standalone: true,
   imports: [],
   template: `

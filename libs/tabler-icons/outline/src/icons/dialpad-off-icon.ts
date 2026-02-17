@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-dialpad-off-icon]',
+  selector: 'svg[siDialpadOffIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-brand-yahoo-icon]',
+  selector: 'svg[siBrandYahooIcon]',
   standalone: true,
   imports: [],
   template: `

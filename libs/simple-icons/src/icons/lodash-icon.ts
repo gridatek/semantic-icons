@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-lodash-icon]',
+  selector: 'svg[siLodashIcon]',
   standalone: true,
   imports: [],
   template: `

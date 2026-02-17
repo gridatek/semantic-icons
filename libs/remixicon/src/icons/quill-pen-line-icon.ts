@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-quill-pen-line-icon]',
+  selector: 'svg[siQuillPenLineIcon]',
   standalone: true,
   imports: [],
   template: `

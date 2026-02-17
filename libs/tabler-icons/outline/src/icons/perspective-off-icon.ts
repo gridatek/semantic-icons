@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-perspective-off-icon]',
+  selector: 'svg[siPerspectiveOffIcon]',
   standalone: true,
   imports: [],
   template: `

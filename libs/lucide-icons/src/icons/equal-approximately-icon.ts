@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-equal-approximately-icon]',
+  selector: 'svg[siEqualApproximatelyIcon]',
   standalone: true,
   imports: [],
   template: `

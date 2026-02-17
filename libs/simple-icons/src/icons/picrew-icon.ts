@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-picrew-icon]',
+  selector: 'svg[siPicrewIcon]',
   standalone: true,
   imports: [],
   template: `

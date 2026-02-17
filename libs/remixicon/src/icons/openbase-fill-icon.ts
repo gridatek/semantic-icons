@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-openbase-fill-icon]',
+  selector: 'svg[siOpenbaseFillIcon]',
   standalone: true,
   imports: [],
   template: `

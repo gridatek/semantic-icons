@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cursor-arrow-ripple-icon]',
+  selector: 'svg[siCursorArrowRippleIcon]',
   standalone: true,
   imports: [],
   template: `

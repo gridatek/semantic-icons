@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-align-horizontal-space-around-icon]',
+  selector: 'svg[siAlignHorizontalSpaceAroundIcon]',
   standalone: true,
   imports: [],
   template: `

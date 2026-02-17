@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-delete-left-icon]',
+  selector: 'svg[siDeleteLeftIcon]',
   standalone: true,
   imports: [],
   template: `

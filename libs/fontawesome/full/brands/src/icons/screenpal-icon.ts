@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-screenpal-icon]',
+  selector: 'svg[siScreenpalIcon]',
   standalone: true,
   imports: [],
   template: `

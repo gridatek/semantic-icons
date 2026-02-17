@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-accessibility-new-icon]',
+  selector: 'svg[siAccessibilityNewIcon]',
   standalone: true,
   imports: [],
   template: `

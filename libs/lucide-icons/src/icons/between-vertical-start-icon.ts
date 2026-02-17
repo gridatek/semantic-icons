@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-between-vertical-start-icon]',
+  selector: 'svg[siBetweenVerticalStartIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-graphite-editor-icon]',
+  selector: 'svg[siGraphiteEditorIcon]',
   standalone: true,
   imports: [],
   template: `

@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-drive-file-rename-outline-icon]',
+  selector: 'svg[siDriveFileRenameOutlineIcon]',
   standalone: true,
   imports: [],
   template: `

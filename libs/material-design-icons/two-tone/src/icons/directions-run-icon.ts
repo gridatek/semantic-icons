@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-directions-run-icon]',
+  selector: 'svg[siDirectionsRunIcon]',
   standalone: true,
   imports: [],
   template: `

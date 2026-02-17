@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-newrelic-icon]',
+  selector: 'svg[siNewrelicIcon]',
   standalone: true,
   imports: [],
   template: `

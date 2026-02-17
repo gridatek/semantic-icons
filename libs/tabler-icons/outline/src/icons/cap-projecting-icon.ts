@@ -6,7 +6,7 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[si-cap-projecting-icon]',
+  selector: 'svg[siCapProjectingIcon]',
   standalone: true,
   imports: [],
   template: `
