@@ -20,7 +20,7 @@
     "projectsRelationship": "independent",
     "version": {
       "preserveLocalDependencyProtocols": false,
-      "manifestRootsToUpdate": ["{projectRoot}"]
+      "manifestRootsToUpdate": ["{projectRoot}", "dist/{projectRoot}"]
     },
     "releaseTag": {
       "pattern": "release/{projectName}/{version}"
