@@ -17,18 +17,18 @@
   },
   "release": {
     "projects": ["libs/*"],
-    "projectsRelationship": "independent",
     "version": {
-      "preserveLocalDependencyProtocols": false,
-      "manifestRootsToUpdate": ["{projectRoot}", "dist/{projectRoot}"]
+      "preVersionCommand": "npx nx run-many -t build",
+      "manifestRootsToUpdate": ["{projectRoot}", "dist/{projectRoot}"],
+      "currentVersionResolver": "disk"
     },
-    "releaseTag": {
-      "pattern": "release/{projectName}/{version}"
+    "changelog": {
+      "projectChangelogs": false,
+      "workspaceChangelog": false
     }
   },
   "targetDefaults": {
     "nx-release-publish": {
-      "dependsOn": ["build"],
       "options": {
         "packageRoot": "dist/{projectRoot}"
       }
