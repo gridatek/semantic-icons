@@ -42,4 +42,4 @@ Icons use the Angular naming convention and are always prefixed with the word `s
 
 ## License
 
-MIT © 2024-2025 Khalil LAGRIDA
+MIT © 2024-2026 Khalil LAGRIDA
