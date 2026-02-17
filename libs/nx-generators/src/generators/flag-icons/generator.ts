@@ -73,7 +73,7 @@ function generateIconsComponents(
 
     const svgFileName = `${names(name).fileName}-flag-icon`;
     const svgClassName = `Si${names(name).className}FlagIcon`;
-    const svgSelector = `si-${names(name).fileName}-flag-icon`;
+    const svgSelector = `si${names(name).className}FlagIcon`;
 
     exports.push(`export * from './icons/${svgFileName}';`);
 
