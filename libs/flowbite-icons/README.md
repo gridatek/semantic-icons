@@ -28,7 +28,7 @@ import { SiBellIcon } from '@semantic-icons/flowbite-icons/solid';
   standalone: true,
   imports: [SiBellIcon],
   template: `
-    <svg class="size-6 text-blue-500" si-bell-icon></svg>
+    <svg class="size-6 text-blue-500" siBellIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

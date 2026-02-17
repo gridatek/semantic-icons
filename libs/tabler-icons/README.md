@@ -28,7 +28,7 @@ import { SiCakeIcon } from '@semantic-icons/tabler-icons/outline';
   standalone: true,
   imports: [SiCakeIcon],
   template: `
-    <svg class="text-blue-500 size-6" si-cake-icon></svg>
+    <svg class="text-blue-500 size-6" siCakeIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

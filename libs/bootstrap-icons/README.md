@@ -28,7 +28,7 @@ import { SiBalloonIcon } from '@semantic-icons/bootstrap-icons';
   standalone: true,
   imports: [SiBalloonIcon],
   template: `
-    <svg class="text-blue-500 size-6" si-balloon-icon></svg>
+    <svg class="text-blue-500 size-6" siBalloonIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

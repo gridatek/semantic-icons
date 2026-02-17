@@ -42,7 +42,7 @@ Semantic Icons is a monorepo that provides Angular-compatible icon libraries fro
 Each icon library (e.g., `libs/lucide-icons/`) follows this pattern:
 
 - Individual icon components in `src/icons/` directory
-- Each icon is a standalone Angular component with selector pattern `svg[si-<icon-name>-icon]`
+- Each icon is a standalone Angular component with selector pattern `svg[siIconNameIcon]` (camelCase)
 - All icons export from `src/index.ts` with barrel exports
 - Components use Angular signals for inputs (width, height, viewBox, fill, stroke, etc.)
 - Host bindings for SVG attributes with configurable inputs
@@ -52,7 +52,7 @@ Each icon library (e.g., `libs/lucide-icons/`) follows this pattern:
 
 ```typescript
 @Component({
-  selector: 'svg[si-icon-name-icon]',
+  selector: 'svg[siIconNameIcon]',
   standalone: true,
   template: `
     <svg:path d="..." />

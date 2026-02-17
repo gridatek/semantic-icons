@@ -28,7 +28,7 @@ import { SiBirdIcon } from '@semantic-icons/lucide-icons';
   standalone: true,
   imports: [SiBirdIcon],
   template: `
-    <svg class="text-blue-500 size-6" si-bird-icon></svg>
+    <svg class="text-blue-500 size-6" siBirdIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

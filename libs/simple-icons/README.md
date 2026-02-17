@@ -27,7 +27,7 @@ import { SiGithubIcon } from '@semantic-icons/simple-icons';
   selector: 'app-home-page',
   imports: [SiGithubIcon],
   template: `
-    <svg class="size-36" si-github-icon></svg>
+    <svg class="size-36" siGithubIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

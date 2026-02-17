@@ -28,7 +28,7 @@ import { SiMaFlagIcon } from '@semantic-icons/flag-icons/square';
   standalone: true,
   imports: [SiMaFlagIcon],
   template: `
-    <svg class="size-36" si-ma-flag-icon></svg>
+    <svg class="size-36" siMaFlagIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,

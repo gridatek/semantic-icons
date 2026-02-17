@@ -38,7 +38,7 @@ import { SiCubeIcon } from '@semantic-icons/fontawesome/full/solid';
   standalone: true,
   imports: [SiCubeIcon],
   template: `
-    <svg class="text-blue-500 size-6" si-cube-icon></svg>
+    <svg class="text-blue-500 size-6" siCubeIcon></svg>
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,
