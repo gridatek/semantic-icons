@@ -33,7 +33,7 @@ function fileNameToComponentName(fileName: string): string {
 }
 
 function fileNameToSelector(fileName: string): string {
-  return `si-${fileName.replace(/[^a-z0-9]/gi, '-').toLowerCase()}-icon`;
+  return `si${fileNameToComponentName(fileName)}Icon`;
 }
 
 interface SimpleIcon {

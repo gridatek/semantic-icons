@@ -80,7 +80,7 @@ function generateIconsComponents(
 
     svgClassName = workarround(fileName, svgClassName);
 
-    const svgSelector = `si-${names(name).fileName}-icon`;
+    const svgSelector = `si${names(name).className}Icon`;
 
     exports.push(`export * from './icons/${svgFileName}';`);
 
