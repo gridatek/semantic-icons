@@ -75,4 +75,4 @@ Icons can be imported from different sets, depending on your needs:
 
 ## 📄 License
 
-MIT © 2024–2025 Khalil LAGRIDA
+MIT © 2024–2026 Khalil LAGRIDA
