@@ -10,7 +10,7 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc. -->
+    <!--! Font Awesome Free 7.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. -->
     <svg:path
       fill="currentColor"
       d="M192 128a128 128 0 1 1 0 256 128 128 0 1 1 0-256zm0 320a192 192 0 1 0 0-384 192 192 0 1 0 0 384z"

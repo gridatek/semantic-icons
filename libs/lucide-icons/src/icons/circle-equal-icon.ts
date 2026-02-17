@@ -10,9 +10,9 @@ import {
   standalone: true,
   imports: [],
   template: `
+    <svg:circle cx="12" cy="12" r="10" />
     <svg:path d="M7 10h10" />
     <svg:path d="M7 14h10" />
-    <svg:circle cx="12" cy="12" r="10" />
   `,
   host: {
     '[attr.xmlns]': 'xmlns',
