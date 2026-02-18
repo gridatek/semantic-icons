@@ -16,7 +16,7 @@ jobs:
     permissions:
       contents: write
       id-token: write # needed for provenance data generation
-    timeout-minutes: 10
+    timeout-minutes: 60
     env:
       NODE_OPTIONS: --max_old_space_size=8192
     steps:
@@ -49,11 +49,6 @@ jobs:
       - name: Version
         if: steps.get_output.outputs.result != ''
         run: npx nx release version minor -p ${{ steps.get_output.outputs.result }}
-        shell: bash
-
-      - name: Build projects
-        if: steps.get_output.outputs.result != ''
-        run: npx nx run-many --target=build --projects=${{ steps.get_output.outputs.result }}
         shell: bash
 
       - name: Publish packages
