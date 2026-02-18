@@ -17,6 +17,8 @@ jobs:
       contents: write
       id-token: write # needed for provenance data generation
     timeout-minutes: 10
+    env:
+      NODE_OPTIONS: --max_old_space_size=8192
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -53,8 +55,6 @@ jobs:
         if: steps.get_output.outputs.result != ''
         run: npx nx run-many --target=build --projects=${{ steps.get_output.outputs.result }}
         shell: bash
-        env:
-          NODE_OPTIONS: --max_old_space_size=8192
 
       - name: Publish packages
         if: steps.get_output.outputs.result != ''
