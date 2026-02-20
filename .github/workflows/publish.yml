@@ -50,6 +50,7 @@ jobs:
         if: steps.get_output.outputs.result != ''
         run: npx nx release version minor -p ${{ steps.get_output.outputs.result }}
         shell: bash
+        timeout-minutes: 30
 
       - name: Publish packages
         if: steps.get_output.outputs.result != ''
