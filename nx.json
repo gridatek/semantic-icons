@@ -19,7 +19,6 @@
     "projects": ["libs/*"],
     "projectsRelationship": "independent",
     "version": {
-      "preVersionCommand": "npx nx run-many -t build",
       "manifestRootsToUpdate": ["{projectRoot}", "dist/{projectRoot}"],
       "currentVersionResolver": "disk"
     },
