@@ -44,9 +44,21 @@ function generateIconsComponents(
     force: true,
   });
 
-  const exports = [];
+  const tagsJsonPath = path.join(
+    workspaceRoot,
+    'node_modules',
+    'lucide-static',
+    'tags.json',
+  );
+  const tagsJson = JSON.parse(fs.readFileSync(tagsJsonPath, 'utf-8'));
+
+  const exports: string[] = [];
   tree.children(iconsSourcePath).forEach((fileName) => {
     const name = path.parse(fileName).name;
+
+    if (!tagsJson[name]) {
+      return;
+    }
 
     const svgFileContent = tree.read(
       path.join(iconsSourcePath, fileName),
