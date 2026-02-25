@@ -56,7 +56,7 @@ export class <%= svgClassName %> {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('<%= iconTitle %> icon');
-  readonly ariaHidden = input<boolean | string>(false);
+  readonly ariaHidden = input<boolean | string>(true);
 
   <% if(width) { -%>
   readonly width = input<string | number>('<%= width %>');

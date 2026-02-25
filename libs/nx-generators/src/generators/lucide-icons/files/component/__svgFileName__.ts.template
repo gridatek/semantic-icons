@@ -13,6 +13,7 @@ import {
     <%- svgTagContent %>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
   <% if(width) { -%>
     '[attr.width]': 'width()',
@@ -47,6 +48,8 @@ import {
 export class <%= svgClassName %> {
 
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   <% if(width) { -%>
     readonly width = input<string | number>('<%= width %>');
