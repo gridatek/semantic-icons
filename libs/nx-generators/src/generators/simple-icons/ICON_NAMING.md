@@ -4,7 +4,7 @@
 
 The simple-icons generator derives Angular component names from the **icon titles** provided by the [simple-icons](https://simpleicons.org/) metadata (`simple-icons.json`), rather than from SVG filenames.
 
-This approach produces accurate, brand-faithful component names automatically for all 3,397+ icons without any manual mapping.
+This approach produces accurate component names automatically for all 3,397+ icons without any manual mapping.
 
 ## How It Works
 
@@ -18,40 +18,40 @@ Each icon in the `simple-icons` npm package comes with structured metadata:
 }
 ```
 
-The **title** has proper word boundaries and brand-accurate casing. The **slug** is the SVG filename — a lowercase, concatenated string with no word boundaries.
+The **title** has proper word boundaries. The **slug** is the SVG filename — a lowercase, concatenated string with no word boundaries.
 
 The generator uses the title to produce the component name via `titleToComponentName()`, which:
 
-1. Replaces special characters with text equivalents (`++` → `PlusPlus`, `#` → `Sharp`, `&` → `And`)
-2. Converts dots to `Dot` word boundaries (`.js` → `DotJs`, `.NET` → `DotNET`)
+1. Replaces special characters with text equivalents (`++` → `Plusplus`, `#` → `Sharp`, `&` → `And`)
+2. Converts dots to `Dot` word boundaries (`.js` → `DotJs`, `.NET` → `DotNet`)
 3. Strips diacritics (`é` → `e`, `ö` → `o`)
 4. Removes remaining non-alphanumeric characters
-5. Splits on word boundaries and capitalizes the first letter of each word, preserving the rest of the brand's original casing
+5. Splits on word boundaries and converts each word to camelCase (first letter uppercase, rest lowercase)
 
 ## Naming Examples
 
 | Icon Title | Component Class | Selector | File |
 |---|---|---|---|
-| GitHub | `SiGitHubIcon` | `siGitHubIcon` | `git-hub-icon.ts` |
+| GitHub | `SiGithubIcon` | `siGithubIcon` | `github-icon.ts` |
 | Stack Overflow | `SiStackOverflowIcon` | `siStackOverflowIcon` | `stack-overflow-icon.ts` |
 | Node.js | `SiNodeDotJsIcon` | `siNodeDotJsIcon` | `node-dot-js-icon.ts` |
-| C++ | `SiCPlusPlusIcon` | `siCPlusPlusIcon` | `cplus-plus-icon.ts` |
-| F# | `SiFSharpIcon` | `siFSharpIcon` | `fsharp-icon.ts` |
-| .NET | `SiDotNETIcon` | `siDotNETIcon` | `dot-net-icon.ts` |
-| PayPal | `SiPayPalIcon` | `siPayPalIcon` | `pay-pal-icon.ts` |
-| WhatsApp | `SiWhatsAppIcon` | `siWhatsAppIcon` | `whats-app-icon.ts` |
-| AT&T | `SiATAndTIcon` | `siATAndTIcon` | `at-and-t-icon.ts` |
+| C++ | `SiCplusplusIcon` | `siCplusplusIcon` | `cplusplus-icon.ts` |
+| F# | `SiFsharpIcon` | `siFsharpIcon` | `fsharp-icon.ts` |
+| .NET | `SiDotNetIcon` | `siDotNetIcon` | `dot-net-icon.ts` |
+| PayPal | `SiPaypalIcon` | `siPaypalIcon` | `paypal-icon.ts` |
+| WhatsApp | `SiWhatsappIcon` | `siWhatsappIcon` | `whatsapp-icon.ts` |
+| AT&T | `SiAtAndTIcon` | `siAtAndTIcon` | `at-and-t-icon.ts` |
 | Aeroméxico | `SiAeromexicoIcon` | `siAeromexicoIcon` | `aeromexico-icon.ts` |
 
 ## Special Character Handling
 
 | Character | Replacement | Example |
 |---|---|---|
-| `++` | `PlusPlus` | C++ → CPlusPlus |
-| `#` | `Sharp` | F# → FSharp |
-| `&` | `And` | AT&T → ATAndT |
+| `++` | `Plusplus` | C++ → Cplusplus |
+| `#` | `Sharp` | F# → Fsharp |
+| `&` | `And` | AT&T → AtAndT |
 | `.` | `Dot` | Node.js → NodeDotJs |
-| `::` | *(removed)* | Code::Blocks → CodeBlocks |
+| `::` | *(removed)* | Code::Blocks → Codeblocks |
 | `'` | *(removed)* | Byju's → Byjus |
 | `/` | *(removed)* | /e/ → E |
 | Diacritics | ASCII equivalent | Citroën → Citroen |
