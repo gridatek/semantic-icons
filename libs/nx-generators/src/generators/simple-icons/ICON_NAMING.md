@@ -30,31 +30,31 @@ The generator uses the title to produce the component name via `titleToComponent
 
 ## Naming Examples
 
-| Icon Title | Component Class | Selector | File |
-|---|---|---|---|
-| GitHub | `SiGithubIcon` | `siGithubIcon` | `github-icon.ts` |
+| Icon Title     | Component Class       | Selector              | File                     |
+| -------------- | --------------------- | --------------------- | ------------------------ |
+| GitHub         | `SiGithubIcon`        | `siGithubIcon`        | `github-icon.ts`         |
 | Stack Overflow | `SiStackOverflowIcon` | `siStackOverflowIcon` | `stack-overflow-icon.ts` |
-| Node.js | `SiNodeDotJsIcon` | `siNodeDotJsIcon` | `node-dot-js-icon.ts` |
-| C++ | `SiCplusplusIcon` | `siCplusplusIcon` | `cplusplus-icon.ts` |
-| F# | `SiFsharpIcon` | `siFsharpIcon` | `fsharp-icon.ts` |
-| .NET | `SiDotNetIcon` | `siDotNetIcon` | `dot-net-icon.ts` |
-| PayPal | `SiPaypalIcon` | `siPaypalIcon` | `paypal-icon.ts` |
-| WhatsApp | `SiWhatsappIcon` | `siWhatsappIcon` | `whatsapp-icon.ts` |
-| AT&T | `SiAtAndTIcon` | `siAtAndTIcon` | `at-and-t-icon.ts` |
-| Aeroméxico | `SiAeromexicoIcon` | `siAeromexicoIcon` | `aeromexico-icon.ts` |
+| Node.js        | `SiNodeDotJsIcon`     | `siNodeDotJsIcon`     | `node-dot-js-icon.ts`    |
+| C++            | `SiCplusplusIcon`     | `siCplusplusIcon`     | `cplusplus-icon.ts`      |
+| F#             | `SiFsharpIcon`        | `siFsharpIcon`        | `fsharp-icon.ts`         |
+| .NET           | `SiDotNetIcon`        | `siDotNetIcon`        | `dot-net-icon.ts`        |
+| PayPal         | `SiPaypalIcon`        | `siPaypalIcon`        | `paypal-icon.ts`         |
+| WhatsApp       | `SiWhatsappIcon`      | `siWhatsappIcon`      | `whatsapp-icon.ts`       |
+| AT&T           | `SiAtAndTIcon`        | `siAtAndTIcon`        | `at-and-t-icon.ts`       |
+| Aeroméxico     | `SiAeromexicoIcon`    | `siAeromexicoIcon`    | `aeromexico-icon.ts`     |
 
 ## Special Character Handling
 
-| Character | Replacement | Example |
-|---|---|---|
-| `++` | `Plusplus` | C++ → Cplusplus |
-| `#` | `Sharp` | F# → Fsharp |
-| `&` | `And` | AT&T → AtAndT |
-| `.` | `Dot` | Node.js → NodeDotJs |
-| `::` | *(removed)* | Code::Blocks → Codeblocks |
-| `'` | *(removed)* | Byju's → Byjus |
-| `/` | *(removed)* | /e/ → E |
-| Diacritics | ASCII equivalent | Citroën → Citroen |
+| Character  | Replacement      | Example                   |
+| ---------- | ---------------- | ------------------------- |
+| `++`       | `Plusplus`       | C++ → Cplusplus           |
+| `#`        | `Sharp`          | F# → Fsharp               |
+| `&`        | `And`            | AT&T → AtAndT             |
+| `.`        | `Dot`            | Node.js → NodeDotJs       |
+| `::`       | _(removed)_      | Code::Blocks → Codeblocks |
+| `'`        | _(removed)_      | Byju's → Byjus            |
+| `/`        | _(removed)_      | /e/ → E                   |
+| Diacritics | ASCII equivalent | Citroën → Citroen         |
 
 ## Duplicate Title Disambiguation
 
@@ -64,22 +64,11 @@ Seven icons in simple-icons share the same title (e.g., two different brands bot
 2. Identifying the **primary** icon (shortest slug) — keeps the base name
 3. Appending a **suffix** derived from the slug difference to secondary icons
 
-| Title | Slug | Component Name |
-|---|---|---|
-| Backstage | `backstage` | `SiBackstageIcon` |
+| Title     | Slug                | Component Name           |
+| --------- | ------------------- | ------------------------ |
+| Backstage | `backstage`         | `SiBackstageIcon`        |
 | Backstage | `backstage_casting` | `SiBackstageCastingIcon` |
-| Mongoose | `mongoose` | `SiMongooseIcon` |
-| Mongoose | `mongoosedotws` | `SiMongooseDotWsIcon` |
-| Spring | `spring` | `SiSpringIcon` |
-| Spring | `spring_creators` | `SiSpringCreatorsIcon` |
-
-## Previous Approach
-
-Previously, the generator derived names from SVG filenames (slugs) using a `fileNameToComponentName()` function backed by a manually-maintained mapping table (`filename-mappings.ts`) with 230+ entries. This had several issues:
-
-- **Incomplete coverage**: Only 230 of 3,397 icons had manual mappings; the rest used a basic auto-conversion that couldn't detect word boundaries in concatenated slugs (e.g., `stackoverflow` → `Stackoverflow` instead of `StackOverflow`)
-- **Manual maintenance burden**: Every new icon or rename required updating the mapping table
-- **Inconsistent quality**: Unmapped icons got degraded names
-- **Slow metadata lookups**: Used linear `Array.find()` scans instead of `Map` lookups
-
-The title-based approach eliminates all of these problems.
+| Mongoose  | `mongoose`          | `SiMongooseIcon`         |
+| Mongoose  | `mongoosedotws`     | `SiMongooseDotWsIcon`    |
+| Spring    | `spring`            | `SiSpringIcon`           |
+| Spring    | `spring_creators`   | `SiSpringCreatorsIcon`   |
