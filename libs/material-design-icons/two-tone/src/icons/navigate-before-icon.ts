@@ -13,6 +13,7 @@ import {
     <svg:path d="m14.2 6-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -24,6 +25,8 @@ import {
 })
 export class SiNavigateBeforeIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

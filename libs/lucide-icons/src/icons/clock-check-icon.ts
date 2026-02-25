@@ -15,6 +15,7 @@ import {
     <svg:path d="m22 16-5.5 5.5L14 19" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -32,6 +33,8 @@ import {
 })
 export class SiClockCheckIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

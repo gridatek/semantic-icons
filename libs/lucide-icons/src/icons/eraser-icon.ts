@@ -16,6 +16,7 @@ import {
     <svg:path d="m5.082 11.09 8.828 8.828" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -33,6 +34,8 @@ import {
 })
 export class SiEraserIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

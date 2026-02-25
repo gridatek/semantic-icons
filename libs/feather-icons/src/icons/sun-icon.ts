@@ -21,6 +21,7 @@ import {
     <svg:line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></svg:line>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -37,6 +38,8 @@ import {
 })
 export class SiSunIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

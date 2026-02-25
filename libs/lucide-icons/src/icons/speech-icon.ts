@@ -17,6 +17,7 @@ import {
     <svg:path d="M17 15a3.5 3.5 0 0 0-.025-4.975" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -34,6 +35,8 @@ import {
 })
 export class SiSpeechIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

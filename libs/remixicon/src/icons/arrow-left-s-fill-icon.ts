@@ -13,6 +13,7 @@ import {
     <svg:path d="M8 12L14 6V18L8 12Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
@@ -23,6 +24,8 @@ import {
 })
 export class SiArrowLeftSFillIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

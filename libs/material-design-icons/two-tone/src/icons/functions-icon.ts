@@ -13,6 +13,7 @@ import {
     <svg:path d="M18 17h-7l5-5-5-5h7V4H6v2l6.5 6L6 18v2h12z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -24,6 +25,8 @@ import {
 })
 export class SiFunctionsIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

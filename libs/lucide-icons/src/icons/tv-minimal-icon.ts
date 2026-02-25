@@ -14,6 +14,7 @@ import {
     <svg:rect width="20" height="14" x="2" y="3" rx="2" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -31,6 +32,8 @@ import {
 })
 export class SiTvMinimalIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

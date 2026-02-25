@@ -18,6 +18,7 @@ import {
     <svg:path d="m10 14 2 3 2-3v4h2v-7h-2l-2 3-2-3H8v7h2z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -29,6 +30,8 @@ import {
 })
 export class SiMuseumIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

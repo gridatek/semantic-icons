@@ -14,6 +14,7 @@ import {
     <svg:path fill="#fff" d="M0 240h640v240H0Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -23,6 +24,8 @@ import {
 })
 export class SiIdFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 640 480');
 }

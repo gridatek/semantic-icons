@@ -16,6 +16,7 @@ import {
     <svg:path d="M6 12h3l2 2 2.2-4 1.8 2h3" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -33,6 +34,8 @@ import {
 })
 export class SiWatchActivityIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

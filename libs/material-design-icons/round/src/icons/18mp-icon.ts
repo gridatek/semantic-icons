@@ -17,6 +17,7 @@ import {
     <svg:path d="M13.5 6.5H15V8h-1.5zM15 14h1.5v1.5H15z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -28,6 +29,8 @@ import {
 })
 export class Si18mpIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

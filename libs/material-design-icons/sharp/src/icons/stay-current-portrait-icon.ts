@@ -13,6 +13,7 @@ import {
     <svg:path d="M19 1.01 5.01 1v22H19V1.01zM17 19H7V5h10v14z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -24,6 +25,8 @@ import {
 })
 export class SiStayCurrentPortraitIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

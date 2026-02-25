@@ -16,6 +16,7 @@ import {
     <svg:rect x="8" y="2" width="8" height="4" rx="1" ry="1"></svg:rect>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -32,6 +33,8 @@ import {
 })
 export class SiClipboardIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

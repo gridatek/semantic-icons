@@ -20,6 +20,7 @@ import {
     <svg:path d="M6.26 3.82c-1.149.51-1.93 1.291-2.44 2.44" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -37,6 +38,8 @@ import {
 })
 export class SiSquircleDashedIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

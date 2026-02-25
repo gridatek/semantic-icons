@@ -18,6 +18,7 @@ import {
     <svg:path d="M3 15a7 7 0 0 1 7 7h4a7 7 0 0 1 7-7Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -35,6 +36,8 @@ import {
 })
 export class SiLingerieIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

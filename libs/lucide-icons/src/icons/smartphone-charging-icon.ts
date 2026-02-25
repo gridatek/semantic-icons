@@ -14,6 +14,7 @@ import {
     <svg:path d="M12.667 8 10 12h4l-2.667 4" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -31,6 +32,8 @@ import {
 })
 export class SiSmartphoneChargingIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

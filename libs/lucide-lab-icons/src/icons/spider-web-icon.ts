@@ -17,6 +17,7 @@ import {
     <svg:path d="M17 14.9V9.1l-5-2.6-5 2.6v5.8l5 2.6Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -34,6 +35,8 @@ import {
 })
 export class SiSpiderWebIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

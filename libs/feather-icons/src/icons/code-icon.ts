@@ -14,6 +14,7 @@ import {
     <svg:polyline points="8 6 2 12 8 18"></svg:polyline>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -30,6 +31,8 @@ import {
 })
 export class SiCodeIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

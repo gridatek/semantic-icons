@@ -21,6 +21,7 @@ import {
     <svg:path d="M6 14.5a6 6 0 0 1 5 0s2 1.25 5 0" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -38,6 +39,8 @@ import {
 })
 export class SiBottleDispenserIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

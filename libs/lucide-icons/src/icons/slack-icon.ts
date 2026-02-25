@@ -20,6 +20,7 @@ import {
     <svg:path d="M8.5 5H10V3.5A1.5 1.5 0 1 0 8.5 5" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -37,6 +38,8 @@ import {
 })
 export class SiSlackIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

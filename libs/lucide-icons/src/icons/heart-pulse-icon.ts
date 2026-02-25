@@ -16,6 +16,7 @@ import {
     <svg:path d="M3.22 13H9.5l.5-1 2 4.5 2-7 1.5 3.5h5.27" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -33,6 +34,8 @@ import {
 })
 export class SiHeartPulseIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

@@ -14,6 +14,7 @@ import {
     <svg:line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></svg:line>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -30,6 +31,8 @@ import {
 })
 export class SiSlashIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

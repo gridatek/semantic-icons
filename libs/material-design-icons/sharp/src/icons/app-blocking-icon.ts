@@ -16,6 +16,7 @@ import {
     <svg:path d="M19 23v-6h-2v1H7V6h10v1h2V.94L5 1v22h14z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -27,6 +28,8 @@ import {
 })
 export class SiAppBlockingIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

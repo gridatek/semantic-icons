@@ -15,6 +15,7 @@ import {
     <svg:path d="M22 20c0-3.37-2-6.5-4-8a5 5 0 0 0-.45-8.3" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -32,6 +33,8 @@ import {
 })
 export class SiUsersRoundIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

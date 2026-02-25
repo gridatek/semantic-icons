@@ -21,7 +21,7 @@ import {
     />
   `,
   host: {
-    'aria-hidden': 'true',
+    '[attr.aria-hidden]': 'ariaHidden()',
     'data-slot': 'icon',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -33,6 +33,8 @@ import {
 })
 export class SiSquare3Stack3dIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 16 16');
 

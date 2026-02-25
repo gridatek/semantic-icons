@@ -18,6 +18,7 @@ import {
     <svg:path d="m7.2 18 .6 3c.1.5.6 1 1.2 1h6c.6 0 1.1-.4 1.2-1l.6-3" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -35,6 +36,8 @@ import {
 })
 export class SiCupToGoIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

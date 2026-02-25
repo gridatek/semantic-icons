@@ -13,6 +13,7 @@ import {
     <svg:path d="m7 7 10 10-5 5V2l5 5L7 17" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -30,6 +31,8 @@ import {
 })
 export class SiBluetoothIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

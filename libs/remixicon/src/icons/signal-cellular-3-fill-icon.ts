@@ -13,6 +13,7 @@ import {
     <svg:path d="M2 13H8V21H2V13ZM16 3H22V21H16V3ZM9 8H15V21H9V8Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
@@ -23,6 +24,8 @@ import {
 })
 export class SiSignalCellular3FillIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

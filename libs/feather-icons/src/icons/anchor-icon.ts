@@ -15,6 +15,7 @@ import {
     <svg:path d="M5 12H2a10 10 0 0 0 20 0h-3"></svg:path>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -31,6 +32,8 @@ import {
 })
 export class SiAnchorIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

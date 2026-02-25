@@ -23,6 +23,7 @@ import {
     <svg:path d="M10 22v-5a2 2 0 1 1 4 0v5" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -40,6 +41,8 @@ import {
 })
 export class SiIglooIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

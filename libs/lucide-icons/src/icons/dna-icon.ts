@@ -23,6 +23,7 @@ import {
     <svg:path d="M9 22c1.798-1.998 2.518-3.995 2.807-5.993" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -40,6 +41,8 @@ import {
 })
 export class SiDnaIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

@@ -20,6 +20,7 @@ import {
     <svg:path d="m9.086 6.5-4.793 4.793a1 1 0 0 0-.18 1.17L7 18" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -37,6 +38,8 @@ import {
 })
 export class SiLampDeskIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

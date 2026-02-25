@@ -16,6 +16,7 @@ import {
     <svg:path d="M6 3h3v6H6zm9 12h3v6h-3z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -27,6 +28,8 @@ import {
 })
 export class SiEarbudsIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

@@ -17,7 +17,7 @@ import {
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "D3 icon"',
+    '[attr.aria-label]': 'ariaLabel()',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -33,8 +33,8 @@ export class SiD3Icon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
-  readonly ariaLabel = input<string>();
-  readonly ariaHidden = input<boolean | string>(false);
+  readonly ariaLabel = input<string>('D3 icon');
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

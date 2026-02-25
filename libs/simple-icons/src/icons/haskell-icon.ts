@@ -17,7 +17,7 @@ import {
   `,
   host: {
     role: 'img',
-    '[attr.aria-label]': 'ariaLabel() || "Haskell icon"',
+    '[attr.aria-label]': 'ariaLabel()',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -33,8 +33,8 @@ export class SiHaskellIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
-  readonly ariaLabel = input<string>();
-  readonly ariaHidden = input<boolean | string>(false);
+  readonly ariaLabel = input<string>('Haskell icon');
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

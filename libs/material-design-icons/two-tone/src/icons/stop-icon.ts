@@ -14,6 +14,7 @@ import {
     <svg:path d="M6 18h12V6H6v12zM8 8h8v8H8V8z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -25,6 +26,8 @@ import {
 })
 export class SiStopIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

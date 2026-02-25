@@ -19,7 +19,7 @@ import {
     <svg:path d="M6 13a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z" />
   `,
   host: {
-    'aria-hidden': 'true',
+    '[attr.aria-hidden]': 'ariaHidden()',
     'data-slot': 'icon',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -31,6 +31,8 @@ import {
 })
 export class SiTruckIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 16 16');
 

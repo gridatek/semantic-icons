@@ -14,6 +14,7 @@ import {
     <svg:path d="M20.49 15a9 9 0 1 1-2.12-9.36L23 10"></svg:path>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -30,6 +31,8 @@ import {
 })
 export class SiRotateCwIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

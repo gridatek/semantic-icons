@@ -18,6 +18,7 @@ import {
     <svg:path d="M2 11c0 1.7 1.3 3 3 3h7" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -35,6 +36,8 @@ import {
 })
 export class SiSneakerIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

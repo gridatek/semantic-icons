@@ -13,7 +13,7 @@ import {
     <svg:path stroke-linecap="round" stroke-linejoin="round" d="M18 12H6" />
   `,
   host: {
-    'aria-hidden': 'true',
+    '[attr.aria-hidden]': 'ariaHidden()',
     'data-slot': 'icon',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -27,6 +27,8 @@ import {
 })
 export class SiMinusSmallIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

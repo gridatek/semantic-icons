@@ -20,6 +20,7 @@ import {
     <svg:path d="M12 3 4 9v12h16V9l-8-6zm6 16H6v-9l6-4.5 6 4.5v9z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -31,6 +32,8 @@ import {
 })
 export class SiCameraIndoorIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

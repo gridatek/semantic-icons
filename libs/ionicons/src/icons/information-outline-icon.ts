@@ -29,6 +29,7 @@ import {
     <svg:path d="M256 160a32 32 0 1 1 32-32 32 32 0 0 1-32 32" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -38,6 +39,8 @@ import {
 })
 export class SiInformationOutlineIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

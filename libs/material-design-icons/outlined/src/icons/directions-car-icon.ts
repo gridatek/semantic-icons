@@ -17,6 +17,7 @@ import {
     <svg:circle cx="16.5" cy="14.5" r="1.5" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -28,6 +29,8 @@ import {
 })
 export class SiDirectionsCarIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

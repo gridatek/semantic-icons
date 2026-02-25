@@ -18,7 +18,7 @@ import {
     <svg:path d="M13 5h-1.5v6.25a1.25 1.25 0 1 0 2.5 0V6a1 1 0 0 0-1-1Z" />
   `,
   host: {
-    'aria-hidden': 'true',
+    '[attr.aria-hidden]': 'ariaHidden()',
     'data-slot': 'icon',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -30,6 +30,8 @@ import {
 })
 export class SiNewspaperIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 16 16');
 

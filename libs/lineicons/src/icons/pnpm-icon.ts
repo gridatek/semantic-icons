@@ -26,6 +26,7 @@ import {
     <svg:path d="M8.62467 21H3V15.3753H8.62467V21Z" fill="#323544" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -38,6 +39,8 @@ import {
 })
 export class SiPnpmIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

@@ -24,6 +24,7 @@ import {
     <svg:path d="M9.712 4.06A3 3 0 0 1 15 6v1.13" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -41,6 +42,8 @@ import {
 })
 export class SiBugOffIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

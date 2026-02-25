@@ -16,6 +16,7 @@ import {
     <svg:path d="M9 5c0 4-2 4-2 9 0 4.4 2.2 8 5 8s5-3.6 5-8c0-5-2-5-2-9" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -33,6 +34,8 @@ import {
 })
 export class SiGarlicIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

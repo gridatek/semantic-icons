@@ -14,6 +14,7 @@ import {
     <svg:path d="M8.5 5H4l5 7-5 7h4.5l5-7z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -25,6 +26,8 @@ import {
 })
 export class SiDoubleArrowIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

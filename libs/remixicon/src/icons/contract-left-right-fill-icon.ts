@@ -13,6 +13,7 @@ import {
     <svg:path d="M5 18 11 12 5 6V18ZM19 6 13 12 19 18V6Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
@@ -23,6 +24,8 @@ import {
 })
 export class SiContractLeftRightFillIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

@@ -19,6 +19,7 @@ import {
     <svg:path d="M5 8v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V8" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -36,6 +37,8 @@ import {
 })
 export class SiBeerIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

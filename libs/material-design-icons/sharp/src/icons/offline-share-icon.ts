@@ -15,6 +15,7 @@ import {
     <svg:path d="M12.5 10.25h2V12L17 9.5 14.5 7v1.75H11V12h1.5z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -26,6 +27,8 @@ import {
 })
 export class SiOfflineShareIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

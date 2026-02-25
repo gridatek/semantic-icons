@@ -18,6 +18,7 @@ import {
     <svg:path d="M240 480H32V272h208ZM76 436h120V316H76Z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -27,6 +28,8 @@ import {
 })
 export class SiQrCodeSharpIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

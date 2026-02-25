@@ -13,6 +13,7 @@ import {
     <svg:polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></svg:polygon>
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -29,6 +30,8 @@ import {
 })
 export class SiZapIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

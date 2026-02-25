@@ -23,6 +23,7 @@ import {
     <svg:path fill="#C8102E" d="M0 193v96h640v-96zM273 0v480h96V0z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -32,6 +33,8 @@ import {
 })
 export class SiShFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 640 480');
 }

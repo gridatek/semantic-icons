@@ -287,6 +287,7 @@ import {
     <svg:path fill="#c8102e" d="M0 104v48h256v-48zM104 0v256h48V0z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -296,6 +297,8 @@ import {
 })
 export class SiPnFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

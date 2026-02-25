@@ -23,6 +23,7 @@ import {
     <svg:path d="M18.5 13.83 20 20l-3-1-2 2-2.5-10" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -40,6 +41,8 @@ import {
 })
 export class SiTieBowRibbonIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

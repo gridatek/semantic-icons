@@ -14,6 +14,7 @@ import {
     <svg:path d="M12 4 2 20h20L12 4zm0 3.77L18.39 18H5.61L12 7.77z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -25,6 +26,8 @@ import {
 })
 export class SiChangeHistoryIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

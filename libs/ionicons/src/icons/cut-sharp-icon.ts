@@ -16,6 +16,7 @@ import {
     <svg:path d="m343.79 259.87-83.74 48.18L432 368h47.99l.01-32z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -25,6 +26,8 @@ import {
 })
 export class SiCutSharpIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }
