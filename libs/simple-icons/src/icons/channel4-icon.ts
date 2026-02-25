@@ -34,7 +34,7 @@ export class SiChannel4Icon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Channel 4 icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

@@ -34,7 +34,7 @@ export class SiW3schoolsIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('W3Schools icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

@@ -115,7 +115,7 @@ import {
 export class SiMsFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 640 480');
 }

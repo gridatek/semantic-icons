@@ -34,7 +34,7 @@ export class SiInvidiousIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Invidious icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

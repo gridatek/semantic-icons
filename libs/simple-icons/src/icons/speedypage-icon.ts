@@ -34,7 +34,7 @@ export class SiSpeedypageIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('SpeedyPage icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

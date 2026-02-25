@@ -34,7 +34,7 @@ export class SiFilloutIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Fillout icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

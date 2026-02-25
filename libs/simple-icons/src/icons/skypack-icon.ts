@@ -34,7 +34,7 @@ export class SiSkypackIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Skypack icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

@@ -34,7 +34,7 @@ export class SiCommitlintIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('commitlint icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

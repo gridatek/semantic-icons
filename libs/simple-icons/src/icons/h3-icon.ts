@@ -34,7 +34,7 @@ export class SiH3Icon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('H3 icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

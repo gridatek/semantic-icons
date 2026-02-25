@@ -34,7 +34,7 @@ export class SiBookingDotComIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Booking.com icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

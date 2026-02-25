@@ -32,7 +32,7 @@ export class SiRadarIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Radar icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

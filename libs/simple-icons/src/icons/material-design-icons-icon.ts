@@ -34,7 +34,7 @@ export class SiMaterialDesignIconsIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Material Design Icons icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

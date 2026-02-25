@@ -30,7 +30,7 @@ import {
 export class SiBluetoothLogoIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly width = input<string | number>('24');
 

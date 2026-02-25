@@ -34,7 +34,7 @@ export class SiNobaraLinuxIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('Nobara Linux icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 

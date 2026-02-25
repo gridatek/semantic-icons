@@ -34,7 +34,7 @@ export class SiDafIcon {
 
   // Accessibility inputs
   readonly ariaLabel = input<string>('DAF icon');
-  readonly ariaHidden = input<boolean | string>(true);
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
 
   readonly viewBox = input<string>('0 0 24 24');
 
