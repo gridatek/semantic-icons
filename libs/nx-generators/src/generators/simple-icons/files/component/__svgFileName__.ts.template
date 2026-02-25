@@ -15,9 +15,7 @@ import {
   `,
   host: {
     'role': 'img',
-    <% if(iconTitle) { -%>
-    '[attr.aria-label]': 'ariaLabel() || "<%= iconTitle %> icon"',
-    <% } -%>
+    '[attr.aria-label]': 'ariaLabel()',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
   <% if(width) { -%>
@@ -57,7 +55,7 @@ export class <%= svgClassName %> {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   // Accessibility inputs
-  readonly ariaLabel = input<string>();
+  readonly ariaLabel = input<string>('<%= iconTitle %> icon');
   readonly ariaHidden = input<boolean | string>(false);
 
   <% if(width) { -%>
