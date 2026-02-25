@@ -48,11 +48,11 @@ function titleToComponentName(title: string): string {
   // Replace remaining non-alphanumeric characters with spaces
   name = name.replace(/[^a-zA-Z0-9]/g, ' ');
 
-  // Split into words and convert to PascalCase (camelCase with capital first letter)
+  // Split into words, capitalize first letter, preserve rest of brand casing
   return name
     .split(/\s+/)
     .filter((part) => part.length > 0)
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
     .join('');
 }
 
