@@ -23,7 +23,7 @@ import {
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#000000',
+    'data-brand-color': '#473A3A',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
@@ -38,5 +38,5 @@ export class SiGraphiteEditorIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#000000');
+  readonly fill = input<string>('#473A3A');
 }

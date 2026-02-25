@@ -14,26 +14,75 @@ import { decode } from 'html-entities';
 import * as path from 'path';
 
 import { getSvgAttributes, getSvgTagContent } from '../../utils';
-import { fileNameMappings } from './filename-mappings';
 import { SimpleIconsGeneratorSchema } from './schema';
 
-function fileNameToComponentName(fileName: string): string {
-  // Check if we have a direct mapping
-  if (fileNameMappings[fileName]) {
-    return fileNameMappings[fileName];
-  }
+/**
+ * Converts a simple-icons title (e.g., "Stack Overflow", "Node.js", "C++")
+ * into a PascalCase component name, preserving the brand's original casing.
+ *
+ * This replaces the old filename-based approach which required 230+ manual
+ * mappings. Titles from the simple-icons metadata already have proper word
+ * boundaries and brand-accurate casing.
+ */
+function titleToComponentName(title: string): string {
+  let name = title;
 
-  // Clean filename by replacing special characters and convert to PascalCase
-  return fileName
-    .replace(/[^a-zA-Z0-9]/g, '_') // Replace special chars with underscore temporarily
-    .split('_') // Split on underscores
-    .filter((part) => part.length > 0) // Remove empty parts
-    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase()) // PascalCase each part
-    .join(''); // Join them together
+  // Replace special character sequences with text equivalents
+  name = name.replace(/\+\+/g, 'PlusPlus');
+  name = name.replace(/#/g, 'Sharp');
+  name = name.replace(/&/g, ' And ');
+  name = name.replace(/::/g, ' ');
+  name = name.replace(/'/g, '');
+  name = name.replace(/!/g, '');
+  name = name.replace(/°/g, '');
+  name = name.replace(/\//g, ' ');
+
+  // Handle dots: replace with "Dot" as a word boundary
+  // e.g., "Node.js" → "Node Dot js", ".NET" → "Dot NET"
+  name = name.replace(/\./g, ' Dot ');
+
+  // Normalize unicode characters (strip diacritics)
+  // e.g., "Aeroméxico" → "Aeromexico", "Citroën" → "Citroen"
+  name = name.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+
+  // Replace remaining non-alphanumeric characters with spaces
+  name = name.replace(/[^a-zA-Z0-9]/g, ' ');
+
+  // Split into words and convert to PascalCase (camelCase with capital first letter)
+  return name
+    .split(/\s+/)
+    .filter((part) => part.length > 0)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1).toLowerCase())
+    .join('');
 }
 
-function fileNameToSelector(fileName: string): string {
-  return `si${fileNameToComponentName(fileName)}Icon`;
+/**
+ * For icons with duplicate titles, disambiguate by extracting the
+ * differentiating suffix from the slug.
+ *
+ * e.g., "backstage_casting" with primary slug "backstage" → suffix "Casting"
+ */
+function getSlugSuffix(primarySlug: string, fullSlug: string): string {
+  let suffix = fullSlug;
+
+  if (fullSlug.startsWith(primarySlug)) {
+    suffix = fullSlug.slice(primarySlug.length);
+  }
+
+  // Remove leading underscore
+  suffix = suffix.replace(/^_/, '');
+
+  // Handle "dot" convention in slugs (e.g., "dotws" → "Dot ws")
+  suffix = suffix.replace(/dot([a-z])/g, ' Dot $1');
+
+  // Replace underscores with spaces for word boundaries
+  suffix = suffix.replace(/_/g, ' ');
+
+  return suffix
+    .split(/\s+/)
+    .filter((part) => part.length > 0)
+    .map((part) => part.charAt(0).toUpperCase() + part.slice(1))
+    .join('');
 }
 
 interface SimpleIcon {
@@ -198,6 +247,43 @@ async function generateIconsComponents(
 
   logger.info(`🎯 Processing ${generateStats.total} icon files...`);
 
+  // Build slug → metadata lookup map for O(1) access
+  const slugToIcon = new Map<string, SimpleIcon>();
+  for (const icon of simpleIconsJson) {
+    if (icon.slug) {
+      slugToIcon.set(icon.slug, icon);
+    }
+  }
+
+  // Detect duplicate titles so we can disambiguate component names
+  const titleComponentNames = new Map<string, SimpleIcon[]>();
+  for (const icon of simpleIconsJson) {
+    const componentName = titleToComponentName(icon.title);
+    const existing = titleComponentNames.get(componentName) || [];
+    existing.push(icon);
+    titleComponentNames.set(componentName, existing);
+  }
+
+  // For duplicate titles, find the primary slug (shortest) for disambiguation
+  const duplicatePrimarySlugs = new Map<string, string>();
+  for (const [, icons] of titleComponentNames) {
+    if (icons.length > 1) {
+      const sorted = [...icons].sort(
+        (a, b) => (a.slug?.length ?? 0) - (b.slug?.length ?? 0),
+      );
+      const primarySlug = sorted[0].slug ?? '';
+      for (const icon of sorted) {
+        if (icon.slug) {
+          duplicatePrimarySlugs.set(icon.slug, primarySlug);
+        }
+      }
+    }
+  }
+
+  logger.info(
+    `📖 Using icon titles from metadata for component naming (${duplicatePrimarySlugs.size / 2} duplicate titles will be disambiguated)`,
+  );
+
   const exports: string[] = [];
   const processedIcons = new Map<string, { title: string; fileName: string }>();
 
@@ -227,15 +313,36 @@ async function generateIconsComponents(
       }
 
       const decodedTitle = decode(title);
-      const fileBaseName = fileName.replace('.svg', '');
-      const angularComponentName = fileNameToComponentName(fileBaseName);
+      const slug = fileName.replace('.svg', '');
 
-      // Check for actual duplicates (same filename)
-      const componentKey = `${angularComponentName.toLowerCase()}`;
+      // Look up icon metadata by slug (O(1) instead of linear scan)
+      const simpleIcon = slugToIcon.get(slug);
+
+      // Derive component name from the icon title (metadata-driven)
+      let angularComponentName: string;
+      if (simpleIcon) {
+        angularComponentName = titleToComponentName(simpleIcon.title);
+
+        // Disambiguate duplicate titles using slug suffix
+        const primarySlug = duplicatePrimarySlugs.get(slug);
+        if (primarySlug !== undefined && slug !== primarySlug) {
+          const suffix = getSlugSuffix(primarySlug, slug);
+          angularComponentName += suffix;
+        }
+      } else {
+        // Fallback: derive name from the SVG title if metadata is missing
+        angularComponentName = titleToComponentName(decodedTitle);
+        const warningMsg = `Icon metadata not found for slug "${slug}", using SVG title: ${decodedTitle}`;
+        logger.warn(`⚠️  ${warningMsg}`);
+        generateStats.errors.push(warningMsg);
+      }
+
+      // Check for component name collisions
+      const componentKey = angularComponentName.toLowerCase();
       if (processedIcons.has(componentKey)) {
         const originalIcon = processedIcons.get(componentKey)!;
         logger.warn(
-          `⚠️  Duplicate file skipped: ${fileName} - original: ${originalIcon.fileName}`,
+          `⚠️  Duplicate component name skipped: ${fileName} (${angularComponentName}) - original: ${originalIcon.fileName}`,
         );
         generateStats.skipped++;
         continue;
@@ -250,7 +357,7 @@ async function generateIconsComponents(
 
       const svgFileName = `${names(angularComponentName).fileName}-icon`;
       const svgClassName = `Si${angularComponentName}Icon`;
-      const svgSelector = fileNameToSelector(fileBaseName);
+      const svgSelector = `si${angularComponentName}Icon`;
 
       exports.push(`export * from './icons/${svgFileName}';`);
 
@@ -264,20 +371,6 @@ async function generateIconsComponents(
       const strokeWidth = svgAttributes.strokeWidth;
       const strokeLinecap = svgAttributes.strokeLinecap;
       const strokeLinejoin = svgAttributes.strokeLinejoin;
-
-      // Find matching icon metadata
-      const simpleIcon = simpleIconsJson.find(
-        (icon: SimpleIcon) =>
-          icon.title === decodedTitle ||
-          icon.slug === fileName.replace('.svg', '') ||
-          icon.aliases?.aka?.includes(decodedTitle),
-      );
-
-      if (!simpleIcon) {
-        const warningMsg = `Icon metadata not found: ${decodedTitle} (${fileName})`;
-        logger.warn(`⚠️  ${warningMsg}`);
-        generateStats.errors.push(warningMsg);
-      }
 
       // Set brand color if available
       const hex = simpleIcon?.hex;

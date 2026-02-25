@@ -23,7 +23,7 @@ import {
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#FFDA18',
+    'data-brand-color': '#844FBA',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
@@ -38,5 +38,5 @@ export class SiTerraformIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#FFDA18');
+  readonly fill = input<string>('#844FBA');
 }

@@ -23,7 +23,7 @@ import {
     '[attr.viewBox]': 'viewBox()',
     '[attr.fill]': 'fill()',
     'data-slot': 'icon',
-    'data-brand-color': '#D3FB52',
+    'data-brand-color': '#000000',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
@@ -38,5 +38,5 @@ export class SiHandshakeProtocolIcon {
 
   readonly viewBox = input<string>('0 0 24 24');
 
-  readonly fill = input<string>('#D3FB52');
+  readonly fill = input<string>('#000000');
 }
