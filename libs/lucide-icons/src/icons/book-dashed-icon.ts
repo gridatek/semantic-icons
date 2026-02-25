@@ -23,6 +23,7 @@ import {
     <svg:path d="M8 22H6.5a1 1 0 0 1 0-5H8" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -40,6 +41,8 @@ import {
 })
 export class SiBookDashedIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

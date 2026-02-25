@@ -13,7 +13,7 @@ import {
     <svg:rect width="10" height="10" x="3" y="3" rx="1.5" />
   `,
   host: {
-    'aria-hidden': 'true',
+    '[attr.aria-hidden]': 'ariaHidden()',
     'data-slot': 'icon',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
@@ -25,6 +25,8 @@ import {
 })
 export class SiStopIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 16 16');
 

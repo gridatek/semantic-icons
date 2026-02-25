@@ -28,6 +28,7 @@ import {
     <svg:path d="M256 367.91a20 20 0 1 1 20-20 20 20 0 0 1-20 20" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -37,6 +38,8 @@ import {
 })
 export class SiAlertCircleOutlineIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

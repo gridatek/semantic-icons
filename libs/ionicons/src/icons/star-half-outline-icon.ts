@@ -20,6 +20,7 @@ import {
     <svg:path d="M256 48v316L118 464l54-160-140-96h172z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -29,6 +30,8 @@ import {
 })
 export class SiStarHalfOutlineIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

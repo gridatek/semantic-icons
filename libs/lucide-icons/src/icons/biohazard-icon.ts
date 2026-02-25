@@ -22,6 +22,7 @@ import {
     <svg:path d="M5.5 13.9c.3.9.8 1.8 1.5 2.5" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -39,6 +40,8 @@ import {
 })
 export class SiBiohazardIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

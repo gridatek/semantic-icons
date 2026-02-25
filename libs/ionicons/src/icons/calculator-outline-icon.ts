@@ -41,6 +41,7 @@ import {
     <svg:rect width="48" height="128" x="320" y="304" rx="24" ry="24" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -50,6 +51,8 @@ import {
 })
 export class SiCalculatorOutlineIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

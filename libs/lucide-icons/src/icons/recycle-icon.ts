@@ -24,6 +24,7 @@ import {
     <svg:path d="m13.378 9.633 4.096 1.098 1.097-4.096" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -41,6 +42,8 @@ import {
 })
 export class SiRecycleIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 

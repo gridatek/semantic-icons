@@ -16,6 +16,7 @@ import {
     <svg:path d="M480 64v144L216.9 471.1 242 496l270-272V64z" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -25,6 +26,8 @@ import {
 })
 export class SiPricetagsSharpIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 512 512');
 }

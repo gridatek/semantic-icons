@@ -3346,6 +3346,7 @@ import {
     <svg:path fill="#574f4c" d="m323.3 194 .7.5-.1-.1-.7-.6v.1" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.viewBox]': 'viewBox()',
   },
@@ -3355,6 +3356,8 @@ import {
 })
 export class SiBoFlagIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly viewBox = input<string>('0 0 640 480');
 }

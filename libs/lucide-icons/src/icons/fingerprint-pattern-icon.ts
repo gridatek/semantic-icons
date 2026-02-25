@@ -21,6 +21,7 @@ import {
     <svg:path d="M9 6.8a6 6 0 0 1 9 5.2v2" />
   `,
   host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
     '[attr.height]': 'height()',
@@ -38,6 +39,8 @@ import {
 })
 export class SiFingerprintPatternIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | string>(true);
 
   readonly width = input<string | number>('24');
 
