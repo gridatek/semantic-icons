@@ -64,7 +64,7 @@
     "@prettier/sync": "^0.6.1",
     "@schematics/angular": "20.0.3",
     "@swc-node/register": "1.11.1",
-    "@swc/cli": "0.7.10",
+    "@swc/cli": "0.8.0",
     "@swc/core": "1.15.8",
     "@swc/helpers": "0.5.18",
     "@tabler/icons": "^3.36.1",
