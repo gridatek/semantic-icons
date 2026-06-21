@@ -10,7 +10,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node_version: ['20']
+        node_version: ['22']
     runs-on: ${{ matrix.os }}
     if: ${{ github.actor == 'dependabot[bot]' || (github.event.pull_request.user.login == 'dependabot[bot]' && github.actor == 'kgridou') }}
     steps:
@@ -21,10 +21,10 @@ jobs:
           github-token: '${{ secrets.GITHUB_TOKEN }}'
 
       - name: Check out repository code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Set up node
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: ${{ matrix.node_version }}
 
