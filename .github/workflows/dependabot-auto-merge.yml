@@ -35,11 +35,11 @@ jobs:
 
       - name: Checks
         id: checks
-        run: npx nx run-many -t lint test build e2e
+        run: npx nx run-many -t lint test build e2e --parallel=2
         env:
           NX_VERBOSE_LOGGING: 'true'
           GITHUB_ACTIONS: 'true'
-          NODE_OPTIONS: --max_old_space_size=8192
+          NODE_OPTIONS: --max_old_space_size=6144
 
       - name: Enable auto-merge for Dependabot PRs
         if: steps.checks.outcome == 'success'
