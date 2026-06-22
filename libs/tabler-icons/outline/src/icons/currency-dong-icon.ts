@@ -11,10 +11,12 @@ import {
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M6 19h12" />
-    <svg:path d="M8 12a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
-    <svg:path d="M16 16v-12" />
-    <svg:path d="M17 5h-4" />
+    <svg:path d="M8 20h8" />
+    <svg:path
+      d="M15 13a3 3 0 0 1 -3 3a3 3 0 0 1 -3 -3a3 3 0 0 1 3 -3a3 3 0 0 1 3 3"
+    />
+    <svg:path d="M15 4v12" />
+    <svg:path d="M13 6h4" />
   `,
   host: {
     role: 'img',
