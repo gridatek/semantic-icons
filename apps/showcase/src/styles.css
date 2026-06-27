@@ -1,2 +1,3 @@
-@import '@semantic-components/ui/styles.css';
+@import '@semantic-components/ui/styles';
+@import '@semantic-components/code/styles';
 @source "../../../node_modules/@semantic-components/ui";

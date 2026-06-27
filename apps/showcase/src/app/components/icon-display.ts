@@ -5,18 +5,17 @@ import {
   Input,
   OnChanges,
   SimpleChanges,
-  TemplateRef,
   ViewEncapsulation,
   inject,
-  viewChild,
+  signal,
 } from '@angular/core';
 
-import { ScCodeHighlighter } from '@semantic-components/code-highlighter';
+import { ScCodeViewer, ScCodeViewerContent } from '@semantic-components/code';
 import {
   ScSheet,
   ScSheetClose,
-  ScSheetConfig,
-  ScSheetManager,
+  ScSheetPortal,
+  ScSheetProvider,
 } from '@semantic-components/ui';
 import { SiXIcon } from '@semantic-icons/lucide-icons';
 import { Icon } from '@semantic-icons/nx-generators';
@@ -30,7 +29,10 @@ import { SafeHtmlPipe } from './safe-html.pipe';
   imports: [
     CommonModule,
     SafeHtmlPipe,
-    ScCodeHighlighter,
+    ScCodeViewer,
+    ScCodeViewerContent,
+    ScSheetProvider,
+    ScSheetPortal,
     ScSheet,
     ScSheetClose,
     SiXIcon,
@@ -71,74 +73,84 @@ import { SafeHtmlPipe } from './safe-html.pipe';
         </div>
       </div>
 
-      <ng-template #sheet>
+      <div [(open)]="sheetOpen" scSheetProvider side="right">
         <!-- Icon Details -->
-        <div sc-sheet>
-          <div class="max-h-screen overflow-y-auto">
-            <button sc-sheet-close>
-              <svg class="size-4" siXIcon></svg>
-              <span class="sr-only">Close</span>
-            </button>
+        <ng-template scSheetPortal>
+          <div class="w-[300px]" scSheet>
+            <div class="max-h-screen overflow-y-auto">
+              <button scSheetClose>
+                <svg class="size-4" siXIcon></svg>
+                <span class="sr-only">Close</span>
+              </button>
 
-            <div class="px-4 py-5 sm:p-6">
-              <h3 class="text-lg font-medium text-gray-900 mb-4">
-                Icon Details
-              </h3>
+              <div class="px-4 py-5 sm:p-6">
+                <h3 class="text-lg font-medium text-gray-900 mb-4">
+                  Icon Details
+                </h3>
 
-              @if (!selectedIcon) {
-                <div class="text-gray-500 text-center py-8">
-                  Select an icon to view details
-                </div>
-              }
-
-              @if (selectedIcon) {
-                <div class="space-y-4">
-                  <div class="flex items-center justify-center py-4">
-                    <div
-                      class="h-24 w-24"
-                      [innerHTML]="selectedIcon.svgContent | safeHtml"
-                    ></div>
+                @if (!selectedIcon) {
+                  <div class="text-gray-500 text-center py-8">
+                    Select an icon to view details
                   </div>
-                  <div>
-                    <h4 class="text-sm font-medium text-gray-700">Name</h4>
-                    <p class="mt-1 text-gray-900">{{ selectedIcon.name }}</p>
-                  </div>
-                  <div>
-                    <h4 class="text-sm font-medium text-gray-700">Tags</h4>
-                    <div class="mt-1 flex flex-wrap gap-2">
-                      @for (tag of selectedIcon.tags; track tag) {
-                        <span
-                          class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"
-                        >
-                          {{ tag }}
-                        </span>
-                      }
+                }
+
+                @if (selectedIcon) {
+                  <div class="space-y-4">
+                    <div class="flex items-center justify-center py-4">
+                      <div
+                        class="h-24 w-24"
+                        [innerHTML]="selectedIcon.svgContent | safeHtml"
+                      ></div>
                     </div>
-                  </div>
-                  <div>
-                    <h4 class="text-sm font-medium text-gray-700">SVG Code</h4>
-                    <sc-code-highlighter
-                      [code]="selectedIcon.svgContent"
-                      language="angular-html"
-                    />
-                  </div>
-                  @if (selectedIcon.componentContent) {
+                    <div>
+                      <h4 class="text-sm font-medium text-gray-700">Name</h4>
+                      <p class="mt-1 text-gray-900">{{ selectedIcon.name }}</p>
+                    </div>
+                    <div>
+                      <h4 class="text-sm font-medium text-gray-700">Tags</h4>
+                      <div class="mt-1 flex flex-wrap gap-2">
+                        @for (tag of selectedIcon.tags; track tag) {
+                          <span
+                            class="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-indigo-100 text-indigo-800"
+                          >
+                            {{ tag }}
+                          </span>
+                        }
+                      </div>
+                    </div>
                     <div>
                       <h4 class="text-sm font-medium text-gray-700">
-                        Component Code
+                        SVG Code
                       </h4>
-                      <sc-code-highlighter
-                        [code]="selectedIcon.componentContent"
-                        language="angular-ts"
-                      />
+                      <div scCodeViewer>
+                        <div
+                          [code]="selectedIcon.svgContent"
+                          scCodeViewerContent
+                          language="html"
+                        ></div>
+                      </div>
                     </div>
-                  }
-                </div>
-              }
+                    @if (selectedIcon.componentContent) {
+                      <div>
+                        <h4 class="text-sm font-medium text-gray-700">
+                          Component Code
+                        </h4>
+                        <div scCodeViewer>
+                          <div
+                            [code]="selectedIcon.componentContent"
+                            scCodeViewerContent
+                            language="angular-ts"
+                          ></div>
+                        </div>
+                      </div>
+                    }
+                  </div>
+                }
+              </div>
             </div>
           </div>
-        </div>
-      </ng-template>
+        </ng-template>
+      </div>
     </div>
   `,
   styles: ``,
@@ -146,25 +158,18 @@ import { SafeHtmlPipe } from './safe-html.pipe';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class IconDisplay implements OnChanges {
-  private readonly scSheetManager = inject(ScSheetManager);
-
-  private readonly sheetRef = viewChild.required<TemplateRef<unknown>>('sheet');
-
   @Input() library = '';
   @Input() searchQuery = '';
 
   icons$: Observable<Icon[]>;
   selectedIcon: Icon | null = null;
 
-  private readonly config = new ScSheetConfig();
+  readonly sheetOpen = signal(false);
 
   private readonly iconService = inject(IconService);
 
   constructor() {
     this.icons$ = this.iconService.searchIcons('');
-
-    this.config.side = 'right';
-    this.config.width = '300';
   }
 
   ngOnChanges(changes: SimpleChanges): void {
@@ -177,7 +182,7 @@ export class IconDisplay implements OnChanges {
   selectIcon(icon: Icon): void {
     this.selectedIcon = icon;
 
-    this.openSheet();
+    this.sheetOpen.set(true);
   }
 
   copyToClipboard(text: string): void {
@@ -189,9 +194,5 @@ export class IconDisplay implements OnChanges {
         console.error('Could not copy text: ', err);
       },
     );
-  }
-
-  private openSheet() {
-    this.scSheetManager.open(this.sheetRef(), this.config);
   }
 }
