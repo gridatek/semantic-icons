@@ -1,0 +1,50 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siBiFlagIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:mask id="a">
+      <svg:circle cx="256" cy="256" r="256" fill="#fff" />
+    </svg:mask>
+    <svg:g mask="url(#a)">
+      <svg:path fill="#d80027" d="M512 223V0H0l193 256z" />
+      <svg:path fill="#6da544" d="M512 289v223H0l193-256Z" />
+      <svg:path
+        fill="#333"
+        d="m0 0 223 223h289v22l-8 11 8 11v22H223L0 512v-31l8-24-8-8V63l8-7-8-24Z"
+      />
+      <svg:path
+        fill="#ffda44"
+        d="M0 32v31l193 193L0 449v32l213-214h299v-22H213zm73 169c-22 0-40 18-40 41 0 18 15 33 34 33a28 28 0 0 0 28-28H74q-1 6-7 7a12 12 0 0 1-12-12 19 19 0 0 1 19-19 28 28 0 0 1 27 27 39 39 0 0 1-39 39v22c33 0 60-28 60-61a49 49 0 0 0-49-49"
+      />
+    </svg:g>
+  `,
+  host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.width]': 'width()',
+    '[attr.height]': 'height()',
+    '[attr.viewBox]': 'viewBox()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiBiFlagIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly width = input<string | number>('512');
+
+  readonly height = input<string | number>('512');
+
+  readonly viewBox = input<string>('0 0 512 512');
+}

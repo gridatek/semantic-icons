@@ -1,0 +1,52 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siMiFlagIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:mask id="a">
+      <svg:circle cx="256" cy="256" r="256" fill="#fff" />
+    </svg:mask>
+    <svg:g mask="url(#a)">
+      <svg:path
+        fill="#eee"
+        d="m0 68.6 247.8-24.7L512 299v93.9l-399.2 36.2L0 162.5z"
+      />
+      <svg:path
+        fill="#333"
+        d="M0 0v68.6h178a115.2 115.2 0 1 1 0 230.4h334V0z"
+      />
+      <svg:path
+        fill="#d80027"
+        d="M0 162.5V512h512V392.9H178a93.9 93.9 0 1 1 0-187.8 47 47 0 0 1 0 93.9 68.3 68.3 0 0 0 0-136.5z"
+      />
+    </svg:g>
+  `,
+  host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.width]': 'width()',
+    '[attr.height]': 'height()',
+    '[attr.viewBox]': 'viewBox()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiMiFlagIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly width = input<string | number>('512');
+
+  readonly height = input<string | number>('512');
+
+  readonly viewBox = input<string>('0 0 512 512');
+}

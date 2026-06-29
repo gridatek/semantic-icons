@@ -10,8 +10,8 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:rect width="8" height="6" x="5" y="4" rx="1" />
-    <svg:rect width="8" height="6" x="11" y="14" rx="1" />
+    <svg:rect x="11" y="14" width="10" height="7" rx="2" />
+    <svg:rect x="3" y="3" width="10" height="7" rx="2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',

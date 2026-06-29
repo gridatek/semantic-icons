@@ -1,5 +1,7 @@
 export * from './icons/checkered-flag-icon';
+export * from './icons/chequered-flag-icon';
 export * from './icons/earth-flag-icon';
+export * from './icons/jolly-roger-flag-icon';
 export * from './icons/klingon-flag-icon';
 export * from './icons/lgbt-progress-flag-icon';
 export * from './icons/lgbt-transgender-flag-icon';
@@ -8,4 +10,5 @@ export * from './icons/mars-flag-icon';
 export * from './icons/nato-flag-icon';
 export * from './icons/olympics-flag-icon';
 export * from './icons/pirate-flag-icon';
+export * from './icons/un-flag-icon';
 export * from './icons/united-nations-flag-icon';
