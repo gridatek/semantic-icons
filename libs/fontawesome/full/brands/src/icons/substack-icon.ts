@@ -1,0 +1,37 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siSubstackIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <!--! Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. -->
+    <svg:path
+      fill="currentColor"
+      d="M544 576L320 450.4L96 576L96 294.7L544 294.7L544 576zM544 239.8L96 239.8L96 179.3L544 179.3L544 239.8zM544 64L544 124.5L96 124.5L96 64L544 64z"
+    />
+  `,
+  host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiSubstackIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly viewBox = input<string>('0 0 640 640');
+
+  readonly fill = input<string>('currentColor');
+}

@@ -1,0 +1,37 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siDevpostIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <!--! Font Awesome Free 7.3.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2026 Fonticons, Inc. -->
+    <svg:path
+      fill="currentColor"
+      d="M448 99L576 320L448 541L192 541L64 320L192 99L448 99zM226.6 184.8L226.6 455.1L306.4 455.1C375.6 455.1 444.1 414.5 444.1 319.9C444.1 221.4 387.1 184.7 310.2 184.7L226.5 184.7zM308.3 237.8C365.3 237.8 388.9 265 388.9 320C388.9 369.1 362.9 402.2 306.5 402.2L279.7 402.2L279.7 237.8L308.4 237.8z"
+    />
+  `,
+  host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiDevpostIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly viewBox = input<string>('0 0 640 640');
+
+  readonly fill = input<string>('currentColor');
+}

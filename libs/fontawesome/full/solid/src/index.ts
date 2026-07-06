@@ -1088,6 +1088,7 @@ export * from './icons/long-arrow-down-icon';
 export * from './icons/long-arrow-left-icon';
 export * from './icons/long-arrow-right-icon';
 export * from './icons/long-arrow-up-icon';
+export * from './icons/lotus-icon';
 export * from './icons/low-vision-icon';
 export * from './icons/luggage-cart-icon';
 export * from './icons/lungs-virus-icon';
