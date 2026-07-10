@@ -1128,6 +1128,7 @@ export * from './icons/gitpod-icon';
 export * from './icons/gitter-icon';
 export * from './icons/gl-dot-inet-icon';
 export * from './icons/glance-icon';
+export * from './icons/glass-icon';
 export * from './icons/glassdoor-icon';
 export * from './icons/gleam-icon';
 export * from './icons/glide-icon';
