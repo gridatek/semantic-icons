@@ -63,7 +63,7 @@
     "@prettier/plugin-xml": "^3.4.2",
     "@prettier/sync": "^0.6.1",
     "@schematics/angular": "21.2.9",
-    "@swc-node/register": "1.11.1",
+    "@swc-node/register": "1.12.0",
     "@swc/cli": "0.8.1",
     "@swc/core": "1.15.8",
     "@swc/helpers": "0.5.23",
