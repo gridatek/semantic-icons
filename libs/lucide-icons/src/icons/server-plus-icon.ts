@@ -6,13 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siCircleEuroSignIcon]',
+  selector: 'svg[siServerPlusIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M15 9.4a4 4 0 1 0 0 5.2" />
-    <svg:path d="M7 12h5" />
-    <svg:circle cx="12" cy="12" r="10" />
+    <svg:path d="M12.5 10H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v2" />
+    <svg:path d="M16 12h6" />
+    <svg:path d="M19 9v6" />
+    <svg:path d="M22 18v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-4a2 2 0 0 1 2-2h8.5" />
+    <svg:path d="M6 18h.01" />
+    <svg:path d="M6 6h.01" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -31,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiCircleEuroSignIcon {
+export class SiServerPlusIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

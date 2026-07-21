@@ -6,14 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHdmiPortIcon]',
+  selector: 'svg[siScanBoxIcon]',
   standalone: true,
   imports: [],
   template: `
+    <svg:path d="M12 12v5.5" />
+    <svg:path d="M17 3h2a2 2 0 012 2v2" />
+    <svg:path d="M21 17v2a2 2 0 01-2 2h-2" />
+    <svg:path d="M3 7V5a2 2 0 012-2h2" />
+    <svg:path d="M7 21H5a2 2 0 01-2-2v-2" />
+    <svg:path d="M7.264 9.252 12 12l4.737-2.748" />
     <svg:path
-      d="M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z"
+      d="M7.995 8.514A2 2 0 007 10.244v3.516a2 2 0 00.996 1.73l3 1.74a2 2 0 002.008 0l3-1.74A2 2 0 0017 13.76v-3.517a2 2 0 00-.995-1.73l-3-1.742a2 2 0 00-1.892-.064z"
     />
-    <svg:path d="M8 12h8" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +37,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHdmiPortIcon {
+export class SiScanBoxIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

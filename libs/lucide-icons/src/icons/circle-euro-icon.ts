@@ -6,14 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHdmiPortIcon]',
+  selector: 'svg[siCircleEuroIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path
-      d="M22 9a1 1 0 00-1-1H3a1 1 0 00-1 1v4a1 1 0 001 1h.5a2 2 0 011.6.8l.3.4A2 2 0 007 16h10a2 2 0 001.6-.8l.3-.4a2 2 0 011.6-.8h.5a1 1 0 001-1z"
-    />
-    <svg:path d="M8 12h8" />
+    <svg:path d="M15 9.4a4 4 0 1 0 0 5.2" />
+    <svg:path d="M7 12h5" />
+    <svg:circle cx="12" cy="12" r="10" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHdmiPortIcon {
+export class SiCircleEuroIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
