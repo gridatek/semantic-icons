@@ -6,14 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBookOpenCheckIcon]',
+  selector: 'svg[siMosqueIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 5v16" />
-    <svg:path d="m16 12 2 2 4-4" />
+    <svg:path d="M12.268 2a2 2 0 003.465 2" />
+    <svg:path d="M14 5 L14 8" />
+    <svg:path d="M16 22v-3a2 2 0 00-4 0v3" />
     <svg:path
-      d="M22 6V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2h4.001A2 2 0 0022 17v-1.344"
+      d="M21 13c-.662-1.497-1.666-2.753-2.9-3.63C16.825 8.47 15.422 8 14 8s-2.826.47-4.1 1.37C8.668 10.248 7.663 11.504 7 13z"
+    />
+    <svg:path d="M3 9h4" />
+    <svg:path
+      d="M7 22V6a5 5 0 00-2-4 5 5 0 00-2 4v14a2 2 0 002 2h14a2 2 0 002-2v-7"
     />
   `,
   host: {
@@ -33,7 +38,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBookOpenCheckIcon {
+export class SiMosqueIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
