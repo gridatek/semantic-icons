@@ -35,7 +35,8 @@ jobs:
           node-version: 22
           cache: 'npm'
 
-      - run: npm ci --legacy-peer-deps
+      # - run: npm ci --legacy-peer-deps
+      - run: npm i
       - run: npx playwright install --with-deps
       - uses: nrwl/nx-set-shas@v5
 
