@@ -6,13 +6,19 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHistoryIcon]',
+  selector: 'svg[siMicAudioLinesIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8" />
-    <svg:path d="M3 3v5h5" />
-    <svg:path d="M12 7v5l4 2" />
+    <svg:path d="M10 3v2.341" />
+    <svg:path d="M12 17v4" />
+    <svg:path d="M14 5v.341" />
+    <svg:path d="M18 5v13" />
+    <svg:path d="M2 10v3" />
+    <svg:path d="M22 10v3" />
+    <svg:path d="M6 6v11" />
+    <svg:path d="M9 21h6" />
+    <svg:rect width="4" height="8" x="10" y="9" rx="2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -31,7 +37,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHistoryIcon {
+export class SiMicAudioLinesIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

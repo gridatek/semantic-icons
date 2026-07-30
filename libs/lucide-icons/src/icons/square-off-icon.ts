@@ -6,15 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBookOpenCheckIcon]',
+  selector: 'svg[siSquareOffIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M12 5v16" />
-    <svg:path d="m16 12 2 2 4-4" />
-    <svg:path
-      d="M22 6V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2h4.001A2 2 0 0022 17v-1.344"
-    />
+    <svg:path d="M20.4 20.4a2 2 0 01-1.4.6H5a2 2 0 01-2-2V5a2 2 0 01.59-1.41" />
+    <svg:path d="M21 15.3V5a2 2 0 00-2-2H8.7" />
+    <svg:path d="M22 22 2 2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -33,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBookOpenCheckIcon {
+export class SiSquareOffIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
