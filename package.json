@@ -67,7 +67,7 @@
     "@swc/cli": "0.8.1",
     "@swc/core": "1.15.46",
     "@swc/helpers": "0.5.23",
-    "@tabler/icons": "^3.36.1",
+    "@tabler/icons": "^3.45.0",
     "@tailwindcss/typography": "^0.5.16",
     "@trivago/prettier-plugin-sort-imports": "^6.0.2",
     "@types/jest": "^30.0.0",
