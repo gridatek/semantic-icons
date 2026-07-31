@@ -6,14 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlipHorizontalIcon]',
+  selector: 'svg[siTextRegexAsteriskIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M12 3l0 18" />
-    <svg:path d="M16 7l0 10l5 0l-5 -10" />
-    <svg:path d="M8 7l0 10l-5 0l5 -10" />
+    <svg:path d="M10 8v6a2 2 0 1 0 4 0v-1a2 2 0 1 0 -4 0v1" />
+    <svg:path d="M7 16v-3a2 2 0 1 0 -4 0v1a2 2 0 0 0 3.726 1.01" />
+    <svg:path d="M19 9.5v5" />
+    <svg:path d="M17 10.75l4 2.5" />
+    <svg:path d="M17 13.25l4 -2.5" />
   `,
   host: {
     role: 'img',
@@ -32,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlipHorizontalIcon {
+export class SiTextRegexAsteriskIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

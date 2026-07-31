@@ -6,16 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBrandKakoTalkIcon]',
+  selector: 'svg[siTextRegexQuestionIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M10 8v7" />
-    <svg:path d="M14 10l-2 2.5l2 2.5" />
-    <svg:path
-      d="M12 4c4.97 0 9 3.358 9 7.5c0 4.142 -4.03 7.5 -9 7.5c-.67 0 -1.323 -.061 -1.95 -.177l-3.05 2.177l.592 -2.962c-2.741 -1.284 -4.592 -3.73 -4.592 -6.538c0 -4.142 4.03 -7.5 9 -7.5"
-    />
+    <svg:path d="M10 8v6a2 2 0 1 0 4 0v-1a2 2 0 1 0 -4 0v1" />
+    <svg:path d="M7 16v-3a2 2 0 1 0 -4 0v1a2 2 0 0 0 3.726 1.01" />
+    <svg:path d="M19 16v.01" />
+    <svg:path d="M19 13a2 2 0 0 0 .914 -3.782a1.98 1.98 0 0 0 -2.414 .483" />
   `,
   host: {
     role: 'img',
@@ -34,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBrandKakoTalkIcon {
+export class SiTextRegexQuestionIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

@@ -6,14 +6,23 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlipHorizontalIcon]',
+  selector: 'svg[siFootstepsIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M12 3l0 18" />
-    <svg:path d="M16 7l0 10l5 0l-5 -10" />
-    <svg:path d="M8 7l0 10l-5 0l5 -10" />
+    <svg:path
+      d="M4 16.5a2.5 2.5 0 0 0 5 0a1.5 1.5 0 0 0 -1.5 -1.5h-2a1.5 1.5 0 0 0 -1.5 1.5"
+    />
+    <svg:path
+      d="M15 18.5a2.5 2.5 0 0 0 5 0a1.5 1.5 0 0 0 -1.5 -1.5h-2a1.5 1.5 0 0 0 -1.5 1.5"
+    />
+    <svg:path
+      d="M8.52 12h-4.04c-.348 0 -.678 -.179 -.823 -.496c-1.326 -2.904 -.774 -8.504 2.843 -8.504s4.17 5.6 2.843 8.504c-.145 .317 -.475 .496 -.824 .496"
+    />
+    <svg:path
+      d="M19.52 14h-4.04c-.348 0 -.678 -.179 -.823 -.496c-1.326 -2.904 -.774 -8.504 2.843 -8.504s4.17 5.6 2.843 8.504c-.145 .317 -.475 .496 -.824 .496"
+    />
   `,
   host: {
     role: 'img',
@@ -32,7 +41,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlipHorizontalIcon {
+export class SiFootstepsIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

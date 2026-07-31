@@ -6,14 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlipHorizontalIcon]',
+  selector: 'svg[siMoodConfusedIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M12 3l0 18" />
-    <svg:path d="M16 7l0 10l5 0l-5 -10" />
-    <svg:path d="M8 7l0 10l-5 0l5 -10" />
+    <svg:path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <svg:path d="M9 10l.01 0" />
+    <svg:path d="M15 10l.01 0" />
+    <svg:path d="M9.5 16a10 10 0 0 1 6 -1.5" />
   `,
   host: {
     role: 'img',
@@ -32,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlipHorizontalIcon {
+export class SiMoodConfusedIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

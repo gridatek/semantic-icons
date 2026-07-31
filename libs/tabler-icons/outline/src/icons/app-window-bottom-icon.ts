@@ -6,17 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siPhysotherapistIcon]',
+  selector: 'svg[siAppWindowBottomIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M9 15l-1 -3l4 -2l4 1h3.5" />
-    <svg:path d="M3 19a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-    <svg:path d="M11 6a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-    <svg:path d="M12 17v-7" />
-    <svg:path d="M8 20h7l1 -4l4 -2" />
-    <svg:path d="M18 20h3" />
+    <svg:path
+      d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"
+    />
+    <svg:path d="M6 14h12v2h-12v-2" fill="currentColor" />
   `,
   host: {
     role: 'img',
@@ -35,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiPhysotherapistIcon {
+export class SiAppWindowBottomIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

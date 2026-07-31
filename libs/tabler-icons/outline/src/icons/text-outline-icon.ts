@@ -6,14 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlipHorizontalIcon]',
+  selector: 'svg[siTextOutlineIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M12 3l0 18" />
-    <svg:path d="M16 7l0 10l5 0l-5 -10" />
-    <svg:path d="M8 7l0 10l-5 0l5 -10" />
+    <svg:path d="M3 8v-1a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v1" />
+    <svg:path d="M3 16v1a2 2 0 0 0 2 2h14a2 2 0 0 0 2 -2v-1" />
+    <svg:path d="M21.01 12h.01" />
+    <svg:path d="M3.01 12h.01" />
+    <svg:path d="M10 15v-4a2 2 0 1 1 4 0v4" />
+    <svg:path d="M10 13h4" />
   `,
   host: {
     role: 'img',
@@ -32,7 +35,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlipHorizontalIcon {
+export class SiTextOutlineIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

@@ -6,21 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siIkosaedrIcon]',
+  selector: 'svg[siAppWindowBottomLeftIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path
-      d="M21 8.007v7.986a2 2 0 0 1 -1.006 1.735l-7 4.007a2 2 0 0 1 -1.988 0l-7 -4.007a2 2 0 0 1 -1.006 -1.735v-7.986a2 2 0 0 1 1.006 -1.735l7 -4.007a2 2 0 0 1 1.988 0l7 4.007a2 2 0 0 1 1.006 1.735"
+      d="M3 7a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2v-10"
     />
-    <svg:path d="M3.29 6.97l4.21 2.03" />
-    <svg:path d="M20.71 6.97l-4.21 2.03" />
-    <svg:path d="M20.7 17h-17.4" />
-    <svg:path d="M11.76 2.03l-4.26 6.97l-4.3 7.84" />
-    <svg:path d="M12.24 2.03q 2.797 4.44 4.26 6.97t 4.3 7.84" />
-    <svg:path d="M12 17l-4.5 -8h9l-4.5 8" />
-    <svg:path d="M12 17v5" />
+    <svg:path d="M6 14h2v2h-2v-2" fill="currentColor" />
   `,
   host: {
     role: 'img',
@@ -39,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiIkosaedrIcon {
+export class SiAppWindowBottomLeftIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

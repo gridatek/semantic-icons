@@ -6,14 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siSportBillardIcon]',
+  selector: 'svg[siDeviceVisionProWifiIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M10 10a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-    <svg:path d="M10 14a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-    <svg:path d="M4 12a8 8 0 1 0 16 0a8 8 0 1 0 -16 0" />
+    <svg:path
+      d="M12 10q 1.715 0 3.275 .104q 1.526 .101 2.798 .42q 1.22 .304 2.119 .909a3.9 3.9 0 0 1 1.328 1.531c.326 .657 .48 1.48 .48 2.466q .002 1.51 -.574 2.707q -.562 1.17 -1.537 1.848a3.7 3.7 0 0 1 -2.16 .66q -.764 .002 -1.382 -.21a6 6 0 0 1 -1.17 -.548a19 19 0 0 1 -1.045 -.695a9 9 0 0 0 -1.001 -.63a2.4 2.4 0 0 0 -1.13 -.301c-.373 0 -.75 .097 -1.132 .3q -.475 .255 -1 .63q -.482 .345 -1.047 .695a5.8 5.8 0 0 1 -1.168 .548q -.62 .211 -1.378 .21a3.7 3.7 0 0 1 -2.165 -.659q -.976 -.68 -1.537 -1.848q -.576 -1.196 -.574 -2.709c-.004 -.98 .15 -1.802 .477 -2.46c.3 -.619 .76 -1.147 1.33 -1.531q .9 -.604 2.12 -.907q 1.382 -.335 2.8 -.423q 1.56 -.107 3.273 -.107"
+    />
+    <svg:path d="M7 4.071a7.07 7.07 0 0 1 10 0" />
+    <svg:path d="M9.5 6.572a3.535 3.535 0 0 1 5.001 0" />
   `,
   host: {
     role: 'img',
@@ -32,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiSportBillardIcon {
+export class SiDeviceVisionProWifiIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

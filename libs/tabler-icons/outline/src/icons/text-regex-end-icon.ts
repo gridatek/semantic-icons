@@ -6,15 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siMoodConfuzedIcon]',
+  selector: 'svg[siTextRegexEndIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-    <svg:path d="M9 10l.01 0" />
-    <svg:path d="M15 10l.01 0" />
-    <svg:path d="M9.5 16a10 10 0 0 1 6 -1.5" />
+    <svg:path d="M10 8v6a2 2 0 1 0 4 0v-1a2 2 0 1 0 -4 0v1" />
+    <svg:path d="M7 16v-3a2 2 0 1 0 -4 0v1a2 2 0 0 0 3.726 1.01" />
+    <svg:path d="M21 10h-2.5a1.5 1.5 0 0 0 0 3h1a1.5 1.5 0 0 1 0 3h-2.5" />
+    <svg:path d="M19 10v-1" />
+    <svg:path d="M19 16v1" />
   `,
   host: {
     role: 'img',
@@ -33,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiMoodConfuzedIcon {
+export class SiTextRegexEndIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

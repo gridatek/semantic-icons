@@ -6,14 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlipHorizontalIcon]',
+  selector: 'svg[siArrowForkTripleIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M12 3l0 18" />
-    <svg:path d="M16 7l0 10l5 0l-5 -10" />
-    <svg:path d="M8 7l0 10l-5 0l5 -10" />
+    <svg:path d="M12 3v18" />
+    <svg:path d="M16 7l-4 -4l-4 4" />
+    <svg:path d="M16 11h5v5" />
+    <svg:path d="M8 11h-5v5" />
+    <svg:path d="M3 11l8.293 8.293c.453 .453 .707 1.067 .707 1.707" />
+    <svg:path d="M21 11l-8.293 8.293a2.4 2.4 0 0 0 -.707 1.707" />
   `,
   host: {
     role: 'img',
@@ -32,7 +35,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlipHorizontalIcon {
+export class SiArrowForkTripleIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
