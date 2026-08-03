@@ -10,12 +10,12 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M8 2v4" />
-    <svg:path d="M16 2v4" />
-    <svg:path d="M21 13V6a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h8" />
-    <svg:path d="M3 10h18" />
-    <svg:path d="m17 22 5-5" />
-    <svg:path d="m17 17 5 5" />
+    <svg:path d="M16 2v3" />
+    <svg:path d="m17 16 5 5" />
+    <svg:path d="m17 21 5-5" />
+    <svg:path d="M21 12V5a2 2 0 00-2-2H5a2 2 0 00-2 2v14a2 2 0 002 2h8" />
+    <svg:path d="M3 9h18" />
+    <svg:path d="M8 2v3" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
