@@ -1,13 +1,11 @@
-import { CommonModule } from '@angular/common';
+import { AsyncPipe } from '@angular/common';
 import {
-  ChangeDetectionStrategy,
   Component,
-  Input,
-  OnChanges,
-  SimpleChanges,
   TemplateRef,
   ViewEncapsulation,
+  effect,
   inject,
+  input,
   viewChild,
 } from '@angular/core';
 
@@ -28,12 +26,12 @@ import { SafeHtmlPipe } from './safe-html.pipe';
 @Component({
   selector: 'app-icon-display',
   imports: [
-    CommonModule,
     SafeHtmlPipe,
     ScCodeHighlighter,
     ScSheet,
     ScSheetClose,
     SiXIcon,
+    AsyncPipe,
   ],
   template: `
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -143,15 +141,14 @@ import { SafeHtmlPipe } from './safe-html.pipe';
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class IconDisplay implements OnChanges {
+export class IconDisplay {
   private readonly scSheetManager = inject(ScSheetManager);
 
   private readonly sheetRef = viewChild.required<TemplateRef<unknown>>('sheet');
 
-  @Input() library = '';
-  @Input() searchQuery = '';
+  readonly library = input('');
+  readonly searchQuery = input('');
 
   icons$: Observable<Icon[]>;
   selectedIcon: Icon | null = null;
@@ -162,21 +159,20 @@ export class IconDisplay implements OnChanges {
 
   constructor() {
     this.icons$ = this.iconService.searchIcons('');
-
     this.config.side = 'right';
     this.config.width = '300';
-  }
 
-  ngOnChanges(changes: SimpleChanges): void {
-    if (changes['searchQuery'] || changes['library']) {
-      this.icons$ = this.iconService.searchIcons(this.searchQuery);
-      this.selectedIcon = null;
-    }
+    effect(() => {
+      const searchQueryValue = this.searchQuery();
+      if (searchQueryValue || this.library()) {
+        this.icons$ = this.iconService.searchIcons(searchQueryValue);
+        this.selectedIcon = null;
+      }
+    });
   }
 
   selectIcon(icon: Icon): void {
     this.selectedIcon = icon;
-
     this.openSheet();
   }
 
