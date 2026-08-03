@@ -1,11 +1,4 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  EventEmitter,
-  Input,
-  Output,
-  ViewEncapsulation,
-} from '@angular/core';
+import { Component, ViewEncapsulation, input, output } from '@angular/core';
 
 @Component({
   selector: 'app-library-selector',
@@ -21,10 +14,10 @@ import {
       <select
         class="mt-1 block w-full py-2 px-3 border border-gray-300 bg-white rounded-md shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500"
         id="library-selector"
-        [value]="selectedLibrary"
+        [value]="selectedLibrary()"
         (change)="onLibrarySelect($event)"
       >
-        @for (lib of libraries; track lib) {
+        @for (lib of libraries(); track lib) {
           <option [value]="lib.id">
             {{ lib.name }}
           </option>
@@ -34,12 +27,16 @@ import {
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class LibrarySelector {
-  @Input() libraries: { id: string; name: string }[] = [];
-  @Input() selectedLibrary = '';
-  @Output() libraryChange = new EventEmitter<string>();
+  readonly libraries = input<
+    {
+      id: string;
+      name: string;
+    }[]
+  >([]);
+  readonly selectedLibrary = input('');
+  readonly libraryChange = output<string>();
 
   onLibrarySelect(event: Event): void {
     const select = event.target as HTMLSelectElement;
