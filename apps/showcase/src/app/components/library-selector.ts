@@ -1,10 +1,4 @@
-import {
-  Component,
-  EventEmitter,
-  Output,
-  ViewEncapsulation,
-  input,
-} from '@angular/core';
+import { Component, ViewEncapsulation, input, output } from '@angular/core';
 
 @Component({
   selector: 'app-library-selector',
@@ -42,7 +36,7 @@ export class LibrarySelector {
     }[]
   >([]);
   readonly selectedLibrary = input('');
-  @Output() libraryChange = new EventEmitter<string>();
+  readonly libraryChange = output<string>();
 
   onLibrarySelect(event: Event): void {
     const select = event.target as HTMLSelectElement;

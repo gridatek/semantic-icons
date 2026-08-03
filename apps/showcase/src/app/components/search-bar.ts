@@ -1,10 +1,4 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  EventEmitter,
-  Output,
-  ViewEncapsulation,
-} from '@angular/core';
+import { Component, ViewEncapsulation, output } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 
 import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
@@ -57,10 +51,9 @@ import { Subject } from 'rxjs';
   `,
   styles: ``,
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class SearchBar {
-  @Output() searchChange = new EventEmitter<string>();
+  readonly searchChange = output<string>();
   private readonly searchTerms = new Subject<string>();
   searchText = '';
 
