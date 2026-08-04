@@ -6,15 +6,20 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siDollarSignCircleIcon]',
+  selector: 'svg[siRunSprintIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:circle cx="12" cy="12" r="10" />
-    <svg:path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-    <svg:path d="M12 18V6" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path d="M14.007 5a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
+    <svg:path d="M7 17l5 1l.75 -1.5" />
+    <svg:path d="M18 21v-4l-4 -3l1 -6" />
+    <svg:path d="M10 12v-3l5 -1l3 3l3 1" />
+    <svg:path d="M10 5h-4" />
+    <svg:path d="M6 10h-4" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -25,13 +30,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiDollarSignCircleIcon {
+export class SiRunSprintIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

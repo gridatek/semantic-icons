@@ -6,20 +6,21 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siPalmtreeIslandSunIcon]',
+  selector: 'svg[siTreasureChestIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:circle cx="6" cy="7" r="3" />
-    <svg:path d="M16 14s1-3 1-8V4s-1-2-3-2c-1 0-2 .5-2 .5" />
-    <svg:path d="M13 8a4 4 0 0 1 8 0" />
-    <svg:path d="M17 4s1-2 3-2c1 0 2 .5 2 .5" />
-    <svg:path d="M19.75 19A8 8 0 0 0 4 21" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path
-      d="M2 20c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"
+      d="M4 19h16a1 1 0 0 0 1 -1v-9a4 4 0 0 0 -4 -4h-10a4 4 0 0 0 -4 4v9a1 1 0 0 0 1 1"
     />
+    <svg:path d="M3 11h18" />
+    <svg:path d="M16 5v14" />
+    <svg:path d="M8 5v14" />
+    <svg:path d="M12 11v2" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -30,13 +31,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiPalmtreeIslandSunIcon {
+export class SiTreasureChestIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

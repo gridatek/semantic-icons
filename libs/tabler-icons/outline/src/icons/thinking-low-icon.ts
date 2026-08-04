@@ -6,18 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siForkKnifeCrossedIcon]',
+  selector: 'svg[siThinkingLowIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="m16 2-2.3 2.3a3 3 0 0 0 0 4.2l1.8 1.8a3 3 0 0 0 4.2 0L22 8" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path
-      d="M15 15 3.3 3.3a4.2 4.2 0 0 0 0 6l7.3 7.3c.7.7 2 .7 2.8 0L15 15Zm0 0 7 7"
+      d="M17 21v-1.25c0 -2.311 .778 -1.92 2.244 -3.749a8 8 0 1 0 -14.244 -5.001q 0 .25 -1.876 3.518a1 1 0 0 0 .876 1.482h2v3a2 2 0 0 0 2 2h3"
     />
-    <svg:path d="m2.1 21.8 6.4-6.3" />
-    <svg:path d="m19 5-7 7" />
+    <svg:path d="M12 11a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -28,13 +28,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiForkKnifeCrossedIcon {
+export class SiThinkingLowIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

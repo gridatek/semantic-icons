@@ -6,18 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFloppyDisksIcon]',
+  selector: 'svg[siTwigIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path
-      d="M6 4a2 2 0 0 1 2-2h10l4 4v10.2a2 2 0 0 1-2 1.8H8a2 2 0 0 1-2-2Z"
-    />
-    <svg:path d="M10 2v4h6" />
-    <svg:path d="M18 18v-7h-8v7" />
-    <svg:path d="M18 22H4a2 2 0 0 1-2-2V6" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path d="M3 21l5 -4l3 -5l5 -2l5 -7" />
+    <svg:path d="M16 10h5" />
+    <svg:path d="M11 12v-8" />
+    <svg:path d="M8 17h7" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -28,13 +28,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFloppyDisksIcon {
+export class SiTwigIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

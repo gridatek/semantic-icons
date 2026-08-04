@@ -2,7 +2,7 @@
   "name": "@semantic-icons/lucide-lab-icons",
   "version": "0.9.0",
   "private": false,
-  "description": "Icons generated based on lucide-lab-icons v0.1.2",
+  "description": "Icons generated based on lucide-lab-icons v0.2.0",
   "keywords": [
     "lucide-lab",
     "angular",

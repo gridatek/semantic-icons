@@ -6,14 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHouseIcon]',
+  selector: 'svg[siTagsChevronLeftIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z" />
-    <svg:path d="M9 22V12h6v10" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path
+      d="M20.59 19h-12.86a.98 .98 0 0 1 -.81 -.411l-4.185 -6.125a.81 .81 0 0 1 0 -.928l4.184 -6.125a.98 .98 0 0 1 .811 -.411h12.86l-4.782 7l4.782 7"
+    />
+    <svg:path d="M13.895 19l-4.465 -6.536a.81 .81 0 0 1 0 -.928l4.465 -6.536" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -24,13 +28,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHouseIcon {
+export class SiTagsChevronLeftIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

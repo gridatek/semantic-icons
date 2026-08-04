@@ -6,16 +6,23 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHatChefIcon]',
+  selector: 'svg[siPlayBugsIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path
-      d="M6 13.85A4 4 0 0 1 7.4 6a5 5 0 0 1 9.2 0 4 4 0 0 1 1.4 7.85V21H6Z"
-    />
-    <svg:path d="M6 17h12" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path d="M3.5 18a2.5 3 0 1 0 5 0a2.5 3 0 1 0 -5 0" />
+    <svg:path d="M2 17.5h1.5" />
+    <svg:path d="M8.5 17.5h1.5" />
+    <svg:path d="M9.5 14.5l-1.5 1.5" />
+    <svg:path d="M2.5 14.5l1.5 1.5" />
+    <svg:path d="M2.5 21.5l1.5 -1.5" />
+    <svg:path d="M8 20l1.5 1.5" />
+    <svg:path d="M15.5 16l6.5 -5l-11 -8" />
+    <svg:path d="M13 12.5l2 -1.5l-11 -8v8" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -26,13 +33,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHatChefIcon {
+export class SiPlayBugsIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

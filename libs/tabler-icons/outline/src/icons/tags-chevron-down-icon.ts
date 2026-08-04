@@ -6,21 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siGrapesIcon]',
+  selector: 'svg[siTagsChevronDownIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M22 5V2l-5.89 5.89" />
-    <svg:circle cx="16.6" cy="15.89" r="3" />
-    <svg:circle cx="8.11" cy="7.4" r="3" />
-    <svg:circle cx="12.35" cy="11.65" r="3" />
-    <svg:circle cx="13.91" cy="5.85" r="3" />
-    <svg:circle cx="18.15" cy="10.09" r="3" />
-    <svg:circle cx="6.56" cy="13.2" r="3" />
-    <svg:circle cx="10.8" cy="17.44" r="3" />
-    <svg:circle cx="5" cy="19" r="3" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path
+      d="M5 3v13.446c0 .345 .155 .665 .411 .848l6.125 4.375a.78 .78 0 0 0 .928 0l6.125 -4.375a1.04 1.04 0 0 0 .411 -.848v-13.446l-7 5l-7 -5"
+    />
+    <svg:path d="M5 10l6.536 4.669a.78 .78 0 0 0 .928 0l6.536 -4.669" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -31,13 +28,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiGrapesIcon {
+export class SiTagsChevronDownIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

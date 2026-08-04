@@ -6,16 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHatHardIcon]',
+  selector: 'svg[siThinkingHighIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 6.3c-3.4.9-6 4-6 7.7v2" />
-    <svg:path d="M10 10V5c0-.6.4-1 1-1h2c.6 0 1 .4 1 1v5" />
-    <svg:path d="M20 16v-2c0-3.7-2.6-6.8-6-7.7" />
-    <svg:rect width="20" height="4" x="2" y="16" rx="1" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path
+      d="M17 21v-1.25c0 -2.311 .778 -1.92 2.244 -3.749a8 8 0 1 0 -14.244 -5.001q 0 .25 -1.876 3.518a1 1 0 0 0 .876 1.482h2v3a2 2 0 0 0 2 2h3"
+    />
+    <svg:path d="M9 11a4 4 0 1 0 8 0a4 4 0 1 0 -8 0" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -26,13 +28,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHatHardIcon {
+export class SiThinkingHighIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

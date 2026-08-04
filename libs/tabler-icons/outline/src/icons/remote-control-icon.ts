@@ -6,22 +6,21 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlowerStemIcon]',
+  selector: 'svg[siRemoteControlIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M9 8h1" />
-    <svg:path d="M12 5v1" />
-    <svg:path d="M15 8h-1" />
-    <svg:circle cx="12" cy="8" r="2" />
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
     <svg:path
-      d="M12 11a3 3 0 1 1-3-3 3 3 0 1 1 3-3 3 3 0 1 1 3 3 3 3 0 1 1-3 3"
+      d="M9 14a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v5a2 2 0 0 1 -2 2h-2a2 2 0 0 1 -2 -2v-5"
     />
-    <svg:path d="M12 10v12" />
-    <svg:path d="M12 22c-4.2 0-7-1.667-7-5 4.2 0 7 1.667 7 5" />
-    <svg:path d="M12 22c4.2 0 7-1.667 7-5-4.2 0-7 1.667-7 5" />
+    <svg:path
+      d="M20 9c-.914 -3.455 -4.15 -6 -8 -6c-3.853 0 -7.089 2.542 -8 6"
+    />
+    <svg:path d="M15 9c-.69 -1.2 -1.517 -2 -3 -2s-2.31 .801 -3 2" />
   `,
   host: {
+    role: 'img',
     '[attr.aria-hidden]': 'ariaHidden()',
     '[attr.xmlns]': 'xmlns',
     '[attr.width]': 'width()',
@@ -32,13 +31,12 @@ import {
     '[attr.stroke-width]': 'strokeWidth()',
     '[attr.stroke-linecap]': 'strokeLinecap()',
     '[attr.stroke-linejoin]': 'strokeLinejoin()',
-    'data-slot': 'icon',
   },
   styles: ``,
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlowerStemIcon {
+export class SiRemoteControlIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
