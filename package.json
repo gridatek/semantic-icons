@@ -47,7 +47,7 @@
     "@commitlint/config-conventional": "^21.2.0",
     "@eslint/js": "^9.39.1",
     "@fortawesome/fontawesome-free": "^7.3.1",
-    "@lucide/lab": "^0.1.2",
+    "@lucide/lab": "^0.2.0",
     "@material-design-icons/svg": "0.14.15",
     "@nx/angular": "23.1.0",
     "@nx/devkit": "23.1.0",
