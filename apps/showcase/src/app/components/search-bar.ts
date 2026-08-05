@@ -1,13 +1,11 @@
-import { Component, ViewEncapsulation, output } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { Component, ViewEncapsulation, inject } from '@angular/core';
+import { FieldTree, FormField, form } from '@angular/forms/signals';
 
-import { debounceTime, distinctUntilChanged } from 'rxjs/operators';
-
-import { Subject } from 'rxjs';
+import { IconService } from '../services/icon.service';
 
 @Component({
   selector: 'app-search-bar',
-  imports: [FormsModule],
+  imports: [FormField],
   template: `
     <div class="mb-6">
       <label
@@ -20,12 +18,11 @@ import { Subject } from 'rxjs';
         <input
           class="focus:ring-indigo-500 focus:border-indigo-500 block w-full py-2 px-3 sm:text-sm border border-gray-300 rounded-md"
           id="icon-search"
-          [(ngModel)]="searchText"
-          (input)="onSearchInput($event)"
+          [formField]="searchForm.query"
           type="text"
           placeholder="Search by name or tag..."
         />
-        @if (searchText) {
+        @if (searchForm().value().query) {
           <button
             class="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-gray-500"
             (click)="clearSearch()"
@@ -49,30 +46,19 @@ import { Subject } from 'rxjs';
       </div>
     </div>
   `,
-  styles: ``,
   encapsulation: ViewEncapsulation.None,
 })
 export class SearchBar {
-  readonly searchChange = output<string>();
-  private readonly searchTerms = new Subject<string>();
-  searchText = '';
+  searchForm: FieldTree<{
+    query: string;
+  }>;
 
   constructor() {
-    this.searchTerms
-      .pipe(debounceTime(300), distinctUntilChanged())
-      .subscribe((term) => {
-        this.searchChange.emit(term);
-      });
-  }
-
-  onSearchInput(event: Event): void {
-    const input = event.target as HTMLInputElement;
-    this.searchText = input.value;
-    this.searchTerms.next(this.searchText);
+    const iconsService = inject(IconService);
+    this.searchForm = form(iconsService.searchQuery);
   }
 
   clearSearch(): void {
-    this.searchText = '';
-    this.searchTerms.next('');
+    this.searchForm().reset({ query: '' });
   }
 }

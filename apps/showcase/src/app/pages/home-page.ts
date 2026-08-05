@@ -1,9 +1,4 @@
-import {
-  ChangeDetectionStrategy,
-  Component,
-  ViewEncapsulation,
-  inject,
-} from '@angular/core';
+import { Component, ViewEncapsulation, inject } from '@angular/core';
 
 import { IconDisplay } from '../components/icon-display';
 import { LibrarySelector } from '../components/library-selector';
@@ -32,29 +27,21 @@ import { IconService, LibraryIdType } from '../services/icon.service';
               ></app-library-selector>
 
               <!-- Search Bar -->
-              <app-search-bar
-                (searchChange)="onSearch($event)"
-              ></app-search-bar>
+              <app-search-bar></app-search-bar>
 
               <!-- Icon Display -->
-              <app-icon-display
-                [library]="selectedLibrary"
-                [searchQuery]="searchQuery"
-              ></app-icon-display>
+              <app-icon-display></app-icon-display>
             </div>
           </div>
         </div>
       </main>
     </div>
   `,
-  styles: ``,
   encapsulation: ViewEncapsulation.None,
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export default class HomePage {
   title = 'SVG Icon Library Showcase';
   selectedLibrary: LibraryIdType = 'heroicons';
-  searchQuery = '';
   availableLibraries = [
     { id: 'heroicons', name: 'Heroicons' },
     { id: 'feather', name: 'Feather Icons' },
@@ -68,9 +55,5 @@ export default class HomePage {
   onLibraryChange(libraryId: string): void {
     this.selectedLibrary = libraryId as LibraryIdType;
     this.iconService.setCurrentLibrary(libraryId as LibraryIdType);
-  }
-
-  onSearch(query: string): void {
-    this.searchQuery = query;
   }
 }
