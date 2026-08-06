@@ -1,25 +1,36 @@
-import { HttpClient } from '@angular/common/http';
-import { Injectable, inject } from '@angular/core';
-
-import { map } from 'rxjs/operators';
+import { httpResource } from '@angular/common/http';
+import { Service, computed, signal } from '@angular/core';
 
 import { Icon } from '@semantic-icons/nx-generators';
-import { BehaviorSubject, Observable } from 'rxjs';
 
 export type LibraryIdType =
-  | 'heroicons'
-  | 'feather'
-  | 'material'
-  | 'bootstrap'
-  | 'fontawesome';
+  'heroicons' | 'feather' | 'material' | 'bootstrap' | 'fontawesome';
 
-@Injectable({
-  providedIn: 'root',
-})
+@Service()
 export class IconService {
-  private readonly iconsSubject = new BehaviorSubject<Icon[]>([]);
-  public icons$ = this.iconsSubject.asObservable();
-  private currentLibrary: LibraryIdType = 'heroicons';
+  public readonly searchQuery = signal<{ query: string }>({ query: '' });
+  private currentLibrary = signal<LibraryIdType>('heroicons');
+  private readonly heroiconsResource = httpResource<Icon[]>(
+    () =>
+      this.currentLibrary() === 'heroicons' ? 'heroicons.json' : undefined,
+    { defaultValue: [] },
+  );
+
+  public readonly icons = computed(() => {
+    const currentLibraryIcons =
+      this.currentLibrary() === 'heroicons'
+        ? this.heroiconsResource.value()
+        : this.iconLibraries[this.currentLibrary()];
+    if (this.searchQuery().query) {
+      const lowerQuery = this.searchQuery().query.toLowerCase();
+      return currentLibraryIcons.filter(
+        (icon) =>
+          icon.name.toLowerCase().includes(lowerQuery) ||
+          icon.tags.some((tag) => tag.toLowerCase().includes(lowerQuery)),
+      );
+    }
+    return currentLibraryIcons;
+  });
 
   // This would normally come from an API, but we'll mock it for this example
   private readonly iconLibraries: { [key: string]: Icon[] } = {
@@ -98,47 +109,12 @@ export class IconService {
     ],
   };
 
-  private readonly http = inject(HttpClient);
-
-  constructor() {
-    this.loadIcons();
-  }
-
   setCurrentLibrary(libraryId: LibraryIdType): void {
-    this.currentLibrary = libraryId;
-    this.loadIcons();
-  }
-
-  private loadIcons(): void {
-    let icons: Icon[] = [];
-
-    if (this.currentLibrary == 'heroicons') {
-      this.http.get('heroicons.json').subscribe((response) => {
-        this.iconsSubject.next(response as Icon[]);
-      });
-    } else {
-      icons = this.iconLibraries[this.currentLibrary] || [];
-      this.iconsSubject.next(icons);
-    }
-  }
-
-  searchIcons(query: string): Observable<Icon[]> {
-    return this.icons$.pipe(
-      map((icons) => {
-        if (!query) return icons;
-
-        const lowerQuery = query.toLowerCase();
-        return icons.filter(
-          (icon) =>
-            icon.name.toLowerCase().includes(lowerQuery) ||
-            icon.tags.some((tag) => tag.toLowerCase().includes(lowerQuery)),
-        );
-      }),
-    );
+    this.currentLibrary.set(libraryId);
   }
 
   getIconById(id: string): Icon | undefined {
-    const icons = this.iconsSubject.getValue();
+    const icons = this.icons();
     return icons.find((icon) => icon.id === id);
   }
 }
