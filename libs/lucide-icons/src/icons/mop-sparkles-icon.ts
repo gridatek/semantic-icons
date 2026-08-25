@@ -1,0 +1,71 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siMopSparklesIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:path d="M10 22a3 3 0 01-3-3" />
+    <svg:path
+      d="M10 22c2.761 0 5-1.79 5-4-4.42 0-4.08-5-8.5-5a4.501 4.501 0 000 9z"
+    />
+    <svg:path d="M10 3H8" />
+    <svg:path d="M12.5 11.5 22 2" />
+    <svg:path d="M20 13v4" />
+    <svg:path d="M22 15h-4" />
+    <svg:path d="M4 5v4" />
+    <svg:path d="M6 7H2" />
+    <svg:path
+      d="m6.98 13.02 2.665-2.664a1.21 1.21 0 011.71 0l2.29 2.288a1.21 1.21 0 010 1.712l-2.088 2.087"
+    />
+    <svg:path d="M9 2v2" />
+  `,
+  host: {
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.width]': 'width()',
+    '[attr.height]': 'height()',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+    '[attr.stroke]': 'stroke()',
+    '[attr.stroke-width]': 'strokeWidth()',
+    '[attr.stroke-linecap]': 'strokeLinecap()',
+    '[attr.stroke-linejoin]': 'strokeLinejoin()',
+    'data-slot': 'icon',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiMopSparklesIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly width = input<string | number>('24');
+
+  readonly height = input<string | number>('24');
+
+  readonly viewBox = input<string>('0 0 24 24');
+
+  readonly fill = input<string>('none');
+
+  readonly stroke = input<string>('currentColor');
+
+  readonly strokeWidth = input<string | number>('2', {
+    alias: 'stroke-width',
+  });
+
+  readonly strokeLinecap = input<string>('round', {
+    alias: 'stroke-linecap',
+  });
+
+  readonly strokeLinejoin = input<string>('round', {
+    alias: 'stroke-linejoin',
+  });
+}
