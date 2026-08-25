@@ -78,7 +78,7 @@
     "autoprefixer": "^10.5.4",
     "bootstrap-icons": "1.13.1",
     "circle-flags": "2.8.3",
-    "eslint": "^10.8.1",
+    "eslint": "^10.9.0",
     "eslint-config-prettier": "10.1.8",
     "eslint-plugin-playwright": "^2.11.0",
     "feather-icons": "4.29.2",
