@@ -960,6 +960,7 @@ export * from './icons/luggage-icon';
 export * from './icons/magnet-icon';
 export * from './icons/mail-badge-icon';
 export * from './icons/mail-check-icon';
+export * from './icons/mail-clock-icon';
 export * from './icons/mail-minus-icon';
 export * from './icons/mail-open-icon';
 export * from './icons/mail-plus-icon';
