@@ -6,15 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siGhostIcon]',
+  selector: 'svg[siRobotArmIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M15 10v1" />
-    <svg:path
-      d="M7.528 20.472a1.6 1.6 0 012.277 0l1.057 1.056a1.6 1.6 0 002.276 0l1.057-1.056a1.6 1.6 0 012.277 0l1.114 1.114a1.4 1.4 0 002.414-1V10a8 8 0 00-16 0v10.586a1.4 1.4 0 002.414 1z"
-    />
-    <svg:path d="M9 10v1" />
+    <svg:path d="M12 21 7.5 8.322" />
+    <svg:path d="m14 7 1.75-3.767a.5.5 0 0 1 .662-.172L20 5.005" />
+    <svg:path d="m20 8.998-3.588 1.944a.5.5 0 0 1-.662-.172L14 7H8" />
+    <svg:path d="M3.486 21h10" />
+    <svg:path d="M5 21V8.732" />
+    <svg:circle cx="6" cy="7" r="2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -33,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiGhostIcon {
+export class SiRobotArmIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
