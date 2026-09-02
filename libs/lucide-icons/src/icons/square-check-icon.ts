@@ -11,7 +11,7 @@ import {
   imports: [],
   template: `
     <svg:rect width="18" height="18" x="3" y="3" rx="2" />
-    <svg:path d="m9 12 2 2 4-4" />
+    <svg:path d="m16 9-5.5 5.5L8 12" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',

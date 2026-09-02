@@ -10,9 +10,9 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="m6 16 6-12 6 12" />
-    <svg:path d="M8 12h8" />
-    <svg:path d="m16 20 2 2 4-4" />
+    <svg:path d="m20 15-5.5 5.5L12 18" />
+    <svg:path d="m4 16 6-12 5.115 10.23" />
+    <svg:path d="M6 12h8" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',

@@ -10,12 +10,12 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:circle cx="6" cy="6" r="3" />
+    <svg:path d="m15.5 3.5 5 5" />
+    <svg:path d="m15.5 8.5 5-5" />
+    <svg:path d="M18 11.62V15" />
     <svg:path d="M6 9v12" />
-    <svg:path d="m21 3-6 6" />
-    <svg:path d="m21 9-6-6" />
-    <svg:path d="M18 11.5V15" />
     <svg:circle cx="18" cy="18" r="3" />
+    <svg:circle cx="6" cy="6" r="3" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',

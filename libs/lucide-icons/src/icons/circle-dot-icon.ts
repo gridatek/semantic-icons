@@ -10,8 +10,8 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:circle cx="12" cy="12" r="10" />
     <svg:circle cx="12" cy="12" r="1" />
+    <svg:circle cx="12" cy="12" r="10" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
