@@ -6,15 +6,12 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTrash2Icon]',
+  selector: 'svg[siWhistleIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 11v6" />
-    <svg:path d="M14 11v6" />
-    <svg:path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6" />
-    <svg:path d="M3 6h18" />
-    <svg:path d="M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
+    <svg:path d="M10 6v4" />
+    <svg:path d="M21 6a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-5.675A7 7 0 1 1 9 6z" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -33,7 +30,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTrash2Icon {
+export class SiWhistleIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

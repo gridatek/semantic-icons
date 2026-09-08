@@ -6,18 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siVectorSquareIcon]',
+  selector: 'svg[siSquareExclamationPointIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M17.055 4.533a24 24 0 00-10.11 0" />
-    <svg:path d="M19.467 17.055a24 24 0 000-10.11" />
-    <svg:path d="M4.533 6.945a24 24 0 000 10.11" />
-    <svg:path d="M6.945 19.467a24 24 0 0010.11 0" />
-    <svg:circle cx="19" cy="19" r="2" />
-    <svg:circle cx="19" cy="5" r="2" />
-    <svg:circle cx="5" cy="19" r="2" />
-    <svg:circle cx="5" cy="5" r="2" />
+    <svg:rect width="18" height="18" x="3" y="3" rx="2" />
+    <svg:line x1="12" x2="12" y1="8" y2="12" />
+    <svg:line x1="12" x2="12.01" y1="16" y2="16" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -36,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiVectorSquareIcon {
+export class SiSquareExclamationPointIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

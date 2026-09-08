@@ -6,18 +6,21 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siVectorSquareIcon]',
+  selector: 'svg[siShrimpOffIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M17.055 4.533a24 24 0 00-10.11 0" />
-    <svg:path d="M19.467 17.055a24 24 0 000-10.11" />
-    <svg:path d="M4.533 6.945a24 24 0 000 10.11" />
-    <svg:path d="M6.945 19.467a24 24 0 0010.11 0" />
-    <svg:circle cx="19" cy="19" r="2" />
-    <svg:circle cx="19" cy="5" r="2" />
-    <svg:circle cx="5" cy="19" r="2" />
-    <svg:circle cx="5" cy="5" r="2" />
+    <svg:path
+      d="M10 2a3.28 3.28 0 003.227 1.798l6.17-.561A1 1 0 1119.614 8H13.5"
+    />
+    <svg:path d="M11 20c-.5.5-1.12 1-2.5 1a1 1 0 010-5H12a7 7 0 003.283-.817" />
+    <svg:path
+      d="M11 22c-.5-.5-1.12-1-2.5-1a6.5 6.5 0 01-5.63-3.25 6.44 6.44 0 015.236-9.744"
+    />
+    <svg:path d="M18.04 12.54A7 7 0 0019 9V8" />
+    <svg:path d="m2 2 20 20" />
+    <svg:path d="M8 16c-2 0-4.5-4-4-6" />
+    <svg:path d="M9.43 9.33A8.5 8.5 0 0010 16" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -36,7 +39,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiVectorSquareIcon {
+export class SiShrimpOffIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

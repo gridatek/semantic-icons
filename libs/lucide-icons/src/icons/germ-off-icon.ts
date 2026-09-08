@@ -6,18 +6,27 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siVectorSquareIcon]',
+  selector: 'svg[siGermOffIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M17.055 4.533a24 24 0 00-10.11 0" />
-    <svg:path d="M19.467 17.055a24 24 0 000-10.11" />
-    <svg:path d="M4.533 6.945a24 24 0 000 10.11" />
-    <svg:path d="M6.945 19.467a24 24 0 0010.11 0" />
-    <svg:circle cx="19" cy="19" r="2" />
-    <svg:circle cx="19" cy="5" r="2" />
-    <svg:circle cx="5" cy="19" r="2" />
-    <svg:circle cx="5" cy="5" r="2" />
+    <svg:path d="m11 2 .925 1.848" />
+    <svg:path d="M13 15h.01" />
+    <svg:path d="M13.424 7.768a2 2 0 112.808 2.808" />
+    <svg:path d="m16 21-1-2.472" />
+    <svg:path
+      d="M16.988 16.988A12 12 0 019 20a5 5 0 01-2.759-9.171 8.8 8.8 0 002.307-2.28"
+    />
+    <svg:path d="m19 2-1 1.804" />
+    <svg:path d="m2 19 2.746-1.373" />
+    <svg:path d="m2 2 20 20" />
+    <svg:path
+      d="m22 16-2.474-2.13a12 12 0 001.376-3.786 6 6 0 00-10.313-5.151"
+    />
+    <svg:path d="m22 5-1.804 1" />
+    <svg:path d="m3 10 2 2" />
+    <svg:path d="M9 16h.01" />
+    <svg:path d="M9 20v2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -36,7 +45,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiVectorSquareIcon {
+export class SiGermOffIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
