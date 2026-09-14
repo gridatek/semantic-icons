@@ -6,16 +6,14 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFlipHorizontal2Icon]',
+  selector: 'svg[siToothbrushIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="m3 7 5 5-5 5V7" />
-    <svg:path d="m21 7-5 5 5 5V7" />
-    <svg:path d="M12 20v2" />
-    <svg:path d="M12 14v2" />
-    <svg:path d="M12 8v2" />
-    <svg:path d="M12 2v2" />
+    <svg:path d="M15 11c-2 2-4 2-6 4l-7 7" />
+    <svg:path
+      d="m22 4-7.414 7.414-2-2A2 2 0 0114 6c0-.512.196-1.024.586-1.414A2 2 0 0116 4a2 2 0 013.262-1.552l2.152 2.138"
+    />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -34,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFlipHorizontal2Icon {
+export class SiToothbrushIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

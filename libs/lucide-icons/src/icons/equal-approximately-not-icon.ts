@@ -6,17 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siIdCardLanyardIcon]',
+  selector: 'svg[siEqualApproximatelyNotIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M13.5 8h-3" />
-    <svg:path
-      d="m15 2-1 2h3a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2h3"
-    />
-    <svg:path d="M16 22a4 4 0 00-8 0" />
-    <svg:path d="m9 2 3 6" />
-    <svg:circle cx="12" cy="15" r="3" />
+    <svg:path d="M5 15a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0" />
+    <svg:path d="M5 9a6.5 6.5 0 0 1 7 0 6.5 6.5 0 0 0 7 0" />
+    <svg:line x1="19" x2="5" y1="5" y2="19" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -35,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiIdCardLanyardIcon {
+export class SiEqualApproximatelyNotIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

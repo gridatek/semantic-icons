@@ -6,17 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siIdCardLanyardIcon]',
+  selector: 'svg[siUserRoundGroupIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M13.5 8h-3" />
-    <svg:path
-      d="m15 2-1 2h3a2 2 0 012 2v14a2 2 0 01-2 2H7a2 2 0 01-2-2V6a2 2 0 012-2h3"
-    />
-    <svg:path d="M16 22a4 4 0 00-8 0" />
-    <svg:path d="m9 2 3 6" />
-    <svg:circle cx="12" cy="15" r="3" />
+    <svg:path d="M17 21a5 5 0 00-10 0" />
+    <svg:path d="M22 10.5a3.5 3.5 0 00-5.507-2.868" />
+    <svg:path d="M7.507 7.632A3.5 3.5 0 002 10.5" />
+    <svg:circle cx="12" cy="13" r="3" />
+    <svg:circle cx="18.5" cy="4.5" r="2.5" />
+    <svg:circle cx="5.5" cy="4.5" r="2.5" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -35,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiIdCardLanyardIcon {
+export class SiUserRoundGroupIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
