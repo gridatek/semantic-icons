@@ -6,14 +6,14 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBookMarkedIcon]',
+  selector: 'svg[siLayoutArrowDownIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M10 2v8l3-3 3 3V2" />
-    <svg:path
-      d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"
-    />
+    <svg:rect width="7" height="7" x="3" y="3" rx="1" />
+    <svg:rect width="7" height="7" x="3" y="14" rx="1" />
+    <svg:path d="M18 3v18" />
+    <svg:path d="m21 18-3 3-3-3" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBookMarkedIcon {
+export class SiLayoutArrowDownIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

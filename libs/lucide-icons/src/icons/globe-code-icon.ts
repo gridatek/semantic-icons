@@ -6,16 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFolderBookmarkIcon]',
+  selector: 'svg[siGlobeCodeIcon]',
   standalone: true,
   imports: [],
   template: `
+    <svg:path d="M15.5 10 13 7.5 15.5 5" />
     <svg:path
-      d="M12 6v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834a.25.25 0 00.406-.195V6"
+      d="M15.861 14A14.5 14.5 0 0112 22a14.48 14.48 0 010-20 10 10 0 109.888 11.5"
     />
-    <svg:path
-      d="M20 20a2 2 0 002-2V8a2 2 0 00-2-2h-7.9a2 2 0 01-1.69-.9L9.6 3.9A2 2 0 007.93 3H4a2 2 0 00-2 2v13a2 2 0 002 2z"
-    />
+    <svg:path d="M19.5 5 22 7.5 19.5 10" />
+    <svg:path d="M2 12h8.5" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -34,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFolderBookmarkIcon {
+export class SiGlobeCodeIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

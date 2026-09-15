@@ -6,16 +6,20 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFolderBookmarkIcon]',
+  selector: 'svg[siParkIcon]',
   standalone: true,
   imports: [],
   template: `
+    <svg:path d="M12 18h10" />
     <svg:path
-      d="M12 6v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834a.25.25 0 00.406-.195V6"
+      d="M13.248 9.998A4.5 4.5 0 0 0 11.75 8.6V8a1 1 0 0 0-7.5 0 4.9 4.9 0 0 0 2.25 9H8"
     />
-    <svg:path
-      d="M20 20a2 2 0 002-2V8a2 2 0 00-2-2h-7.9a2 2 0 01-1.69-.9L9.6 3.9A2 2 0 007.93 3H4a2 2 0 00-2 2v13a2 2 0 002 2z"
-    />
+    <svg:path d="m15 14-2 6" />
+    <svg:path d="m19 14 2 6" />
+    <svg:path d="M21 14h-8" />
+    <svg:path d="M8 20v-5.922a2 2 0 0 0-.586-1.414L6.5 11.75" />
+    <svg:path d="M9.205 12.795 8 14" />
+    <svg:circle cx="19" cy="6" r="2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -34,7 +38,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFolderBookmarkIcon {
+export class SiParkIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

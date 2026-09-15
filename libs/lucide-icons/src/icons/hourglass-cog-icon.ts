@@ -6,16 +6,25 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siFolderBookmarkIcon]',
+  selector: 'svg[siHourglassCogIcon]',
   standalone: true,
   imports: [],
   template: `
+    <svg:path d="m14.305 19.53.923-.382" />
+    <svg:path d="m15.228 16.852-.923-.383" />
+    <svg:path d="m16.852 15.228-.383-.923" />
+    <svg:path d="m16.852 20.772-.383.924" />
     <svg:path
-      d="M12 6v7.751a.25.25 0 00.407.195l2.28-1.834a.5.5 0 01.627 0l2.28 1.834a.25.25 0 00.406-.195V6"
+      d="M17 2v4.172a2 2 0 0 1-.586 1.414l-8.828 8.828A2 2 0 0 0 7 17.828V22"
     />
-    <svg:path
-      d="M20 20a2 2 0 002-2V8a2 2 0 00-2-2h-7.9a2 2 0 01-1.69-.9L9.6 3.9A2 2 0 007.93 3H4a2 2 0 00-2 2v13a2 2 0 002 2z"
-    />
+    <svg:path d="m19.148 15.228.383-.923" />
+    <svg:path d="m19.53 21.696-.382-.924" />
+    <svg:path d="m20.772 16.852.924-.383" />
+    <svg:path d="m20.772 19.148.924.383" />
+    <svg:path d="M5 22h6.159" />
+    <svg:path d="M5 2h14" />
+    <svg:path d="M7 2v4.172a2 2 0 0 0 .586 1.414l5.188 5.188" />
+    <svg:circle cx="18" cy="18" r="3" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -34,7 +43,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiFolderBookmarkIcon {
+export class SiHourglassCogIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
