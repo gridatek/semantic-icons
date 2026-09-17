@@ -106,6 +106,7 @@ export * from './icons/allegro-icon';
 export * from './icons/alliedmodders-icon';
 export * from './icons/alltrails-icon';
 export * from './icons/almalinux-icon';
+export * from './icons/alphaxiv-icon';
 export * from './icons/alpine-dot-js-icon';
 export * from './icons/alpine-linux-icon';
 export * from './icons/alternativeto-icon';
