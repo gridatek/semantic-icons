@@ -1154,6 +1154,7 @@ export * from './icons/go-icon';
 export * from './icons/gocd-icon';
 export * from './icons/godaddy-icon';
 export * from './icons/godot-engine-icon';
+export * from './icons/godox-icon';
 export * from './icons/gofundme-icon';
 export * from './icons/gog-dot-com-icon';
 export * from './icons/gojek-icon';

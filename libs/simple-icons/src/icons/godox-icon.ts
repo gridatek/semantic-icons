@@ -1,0 +1,42 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siGodoxIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:title>Godox</svg:title>
+    <svg:path
+      d="M14.664 11.902V8.718l-.985.263v2.17a1.78 1.78 0 0 0-1.341-.52 2.326 2.326 0 0 0-2.326 2.325 2.326 2.326 0 0 0 2.326 2.326 2.33 2.33 0 0 0 2.19-1.543c.187-.521.135-1.29.135-1.837m-13.286.105a1.34 1.34 0 0 0-.393.949 1.34 1.34 0 0 0 1.342 1.341 1.34 1.34 0 0 0 1.342-1.341 1.34 1.34 0 0 0-.15-.616l-.904.904-.695-.695 1.644-1.644c.62.588 1.088 1.075 1.088 2.05a2.326 2.326 0 0 1-2.325 2.327A2.326 2.326 0 0 1 0 12.956a2.32 2.32 0 0 1 .713-1.675l1.613-1.613.695.695zm21.42-1.226L21.67 12.2l-1.126-1.418-1.204.004 1.716 2.186-1.716 2.159 1.254-.004 1.076-1.372 1.077 1.372L24 15.13l-1.716-2.159L24 10.785zm-5.453-.151a2.326 2.326 0 0 1 2.325 2.325 2.326 2.326 0 0 1-2.325 2.326 2.326 2.326 0 0 1-2.326-2.326 2.326 2.326 0 0 1 2.326-2.325m0 .984a1.34 1.34 0 0 0-1.342 1.342 1.34 1.34 0 0 0 1.342 1.342 1.34 1.34 0 0 0 1.341-1.342 1.34 1.34 0 0 0-1.341-1.342M7.333 10.63a2.326 2.326 0 0 1 2.325 2.325 2.326 2.326 0 0 1-2.325 2.326 2.326 2.326 0 0 1-2.326-2.326 2.326 2.326 0 0 1 2.326-2.325m0 .984a1.34 1.34 0 0 0-1.342 1.342 1.34 1.34 0 0 0 1.342 1.342 1.34 1.34 0 0 0 1.342-1.342 1.34 1.34 0 0 0-1.342-1.342m5.005 0a1.34 1.34 0 0 1 1.342 1.342 1.34 1.34 0 0 1-1.342 1.342 1.34 1.34 0 0 1-1.342-1.342 1.34 1.34 0 0 1 1.342-1.342"
+    />
+  `,
+  host: {
+    role: 'img',
+    '[attr.aria-label]': 'ariaLabel()',
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+    'data-slot': 'icon',
+    'data-brand-color': '#FF6600',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiGodoxIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  // Accessibility inputs
+  readonly ariaLabel = input<string>('Godox icon');
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly viewBox = input<string>('0 0 24 24');
+
+  readonly fill = input<string>('#FF6600');
+}
