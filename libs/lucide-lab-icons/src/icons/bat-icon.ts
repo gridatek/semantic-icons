@@ -6,14 +6,14 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siHousesIcon]',
+  selector: 'svg[siBatIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path
-      d="M6 17H3c-.6 0-1-.4-1-1V8.5L8 4l10 7.5V19c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1v-7.5L16 4l6 4.5V16c0 .6-.4 1-1 1h-3"
+      d="M12 20c1.1-2.8 2.9-4.8 5-4 .8-2 2.6-3.4 5-3-.2-2.4.1-5-2-7.2-1.6 2.3-3.3 2.4-5 2.3-2.4-4.8 3.8-5.8-3-2-6.8-3.8-.6-2.8-3 2-1.7.1-3.4 0-5-2.3C1.9 8 2.2 10.6 2 13c2.4-.4 4.2 1 5 3 2.1-.8 3.9 1.2 5 4"
     />
-    <svg:path d="M10 20v-6h4v6" />
+    <svg:path d="M9 8a3 3 0 006 0" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiHousesIcon {
+export class SiBatIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

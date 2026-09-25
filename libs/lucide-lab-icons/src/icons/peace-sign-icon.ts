@@ -6,14 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTextSquareIcon]',
+  selector: 'svg[siPeaceSignIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:rect width="18" height="18" x="3" y="3" rx="2" />
-    <svg:path d="M7 12h10" />
-    <svg:path d="M7 16h6" />
-    <svg:path d="M7 8h8" />
+    <svg:path
+      d="m14.766 10.014 1.192-5.606a2 2 0 0 0-3.916-.815L10.5 11 8.958 3.592a2 2 0 0 0-3.916.816l1.408 6.624"
+    />
+    <svg:path d="M17 15v-3a2 2 0 0 0-4 0v3a2 2 0 0 0 4 0 2 2 0 0 0 4 0" />
+    <svg:path d="M19 22a10 10 0 0 0 2-6v-3a2 2 0 0 0-4 0" />
+    <svg:path
+      d="M5 22a10 10 0 0 1-2-6v-1a4 4 0 0 1 4-4h4a2 2 0 0 1 0 4H7a10 10 0 0 1 4 6"
+    />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTextSquareIcon {
+export class SiPeaceSignIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

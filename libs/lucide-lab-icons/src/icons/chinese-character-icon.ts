@@ -6,23 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBottleToothbrushCombIcon]',
+  selector: 'svg[siChineseCharacterIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M14 11h-2a2 2 0 01-1.73-3 2 2 0 010-2A2 2 0 0112 3h2" />
+    <svg:path d="M11.5 2L12.5 5" />
+    <svg:path d="M4 15H20" />
     <svg:path
-      d="M14 2v9.35a4 4 0 01-.205 1.266l-.59 1.768A4 4 0 0013 15.65V22"
+      d="M4 8L4 7C4 5.89543 4.89543 5 6 5L18 5C19.1046 5 20 5.89543 20 7L20 8"
     />
-    <svg:path d="M18 10h4" />
-    <svg:path d="M18 14h4" />
-    <svg:path d="M18 18h4" />
-    <svg:path d="M18 2h2a2 2 0 012 2v16a2 2 0 01-2 2h-2" />
-    <svg:path d="M18 6h4" />
     <svg:path
-      d="M2 3a1 1 0 011-1h2a1 1 0 011 1v6c0 .6.1 1.4.2 2L8 20.8v.2a1 1 0 01-1 1H3a1 1 0 01-1-1z"
+      d="M8 9H15.5746C16.0472 9 16.256 9.59518 15.887 9.89043L13.1259 12.0993C12.4143 12.6686 12 13.5305 12 14.4419V20C12 21.1046 11.1046 22 10 22H9"
     />
-    <svg:path d="M2 6h4" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -41,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBottleToothbrushCombIcon {
+export class SiChineseCharacterIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
