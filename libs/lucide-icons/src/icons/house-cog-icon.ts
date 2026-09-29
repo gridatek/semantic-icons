@@ -6,17 +6,23 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siMapPinnedIcon]',
+  selector: 'svg[siHouseCogIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path
-      d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 01-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0112 0"
+      d="M10.584 21H5a2 2 0 01-2-2v-9a2 2 0 01.709-1.527l7-6a2 2 0 012.582 0l7 6A2 2 0 0121 10.001v.583"
     />
-    <svg:path
-      d="M4.474 15h-.197a1 1 0 00-.969.753l-1.097 4.35a1.5 1.5 0 001.444 1.898L20.344 22a1.5 1.5 0 001.446-1.897l-1.098-4.35a1 1 0 00-.969-.753h-.197"
-    />
-    <svg:circle cx="12" cy="8" r="2" />
+    <svg:path d="M14 12H10a1 1 0 00-1 1v8" />
+    <svg:path d="m14.305 19.53.923-.382" />
+    <svg:path d="m15.229 16.852-.924-.383" />
+    <svg:path d="m16.852 15.228-.383-.923" />
+    <svg:path d="m16.852 20.773-.383.924" />
+    <svg:path d="m19.148 15.228.383-.923" />
+    <svg:path d="m19.53 21.697-.382-.924" />
+    <svg:path d="m20.773 16.852.922-.383" />
+    <svg:path d="m20.773 19.148.922.383" />
+    <svg:circle cx="18" cy="18" r="3" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -35,7 +41,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiMapPinnedIcon {
+export class SiHouseCogIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
