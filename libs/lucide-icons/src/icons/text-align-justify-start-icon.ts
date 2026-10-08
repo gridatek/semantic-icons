@@ -6,22 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siWifiCogIcon]',
+  selector: 'svg[siTextAlignJustifyStartIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="m14.305 19.53.923-.382" />
-    <svg:path d="m15.228 16.852-.923-.383" />
-    <svg:path d="m16.852 15.228-.383-.923" />
-    <svg:path d="m16.852 20.772-.383.924" />
-    <svg:path d="m19.148 15.228.383-.923" />
-    <svg:path d="m19.53 21.696-.382-.924" />
-    <svg:path d="M2 8.82a15 15 0 0120 0" />
-    <svg:path d="m20.772 16.852.924-.383" />
-    <svg:path d="m20.772 19.148.924.383" />
-    <svg:path d="M5 12.859a10 10 0 0110.18-2.342" />
-    <svg:path d="M8.5 16.429a5 5 0 011.998-1.2" />
-    <svg:circle cx="18" cy="18" r="3" />
+    <svg:path d="M3 5h18" />
+    <svg:path d="M3 12h18" />
+    <svg:path d="M3 19h10" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -40,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiWifiCogIcon {
+export class SiTextAlignJustifyStartIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

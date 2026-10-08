@@ -6,21 +6,21 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siWifiCogIcon]',
+  selector: 'svg[siDoorClosedCogIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path d="m14.305 19.53.923-.382" />
-    <svg:path d="m15.228 16.852-.923-.383" />
+    <svg:path d="m15.229 16.852-.924-.383" />
     <svg:path d="m16.852 15.228-.383-.923" />
-    <svg:path d="m16.852 20.772-.383.924" />
+    <svg:path d="m16.852 20.773-.383.924" />
+    <svg:path d="M19 10.35V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16" />
     <svg:path d="m19.148 15.228.383-.923" />
-    <svg:path d="m19.53 21.696-.382-.924" />
-    <svg:path d="M2 8.82a15 15 0 0120 0" />
-    <svg:path d="m20.772 16.852.924-.383" />
-    <svg:path d="m20.772 19.148.924.383" />
-    <svg:path d="M5 12.859a10 10 0 0110.18-2.342" />
-    <svg:path d="M8.5 16.429a5 5 0 011.998-1.2" />
+    <svg:path d="m19.53 21.697-.382-.924" />
+    <svg:path d="M2 21h8.58" />
+    <svg:path d="m20.773 16.852.922-.383" />
+    <svg:path d="m20.773 19.148.922.383" />
+    <svg:path d="M9 12h.01" />
     <svg:circle cx="18" cy="18" r="3" />
   `,
   host: {
@@ -40,7 +40,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiWifiCogIcon {
+export class SiDoorClosedCogIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

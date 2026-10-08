@@ -6,22 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siWifiCogIcon]',
+  selector: 'svg[siRugbyBallIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="m14.305 19.53.923-.382" />
-    <svg:path d="m15.228 16.852-.923-.383" />
-    <svg:path d="m16.852 15.228-.383-.923" />
-    <svg:path d="m16.852 20.772-.383.924" />
-    <svg:path d="m19.148 15.228.383-.923" />
-    <svg:path d="m19.53 21.696-.382-.924" />
-    <svg:path d="M2 8.82a15 15 0 0120 0" />
-    <svg:path d="m20.772 16.852.924-.383" />
-    <svg:path d="m20.772 19.148.924.383" />
-    <svg:path d="M5 12.859a10 10 0 0110.18-2.342" />
-    <svg:path d="M8.5 16.429a5 5 0 011.998-1.2" />
-    <svg:circle cx="18" cy="18" r="3" />
+    <svg:path d="m10 10 4 4" />
+    <svg:path d="m13 7 4 4" />
+    <svg:path
+      d="M15.34 2.138A15 15 0 002.138 15.34c-.357 2.94.004 4.919.805 5.717.798.8 2.778 1.162 5.718.805A15 15 0 0021.862 8.661c.357-2.94-.004-4.92-.805-5.718-.798-.8-2.778-1.162-5.717-.805"
+    />
+    <svg:path d="M17 7 7 17" />
+    <svg:path d="m7 13 4 4" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -40,7 +35,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiWifiCogIcon {
+export class SiRugbyBallIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
