@@ -6,29 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTableDashedIcon]',
+  selector: 'svg[siAlphabetDevanagariIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M5 3a2 2 0 0 0 -2 2" />
-    <svg:path d="M19 3a2 2 0 0 1 2 2" />
-    <svg:path d="M21 19a2 2 0 0 1 -2 2" />
-    <svg:path d="M5 21a2 2 0 0 1 -2 -2" />
-    <svg:path d="M9 3h1" />
-    <svg:path d="M9 21h1" />
-    <svg:path d="M14 3h1" />
-    <svg:path d="M14 21h1" />
-    <svg:path d="M3 9v1" />
-    <svg:path d="M21 9v1" />
-    <svg:path d="M3 14v1" />
-    <svg:path d="M21 14v1" />
-    <svg:path d="M7 10h1" />
-    <svg:path d="M12 10h1" />
-    <svg:path d="M17 10h1" />
-    <svg:path d="M10 12v1" />
-    <svg:path d="M10 17v1" />
-    <svg:path d="M10 7v1" />
+    <svg:path d="M4 5h16" />
+    <svg:path d="M16 5v14" />
+    <svg:path
+      d="M5.5 8.5c.5 -1 1.5 -1.5 2.5 -1.5c1.4 0 2.5 1 2.5 2.5s-1.1 2.5 -2.5 2.5c2 0 3.5 1.3 3.5 3.25s-1.5 3.25 -3.5 3.25c-1.2 0 -2.2 -.6 -2.8 -1.5"
+    />
+    <svg:path d="M8 12h8" />
   `,
   host: {
     role: 'img',
@@ -47,7 +35,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTableDashedIcon {
+export class SiAlphabetDevanagariIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

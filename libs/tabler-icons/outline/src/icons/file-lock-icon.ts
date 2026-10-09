@@ -6,29 +6,17 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTableDashedIcon]',
+  selector: 'svg[siFileLockIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M5 3a2 2 0 0 0 -2 2" />
-    <svg:path d="M19 3a2 2 0 0 1 2 2" />
-    <svg:path d="M21 19a2 2 0 0 1 -2 2" />
-    <svg:path d="M5 21a2 2 0 0 1 -2 -2" />
-    <svg:path d="M9 3h1" />
-    <svg:path d="M9 21h1" />
-    <svg:path d="M14 3h1" />
-    <svg:path d="M14 21h1" />
-    <svg:path d="M3 9v1" />
-    <svg:path d="M21 9v1" />
-    <svg:path d="M3 14v1" />
-    <svg:path d="M21 14v1" />
-    <svg:path d="M7 10h1" />
-    <svg:path d="M12 10h1" />
-    <svg:path d="M17 10h1" />
-    <svg:path d="M10 12v1" />
-    <svg:path d="M10 17v1" />
-    <svg:path d="M10 7v1" />
+    <svg:path d="M14 3v4a1 1 0 0 0 1 1h4" />
+    <svg:path d="M13 21h-6a2 2 0 0 1 -2 -2v-14a2 2 0 0 1 2 -2h7l5 5v3" />
+    <svg:path
+      d="M17 19a1 1 0 0 1 1 -1h3a1 1 0 0 1 1 1v2a1 1 0 0 1 -1 1h-3a1 1 0 0 1 -1 -1v-2"
+    />
+    <svg:path d="M18 18v-1.5a1.5 1.5 0 1 1 3 0v1.5" />
   `,
   host: {
     role: 'img',
@@ -47,7 +35,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTableDashedIcon {
+export class SiFileLockIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

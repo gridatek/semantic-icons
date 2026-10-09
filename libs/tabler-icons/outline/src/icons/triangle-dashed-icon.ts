@@ -6,29 +6,26 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTableDashedIcon]',
+  selector: 'svg[siTriangleDashedIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M5 3a2 2 0 0 0 -2 2" />
-    <svg:path d="M19 3a2 2 0 0 1 2 2" />
-    <svg:path d="M21 19a2 2 0 0 1 -2 2" />
-    <svg:path d="M5 21a2 2 0 0 1 -2 -2" />
-    <svg:path d="M9 3h1" />
-    <svg:path d="M9 21h1" />
-    <svg:path d="M14 3h1" />
-    <svg:path d="M14 21h1" />
-    <svg:path d="M3 9v1" />
-    <svg:path d="M21 9v1" />
-    <svg:path d="M3 14v1" />
-    <svg:path d="M21 14v1" />
-    <svg:path d="M7 10h1" />
-    <svg:path d="M12 10h1" />
-    <svg:path d="M17 10h1" />
-    <svg:path d="M10 12v1" />
-    <svg:path d="M10 17v1" />
-    <svg:path d="M10 7v1" />
+    <svg:path
+      d="M10.17 4.128c.32 -.688 1.042 -1.131 1.837 -1.128c.795 .002 1.513 .45 1.829 1.14"
+    />
+    <svg:path d="M14 20.027h2" />
+    <svg:path d="M15.874 7.486l1 1.639" />
+    <svg:path d="M18.849 12.414l1 1.638" />
+    <svg:path
+      d="M21.835 17.36c.28 .587 .226 1.269 -.145 1.81a2.03 2.03 0 0 1 -1.69 .86"
+    />
+    <svg:path
+      d="M4 20.027a2.03 2.03 0 0 1 -1.702 -.864a1.8 1.8 0 0 1 -.137 -1.822"
+    />
+    <svg:path d="M5.136 12.414l-1 1.638" />
+    <svg:path d="M8 20.027h2" />
+    <svg:path d="M8.102 7.486l-1 1.639" />
   `,
   host: {
     role: 'img',
@@ -47,7 +44,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTableDashedIcon {
+export class SiTriangleDashedIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

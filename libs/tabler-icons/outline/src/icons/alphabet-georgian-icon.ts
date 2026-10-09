@@ -6,29 +6,14 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTableDashedIcon]',
+  selector: 'svg[siAlphabetGeorgianIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M5 3a2 2 0 0 0 -2 2" />
-    <svg:path d="M19 3a2 2 0 0 1 2 2" />
-    <svg:path d="M21 19a2 2 0 0 1 -2 2" />
-    <svg:path d="M5 21a2 2 0 0 1 -2 -2" />
-    <svg:path d="M9 3h1" />
-    <svg:path d="M9 21h1" />
-    <svg:path d="M14 3h1" />
-    <svg:path d="M14 21h1" />
-    <svg:path d="M3 9v1" />
-    <svg:path d="M21 9v1" />
-    <svg:path d="M3 14v1" />
-    <svg:path d="M21 14v1" />
-    <svg:path d="M7 10h1" />
-    <svg:path d="M12 10h1" />
-    <svg:path d="M17 10h1" />
-    <svg:path d="M10 12v1" />
-    <svg:path d="M10 17v1" />
-    <svg:path d="M10 7v1" />
+    <svg:path d="M7 9c0 1 3 3 3 5c0 1.7 -1.3 3 -3 3s-3 -1.3 -3 -3v-1" />
+    <svg:path d="M14 14a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+    <svg:path d="M17 11v-1.2c0 -1.2 -2 -1.6 -2 -2.8" />
   `,
   host: {
     role: 'img',
@@ -47,7 +32,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTableDashedIcon {
+export class SiAlphabetGeorgianIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

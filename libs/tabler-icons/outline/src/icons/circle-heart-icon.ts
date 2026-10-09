@@ -6,29 +6,15 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siTableDashedIcon]',
+  selector: 'svg[siCircleHeartIcon]',
   standalone: true,
   imports: [],
   template: `
     <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
-    <svg:path d="M5 3a2 2 0 0 0 -2 2" />
-    <svg:path d="M19 3a2 2 0 0 1 2 2" />
-    <svg:path d="M21 19a2 2 0 0 1 -2 2" />
-    <svg:path d="M5 21a2 2 0 0 1 -2 -2" />
-    <svg:path d="M9 3h1" />
-    <svg:path d="M9 21h1" />
-    <svg:path d="M14 3h1" />
-    <svg:path d="M14 21h1" />
-    <svg:path d="M3 9v1" />
-    <svg:path d="M21 9v1" />
-    <svg:path d="M3 14v1" />
-    <svg:path d="M21 14v1" />
-    <svg:path d="M7 10h1" />
-    <svg:path d="M12 10h1" />
-    <svg:path d="M17 10h1" />
-    <svg:path d="M10 12v1" />
-    <svg:path d="M10 17v1" />
-    <svg:path d="M10 7v1" />
+    <svg:path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+    <svg:path
+      d="M12 16l3.35 -3.284a2.143 2.143 0 0 0 .005 -3.071a2.24 2.24 0 0 0 -3.129 -.006l-.224 .22l-.223 -.22a2.24 2.24 0 0 0 -3.128 -.006a2.143 2.143 0 0 0 -.006 3.071l3.355 3.296"
+    />
   `,
   host: {
     role: 'img',
@@ -47,7 +33,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiTableDashedIcon {
+export class SiCircleHeartIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
