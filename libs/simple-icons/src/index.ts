@@ -2895,6 +2895,7 @@ export * from './icons/suckless-icon';
 export * from './icons/sui-icon';
 export * from './icons/suitest-icon';
 export * from './icons/sumo-logic-icon';
+export * from './icons/sumup-icon';
 export * from './icons/suno-icon';
 export * from './icons/sunrise-icon';
 export * from './icons/supabase-icon';
