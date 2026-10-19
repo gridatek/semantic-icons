@@ -11,8 +11,8 @@ import {
   imports: [],
   template: `
     <svg:g fill-rule="evenodd">
-      <svg:path fill="#fff" d="M640 480H0V0h640z" />
-      <svg:path fill="#dc143c" d="M640 480H0V240h640z" />
+      <svg:path fill="#fff" d="M0 0h640v240H0z" />
+      <svg:path fill="#dc143c" d="M0 240h640v240H0z" />
     </svg:g>
   `,
   host: {

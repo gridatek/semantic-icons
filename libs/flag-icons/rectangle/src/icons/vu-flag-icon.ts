@@ -10,26 +10,13 @@ import {
   standalone: true,
   imports: [],
   template: `
-    <svg:defs>
-      <svg:clipPath id="vu-a">
-        <svg:path d="M0 0v475l420-195h480v-85H420Z" />
-      </svg:clipPath>
-    </svg:defs>
-    <svg:path fill="#009543" d="M0 0h640v480H0z" />
-    <svg:path fill="#d21034" d="M0 0h640v240H0z" />
-    <svg:g clip-path="url(#vu-a)" transform="scale(.71111 1.01053)">
-      <svg:path
-        stroke="#fdce12"
-        stroke-width="110"
-        d="m0 0 420 195h480v85H420L0 475"
-      />
-      <svg:path
-        fill="none"
-        stroke="#000"
-        stroke-width="60"
-        d="m0 0 420 195h480m0 85H420L0 475"
-      />
-    </svg:g>
+    <svg:path fill="#000" d="M0 0h640v480H0z" />
+    <svg:path fill="#d21034" d="M0 0h640v200H320z" />
+    <svg:path fill="#009543" d="M0 480h640V280H320z" />
+    <svg:path
+      fill="#fdce12"
+      d="M0 30.506 313.858 226.667H640v26.667H313.858L0 449.494V418.989L286.382 240 0 61.011z"
+    />
     <svg:g fill="#fdce12" transform="translate(-22)scale(1.01053)">
       <svg:path
         d="M106.9 283v27c23.5 0 69.7-18 69.7-76.1s-49.3-68.9-64-68.9-60.3 10.6-60.3 58c0 47.6 44.7 52 53.5 52s41.8-8 38-43.6a35.5 35.5 0 0 1-35.4 31.5c-24 0-39-17.8-39-35.4s14.6-41.2 39.9-41.2 43.8 22.5 43.8 45.1-17.8 51.5-46.2 51.5z"

@@ -15,15 +15,15 @@ import {
         <svg:path fill-opacity=".7" d="M-61.3 0h682.7v512H-61.3z" />
       </svg:clipPath>
     </svg:defs>
+    <svg:path fill="#298c08" d="M0 0h640v160H0z" />
+    <svg:path fill="#ffc621" d="M0 160h640v160H0z" />
+    <svg:path fill="#ef2118" d="M0 320h640v160H0z" />
     <svg:g
       fill-rule="evenodd"
       stroke-width="1pt"
       clip-path="url(#et-a)"
-      transform="translate(57.5)scale(.94)"
+      transform="matrix(.94 0 0 .94 74 -8.5)"
     >
-      <svg:path fill="#ffc621" d="M-238 3.5H800v498H-238z" />
-      <svg:path fill="#ef2118" d="M-240 342.5H799.3V512H-240z" />
-      <svg:path fill="#298c08" d="M-238 0H800v180H-238z" />
       <svg:circle
         cx="534.2"
         cy="353"
