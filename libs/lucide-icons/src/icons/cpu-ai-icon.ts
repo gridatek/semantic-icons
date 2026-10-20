@@ -6,14 +6,26 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siMusic4Icon]',
+  selector: 'svg[siCpuAiIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M9 18V5l12-2v13" />
-    <svg:path d="m9 9 12-2" />
-    <svg:circle cx="6" cy="18" r="3" />
-    <svg:circle cx="18" cy="16" r="3" />
+    <svg:path d="M12 20v2" />
+    <svg:path d="M12 2v2" />
+    <svg:path d="M16 9v6" />
+    <svg:path d="M17 20v2" />
+    <svg:path d="M17 2v2" />
+    <svg:path d="M2 12h2" />
+    <svg:path d="M2 17h2" />
+    <svg:path d="M2 7h2" />
+    <svg:path d="M20 12h2" />
+    <svg:path d="M20 17h2" />
+    <svg:path d="M20 7h2" />
+    <svg:path d="M7 20v2" />
+    <svg:path d="M7 2v2" />
+    <svg:path d="M8 13h4" />
+    <svg:path d="M8 15v-4a2 2 0 014 0v4" />
+    <svg:rect x="4" y="4" width="16" height="16" rx="2" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +44,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiMusic4Icon {
+export class SiCpuAiIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

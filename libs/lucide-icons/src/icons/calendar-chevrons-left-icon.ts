@@ -6,12 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siMusic3Icon]',
+  selector: 'svg[siCalendarChevronsLeftIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:circle cx="12" cy="18" r="4" />
-    <svg:path d="M16 18V2" />
+    <svg:path d="m11 21-3-3 3-3" />
+    <svg:path d="M16 2v3" />
+    <svg:path d="M21 9H3" />
+    <svg:path d="M3 11.5V5a2 2 0 012-2h14a2 2 0 012 2v14a2 2 0 01-2 2h-4" />
+    <svg:path d="m5 21-3-3 3-3" />
+    <svg:path d="M8 2v3" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -30,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiMusic3Icon {
+export class SiCalendarChevronsLeftIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
