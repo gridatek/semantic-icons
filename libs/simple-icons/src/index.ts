@@ -1281,6 +1281,7 @@ export * from './icons/handlebars-dot-js-icon';
 export * from './icons/handshake-icon';
 export * from './icons/handshake-protocol-icon';
 export * from './icons/happycow-icon';
+export * from './icons/haproxy-icon';
 export * from './icons/harbor-icon';
 export * from './icons/harmonyos-icon';
 export * from './icons/hashcat-icon';
