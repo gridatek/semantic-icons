@@ -6,13 +6,18 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBottlePerfumeIcon]',
+  selector: 'svg[siSolderingIronIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:rect width="12" height="4" x="6" y="3" />
-    <svg:rect width="6" height="4" x="9" y="7" />
-    <svg:rect width="18" height="10" x="3" y="11" rx="2" />
+    <svg:path
+      d="M11.356 9.356a1.2 1.2 0 010-1.712l.351-.351A1 1 0 0112.414 7h1.172a1 1 0 00.707-.293l3.351-3.351a1.2 1.2 0 011.712 0l1.288 1.288a1.2 1.2 0 010 1.712l-3.351 3.351a1 1 0 00-.293.707v1.172a1 1 0 01-.293.707l-.351.351a1.2 1.2 0 01-1.712 0z"
+    />
+    <svg:path
+      d="m11.5 9.5-7.243 7.244a2 2 0 00-.407.586l-1.798 3.956a.5.5 0 00.662.662L6.67 20.15a2 2 0 00.586-.406L14.5 12.5"
+    />
+    <svg:path d="m20 4 .293-.293A2.4 2.4 0 0122 3" />
+    <svg:path d="M3 2q2 2.5 0 5 -2 2.5 0 5" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -31,7 +36,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBottlePerfumeIcon {
+export class SiSolderingIronIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

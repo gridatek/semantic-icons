@@ -6,14 +6,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBriefcasePlusIcon]',
+  selector: 'svg[siCircuitResistorIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2" />
-    <svg:rect width="20" height="14" x="2" y="7" rx="2" />
-    <svg:path d="M15 14H9" />
-    <svg:path d="M12 11v6" />
+    <svg:path d="M2 12h4.5" />
+    <svg:path d="M22 12h-3.876" />
+    <svg:rect x="6.5" y="9" width="11.5" height="6" rx="1" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +31,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBriefcasePlusIcon {
+export class SiCircuitResistorIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

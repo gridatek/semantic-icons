@@ -6,14 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siAvocadoIcon]',
+  selector: 'svg[siMapPinLaptopIcon]',
   standalone: true,
   imports: [],
   template: `
+    <svg:path d="M16 22h6" />
     <svg:path
-      d="M22 7a4.95 4.95 0 0 0-8.6-3.4c-1.5 1.6-1.6 1.8-5 2.6a8 8 0 1 0 9.4 9.5c.7-3.4 1-3.6 2.6-5 1-1 1.6-2.3 1.6-3.7"
+      d="M18 10a8 8 0 00-16 0c0 4.993 5.539 10.193 7.399 11.799a1 1 0 001.202 0 38 38 0 00.887-.83"
     />
-    <svg:circle cx="10" cy="14" r="3.5" />
+    <svg:circle cx="10" cy="10" r="3" />
+    <svg:rect x="16" y="14" width="6" height="4" rx="1" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -32,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiAvocadoIcon {
+export class SiMapPinLaptopIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);

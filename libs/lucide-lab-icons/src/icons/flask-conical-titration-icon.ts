@@ -6,12 +6,16 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'svg[siBaconIcon]',
+  selector: 'svg[siFlaskConicalTitrationIcon]',
   standalone: true,
   imports: [],
   template: `
-    <svg:path d="M22 8c-2 5-5 2-7 7s-5 2-7 7l-6-6c2-5 5-2 7-7s5-2 7-7Z" />
-    <svg:path d="M5 19c2-5 5-2 7-7s5-2 7-7" />
+    <svg:path d="M12 4v2" />
+    <svg:path
+      d="M14 10v4a2 2 0 00.245.96l2.51 4.08A2 2 0 0115 22H9a2 2 0 01-1.755-2.96l2.51-4.08A2 2 0 0010 14v-4"
+    />
+    <svg:path d="M14 2a2 2 0 01-4 0" />
+    <svg:path d="M9 10h6" />
   `,
   host: {
     '[attr.aria-hidden]': 'ariaHidden()',
@@ -30,7 +34,7 @@ import {
   encapsulation: ViewEncapsulation.None,
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
-export class SiBaconIcon {
+export class SiFlaskConicalTitrationIcon {
   protected readonly xmlns = 'http://www.w3.org/2000/svg';
 
   readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
