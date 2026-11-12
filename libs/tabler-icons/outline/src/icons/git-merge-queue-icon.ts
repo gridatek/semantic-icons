@@ -14,8 +14,8 @@ import {
     <svg:path d="M4 18a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
     <svg:path d="M16 12a2 2 0 1 0 4 0a2 2 0 0 0 -4 0" />
     <svg:path d="M6 11v5" />
-    <svg:path d="M4.5 4.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
-    <svg:path d="M9.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" />
+    <svg:path d="M4.5 4.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
+    <svg:path d="M9.5 9.5a1 1 0 1 0 2 0a1 1 0 1 0 -2 0" fill="currentColor" />
   `,
   host: {
     role: 'img',

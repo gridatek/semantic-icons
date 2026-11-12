@@ -17,8 +17,6 @@ import {
     <svg:path d="M16 3v4" />
     <svg:path d="M8 3v4" />
     <svg:path d="M4 11h16" />
-    <svg:path d="M11 15h1" />
-    <svg:path d="M12 15v3" />
   `,
   host: {
     role: 'img',

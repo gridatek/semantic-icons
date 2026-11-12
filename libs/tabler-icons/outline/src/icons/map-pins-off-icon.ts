@@ -1,0 +1,65 @@
+import {
+  ChangeDetectionStrategy,
+  Component,
+  ViewEncapsulation,
+  input,
+} from '@angular/core';
+
+@Component({
+  selector: 'svg[siMapPinsOffIcon]',
+  standalone: true,
+  imports: [],
+  template: `
+    <svg:path stroke="none" d="M0 0h24v24H0z" fill="none" />
+    <svg:path d="M4.712 4.72a4 4 0 0 0 .46 5.108l2.828 2.829l2.333 -2.334" />
+    <svg:path d="M11.898 7.897a4 4 0 0 0 -4.796 -4.797" />
+    <svg:path
+      d="M12.715 12.717a4 4 0 0 0 .457 5.111l2.828 2.829l2.332 -2.333"
+    />
+    <svg:path d="M19.9 15.888a4 4 0 0 0 -4.795 -4.788" />
+    <svg:path d="M3 3l18 18" />
+  `,
+  host: {
+    role: 'img',
+    '[attr.aria-hidden]': 'ariaHidden()',
+    '[attr.xmlns]': 'xmlns',
+    '[attr.width]': 'width()',
+    '[attr.height]': 'height()',
+    '[attr.viewBox]': 'viewBox()',
+    '[attr.fill]': 'fill()',
+    '[attr.stroke]': 'stroke()',
+    '[attr.stroke-width]': 'strokeWidth()',
+    '[attr.stroke-linecap]': 'strokeLinecap()',
+    '[attr.stroke-linejoin]': 'strokeLinejoin()',
+  },
+  styles: ``,
+  encapsulation: ViewEncapsulation.None,
+  changeDetection: ChangeDetectionStrategy.OnPush,
+})
+export class SiMapPinsOffIcon {
+  protected readonly xmlns = 'http://www.w3.org/2000/svg';
+
+  readonly ariaHidden = input<boolean | 'true' | 'false'>(true);
+
+  readonly width = input<string | number>('24');
+
+  readonly height = input<string | number>('24');
+
+  readonly viewBox = input<string>('0 0 24 24');
+
+  readonly fill = input<string>('none');
+
+  readonly stroke = input<string>('currentColor');
+
+  readonly strokeWidth = input<string | number>('2', {
+    alias: 'stroke-width',
+  });
+
+  readonly strokeLinecap = input<string>('round', {
+    alias: 'stroke-linecap',
+  });
+
+  readonly strokeLinejoin = input<string>('round', {
+    alias: 'stroke-linejoin',
+  });
+}
