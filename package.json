@@ -112,7 +112,7 @@
     "tslib": "^2.9.1",
     "tw-animate-css": "^1.3.7",
     "typescript": "6.0.3",
-    "typescript-eslint": "^8.72.1",
+    "typescript-eslint": "^8.72.2",
     "verdaccio": "6.11.1"
   },
   "nx": {
