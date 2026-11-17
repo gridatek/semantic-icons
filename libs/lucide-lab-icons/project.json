@@ -9,6 +9,7 @@
     "build": {
       "executor": "@nx/angular:package",
       "outputs": ["{workspaceRoot}/dist/{projectRoot}"],
+      "defaultConfiguration": "production",
       "options": {
         "project": "libs/lucide-lab-icons/ng-package.json",
         "tsConfig": "libs/lucide-lab-icons/tsconfig.lib.json"
@@ -18,8 +19,7 @@
           "tsConfig": "libs/lucide-lab-icons/tsconfig.lib.prod.json"
         },
         "development": {}
-      },
-      "defaultConfiguration": "production"
+      }
     },
     "nx-release-publish": {
       "options": {
@@ -27,7 +27,17 @@
       }
     },
     "lint": {
-      "executor": "@nx/eslint:lint"
+      "inputs": [
+        "default",
+        "^default",
+        "{workspaceRoot}/.eslintrc.json",
+        "{workspaceRoot}/.eslintignore",
+        "{workspaceRoot}/eslint.config.js",
+        "{workspaceRoot}/tools/eslint-rules/**/*",
+        {
+          "externalDependencies": ["eslint"]
+        }
+      ]
     }
   }
 }

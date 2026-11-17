@@ -234,7 +234,7 @@ async function generateIconsComponents(
   } catch (error) {
     const errorMsg = `Failed to read simple-icons metadata: ${error}`;
     generateStats.errors.push(errorMsg);
-    throw new Error(errorMsg);
+    throw new Error(errorMsg, { cause: error });
   }
 
   // Get list of icon files
@@ -412,7 +412,7 @@ async function generateIconsComponents(
       logger.error(`❌ ${errorMsg}`);
 
       if (options.strict) {
-        throw new Error(errorMsg);
+        throw new Error(errorMsg, { cause: error });
       }
     }
   }
@@ -460,10 +460,34 @@ async function generateIconsComponents(
   };
 
   try {
-    writeJsonFile(errorReportPath, report);
-    logger.info(`📋 Generation report saved to: ${errorReportPath}`);
+    if (isSameReportIgnoringTimestamp(errorReportPath, report)) {
+      // Keep the existing file so a run that changes nothing but the
+      // timestamp doesn't produce a diff (and an empty "generate icons" commit).
+      logger.info(`📋 Generation report unchanged: ${errorReportPath}`);
+    } else {
+      writeJsonFile(errorReportPath, report);
+      logger.info(`📋 Generation report saved to: ${errorReportPath}`);
+    }
   } catch (error) {
     logger.warn(`Warning: Could not write generation report: ${error}`);
+  }
+}
+
+function isSameReportIgnoringTimestamp(
+  reportPath: string,
+  report: { timestamp: string },
+): boolean {
+  if (!fs.existsSync(reportPath)) {
+    return false;
+  }
+  try {
+    const withoutTimestamp = (value: object) =>
+      JSON.stringify({ ...value, timestamp: undefined });
+    return (
+      withoutTimestamp(readJsonFile(reportPath)) === withoutTimestamp(report)
+    );
+  } catch {
+    return false;
   }
 }
 

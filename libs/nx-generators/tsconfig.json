@@ -2,6 +2,7 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "module": "commonjs",
+    "lib": ["es2022"],
     "ignoreDeprecations": "6.0"
   },
   "files": [],

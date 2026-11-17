@@ -1,4 +1,4 @@
-import simpleGit from 'simple-git';
+import { simpleGit } from 'simple-git';
 import { dirSync } from 'tmp';
 
 const repoUrl = 'https://github.com/google/material-design-icons.git';
