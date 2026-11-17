@@ -14,7 +14,7 @@
     "@nx/devkit": ">=20.1.2",
     "@prettier/sync": "^0.6.1",
     "html-entities": "^2.5.2",
-    "simple-git": "^3.27.0",
+    "simple-git": "^4.1.0",
     "simple-icons": ">=15.0.0",
     "tmp": "^0.2.3",
     "tslib": "^2.3.0"
