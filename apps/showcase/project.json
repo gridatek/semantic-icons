@@ -59,6 +59,9 @@
         "development": {
           "buildTarget": "showcase:build:development"
         }
+      },
+      "readyWhen": {
+        "signal": true
       }
     },
     "extract-i18n": {
@@ -69,16 +72,16 @@
     },
     "serve-static": {
       "executor": "@nx/web:file-server",
+      "readyWhen": {
+        "signal": true
+      },
+      "dependsOn": ["build"],
       "options": {
         "buildTarget": "showcase:build",
         "port": 4200,
         "staticFilePath": "dist/apps/showcase/browser",
         "spa": true
-      },
-      "readyWhen": {
-        "signal": true
-      },
-      "dependsOn": ["build"]
+      }
     },
     "lint": {
       "inputs": [
