@@ -234,7 +234,7 @@ async function generateIconsComponents(
   } catch (error) {
     const errorMsg = `Failed to read simple-icons metadata: ${error}`;
     generateStats.errors.push(errorMsg);
-    throw new Error(errorMsg);
+    throw new Error(errorMsg, { cause: error });
   }
 
   // Get list of icon files
@@ -412,7 +412,7 @@ async function generateIconsComponents(
       logger.error(`❌ ${errorMsg}`);
 
       if (options.strict) {
-        throw new Error(errorMsg);
+        throw new Error(errorMsg, { cause: error });
       }
     }
   }
