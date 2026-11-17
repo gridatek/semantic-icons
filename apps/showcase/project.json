@@ -74,7 +74,11 @@
         "port": 4200,
         "staticFilePath": "dist/apps/showcase/browser",
         "spa": true
-      }
+      },
+      "readyWhen": {
+        "signal": true
+      },
+      "dependsOn": ["build"]
     },
     "lint": {
       "inputs": [
