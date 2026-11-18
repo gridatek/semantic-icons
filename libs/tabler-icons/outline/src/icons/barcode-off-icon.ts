@@ -15,10 +15,11 @@ import {
     <svg:path d="M4 17v1a2 2 0 0 0 2 2h2" />
     <svg:path d="M16 4h2a2 2 0 0 1 2 2v1" />
     <svg:path d="M16 20h2c.551 0 1.05 -.223 1.412 -.584" />
-    <svg:path d="M5 11h1v2h-1l0 -2" />
-    <svg:path d="M10 11v2" />
-    <svg:path d="M15 11v.01" />
-    <svg:path d="M19 11v2" />
+    <svg:path d="M14 14v1" />
+    <svg:path d="M17 9v4" />
+    <svg:path d="M14 9v1" />
+    <svg:path d="M10 10v5h1v-4" />
+    <svg:path d="M7 9v6" />
     <svg:path d="M3 3l18 18" />
   `,
   host: {
