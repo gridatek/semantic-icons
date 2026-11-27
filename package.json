@@ -87,7 +87,7 @@
     "heroicons": "2.2.0",
     "html-entities": "^2.6.0",
     "husky": "^9.1.7",
-    "ionicons": "8.1.0",
+    "ionicons": "8.1.1",
     "jest": "^30.5.2",
     "jest-environment-jsdom": "^30.5.2",
     "jest-preset-angular": "17.0.3",
